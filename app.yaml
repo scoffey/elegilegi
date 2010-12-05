@@ -1,0 +1,41 @@
+application: elegilegi
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+
+# Static resources
+
+- url: /favicon.ico
+  static_files: assets/images/favicon.ico
+  upload: assets/images/favicon.ico
+
+- url: /images
+  static_dir: assets/images
+
+- url: /stylesheets
+  static_dir: assets/stylesheets
+
+- url: /scripts
+  static_dir: assets/scripts
+
+# API controllers
+
+- url: /api/.*
+  script: main.py
+
+# Static HTML pages
+
+- url: /
+  static_files: assets/index.html
+  upload: assets/index.html
+
+- url: /(\w+)
+  static_files: assets/\1.html
+  upload: assets/\w+.html
+
+- url: /.*
+  static_files: assets/404.html
+  upload: assets/404.html
+

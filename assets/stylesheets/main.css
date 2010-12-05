@@ -1,0 +1,148 @@
+h1{
+	color: #666;
+	font-family: Lobster, Helvetica, Arial, sans-serif;
+	font-size: 2.5em;
+}
+body {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    background:#EEE; 
+	color:#444;
+    font-family: Helvetica, Arial, sans-serif;
+	text-shadow:0 2px 0 #ffffff;
+}
+.main{
+	padding:5% 0;
+	margin:0 auto;
+}
+/*--- start again --- */
+.again{
+	background: url(../images/flecha.png) no-repeat 10px center #BBB;
+	-webkit-border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;
+	color: white;
+	display: block;
+	float: right;
+	font-size: 12px;
+	padding: 10px 10px 10px 30px;
+	text-shadow: none;
+	text-decoration:none;
+}
+.again:hover{
+	background-color:#999;
+}
+#question{
+	font-weight:normal;
+}
+#question a{
+	color:#0094C7;
+	font-weight:strong;
+}
+div.square {
+	-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;
+	width:160px;
+	border: 1px solid black;
+	color:#ffffff;
+	text-align:center;
+	display: inline-block;
+	vertical-align: middle;
+	font: 40px "Helvetica", "Trebuchet MS", Verdana, sans-serif;
+	margin:20px;
+	padding:20px;
+	cursor:pointer;
+}
+div.square:hover{
+	opacity:0.8;
+}
+.square#yes {
+	background: #9dd53a; /* old browsers */
+	background: -moz-linear-gradient(top, #9dd53a 0%, #a1d54f 50%, #80c217 51%, #7cbc0a 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9dd53a), color-stop(50%,#a1d54f), color-stop(51%,#80c217), color-stop(100%,#7cbc0a)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 ); /* ie */
+	border-color:#60A207;
+	text-shadow: #60A207 0px -2px 2px;
+}
+.square#no {
+	background: #EF3210; /* old browsers */
+	background: -moz-linear-gradient(top, #EF3210 49%, #F70000 51%, #F40C0C 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(49%,#EF3210), color-stop(51%,#F70000), color-stop(100%,#F40C0C)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EF3210', endColorstr='#F40C0C',GradientType=0 ); /* ie */
+	border-color:#C40F00;
+	text-shadow: #C40F00 0px -2px 2px;
+}
+.square#dk {
+	background: none;
+	border: none;
+	color: #0094C7;
+	font-size: 18px;
+	padding:0;
+	margin:5px 0 0;
+	
+}
+/*---- partial results --- */
+.results-container{
+	border-top: 1px dashed #BBB;
+	margin-top: 50px;
+}
+.results{
+	-webkit-box-shadow: #BBB 0px 0px 10px;-moz-box-shadow: #BBB 0px 0px 10px;box-shadow: #BBB 0px 0px 10px;
+	-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;
+	background-color: white;
+	border-collapse:collapse;
+	padding: 5px 0px;
+	text-shadow:0 1px 0 #ffffff;
+	width: 100%;
+}
+.results td{
+	border-bottom:1px solid #BBB;
+	padding:10px 10px;
+}
+.results tr:nth-child(odd) td{
+	background-color:#EEEEEE;
+}
+.results tr:last-child td{
+	border-bottom:none;
+}
+.results tr:first-child td:first-child{-webkit-border-radius:10px 0 0 0;-moz-border-radius:10px 0 0 0;border-radius:10px 0 0 0;}
+.results tr:first-child td:last-child{-webkit-border-radius:0 10px 0 0;-moz-border-radius:0 10px 0 0;border-radius:0 10px 0 0;}
+.results tr:last-child td:first-child{-webkit-border-radius:0 0 0 10px;-moz-border-radius:0 0 0 10px;border-radius:0 0 0 10px;}
+.results tr:last-child td:last-child{-webkit-border-radius:0 0 10px 0;-moz-border-radius:0 0 10px 0;border-radius:0 0 10px 0;}
+
+
+/*---- coincidences ---*/
+h2{
+	color: #666;
+	font-size: 16px;
+	font-weight: normal;
+}
+.big-coincidence{
+	-webkit-box-shadow: #BBB 0px 0px 10px;-moz-box-shadow: #BBB 0px 0px 10px;box-shadow: #BBB 0px 0px 10px;
+	background: #FCF5BA; /* old browsers */
+	background: -moz-linear-gradient(top, #FCF5BA 0%, #F9E1B3 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FCF5BA), color-stop(100%,#F9E1B3)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FCF5BA', endColorstr='#F9E1B3',GradientType=0 ); /* ie */
+	border: 1px solid #BBB;
+	margin: 0px 20px 20px;
+	padding: 20px 0px 40px;
+}
+.big-coincidence h1{
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0.2em 0px;
+}
+.meta-inf{
+	color: #666;
+	font-size:14px;
+	font-family:Georgia,'Times new Roman', Serif;
+}
+.coincidences li{
+	-webkit-box-shadow: #BBB 0px 0px 10px;-moz-box-shadow: #BBB 0px 0px 10px;box-shadow: #BBB 0px 0px 10px;
+	background-color: white;
+	border: 1px solid #BBB;
+	float: left;
+	list-style-type: none;
+	margin: 10px;
+	padding: 20px;
+}
+.coincidences h3{
+	margin: 0.2em 0px;
+}
