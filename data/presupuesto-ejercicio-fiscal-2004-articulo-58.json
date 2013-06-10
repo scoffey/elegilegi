@@ -1,0 +1,1290 @@
+{
+    "AFIRMATIVO": [
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "AGUERO, Elda Susana"
+        }, 
+        {
+            "bloque": "FREPASO", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "ALESSANDRO, Dario Pedro"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Tucum\u00e1n", 
+            "diputado": "ALVAREZ, Roque Tob\u00edas"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "ARNALDI, Monica Susana"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Tierra del Fuego", 
+            "diputado": "BAIGORRIA, Miguel Angel"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "La Pampa", 
+            "diputado": "BALADRON, Manuel Justo"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Santa Fe", 
+            "diputado": "BALTUZZI, Angel Enzo"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "BASILE, Daniel Armando"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "San Juan", 
+            "diputado": "BASUALDO, Roberto"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Chaco", 
+            "diputado": "BAYONZO, Liliana Amelia"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Tierra del Fuego", 
+            "diputado": "BECERRA, Omar Enrique"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "BIANCHI SILVESTRE, Marcela"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "BLANCO, Jesus Abel"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Formosa", 
+            "diputado": "BORTOLOZZI de BOGADO, Adriana Raquel"
+        }, 
+        {
+            "bloque": "U. Ce. De.", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "BOSSA, Mauricio"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "BRIOZZO, Alberto Nicolas"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "San Luis", 
+            "diputado": "BRITOS, Oraldo Norvel"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "BROWN, Carlos Ram\u00f3n"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "BUCCO, Jorge Luis"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Chubut", 
+            "diputado": "CAMBARERI, Fortunato Rafael"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Santa Cruz", 
+            "diputado": "CANEVAROLO, Dante Omar"
+        }, 
+        {
+            "bloque": "Uni\u00f3n por Argentina", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "CANTINI, Guillermo Marcelo"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "San Juan", 
+            "diputado": "CAPELLO, Mario Osvaldo"
+        }, 
+        {
+            "bloque": "M.M.T.A.", 
+            "distrito": "Buenos Aires", 
+            "diputado": "CARBONETTO, Daniel"
+        }, 
+        {
+            "bloque": "U. Ce. De.", 
+            "distrito": "Santa Fe", 
+            "diputado": "CASTELLANI, Carlos Alberto"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Santa Fe", 
+            "diputado": "CAVALLERO, Hector Jos\u00e9"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Catamarca", 
+            "diputado": "CEREZO, Octavio N\u00e9stor"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "CHIACCHIO, Nora Alicia"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Chubut", 
+            "diputado": "CISTERNA, Victor Hugo"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "CONTE GRAND, Gerardo Amadeo"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "CORREA, Juan Carlos"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "COTO, Alberto Agust\u00edn"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Tucum\u00e1n", 
+            "diputado": "COUREL, Carlos Alberto"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Salta", 
+            "diputado": "DAHER, Zulema Beatr\u00edz"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Entre R\u00edos", 
+            "diputado": "DAUD, Jorge Carlos"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "DI COLA, Eduardo Rom\u00e1n"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "DIAZ BANCALARI, Jos\u00e9 Mar\u00eda"
+        }, 
+        {
+            "bloque": "F.I.S.CA.L", 
+            "distrito": "Mendoza", 
+            "diputado": "ESAIN, Daniel Mart\u00edn"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "San Juan", 
+            "diputado": "ESCOBAR, Jorge Alberto"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "FALBO, Mar\u00eda del Carmen"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Tucum\u00e1n", 
+            "diputado": "FALU, Jos\u00e9 Ricardo"
+        }, 
+        {
+            "bloque": "Acci\u00f3n por la Rep\u00fablica", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "FERNANDEZ VALONI, Jos\u00e9 Luis"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "La Pampa", 
+            "diputado": "FERNANDEZ, Horacio Anibal"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Jujuy", 
+            "diputado": "FERRIN, Mar\u00eda Teresa"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Santiago del Estero", 
+            "diputado": "FIGUEROA, Jos\u00e9 Oscar"
+        }, 
+        {
+            "bloque": "FREPASO", 
+            "distrito": "Buenos Aires", 
+            "diputado": "FILOMENO, Alejandro Oscar"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "FOGLIA, Teresa Beatriz"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "FONTDEVILA, Pablo Antonio"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Santa Fe", 
+            "diputado": "FORESI, Irma Amelia"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "FRIGERI, Rodolfo Anibal"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "GARCIA MERIDA, Miguel Angel"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Chaco", 
+            "diputado": "GEIJO, Angel Oscar"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Jujuy", 
+            "diputado": "GIUBERGIA, Miguel Angel"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "GONZALEZ, Oscar Felix"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Chaco", 
+            "diputado": "GONZALEZ, Rafael Alfredo"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Chaco", 
+            "diputado": "GOY, Beatriz Norma"
+        }, 
+        {
+            "bloque": "Polo Social", 
+            "distrito": "Buenos Aires", 
+            "diputado": "GUTIERREZ, Francisco Virgilio"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Santa Fe", 
+            "diputado": "GUTIERREZ, Julio C\u00e9sar"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Tucum\u00e1n", 
+            "diputado": "HERRERA, Alberto"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "La Rioja", 
+            "diputado": "HERRERA, Griselda Noem\u00ed"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Chaco", 
+            "diputado": "HONCHERUK, Atlanto"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Misiones", 
+            "diputado": "ISLA de SARACENI, Celia Anita"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Entre R\u00edos", 
+            "diputado": "JAROSLAVSKY, Gracia Maria"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "JOHNSON, Guillermo"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "LAMISOVSKY, Arnaldo"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Rio Negro", 
+            "diputado": "LARREGUY, Carlos Alberto"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "LEONELLI, Mar\u00eda Silvina"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Chubut", 
+            "diputado": "LERNOUD, Mar\u00eda Teresa"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Chubut", 
+            "diputado": "LOFRANO, Elsa Gladi"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Misiones", 
+            "diputado": "LOPEZ, Juan Carlos"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Corrientes", 
+            "diputado": "LUGO de GONZALES CABA\u00d1AS, Cecilia"
+        }, 
+        {
+            "bloque": "Frente C\u00edvico Social", 
+            "distrito": "Catamarca", 
+            "diputado": "MALDONADO, A\u00edda Francisca"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Santa Cruz", 
+            "diputado": "MARTINEZ, Alfredo"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "MARTINEZ, Carlos Alberto"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "MARTINEZ, Silvia Virginia"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "La Rioja", 
+            "diputado": "MENEM, Eduardo Adri\u00e1n"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "San Juan", 
+            "diputado": "MINGUEZ, Juan Jes\u00fas"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Jujuy", 
+            "diputado": "MOISES, Julio Carlos"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "MOLINARI ROMERO, Luis"
+        }, 
+        {
+            "bloque": "Frente del Movimiento Popular", 
+            "distrito": "Buenos Aires", 
+            "diputado": "MORALES, N\u00e9lida Beatriz"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "NARDUCCI, Alicia Isabel"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "La Rioja", 
+            "diputado": "NIETO BRIZUELA, Benjam\u00edn Ricardo"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Jujuy", 
+            "diputado": "NIEVA, Alejandro Mario"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "La Pampa", 
+            "diputado": "OLIVERO, Juan Carlos"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "La Pampa", 
+            "diputado": "OSORIO, Marta Luc\u00eda"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Entre R\u00edos", 
+            "diputado": "OSUNA, Blanca In\u00e9s"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "La Rioja", 
+            "diputado": "OVIEDO, Alejandra Beatriz"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Santiago del Estero", 
+            "diputado": "PALOMO, Nelida Manuela"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Rio Negro", 
+            "diputado": "PASCUAL, Jorge Raul"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "PEPE, Lorenzo Antonio"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "La Pampa", 
+            "diputado": "PEREZ MARTINEZ, Claudio H\u00e9ctor"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "PEREZ SUAREZ, In\u00e9s"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Catamarca", 
+            "diputado": "PERNASETTI, Horacio Francisco"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Mendoza", 
+            "diputado": "PILATI, Norma Raquel"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Santiago del Estero", 
+            "diputado": "PINTO BRUCHMANN, Juan Domingo"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Corrientes", 
+            "diputado": "PRUYAS, Tom\u00e1s Rub\u00e9n"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Santa Fe", 
+            "diputado": "PUIG de STUBRIN, Lilia"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "La Rioja", 
+            "diputado": "QUINTELA, Ricardo Clemente"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "ROY, Irma"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "RUBINI, Mirta Elsa"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Buenos Aires", 
+            "diputado": "SANCHEZ, Liliana Ester"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "SANTILLI, Diego Cesar"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "SAREDI, Roberto Miguel"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Formosa", 
+            "diputado": "SEBRIANO, Luis Alberto"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Santa Fe", 
+            "diputado": "SELLARES, Francisco Nicol\u00e1s"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Jujuy", 
+            "diputado": "SNOPEK, Carlos Daniel"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Misiones", 
+            "diputado": "SODA, Maria Nilda"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Santa Fe", 
+            "diputado": "STORERO, Hugo"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Salta", 
+            "diputado": "TANONI, Enrique"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "TOLEDO, Hugo David"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "TULIO, Rosa Ester"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "UBALDINI, Saul Edolver"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Buenos Aires", 
+            "diputado": "VAZQUEZ, Ricardo Hector"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "VITALE, Domingo"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Rio Negro", 
+            "diputado": "ZU\u00d1IGA, Ovidio Octavio"
+        }
+    ], 
+    "AUSENTE": [
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Santiago del Estero", 
+            "diputado": "ABALOS, Roberto"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "ALARCIA, Martha Carmen"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Santa Fe", 
+            "diputado": "ALARCON, Mar\u00eda del Carmen"
+        }, 
+        {
+            "bloque": "Acci\u00f3n por la Rep\u00fablica", 
+            "distrito": "Buenos Aires", 
+            "diputado": "ALCHOURON, Guillermo Eduardo"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "ALESANDRI, Carlos Tomas"
+        }, 
+        {
+            "bloque": "Frente del Movimiento Popular", 
+            "distrito": "Buenos Aires", 
+            "diputado": "ALLENDE, Alfredo Estanislao"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Mendoza", 
+            "diputado": "AMSTUTZ, Guillermo"
+        }, 
+        {
+            "bloque": "MO.RE.CI", 
+            "distrito": "Jujuy", 
+            "diputado": "ARGUL, Marta del Carmen"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "BALIAN, Alejandro"
+        }, 
+        {
+            "bloque": "Partido Socialista", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "BARBAGELATA, Mar\u00eda Elena"
+        }, 
+        {
+            "bloque": "Partido Socialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "BASTEIRO, Sergio Ariel"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Buenos Aires", 
+            "diputado": "BAYLAC, Juan Pablo"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Tierra del Fuego", 
+            "diputado": "BERTONE, Rosana Andrea"
+        }, 
+        {
+            "bloque": "A.R.I", 
+            "distrito": "Buenos Aires", 
+            "diputado": "BORDENAVE, Marcela Antonia"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Corrientes", 
+            "diputado": "BREARD, Noel Eugenio"
+        }, 
+        {
+            "bloque": "Fuerza Republicana", 
+            "distrito": "Tucum\u00e1n", 
+            "diputado": "BUSSI, Ricardo"
+        }, 
+        {
+            "bloque": "Dem\u00f3crata Progresista", 
+            "distrito": "Santa Fe", 
+            "diputado": "CABALLERO MARTIN, Carlos Aurelio"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "CALVO, Pedro Jorge Camilo"
+        }, 
+        {
+            "bloque": "A.R.I", 
+            "distrito": "Chaco", 
+            "diputado": "CARRIO, Elisa Mar\u00eda"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "CASSESE, Marina"
+        }, 
+        {
+            "bloque": "Frente para el Cambio", 
+            "distrito": "Buenos Aires", 
+            "diputado": "CASTRO, Alicia Amalia"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "CAVIGLIA, Franco Agustin"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Formosa", 
+            "diputado": "CERDAN, Argentina"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Entre R\u00edos", 
+            "diputado": "CETTOUR, Hugo Ram\u00f3n"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Salta", 
+            "diputado": "CHAYA, Mar\u00eda Lelia"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "CIGOGNA, Luis Francisco Jorge"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Tucum\u00e1n", 
+            "diputado": "CORDOBA, Stella Maris"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Mendoza", 
+            "diputado": "CORREA, Elsa Haydee"
+        }, 
+        {
+            "bloque": "Autonomista de Corrientes", 
+            "distrito": "Corrientes", 
+            "diputado": "CORTINAS, Ismael Ram\u00f3n"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Entre R\u00edos", 
+            "diputado": "CUSINATO, Jos\u00e9 C\u00e9sar Gustavo"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Misiones", 
+            "diputado": "DAMIANI, Hern\u00e1n Norberto Luis"
+        }, 
+        {
+            "bloque": "Frente Grande", 
+            "distrito": "Buenos Aires", 
+            "diputado": "DE NUCCIO, Fabi\u00e1n"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Chubut", 
+            "diputado": "DI BENEDETTO, Gustavo Daniel"
+        }, 
+        {
+            "bloque": "Uni\u00f3n por Argentina", 
+            "distrito": "Tierra del Fuego", 
+            "diputado": "DRAGAN, Marcelo Luis"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "San Juan", 
+            "diputado": "ELIZONDO, Dante"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Mendoza", 
+            "diputado": "FAYAD, Victor Manuel Federico"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Entre R\u00edos", 
+            "diputado": "FERRARI de GRAND, Teresa Hortensia"
+        }, 
+        {
+            "bloque": "Partido Socialista", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "GARCIA, Eduardo Daniel"
+        }, 
+        {
+            "bloque": "FREPASO", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "GARRE, Nilda Celia"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Buenos Aires", 
+            "diputado": "GASTA\u00d1AGA, Graciela Ines"
+        }, 
+        {
+            "bloque": "Partido Socialista", 
+            "distrito": "Santa Fe", 
+            "diputado": "GIUSTINIANI, Rub\u00e9n Hector"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "GOMEZ, Ricardo Carmelo"
+        }, 
+        {
+            "bloque": "Partido Socialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "GONZALEZ, Oscar Roberto"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "GROSSO, Edgardo Roger Miguel"
+        }, 
+        {
+            "bloque": "A.R.I", 
+            "distrito": "Santa Fe", 
+            "diputado": "GUTIERREZ, Alicia Veronica"
+        }, 
+        {
+            "bloque": "Dem\u00f3crata de Mendoza", 
+            "distrito": "Mendoza", 
+            "diputado": "GUTIERREZ, Gustavo Eduardo"
+        }, 
+        {
+            "bloque": "Frente C\u00edvico Social", 
+            "distrito": "Catamarca", 
+            "diputado": "HERNANDEZ, Sim\u00f3n Ferm\u00edn"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Entre R\u00edos", 
+            "diputado": "HERZOVICH, Mar\u00eda Elena"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Misiones", 
+            "diputado": "HUMADA, Julio Cesar"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Santa Fe", 
+            "diputado": "IPARRAGUIRRE, Carlos Ra\u00fal"
+        }, 
+        {
+            "bloque": "Movimiento Popular Neuquino", 
+            "distrito": "Neuqu\u00e9n", 
+            "diputado": "JALIL, Luis Juli\u00e1n"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Santa Cruz", 
+            "diputado": "KUNEY, M\u00f3nica Adriana"
+        }, 
+        {
+            "bloque": "Frente del Movimiento Popular", 
+            "distrito": "San Luis", 
+            "diputado": "L'HUILLIER, Jos\u00e9 Guillermo"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Mendoza", 
+            "diputado": "LAFALLA, Arturo Pedro"
+        }, 
+        {
+            "bloque": "Fuerza Republicana", 
+            "distrito": "Tucum\u00e1n", 
+            "diputado": "LIX KLETT, Roberto Ignacio"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "San Luis", 
+            "diputado": "LORENZO, Antonio Arnaldo"
+        }, 
+        {
+            "bloque": "Renovador de Salta", 
+            "distrito": "Salta", 
+            "diputado": "LOUTAIF, Julio C\u00e9sar"
+        }, 
+        {
+            "bloque": "Partido Socialista", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "LUBERTINO, Mar\u00eda Jos\u00e9"
+        }, 
+        {
+            "bloque": "Dem\u00f3crata de Capital Federal", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "LYNCH, Juan Carlos"
+        }, 
+        {
+            "bloque": "A.R.I", 
+            "distrito": "Buenos Aires", 
+            "diputado": "MACALUSE, Eduardo Gabriel"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Corrientes", 
+            "diputado": "MARTINEZ LLANO, Jos\u00e9 Rodolfo"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Buenos Aires", 
+            "diputado": "MASTROGIACOMO, Miguel Angel"
+        }, 
+        {
+            "bloque": "Frente Grande", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "MELILLO, Fernando Cesar"
+        }, 
+        {
+            "bloque": "FREPASO", 
+            "distrito": "Corrientes", 
+            "diputado": "MENDEZ de FERREYRA, Araceli Estela"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Rio Negro", 
+            "diputado": "MILESI, Marta Silvia"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Santa Fe", 
+            "diputado": "MILLET, Juan Carlos"
+        }, 
+        {
+            "bloque": "Frente del Movimiento Popular", 
+            "distrito": "San Luis", 
+            "diputado": "MIRABILE, Jos\u00e9 Arnaldo"
+        }, 
+        {
+            "bloque": "Partido Intransigente", 
+            "distrito": "Buenos Aires", 
+            "diputado": "MONTEAGUDO, Mar\u00eda Lucrecia"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "MONTOYA, Fernando Ram\u00f3n"
+        }, 
+        {
+            "bloque": "Frente Partido Nuevo", 
+            "distrito": "Corrientes", 
+            "diputado": "MORAY, Hector Luis"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Buenos Aires", 
+            "diputado": "MOREAU, Leopolo Ra\u00fal"
+        }, 
+        {
+            "bloque": "A.R.I", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "MUSA, Laura Cristina"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "NERI, Aldo"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Santa Fe", 
+            "diputado": "OBEID, Jorge Alberto"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Mendoza", 
+            "diputado": "OSTROPOLSKY, Aldo Hector"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Misiones", 
+            "diputado": "PALOU, Marta"
+        }, 
+        {
+            "bloque": "Frente Grande", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "PARENTELLA, Irma Fidela"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Santa Cruz", 
+            "diputado": "PATTERSON, Ricardo Ancell"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Neuqu\u00e9n", 
+            "diputado": "PELAEZ, Victor"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Santa Fe", 
+            "diputado": "PICAZO, Sarah Ana"
+        }, 
+        {
+            "bloque": "Partido Socialista", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "POLINO, Hector Teodoro"
+        }, 
+        {
+            "bloque": "Frente del Movimiento Popular", 
+            "distrito": "Buenos Aires", 
+            "diputado": "POSSE, Melchor Angel"
+        }, 
+        {
+            "bloque": "Frente Grande", 
+            "distrito": "Buenos Aires", 
+            "diputado": "RAIMUNDI, Carlos Alberto"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "RAPETTI, Ricardo Francisco"
+        }, 
+        {
+            "bloque": "Unidad Federalista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "RATTIN, Antonio Ubaldo"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "RIAL, Osvaldo Hugo"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "RICO, Mar\u00eda del Carmen Cecilia"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Tucum\u00e1n", 
+            "diputado": "RIVAS, Olijela del Valle"
+        }, 
+        {
+            "bloque": "A.R.I", 
+            "distrito": "Buenos Aires", 
+            "diputado": "RODRIGUEZ, Marcela Virginia"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "ROGGERO, Humberto Jesus"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Neuqu\u00e9n", 
+            "diputado": "ROMERO, Gabriel"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Chaco", 
+            "diputado": "ROMERO, H\u00e9ctor Ram\u00f3n"
+        }, 
+        {
+            "bloque": "Bloque Unipersonal", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "ROSELLI, Jos\u00e9 Alberto"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Salta", 
+            "diputado": "SAADE, Blanca Azucena"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Catamarca", 
+            "diputado": "SAADI, Ram\u00f3n Eduardo"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Santiago del Estero", 
+            "diputado": "SALIM, Fernando Omar"
+        }, 
+        {
+            "bloque": "Movimiento Popular Neuquino", 
+            "distrito": "Neuqu\u00e9n", 
+            "diputado": "SAVRON, Hayde Teresa"
+        }, 
+        {
+            "bloque": "U. Ce. De.", 
+            "distrito": "Buenos Aires", 
+            "diputado": "SEJAS, Lisandro Mauricio"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Entre R\u00edos", 
+            "diputado": "SOLANAS, Julio Rodolfo Francisco"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Misiones", 
+            "diputado": "SOLMOIRAGO, Raul Jorge"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Buenos Aires", 
+            "diputado": "STOLBIZER, Margarita Rosa"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "STUBRIN, Marcelo Juan Alberto"
+        }, 
+        {
+            "bloque": "Frente Grande", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "TAZZIOLI, Atilio Pascual"
+        }, 
+        {
+            "bloque": "Frente del Movimiento Popular", 
+            "distrito": "San Luis", 
+            "diputado": "TORRONTEGUI, Mar\u00eda Ang\u00e9lica"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Tierra del Fuego", 
+            "diputado": "TREJO, Luis Alberto"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Salta", 
+            "diputado": "URTUBEY, Juan Manuel"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Santa Cruz", 
+            "diputado": "VARIZAT, Daniel Alberto"
+        }, 
+        {
+            "bloque": "Frente del Movimiento Popular", 
+            "distrito": "Formosa", 
+            "diputado": "VENICA, Pedro Antonio"
+        }, 
+        {
+            "bloque": "Frente para el Cambio", 
+            "distrito": "Buenos Aires", 
+            "diputado": "VILLALBA, Alfredo Horacio"
+        }, 
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "VILLAVERDE, Jorge Antonio"
+        }, 
+        {
+            "bloque": "Izquierda Unida", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "WALSH, Patricia"
+        }, 
+        {
+            "bloque": "Autodeterminaci\u00f3n y Libertad", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "ZAMORA, Luis Fernando"
+        }, 
+        {
+            "bloque": "Renovador de Salta", 
+            "distrito": "Salta", 
+            "diputado": "ZOTTOS, Miguel Andr\u00e9s Costas"
+        }, 
+        {
+            "bloque": "FREPASO", 
+            "distrito": "Mendoza", 
+            "diputado": "ZUCCARDI, Cristina"
+        }
+    ], 
+    "ABSTENCION": [
+        {
+            "bloque": "Justicialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "CASANOVAS, Jorge Osvaldo"
+        }, 
+        {
+            "bloque": "Bloquista de San Juan", 
+            "distrito": "San Juan", 
+            "diputado": "CONCA, Julio Cesar"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "RODRIGUEZ, Jesus"
+        }
+    ], 
+    "NEGATIVO": [
+        {
+            "bloque": "FREPASO", 
+            "distrito": "Rio Negro", 
+            "diputado": "ACCAVALLO, Julio C\u00e9sar"
+        }, 
+        {
+            "bloque": "Dem\u00f3crata Progresista", 
+            "distrito": "Santa Fe", 
+            "diputado": "BIGLIERI, Mar\u00eda Emilia"
+        }, 
+        {
+            "bloque": "Movimiento C\u00edvico y Social", 
+            "distrito": "Santiago del Estero", 
+            "diputado": "BONACINA, Mario Hector"
+        }, 
+        {
+            "bloque": "A.R.I", 
+            "distrito": "Buenos Aires", 
+            "diputado": "CAFIERO, Mario Alejandro"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Buenos Aires", 
+            "diputado": "CAPPELLERI, Pascual"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Entre R\u00edos", 
+            "diputado": "CORFIELD, Guillermo Eduardo"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Buenos Aires", 
+            "diputado": "DI LEO, Marta Isabel"
+        }, 
+        {
+            "bloque": "Recrear para el Crecimiento", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "FERRERO, Fernanda"
+        }, 
+        {
+            "bloque": "Frente Grande", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "GONZALEZ, Mar\u00eda Am\u00e9rica"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Formosa", 
+            "diputado": "INSFRAN, Miguel Angel"
+        }, 
+        {
+            "bloque": "Frente Grande", 
+            "distrito": "Buenos Aires", 
+            "diputado": "JARQUE, Margarita Ofelia"
+        }, 
+        {
+            "bloque": "Unidad Federalista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "JOBE, Miguel Antonio"
+        }, 
+        {
+            "bloque": "Dem\u00f3crata de Mendoza", 
+            "distrito": "Mendoza", 
+            "diputado": "LLANO, Gabriel Joaqu\u00edn"
+        }, 
+        {
+            "bloque": "Movimiento Popular Neuquino", 
+            "distrito": "Neuqu\u00e9n", 
+            "diputado": "LOZANO, Encarnaci\u00f3n"
+        }, 
+        {
+            "bloque": "Dem\u00f3crata Progresista", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "MARTINEZ RAYMONDA, Rafael"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Santiago del Estero", 
+            "diputado": "MUKDISE, Miguel Roberto Daives"
+        }, 
+        {
+            "bloque": "Dem\u00f3crata Progresista", 
+            "distrito": "Santa Fe", 
+            "diputado": "NATALE, Alberto Adolfo"
+        }, 
+        {
+            "bloque": "A.R.I", 
+            "distrito": "Buenos Aires", 
+            "diputado": "OCA\u00d1A, Maria Graciela"
+        }, 
+        {
+            "bloque": "A.R.I", 
+            "distrito": "Santa Fe", 
+            "diputado": "PICCININI, Alberto Jos\u00e9"
+        }, 
+        {
+            "bloque": "A.R.I", 
+            "distrito": "Buenos Aires", 
+            "diputado": "QUIROZ, Elsa Siria"
+        }, 
+        {
+            "bloque": "Partido Socialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "RIVAS, Jorge"
+        }, 
+        {
+            "bloque": "Encuentro Popular", 
+            "distrito": "Buenos Aires", 
+            "diputado": "RODIL, Rodolfo"
+        }, 
+        {
+            "bloque": "A.R.I", 
+            "distrito": "Buenos Aires", 
+            "diputado": "ROMA, Rafael Edgardo"
+        }, 
+        {
+            "bloque": "Frente Grande", 
+            "distrito": "Tucum\u00e1n", 
+            "diputado": "VITAR, Jose Alberto"
+        }
+    ]
+}

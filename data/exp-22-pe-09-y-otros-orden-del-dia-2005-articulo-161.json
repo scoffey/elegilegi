@@ -1,0 +1,1290 @@
+{
+    "AFIRMATIVO": [
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Catamarca", 
+            "diputado": "ACOSTA de AHUMADA, Mar\u00eda Julia"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "La Rioja", 
+            "diputado": "AGUIRRE de SORIA, Hilda"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Tucum\u00e1n", 
+            "diputado": "ALFARO, Germ\u00e1n Enrique"
+        }, 
+        {
+            "bloque": "De la Concertaci\u00f3n", 
+            "distrito": "Mendoza", 
+            "diputado": "ALVARO, H\u00e9ctor Jorge"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "ARG\u00dcELLO, Octavio"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "La Pampa", 
+            "diputado": "BALADRON, Manuel Justo"
+        }, 
+        {
+            "bloque": "Encuentro Popular y Social", 
+            "distrito": "Buenos Aires", 
+            "diputado": "BASTEIRO, Sergio Ariel"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "BEDANO, Nora Esther"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "BERNAZZA, Claudia Alicia"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Santa Fe", 
+            "diputado": "BERRAUTE, Ana"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "BIANCHI SILVESTRE, Marcela"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Misiones", 
+            "diputado": "BIANCO, L\u00eda Fabiola"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "BIDEGAIN, Gloria Mercedes"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Tierra del Fuego", 
+            "diputado": "CALCHAQUI, Mariel"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Entre R\u00edos", 
+            "diputado": "CALZA, Nelio Higinio"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Salta", 
+            "diputado": "CANELA, Susana Mercedes"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "CANTERO GUTIERREZ, Alberto"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "CARLOTTO, Remo Gerardo"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - Partido Bloqui", 
+            "distrito": "San Juan", 
+            "diputado": "CASELLES, Graciela Mar\u00eda"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Rio Negro", 
+            "diputado": "CEJAS, Jorge Alberto"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "CESAR, Nora"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Chubut", 
+            "diputado": "CHIQUICHANO, Rosa Laudelina"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "CIGOGNA, Luis Francisco Jorge"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "CONTI, Diana Beatriz"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Santa Cruz", 
+            "diputado": "CORDOBA, Jos\u00e9 Manuel"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Tucum\u00e1n", 
+            "diputado": "CORDOBA, Stella Maris"
+        }, 
+        {
+            "bloque": "De la Concertaci\u00f3n", 
+            "distrito": "Rio Negro", 
+            "diputado": "CUEVAS, Hugo Oscar"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Chaco", 
+            "diputado": "DAMILANO GRIVARELLO, Viviana M\u00f3nica"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Tucum\u00e1n", 
+            "diputado": "DATO, Alfredo Carlos"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Formosa", 
+            "diputado": "DE LA ROSA, Maria Graciela"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "DEPETRI, Edgardo Fernando"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "di TULLIO, Juliana"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "DIAZ BANCALARI, Jos\u00e9 Mar\u00eda"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Formosa", 
+            "diputado": "DIAZ ROIG, Juan Carlos"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Tucum\u00e1n", 
+            "diputado": "DIAZ, Susana Eladia"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "DOVENA, Miguel Dante"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Formosa", 
+            "diputado": "FERNANDEZ BASUALDO, Luis Mar\u00eda"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "FERNANDEZ, Marcelo Omar"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "San Juan", 
+            "diputado": "FERRA DE BARTOL, Margarita"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Santa Fe", 
+            "diputado": "FIOL, Paulina Esther"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Corrientes", 
+            "diputado": "GALANTINI, Eduardo"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Chubut", 
+            "diputado": "GARCIA de MORENO, Eva"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "GARCIA, Mar\u00eda Teresa"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Mendoza", 
+            "diputado": "GENEM, Amanda Susana"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "GIANNETTASIO, Graciela Mar\u00eda"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "San Juan", 
+            "diputado": "GIOJA, Juan Carlos"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "San Juan", 
+            "diputado": "GODOY, Ruperto Eduardo"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Mendoza", 
+            "diputado": "GONZALEZ, Juan Dante"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Chubut", 
+            "diputado": "GONZALEZ, Nancy Susana"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "GULLO, Juan Carlos Dante"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Santa Cruz", 
+            "diputado": "GUTIERREZ, Graciela Beatriz"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Tucum\u00e1n", 
+            "diputado": "HERRERA, Alberto"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "La Rioja", 
+            "diputado": "HERRERA, Griselda Noem\u00ed"
+        }, 
+        {
+            "bloque": "Frente C\u00edvico por Santiago", 
+            "distrito": "Santiago del Estero", 
+            "diputado": "HERRERA, Jos\u00e9 Alberto"
+        }, 
+        {
+            "bloque": "Encuentro Popular y Social", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "IBARRA, Vilma Lidia"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "ILARREGUI, Luis Alfredo"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Misiones", 
+            "diputado": "IRRAZABAL, Juan Manuel"
+        }, 
+        {
+            "bloque": "Dignidad Peronista", 
+            "distrito": "Misiones", 
+            "diputado": "KAKUBUR, Emilio"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Santa Cruz", 
+            "diputado": "KORENFELD, Beatriz Liliana"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "KUNKEL, Carlos Miguel"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "LANDAU, Jorge Alberto"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "LEGUIZAMON, Mar\u00eda Laura"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "LENZ, Mar\u00eda Beatriz"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Misiones", 
+            "diputado": "LEVERBERG, Stella Maris"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "LLANOS, Edith"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Misiones", 
+            "diputado": "LLERA, Timoteo"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "San Juan", 
+            "diputado": "LOPEZ, Ernesto Segundo"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Formosa", 
+            "diputado": "LOPEZ, Rafael Angel"
+        }, 
+        {
+            "bloque": "Movimiento Independiente", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "LORENZO BOROCOTO, Eduardo"
+        }, 
+        {
+            "bloque": "Frente C\u00edvico por Santiago", 
+            "distrito": "Santiago del Estero", 
+            "diputado": "LUNA de MARCOS, Ana Zulema"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Santa Fe", 
+            "diputado": "MARCONATO, Gustavo Angel"
+        }, 
+        {
+            "bloque": "Peronismo Juje\u00f1o", 
+            "distrito": "Jujuy", 
+            "diputado": "MARTIARENA, Mario Humberto"
+        }, 
+        {
+            "bloque": "Encuentro Popular y Social", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "MERCHAN, Paula Cecilia"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Jujuy", 
+            "diputado": "MOISES, Mar\u00eda Carolina"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Chaco", 
+            "diputado": "MORANTE, Antonio Arnaldo Mar\u00eda"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Chubut", 
+            "diputado": "MOREJON, Manuel Amor"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "MORENO, Carlos Julio"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "MULLER, Mabel Hilda"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "La Pampa", 
+            "diputado": "OSORIO, Marta Luc\u00eda"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Chubut", 
+            "diputado": "PAIS, Juan Mario"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "PASINI, Ariel Osvaldo"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Mendoza", 
+            "diputado": "PEREYRA, Guillermo Antonio"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Corrientes", 
+            "diputado": "PERIE, Hugo Rub\u00e9n"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Misiones", 
+            "diputado": "PERIE, Julia Argentina"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "PIUMATO, Julio Ju\u00e1n"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "PORTO, H\u00e9ctor Norberto"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "PUIGGROS, Adriana Victoria"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "RECALDE, H\u00e9ctor Pedro"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "La Rioja", 
+            "diputado": "REJAL, Jes\u00fas Fernando"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "RICO, Mar\u00eda del Carmen Cecilia"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Santa Cruz", 
+            "diputado": "RODRIGUEZ, Evaristo Arturo"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Tucum\u00e1n", 
+            "diputado": "ROJKES de ALPEROVICH, Beatriz Liliana"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Formosa", 
+            "diputado": "ROMAN, Carmen"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Santa Fe", 
+            "diputado": "ROSSI, Agust\u00edn Oscar"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Santa Fe", 
+            "diputado": "ROSSI, Alejandro Luis"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Tucum\u00e1n", 
+            "diputado": "SALIM, Juan Arturo"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Salta", 
+            "diputado": "SALUM, Osvaldo Rub\u00e9n"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Neuqu\u00e9n", 
+            "diputado": "SAPAG, Silvia Estela"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "SEGARRA, Adela Rosa"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "SLUGA, Juan Carlos"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Jujuy", 
+            "diputado": "SNOPEK, Carlos Daniel"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Entre R\u00edos", 
+            "diputado": "SOLANAS, Ra\u00fal Patricio"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Chaco", 
+            "diputado": "SOTO, Gladys Beatriz"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Santa Fe", 
+            "diputado": "SYLVESTRE BEGNIS, Juan H\u00e9ctor"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "VACA NARVAJA, Patricia"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Salta", 
+            "diputado": "VILARI\u00d1O, Jos\u00e9 Antonio"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "WEST, Mariano Feder\u00edco"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Tierra del Fuego", 
+            "diputado": "BERTONE, Rosana Andrea"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Tucum\u00e1n", 
+            "diputado": "VARGAS AIGNASSE, Ger\u00f3nimo"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Mendoza", 
+            "diputado": "FADEL, Patricia Susana"
+        }
+    ], 
+    "AUSENTE": [
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Santa Cruz", 
+            "diputado": "ACU\u00d1A KUNZ, Juan"
+        }, 
+        {
+            "bloque": "Santa Fe Federal", 
+            "distrito": "Santa Fe", 
+            "diputado": "AGOSTO, Walter"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "AGUAD, Oscar Ra\u00fal"
+        }, 
+        {
+            "bloque": "Consenso Federal", 
+            "distrito": "Mendoza", 
+            "diputado": "ALBARRACIN, Jorge Luis"
+        }, 
+        {
+            "bloque": "Frente Justicia Uni\u00f3n y Libertad", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "ALBRISI, C\u00e9sar Alfredo"
+        }, 
+        {
+            "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+            "distrito": "Buenos Aires", 
+            "diputado": "ALCUAZ, Horacio Alberto"
+        }, 
+        {
+            "bloque": "Uni\u00f3n Celeste y Blanco", 
+            "distrito": "Buenos Aires", 
+            "diputado": "ALVAREZ, Juan Jos\u00e9"
+        }, 
+        {
+            "bloque": "Convergencia Federal", 
+            "distrito": "Buenos Aires", 
+            "diputado": "AMENTA, Marcelo Eduardo"
+        }, 
+        {
+            "bloque": "Partido Liberal de Corrientes", 
+            "distrito": "Corrientes", 
+            "diputado": "ARBO, Jos\u00e9 Ameghino"
+        }, 
+        {
+            "bloque": "Partido Nuevo Contra la Corrupci\u00f3n", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "ARDID, Mario Rolando"
+        }, 
+        {
+            "bloque": "Frente de Todos", 
+            "distrito": "Corrientes", 
+            "diputado": "ARETA, Mar\u00eda Josefa"
+        }, 
+        {
+            "bloque": "Uni\u00f3n Peronista", 
+            "distrito": "Rio Negro", 
+            "diputado": "ARRIAGA, Julio Esteban"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Buenos Aires", 
+            "diputado": "AZCOITI, Pedro Jos\u00e9"
+        }, 
+        {
+            "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "BALDATA, Griselda Angela"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Buenos Aires", 
+            "diputado": "BARAGIOLA, Vilma Rosana"
+        }, 
+        {
+            "bloque": "Nacional Sindical", 
+            "distrito": "Catamarca", 
+            "diputado": "BARRIONUEVO, Jos\u00e9 Luis"
+        }, 
+        {
+            "bloque": "Frente Justicia Uni\u00f3n y Libertad", 
+            "distrito": "San Luis", 
+            "diputado": "BARTOLUCCI, Gilda Liliana"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Chaco", 
+            "diputado": "BAYONZO, Liliana Amelia"
+        }, 
+        {
+            "bloque": "Propuesta Republicana", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "BERTOL, Paula Mar\u00eda"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Chaco", 
+            "diputado": "BEVERAGGI, Margarita Beatriz"
+        }, 
+        {
+            "bloque": "Frente Justicia Uni\u00f3n y Libertad", 
+            "distrito": "San Luis", 
+            "diputado": "BIANCHI, Ivana Mar\u00eda"
+        }, 
+        {
+            "bloque": "Movimiento Popular Neuquino", 
+            "distrito": "Neuqu\u00e9n", 
+            "diputado": "BRILLO, Jos\u00e9 Ricardo"
+        }, 
+        {
+            "bloque": "Propuesta Republicana", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "BULLRICH, Esteban"
+        }, 
+        {
+            "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "BULLRICH, Patricia"
+        }, 
+        {
+            "bloque": "Propuesta Republicana", 
+            "distrito": "Buenos Aires", 
+            "diputado": "BURZACO, Eugenio"
+        }, 
+        {
+            "bloque": "Nacional Sindical", 
+            "distrito": "Buenos Aires", 
+            "diputado": "CAMA\u00d1O, Dante"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "CAMA\u00d1O, Graciela"
+        }, 
+        {
+            "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+            "distrito": "Buenos Aires", 
+            "diputado": "CARCA, Elisa Beatriz"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Tucum\u00e1n", 
+            "diputado": "CASTALDO, Norah Susana"
+        }, 
+        {
+            "bloque": "Frente C\u00edvico y Social de Catamarca", 
+            "distrito": "Catamarca", 
+            "diputado": "COLLANTES, Genaro"
+        }, 
+        {
+            "bloque": "Peronismo Federal", 
+            "distrito": "Entre R\u00edos", 
+            "diputado": "CREMER de BUSTI, Mar\u00eda Cristina"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Entre R\u00edos", 
+            "diputado": "CUSINATO, Jos\u00e9 C\u00e9sar Gustavo"
+        }, 
+        {
+            "bloque": "Uni\u00f3n Peronista", 
+            "distrito": "Salta", 
+            "diputado": "DAHER, Zulema Beatr\u00edz"
+        }, 
+        {
+            "bloque": "Santa Fe Federal", 
+            "distrito": "Santa Fe", 
+            "diputado": "DALLA FONTANA, Ariel"
+        }, 
+        {
+            "bloque": "Dem\u00f3crata de Mendoza", 
+            "distrito": "Mendoza", 
+            "diputado": "DE MARCHI, Omar Bruno"
+        }, 
+        {
+            "bloque": "Uni\u00f3n Celeste y Blanco", 
+            "distrito": "Buenos Aires", 
+            "diputado": "DE NARVAEZ, Francisco"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "DEL CAMPILLO, H\u00e9ctor Eduardo"
+        }, 
+        {
+            "bloque": "Renovador de Salta", 
+            "distrito": "Salta", 
+            "diputado": "DIEZ, Mar\u00eda In\u00e9s"
+        }, 
+        {
+            "bloque": "Encuentro Popular y Social", 
+            "distrito": "Buenos Aires", 
+            "diputado": "DONDA PEREZ, Victoria Anal\u00eda"
+        }, 
+        {
+            "bloque": "Buenos Aires por el Cambio", 
+            "distrito": "Buenos Aires", 
+            "diputado": "ERRO, Norberto Pedro"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Chaco", 
+            "diputado": "FABRIS, Luciano"
+        }, 
+        {
+            "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+            "distrito": "Buenos Aires", 
+            "diputado": "FERRO, Francisco Jos\u00e9"
+        }, 
+        {
+            "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+            "distrito": "Buenos Aires", 
+            "diputado": "FLORES, H\u00e9ctor"
+        }, 
+        {
+            "bloque": "Propuesta Republicana", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "GALVALISI, Luis Alberto"
+        }, 
+        {
+            "bloque": "Uni\u00f3n Peronista", 
+            "distrito": "La Pampa", 
+            "diputado": "GARCIA, Irma Adriana"
+        }, 
+        {
+            "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+            "distrito": "Santa Fe", 
+            "diputado": "GARCIA, Susana Rosa"
+        }, 
+        {
+            "bloque": "Uni\u00f3n Celeste y Blanco", 
+            "distrito": "Buenos Aires", 
+            "diputado": "GARDELLA, Patricia Susana"
+        }, 
+        {
+            "bloque": "Partido Socialista", 
+            "distrito": "Santa Fe", 
+            "diputado": "GEREZ, Elda Ramona"
+        }, 
+        {
+            "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "GIL LOZANO, Claudia Fernanda"
+        }, 
+        {
+            "bloque": "Frente por los Derechos Ciudadanos", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "GINZBURG, Nora"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Jujuy", 
+            "diputado": "GIUBERGIA, Miguel Angel"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "GIUDICI, Silvana Myriam"
+        }, 
+        {
+            "bloque": "Propuesta Republicana", 
+            "distrito": "Buenos Aires", 
+            "diputado": "GRIBAUDO, Christian Alejandro"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Jujuy", 
+            "diputado": "GUERCI de SIUFI, Beatriz Elvira"
+        }, 
+        {
+            "bloque": "Uni\u00f3n Peronista", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "HALAK, Beatriz Susana"
+        }, 
+        {
+            "bloque": "Peronismo Federal", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "HEREDIA, Arturo Miguel"
+        }, 
+        {
+            "bloque": "Valores para mi Pa\u00eds", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "HOTTON, Cynthia Liliana"
+        }, 
+        {
+            "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "IGLESIAS, Fernando Adolfo"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Misiones", 
+            "diputado": "ITURRIETA, Miguel Angel"
+        }, 
+        {
+            "bloque": "Consenso Federal", 
+            "distrito": "Buenos Aires", 
+            "diputado": "KATZ, Daniel"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "La Pampa", 
+            "diputado": "KENNY, Eduardo Enrique Federico"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "La Pampa", 
+            "diputado": "KRONEBERGER, Daniel Ricardo"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Buenos Aires", 
+            "diputado": "LANCETA, Rub\u00e9n Orfel"
+        }, 
+        {
+            "bloque": "Uni\u00f3n Celeste y Blanco", 
+            "distrito": "Buenos Aires", 
+            "diputado": "LEDESMA, Julio Rub\u00e9n"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Mendoza", 
+            "diputado": "LEMOS, Silvia"
+        }, 
+        {
+            "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+            "distrito": "Buenos Aires", 
+            "diputado": "LINARES, Mar\u00eda Virginia"
+        }, 
+        {
+            "bloque": "Peronista Salte\u00f1o", 
+            "distrito": "Salta", 
+            "diputado": "LOPEZ ARIAS, Marcelo Eduardo"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "LORGES, Juan Carlos"
+        }, 
+        {
+            "bloque": "Frente Justicia Uni\u00f3n y Libertad", 
+            "distrito": "San Luis", 
+            "diputado": "LUSQUI\u00d1OS, Luis Bernardo"
+        }, 
+        {
+            "bloque": "Frente Producci\u00f3n y Trabajo", 
+            "distrito": "San Juan", 
+            "diputado": "MARINO, Adriana del Carmen"
+        }, 
+        {
+            "bloque": "Concertaci\u00f3n Entrerriana", 
+            "distrito": "Entre R\u00edos", 
+            "diputado": "MARTINEZ GARBINO, Emilio"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "MARTINEZ ODDONE, Heriberto Agust\u00edn"
+        }, 
+        {
+            "bloque": "Frente Justicia Uni\u00f3n y Libertad", 
+            "distrito": "San Luis", 
+            "diputado": "MERLO, Mario Ra\u00fal"
+        }, 
+        {
+            "bloque": "Consenso Federal", 
+            "distrito": "Mendoza", 
+            "diputado": "MONTERO, Laura Gisela"
+        }, 
+        {
+            "bloque": "Uni\u00f3n Peronista", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "MONTOYA, Jorge Luciano"
+        }, 
+        {
+            "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+            "distrito": "Buenos Aires", 
+            "diputado": "MORAN, Juan Carlos"
+        }, 
+        {
+            "bloque": "Memoria y Democracia", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "MORANDINI, Norma Elena"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Santa Fe", 
+            "diputado": "MORINI, Pedro Juan"
+        }, 
+        {
+            "bloque": "Solidaridad e Igualdad (SI)", 
+            "distrito": "Buenos Aires", 
+            "diputado": "NAIM, Lidia Luc\u00eda"
+        }, 
+        {
+            "bloque": "Santa Fe Federal", 
+            "distrito": "Santa Fe", 
+            "diputado": "OBEID, Jorge Alberto"
+        }, 
+        {
+            "bloque": "Propuesta Republicana", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "OBIGLIO, Juli\u00e1n Mart\u00edn"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "La Rioja", 
+            "diputado": "PAREDES URQUIZA, Alberto Nicol\u00e1s"
+        }, 
+        {
+            "bloque": "Frente C\u00edvico y Social de Catamarca", 
+            "distrito": "Catamarca", 
+            "diputado": "PAROLI, Ra\u00fal Omar"
+        }, 
+        {
+            "bloque": "Bloque por la Verdad", 
+            "distrito": "Catamarca", 
+            "diputado": "PASTORIZA, Eduardo"
+        }, 
+        {
+            "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+            "distrito": "Santa Fe", 
+            "diputado": "PERALTA, Fabi\u00e1n Francisco"
+        }, 
+        {
+            "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+            "distrito": "Buenos Aires", 
+            "diputado": "PEREZ, Jos\u00e9 Adri\u00e1n"
+        }, 
+        {
+            "bloque": "Peronismo Federal", 
+            "distrito": "Entre R\u00edos", 
+            "diputado": "PETIT, Mar\u00eda de los Angeles"
+        }, 
+        {
+            "bloque": "Propuesta Republicana", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "PINEDO, Federico"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Corrientes", 
+            "diputado": "PORTELA, Agust\u00edn Alberto"
+        }, 
+        {
+            "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+            "distrito": "Buenos Aires", 
+            "diputado": "QUIROZ, Elsa Siria"
+        }, 
+        {
+            "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "REYES, Mar\u00eda Fernanda"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Buenos Aires", 
+            "diputado": "RIOBOO, Sandra Adriana"
+        }, 
+        {
+            "bloque": "Encuentro Popular y Social", 
+            "distrito": "Buenos Aires", 
+            "diputado": "RIVAS, Jorge"
+        }, 
+        {
+            "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+            "distrito": "Buenos Aires", 
+            "diputado": "RODRIGUEZ, Marcela Virginia"
+        }, 
+        {
+            "bloque": "Frente de Todos", 
+            "distrito": "Corrientes", 
+            "diputado": "ROLDAN, Jos\u00e9 Mar\u00eda"
+        }, 
+        {
+            "bloque": "Uni\u00f3n Peronista", 
+            "distrito": "Rio Negro", 
+            "diputado": "ROSSI, Cipriana Lorena"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Buenos Aires", 
+            "diputado": "RUIZ, Ram\u00f3n"
+        }, 
+        {
+            "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "SANCHEZ, Fernando"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "La Rioja", 
+            "diputado": "SANTANDER, Mario"
+        }, 
+        {
+            "bloque": "Uni\u00f3n Peronista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "SARGHINI, Jorge Emilio"
+        }, 
+        {
+            "bloque": "Propuesta Republicana", 
+            "distrito": "Buenos Aires", 
+            "diputado": "SATRAGNO, Lidia Elsa"
+        }, 
+        {
+            "bloque": "Consenso Federal", 
+            "distrito": "Rio Negro", 
+            "diputado": "SCALESI, Juan Carlos"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Tierra del Fuego", 
+            "diputado": "SCIUTTO, Rub\u00e9n Dar\u00edo"
+        }, 
+        {
+            "bloque": "Partido Socialista", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "SESMA, Laura Judith"
+        }, 
+        {
+            "bloque": "Guardia Peronista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "SPATOLA, Paola Rosana"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "STORNI, Silvia"
+        }, 
+        {
+            "bloque": "Uni\u00f3n Peronista", 
+            "distrito": "Mendoza", 
+            "diputado": "THOMAS, Enrique Luis"
+        }, 
+        {
+            "bloque": "Partido Unidad Federalista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "TOMAZ, Adriana Elisa"
+        }, 
+        {
+            "bloque": "Renovador de Salta", 
+            "distrito": "Salta", 
+            "diputado": "TORFE, M\u00f3nica Liliana"
+        }, 
+        {
+            "bloque": "Frente Justicia Uni\u00f3n y Libertad", 
+            "distrito": "San Luis", 
+            "diputado": "TORRONTEGUI, Mar\u00eda Ang\u00e9lica"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Chaco", 
+            "diputado": "URLICH, Carlos"
+        }, 
+        {
+            "bloque": "Uni\u00f3n C\u00edvica Radical", 
+            "distrito": "Entre R\u00edos", 
+            "diputado": "VARISCO, Sergio Fausto"
+        }, 
+        {
+            "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "VEGA, Juan Carlos"
+        }, 
+        {
+            "bloque": "Justicialismo Republicano", 
+            "distrito": "Santiago del Estero", 
+            "diputado": "VELARDE, Marta Sylvia"
+        }, 
+        {
+            "bloque": "Peronista Federal", 
+            "distrito": "Buenos Aires", 
+            "diputado": "VILLAVERDE, Jorge Antonio"
+        }, 
+        {
+            "bloque": "Peronismo Federal", 
+            "distrito": "Entre R\u00edos", 
+            "diputado": "ZAVALLO, Gustavo"
+        }
+    ], 
+    "ABSTENCION": [
+        {
+            "bloque": "Frente C\u00edvico por Santiago", 
+            "distrito": "Santiago del Estero", 
+            "diputado": "BRUE, Daniel Agust\u00edn"
+        }, 
+        {
+            "bloque": "Frente para la Victoria - PJ", 
+            "distrito": "Corrientes", 
+            "diputado": "CARMONA, Mar\u00eda Araceli"
+        }, 
+        {
+            "bloque": "Frente C\u00edvico por Santiago", 
+            "distrito": "Santiago del Estero", 
+            "diputado": "OLIVA, Cristian Rodolfo"
+        }, 
+        {
+            "bloque": "Frente C\u00edvico por Santiago", 
+            "distrito": "Santiago del Estero", 
+            "diputado": "PASTORIZA, Mirta Ameliana"
+        }
+    ], 
+    "NEGATIVO": [
+        {
+            "bloque": "Movimiento Popular Neuquino", 
+            "distrito": "Neuqu\u00e9n", 
+            "diputado": "ACU\u00d1A, Hugo Rodolfo"
+        }, 
+        {
+            "bloque": "Partido Socialista", 
+            "distrito": "Santa Fe", 
+            "diputado": "AUGSBURGER, Silvia"
+        }, 
+        {
+            "bloque": "Partido Socialista", 
+            "distrito": "Santa Fe", 
+            "diputado": "BARRIOS, Miguel Angel"
+        }, 
+        {
+            "bloque": "Proyecto Progresista", 
+            "distrito": "Tierra del Fuego", 
+            "diputado": "BELOUS, N\u00e9lida"
+        }, 
+        {
+            "bloque": "Solidaridad e Igualdad (SI)", 
+            "distrito": "Santa Fe", 
+            "diputado": "BENAS, Ver\u00f3nica Claudia"
+        }, 
+        {
+            "bloque": "Solidaridad e Igualdad (SI)", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "BISUTTI, Delia Beatriz"
+        }, 
+        {
+            "bloque": "Di\u00e1logo por Buenos Aires", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "BONASSO, Miguel"
+        }, 
+        {
+            "bloque": "Movimiento Popular Neuquino", 
+            "distrito": "Neuqu\u00e9n", 
+            "diputado": "COMELLI, Alicia Marcela"
+        }, 
+        {
+            "bloque": "Partido Socialista", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "CORTINA, Roy"
+        }, 
+        {
+            "bloque": "Partido Socialista", 
+            "distrito": "Buenos Aires", 
+            "diputado": "CUCCOVILLO, Ricardo Oscar"
+        }, 
+        {
+            "bloque": "Partido Nuevo Contra la Corrupci\u00f3n", 
+            "distrito": "C\u00f3rdoba", 
+            "diputado": "DELICH, Francisco"
+        }, 
+        {
+            "bloque": "Partido Socialista", 
+            "distrito": "Santa Fe", 
+            "diputado": "FEIN, M\u00f3nica Hayde"
+        }, 
+        {
+            "bloque": "Solidaridad e Igualdad (SI)", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "GARCIA MENDEZ, Emilio"
+        }, 
+        {
+            "bloque": "Solidaridad e Igualdad (SI)", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "GONZALEZ, Mar\u00eda Am\u00e9rica"
+        }, 
+        {
+            "bloque": "Proyecto Progresista", 
+            "distrito": "Tierra del Fuego", 
+            "diputado": "GORBACZ, Leonardo Ariel"
+        }, 
+        {
+            "bloque": "Bs. As. para Todos en Proyecto Sur", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "LOZANO, Claudio Ra\u00fal"
+        }, 
+        {
+            "bloque": "Solidaridad e Igualdad (SI)", 
+            "distrito": "Buenos Aires", 
+            "diputado": "MACALUSE, Eduardo Gabriel"
+        }, 
+        {
+            "bloque": "Partido Socialista", 
+            "distrito": "Santa Fe", 
+            "diputado": "MARTIN, Mar\u00eda Elena"
+        }, 
+        {
+            "bloque": "Partido de la Concertaci\u00f3n - FORJA", 
+            "distrito": "Cdad.Aut.Bs.As.", 
+            "diputado": "MORGADO, Claudio Marcelo"
+        }, 
+        {
+            "bloque": "Frente C\u00edvico por Santiago", 
+            "distrito": "Santiago del Estero", 
+            "diputado": "PEREZ, Jorge Ra\u00fal"
+        }, 
+        {
+            "bloque": "De la Concertaci\u00f3n", 
+            "distrito": "Neuqu\u00e9n", 
+            "diputado": "PRIETO, Hugo Nelson"
+        }, 
+        {
+            "bloque": "Solidaridad e Igualdad (SI)", 
+            "distrito": "Buenos Aires", 
+            "diputado": "RAIMUNDI, Carlos Alberto"
+        }, 
+        {
+            "bloque": "De la Concertaci\u00f3n", 
+            "distrito": "Buenos Aires", 
+            "diputado": "SEREBRINSKY, Gustavo Eduardo"
+        }, 
+        {
+            "bloque": "Partido de la Concertaci\u00f3n - FORJA", 
+            "distrito": "Buenos Aires", 
+            "diputado": "VAZQUEZ de TABERNISE, Silvia Beatriz"
+        }, 
+        {
+            "bloque": "Partido Socialista", 
+            "distrito": "Entre R\u00edos", 
+            "diputado": "VIALE, Lisandro Alfredo"
+        }, 
+        {
+            "bloque": "Partido Socialista", 
+            "distrito": "Santa Fe", 
+            "diputado": "ZANCADA, Pablo"
+        }
+    ]
+}
