@@ -48,17 +48,23 @@ function match(reps) {
 
 $('#vote-aye').click(function () {
 	if (!voting) return;
-	match(voting.AFIRMATIVO);
-	loadRandomProject();
+	$('#voting').fadeOut(200, function () {
+		match(voting.AFIRMATIVO);
+		loadRandomProject();
+	}).fadeIn(100);
 });
 $('#vote-nay').click(function () {
 	if (!voting) return;
-	match(voting.NEGATIVO);
-	loadRandomProject();
+	$('#voting').fadeOut(200, function () {
+		match(voting.NEGATIVO);
+		loadRandomProject();
+	}).fadeIn(100);
 });
 $('#vote-abs').click(function () {
 	if (!voting) return;
-	loadRandomProject();
+	$('#voting').fadeOut(200, function () {
+		loadRandomProject();
+	}).fadeIn(100);
 });
 
 $('#finish').click(function () {

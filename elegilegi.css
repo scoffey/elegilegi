@@ -1,0 +1,89 @@
+body {
+	margin: auto;
+	width: 800px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+a, a:visited {
+	text-decoration: none;
+	color: rgb(0, 0, 238);
+}
+a:hover {
+	text-decoration: underline;
+	color: rgb(0, 0, 238);
+}
+#voting ul {
+	list-style: none;
+	display: block;
+	height: 200px;
+	width: 320px;
+	padding: 0;
+	margin: 0 auto;
+}
+#voting ul li {
+	float: left;
+	margin: 16px;
+	padding: 0;
+}
+#voting p {
+	text-align: center;
+}
+#project {
+	font-size: 18pt;
+	padding-top: 64px;
+}
+#date {
+	font-size: 10pt;
+	color: gray;
+}
+#question {
+	padding-top: 32px;
+	font-weight: bold;
+}
+#vote-aye, #vote-nay, #vote-abs {
+	background-repeat: repeat-x;
+	border: 1px solid rgba(0, 0, 0, 0.0976563);
+	border-bottom-color: rgba(0, 0, 0, 0.246094);
+	border-radius: 8px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-collapse: separate;
+	box-shadow: rgba(255, 255, 255, 0.199219) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.046875) 0px 1px 2px 0px;
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	font-size: 32px;
+	font-weight: bold;
+	height: 64px;
+	letter-spacing: normal;
+	line-height: 52px;
+	margin: 0;
+	max-width: none;
+	padding: 4px 12px;
+	text-align: center;
+	text-indent: 0px;
+	text-shadow: rgba(0, 0, 0, 0.246094) 0px -1px 0px;
+	text-transform: none;
+	vertical-align: middle;
+	width: 128px;
+	word-spacing: 0px;
+}
+#vote-aye {
+	background-color: rgb(91, 183, 91);
+	background-image: -webkit-linear-gradient(top, rgb(98, 196, 98), rgb(81, 163, 81));
+}
+#vote-nay {
+	background-color: rgb(189, 54, 47);
+	background-image: -webkit-linear-gradient(top, rgb(238, 95, 91), rgb(189, 54, 47));
+}
+#vote-abs {
+	background-color: rgb(248, 148, 6);
+	background-image: -webkit-linear-gradient(top, rgb(251, 180, 80), rgb(248, 148, 6));
+	font-size: 16px;
+	width: 144px;
+	line-height: 24px;
+	height: 36px;
+	margin: 0 72px;
+}
