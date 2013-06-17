@@ -1,44 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>eLegiLegi</title>
+<title>ElegiLegi</title>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,900|Merriweather:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="elegilegi.css"></link>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </head>
 <body>
-<h1>eLegiLegi</h1>
-<div id="intro">
-	<p>Un juego para conocer al legislador que vota como votar&iacute;as vos.</p>
-	<ol>
-	<li>Te mostramos los proyectos de ley que se votaron en el Congreso en los &uacute;ltimos a&ntilde;os.</li>
-	<li>Respond&eacute;s si hubieras votado a favor, en contra o abstenci&oacute;n de los proyectos que quieras.</li>
-	<li>Te mostramos cu&aacute;l es el legislador que vot&oacute; m&aacute;s parecido a vos. &iquest;Ser&aacute; el que vos pens&aacute;s?</li>
-	</ol>
-	<p><a id="start" href="javascript:void(0);">Comenzar</a></p>
-	<p><a id="info" href="javascript:void(0);">Acerca de</a></p>
-</div>
-<div id="about">
-	<p>Esta aplicaci&oacute;n fue desarrollada originalmente para la <a href="http://garagelab.tumblr.com/post/1651627498/2dahackathondedatospublicosgubernamentales">Hackaton de Datos P&uacute;blicos</a> de <a href="https://twitter.com/garagelab">@garagelab</a> en diciembre de 2010 por <a href="https://twitter.com/scoffey">@scoffey</a>, <a href="https://twitter.com/maraoz">@maraoz</a>, <a href="https://twitter.com/martint">@martint</a>, <a href="https://twitter.com/k0001">@k0001</a>, <a href="https://twitter.com/demenece">@demenece</a> y otros colaboradores.</p>
-	<p>En mayo de 2013, a ra&iacute;z del inter&eacute;s de <a href="https://twitter.com/CongresoInterac">@CongresoInterac</a> y el contacto de <a href="https://twitter.com/martinszy">@martinszy</a>, el proyecto fue retomado por <a href="https://twitter.com/scoffey">@scoffey</a> para ser reimplementado, ahora con los datos de votaciones nominales compilados por <a href="https://twitter.com/andy_tow">@andy_tow</a>.</p>
-	<p><a id="back" href="javascript:void(0);">Volver</a></p>
-</div>
-<div id="voting">
-	<p id="project">Proyecto</p>
-	<p id="date">Fecha</p>
-	<p id="question">&iquest;Votar&iacute;as a favor de este proyecto?</p>
-	<ul>
-	<li><a id="vote-aye" href="javascript:void(0);">S&iacute;</a></li>
-	<li><a id="vote-nay" href="javascript:void(0);">No</a></li>
-	<li><a id="vote-abs" href="javascript:void(0);">No s&eacute;, paso</a></li>
-	</ul>
-	<p><a id="finish" href="javascript:void(0);">Ver resultados</a></p>
-</div>
-<div id="results">
-	<p>Estos son los legisladores que votaron m&aacute;s parecido a lo que vos pens&aacute;s:</p>
-	<ol id="reps"></ol>
-	<p><a id="resume" href="javascript:void(0);">Seguir votando</a></p>
-	<p><a id="reset" href="javascript:void(0);">Volver a empezar</a></p>
-</div>
-<script type="text/javascript" src="elegilegi.js"></script>
+	<div class="inner-container main-container">
+		<h1 class="main-title">ElegiLegi</h1>
+		<nav class="main-nav"></nav>
+		<div id="intro">
+			<p class="main">Encontr&aacute; legisladores que votan como vos.</p>
+			<ol>
+				<li>Te mostramos los proyectos de ley que se votaron en el Congreso en los &uacute;ltimos a&ntilde;os.</li>
+				<li>Respond&eacute;s si hubieras votado a favor, en contra o abstenci&oacute;n de los proyectos que quieras.</li>
+				<li>Te mostramos cu&aacute;l es el legislador que vot&oacute; m&aacute;s parecido a vos. <strong>&iquest;Ser&aacute; el que vos pens&aacute;s?</strong></li>
+			</ol>
+			<p><a id="start" href="javascript:void(0);" class="btn">Comenzar</a></p>
+		</div>
+		<div id="voting">
+			<p id="project">Proyecto</p>
+			<p id="date">Fecha</p>
+			<p id="question">&iquest;Votar&iacute;as a favor de este proyecto?</p>
+			<ul>
+			<li><a id="vote-aye" href="javascript:void(0);">S&iacute;</a></li>
+			<li><a id="vote-nay" href="javascript:void(0);">No</a></li>
+			<li><a id="vote-abs" href="javascript:void(0);">No s&eacute;, paso</a></li>
+			</ul>
+			<p><a id="finish" href="javascript:void(0);">Ver resultados</a></p>
+		</div>
+		<div id="results">
+			<p>Estos son los legisladores que votaron m&aacute;s parecido a lo que vos pens&aacute;s:</p>
+			<ol id="reps"></ol>
+			<p><a id="resume" href="javascript:void(0);">Seguir votando</a></p>
+			<p><a id="reset" href="javascript:void(0);">Volver a empezar</a></p>
+		</div>
+		<div id="about">
+			<p>Esta aplicaci&oacute;n fue desarrollada originalmente para la <a href="http://garagelab.tumblr.com/post/1651627498/2dahackathondedatospublicosgubernamentales">Hackaton de Datos P&uacute;blicos</a> de <a href="https://twitter.com/garagelab">@garagelab</a> en diciembre de 2010 por <a href="https://twitter.com/scoffey">@scoffey</a>, <a href="https://twitter.com/maraoz">@maraoz</a>, <a href="https://twitter.com/martint">@martint</a>, <a href="https://twitter.com/k0001">@k0001</a>, <a href="https://twitter.com/demenece">@demenece</a> y otros colaboradores.</p>
+			<p>En mayo de 2013, a ra&iacute;z del inter&eacute;s de <a href="https://twitter.com/CongresoInterac">@CongresoInterac</a> y el contacto de <a href="https://twitter.com/martinszy">@martinszy</a>, el proyecto fue retomado por <a href="https://twitter.com/scoffey">@scoffey</a> para ser reimplementado, ahora con los datos de votaciones nominales compilados por <a href="https://twitter.com/andy_tow">@andy_tow</a>.</p>
+			<p><a id="back" href="javascript:void(0);">Volver</a></p>
+		</div>
+	</div>
+	<div class="main-footer">
+		<div class="inner-container">
+			<span class="logo-footer">ElegiLegi</span> - 
+			<a id="info" href="javascript:void(0);">Acerca del proyecto</a>
+		</div>
+	</div>
+	<script type="text/javascript" src="elegilegi.js"></script>
 </body>
 </html>
