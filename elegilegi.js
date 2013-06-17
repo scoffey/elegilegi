@@ -5,7 +5,6 @@ var representatives = {};
 
 function display(id) {
 	$('#intro').css('display', (id == 'intro' ? 'block' : 'none'));
-	$('#about').css('display', (id == 'about' ? 'block' : 'none'));
 	$('#voting').css('display', (id == 'voting' ? 'block' : 'none'));
 	$('#results').css('display', (id == 'results' ? 'block' : 'none'));
 }
@@ -94,8 +93,10 @@ $('#finish').click(function () {
 });
 
 $('#start').click(function () { display('voting'); });
-$('#info').click(function () { display('about'); });
 $('#back').click(function () { display('intro'); });
 $('#resume').click(function () { display('voting'); });
 $('#reset').click(reset);
+$('#about-trigger').click(function () { $('#about').toggleClass('active'); });
+$('#about-close').click(function () { $('#about').toggleClass('active'); });
+
 $(document).ready(reset);

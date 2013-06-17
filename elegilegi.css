@@ -84,6 +84,8 @@ p.main {
 	font-size: 12px;
 }
 
+.main-footer .inner-container { position: relative;}
+
 .logo-footer {
 	font-family: "lato", Helvetica, Arial, sans-serif;
 	font-size: 16px;
@@ -93,6 +95,52 @@ p.main {
 	color: #3498db;
 }
 
+#about-trigger {
+	position: relative;
+	z-index: 20;
+}
+
+#about {
+	font-size: 14px;
+	background: #aef4e6;
+	color: #2c3e50;
+	position: absolute;
+	bottom: -220px;
+	width: 500px;
+	padding: 10px 30px;
+	left: 0;
+	z-index:-20;
+	opacity: 0;
+	-webkit-transition: all .1s ease-in, z-index 0s;
+	   -moz-transition: all .1s ease-in, z-index 0s;
+	    -ms-transition: all .1s ease-in, z-index 0s;
+	     -o-transition: all .1s ease-in, z-index 0s;
+	        transition: all .1s ease-in, z-index 0s;
+
+}
+
+#about.active {
+	display: block;
+	bottom: 40px;
+	opacity: 1;
+	z-index: 10;
+}
+
+#about:after {
+	content: '';
+	position: absolute;
+	bottom: -20px;
+	left: 110px;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 20px 20px 0 20px;
+	border-color: #aef4e6 transparent transparent transparent;
+}
+
+#about a {
+	color: #2980b9;
+}
 
 #voting ul {
 	overflow: hidden;
