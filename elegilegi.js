@@ -1,7 +1,7 @@
-var asuntos = null;
 var projectIds = null;
-var voting = null;
-var representatives = {};
+var representatives = null;
+var currentProject = null;
+var currentVotes = null;
 
 function display(id) {
 	$('#intro').css('display', (id == 'intro' ? 'block' : 'none'));
@@ -11,25 +11,29 @@ function display(id) {
 }
 
 function reset() {
-	voting = null;
-	representatives = {};
-	$.getJSON('data/asuntos.json', function (data) {
-		asuntos = data;
-		projectIds = Object.keys(data);
+	currentProject = null;
+	currentVotes = {};
+	$.getJSON('data/index.json', function (data) {
+		projectIds = data;
 		loadRandomProject();
+	});
+	$.getJSON('data/legisladores.json', function (data) {
+		representatives = data;
 	});
 	display('intro');
 }
 
 function loadRandomProject() {
-	voting = null;
+	currentProject = null;
 	var i = Math.floor(Math.random() * projectIds.length);
 	var id = projectIds[i];
 	projectIds.splice(i, 1);
-	$('#project').text(asuntos[id].asunto);
-	$('#date').text(asuntos[id].fecha);
-	$.getJSON('data/' + id + '.json', function (data) {
-		voting = data;
+	$('#project').text('');
+	$('#date').text('');
+	$.getJSON('data/proyectos/' + id + '.json', function (data) {
+		currentProject = data;
+		$('#project').text(data.asunto);
+		$('#date').text(data.fecha);
 	});
 }
 
@@ -37,55 +41,47 @@ function match(reps) {
 	if (!reps) return;
 	for (var i = 0; i < reps.length; i++) {
 		var r = reps[i];
-		if (representatives[r.diputado]) {
-			representatives[r.diputado].coincidencias += 1;
+		if (currentVotes[r]) {
+			currentVotes[r] += 1;
 		} else {
-			representatives[r.diputado] = r;
-			representatives[r.diputado].coincidencias = 1;
+			currentVotes[r] = 1;
 		}
 	}
+	(currentVotes);
 }
 
 $('#vote-aye').click(function () {
-	if (!voting) return;
-	$('#voting').fadeOut(200, function () {
-		match(voting.AFIRMATIVO);
-		loadRandomProject();
-	}).fadeIn(100);
+	if (!currentProject) return;
+	match(currentProject.votacion.AFIRMATIVO);
+	$('#voting').fadeOut(200, loadRandomProject).fadeIn(100);
 });
 $('#vote-nay').click(function () {
-	if (!voting) return;
-	$('#voting').fadeOut(200, function () {
-		match(voting.NEGATIVO);
-		loadRandomProject();
-	}).fadeIn(100);
+	if (!currentProject) return;
+	match(currentProject.votacion.NEGATIVO);
+	$('#voting').fadeOut(200, loadRandomProject).fadeIn(100);
 });
 $('#vote-abs').click(function () {
-	if (!voting) return;
-	$('#voting').fadeOut(200, function () {
-		loadRandomProject();
-	}).fadeIn(100);
+	if (!currentProject) return;
+	$('#voting').fadeOut(200, loadRandomProject).fadeIn(100);
 });
 
 $('#finish').click(function () {
 	var results = new Array();
-	for (var i in representatives) {
-		var r = representatives[i];
-		var n = r.coincidencias;
+	for (var i in currentVotes) {
+		var n = currentVotes[i];
 		if (!(results[n])) {
 			results[n] = new Array();
 		}
-		results[n].push(r);
+		results[n].push(representatives[i]);
 	}
 	$('#reps').empty();
 	for (var i = results.length - 1; i >= 0; i--) {
 		var a = results[i];
 		for (var j = 0; j < a.length; j++) {
 			var e = document.createElement('li');
-			$(e).text(a[j].diputado + ' ('
+			$(e).text(a[j].nombre + ' ('
 				+ a[j].bloque + ') '
-				+ a[j].distrito + ' ['
-				+ a[j].coincidencias + ']');
+				+ a[j].distrito + ' [' + i + ']');
 			$('#reps').append(e);
 		}
 		break; // only show top matches -- TODO

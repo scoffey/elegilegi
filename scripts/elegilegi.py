@@ -17,25 +17,26 @@ def slugify(value):
     value = _SLUG_STRIP.sub('', value).strip().lower()
     return _SLUG_HYPHENATE.sub('-', unicode(value))
 
-def load(row, asuntos, votaciones):
+def load(row, projects, representatives):
     r = [i.decode('latin-1') for i in row]
     k = slugify(r[4])
-    if k not in asuntos:
-        asuntos[k] = {
+    if k not in projects:
+        projects[k] = {
             'fecha': r[1],
-            'asunto': r[4]
+            'asunto': r[4],
+            'votacion': {}
         }
         logging.debug('Loading: %s', r[4])
-    if k not in votaciones:
-        votaciones[k] = {}
     v = r[8]
-    if v not in votaciones[k]:
-        votaciones[k][v] = []
-    votaciones[k][v].append({
-        'diputado': r[5],
+    if v not in projects[k]['votacion']:
+        projects[k]['votacion'][v] = []
+    name = slugify(r[5])
+    projects[k]['votacion'][v].append(name)
+    representatives[name] = {
+        'nombre': r[5],
         'bloque': r[6],
         'distrito': r[7]
-    })
+    }
 
 def save(filename, data):
     with open(filename, 'wb') as fp:
@@ -43,16 +44,18 @@ def save(filename, data):
 
 def main(program, *args):
     """ Main program """
-    asuntos = {}
-    votaciones = {}
+    projects = {}
+    representatives = {}
     rows = csv.reader(sys.stdin)
     rows.next() # skip header
     for row in rows:
-        load(row, asuntos, votaciones)
+        load(row, projects, representatives)
     logging.debug('Saving index json file...')
-    save('asuntos.json', asuntos)
-    logging.debug('Saving %d json files...', len(votaciones))
-    for k, v in votaciones.iteritems():
+    save('index.json', projects.keys())
+    logging.debug('Saving representatives json file...')
+    save('legisladores.json', representatives)
+    logging.debug('Saving %d json files...', len(projects))
+    for k, v in projects.iteritems():
         save(k + '.json', v)
     logging.debug('Done!')
 
