@@ -1,0 +1,4107 @@
+{
+    "martinez-carlos-alberto": {
+        "nombre": "MARTINEZ, Carlos Alberto", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "rivarola-ruben-armando": {
+        "nombre": "RIVAROLA, Rub\u00e9n Armando", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Jujuy"
+    }, 
+    "rodriguez-evaristo-arturo": {
+        "nombre": "RODRIGUEZ, Evaristo Arturo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Cruz"
+    }, 
+    "basualdo-roberto": {
+        "nombre": "BASUALDO, Roberto", 
+        "bloque": "Justicialista", 
+        "distrito": "San Juan"
+    }, 
+    "amstutz-guillermo": {
+        "nombre": "AMSTUTZ, Guillermo", 
+        "bloque": "Justicialista", 
+        "distrito": "Mendoza"
+    }, 
+    "navarro-graciela": {
+        "nombre": "NAVARRO, Graciela", 
+        "bloque": "Frente C\u00edvico por Santiago", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "maldonado-aida-francisca": {
+        "nombre": "MALDONADO, A\u00edda Francisca", 
+        "bloque": "Frente C\u00edvico Social", 
+        "distrito": "Catamarca"
+    }, 
+    "rodriguez-saa-adolfo": {
+        "nombre": "RODRIGUEZ SAA, Adolfo", 
+        "bloque": "Frente del Movimiento Popular", 
+        "distrito": "San Luis"
+    }, 
+    "insfran-miguel-angel": {
+        "nombre": "INSFRAN, Miguel Angel", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Formosa"
+    }, 
+    "roman-carmen": {
+        "nombre": "ROMAN, Carmen", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Formosa"
+    }, 
+    "rubini-mirta-elsa": {
+        "nombre": "RUBINI, Mirta Elsa", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "llera-timoteo": {
+        "nombre": "LLERA, Timoteo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Misiones"
+    }, 
+    "fayad-victor-manuel-federico": {
+        "nombre": "FAYAD, Victor Manuel Federico", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Mendoza"
+    }, 
+    "caviglia-franco-agustin": {
+        "nombre": "CAVIGLIA, Franco Agustin", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "martinez-raymonda-rafael": {
+        "nombre": "MARTINEZ RAYMONDA, Rafael", 
+        "bloque": "Dem\u00f3crata Progresista", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "sosa-carlos-alberto": {
+        "nombre": "SOSA, Carlos Alberto", 
+        "bloque": "Renovador de Salta", 
+        "distrito": "Salta"
+    }, 
+    "rico-maria-del-carmen-cecilia": {
+        "nombre": "RICO, Mar\u00eda del Carmen Cecilia", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "mukdise-miguel-roberto-daives": {
+        "nombre": "MUKDISE, Miguel Roberto Daives", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "oporto-mario-nestor": {
+        "nombre": "OPORTO, Mario N\u00e9stor", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "rivas-jorge": {
+        "nombre": "RIVAS, Jorge", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "cornejo-alfredo-victor": {
+        "nombre": "CORNEJO, Alfredo Victor", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Mendoza"
+    }, 
+    "camano-graciela": {
+        "nombre": "CAMA\u00d1O, Graciela", 
+        "bloque": "Frente Peronista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "alvarez-roque-tobias": {
+        "nombre": "ALVAREZ, Roque Tob\u00edas", 
+        "bloque": "Justicialista", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "zottos-miguel-andres-costas": {
+        "nombre": "ZOTTOS, Miguel Andr\u00e9s Costas", 
+        "bloque": "Renovador de Salta", 
+        "distrito": "Salta"
+    }, 
+    "monayar-ana-maria-carmen": {
+        "nombre": "MONAYAR, Ana Mar\u00eda C\u00e1rmen", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "ferrin-maria-teresa": {
+        "nombre": "FERRIN, Mar\u00eda Teresa", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Jujuy"
+    }, 
+    "lauritto-jose-eduardo": {
+        "nombre": "LAURITTO, Jos\u00e9 Eduardo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "daher-zulema-beatriz": {
+        "nombre": "DAHER, Zulema Beatr\u00edz", 
+        "bloque": "Uni\u00f3n Peronista", 
+        "distrito": "Salta"
+    }, 
+    "giudici-silvana-myriam": {
+        "nombre": "GIUDICI, Silvana Myriam", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "diaz-colodrero-agustin": {
+        "nombre": "DIAZ COLODRERO, Agust\u00edn", 
+        "bloque": "Frente Partido Nuevo", 
+        "distrito": "Corrientes"
+    }, 
+    "canela-susana-mercedes": {
+        "nombre": "CANELA, Susana Mercedes", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Salta"
+    }, 
+    "villa-jose-antonio": {
+        "nombre": "VILLA, Jos\u00e9 Antonio", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "San Juan"
+    }, 
+    "lamberto-oscar-santiago": {
+        "nombre": "LAMBERTO, Oscar Santiago", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Fe"
+    }, 
+    "rucci-claudia-monica": {
+        "nombre": "RUCCI, Claudia Monica", 
+        "bloque": "Frente Peronista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "storni-silvia": {
+        "nombre": "STORNI, Silvia", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "llanos-edith": {
+        "nombre": "LLANOS, Edith", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "pilati-norma-raquel": {
+        "nombre": "PILATI, Norma Raquel", 
+        "bloque": "Justicialista", 
+        "distrito": "Mendoza"
+    }, 
+    "gallardo-miriam-graciela-del-valle": {
+        "nombre": "GALLARDO, Miriam Graciela del Valle", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "fabris-luciano": {
+        "nombre": "FABRIS, Luciano", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Chaco"
+    }, 
+    "olmedo-alfredo-horacio": {
+        "nombre": "OLMEDO, Alfredo Horacio", 
+        "bloque": "Salta Somos Todos", 
+        "distrito": "Salta"
+    }, 
+    "massei-oscar-ermelindo": {
+        "nombre": "MASSEI, Oscar Ermelindo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Neuqu\u00e9n"
+    }, 
+    "mirkin-beatriz-graciela": {
+        "nombre": "MIRKIN, Beatriz Graciela", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "regazzoli-maria-cristina": {
+        "nombre": "REGAZZOLI, Mar\u00eda Cristina", 
+        "bloque": "Partido Justicialista La Pampa", 
+        "distrito": "La Pampa"
+    }, 
+    "iglesias-fernando-adolfo": {
+        "nombre": "IGLESIAS, Fernando Adolfo", 
+        "bloque": "Coalici\u00f3n C\u00edvica", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "picazo-sarah-ana": {
+        "nombre": "PICAZO, Sarah Ana", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Santa Fe"
+    }, 
+    "lhuillier-jose-guillermo": {
+        "nombre": "L'HUILLIER, Jos\u00e9 Guillermo", 
+        "bloque": "Frente del Movimiento Popular", 
+        "distrito": "San Luis"
+    }, 
+    "allende-alfredo-estanislao": {
+        "nombre": "ALLENDE, Alfredo Estanislao", 
+        "bloque": "Frente del Movimiento Popular", 
+        "distrito": "Buenos Aires"
+    }, 
+    "aguad-oscar-raul": {
+        "nombre": "AGUAD, Oscar Ra\u00fal", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "arguello-octavio": {
+        "nombre": "ARG\u00dcELLO, Octavio", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "diaz-susana-eladia": {
+        "nombre": "DIAZ, Susana Eladia", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "patterson-ricardo-ancell": {
+        "nombre": "PATTERSON, Ricardo Ancell", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Santa Cruz"
+    }, 
+    "carranza-carlos-alberto": {
+        "nombre": "CARRANZA, Carlos Alberto", 
+        "bloque": "Frente Peronista", 
+        "distrito": "Santa Fe"
+    }, 
+    "oliva-cristian-rodolfo": {
+        "nombre": "OLIVA, Cristian Rodolfo", 
+        "bloque": "Frente C\u00edvico por Santiago", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "loutaif-julio-cesar": {
+        "nombre": "LOUTAIF, Julio C\u00e9sar", 
+        "bloque": "Renovador de Salta", 
+        "distrito": "Salta"
+    }, 
+    "orsolini-pablo-eduardo": {
+        "nombre": "ORSOLINI, Pablo Eduardo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Chaco"
+    }, 
+    "foglia-teresa-beatriz": {
+        "nombre": "FOGLIA, Teresa Beatriz", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "saadi-ramon-eduardo": {
+        "nombre": "SAADI, Ram\u00f3n Eduardo", 
+        "bloque": "Justicialista", 
+        "distrito": "Catamarca"
+    }, 
+    "ingram-roddy-ernesto": {
+        "nombre": "INGRAM, Roddy Ernesto", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Chubut"
+    }, 
+    "pilatti-vergara-maria-ines": {
+        "nombre": "PILATTI VERGARA, Mar\u00eda In\u00e9s", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Chaco"
+    }, 
+    "herrera-alberto": {
+        "nombre": "HERRERA, Alberto", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "lorenzo-antonio-arnaldo": {
+        "nombre": "LORENZO, Antonio Arnaldo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "San Luis"
+    }, 
+    "costa-roberto-raul": {
+        "nombre": "COSTA, Roberto Ra\u00fal", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "alvaro-hector-jorge": {
+        "nombre": "ALVARO, H\u00e9ctor Jorge", 
+        "bloque": "De la Concertaci\u00f3n", 
+        "distrito": "Mendoza"
+    }, 
+    "bucco-jorge-luis": {
+        "nombre": "BUCCO, Jorge Luis", 
+        "bloque": "Justicialista", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "conte-grand-gerardo-amadeo": {
+        "nombre": "CONTE GRAND, Gerardo Amadeo", 
+        "bloque": "Justicialista", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "carrio-elisa-maria": {
+        "nombre": "CARRIO, Elisa Mar\u00eda", 
+        "bloque": "Coalici\u00f3n C\u00edvica - ARI", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "borsani-luis-gustavo": {
+        "nombre": "BORSANI, Luis Gustavo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Mendoza"
+    }, 
+    "garcia-andrea-fabiana": {
+        "nombre": "GARCIA, Andrea Fabiana", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "dellepiane-carlos-francisco": {
+        "nombre": "DELLEPIANE, Carlos Francisco", 
+        "bloque": "Frente Popular Bonaerense", 
+        "distrito": "Buenos Aires"
+    }, 
+    "osorio-marta-lucia": {
+        "nombre": "OSORIO, Marta Luc\u00eda", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "La Pampa"
+    }, 
+    "goy-beatriz-norma": {
+        "nombre": "GOY, Beatriz Norma", 
+        "bloque": "Justicialista", 
+        "distrito": "Chaco"
+    }, 
+    "diaz-roig-juan-carlos": {
+        "nombre": "DIAZ ROIG, Juan Carlos", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Formosa"
+    }, 
+    "cerezo-octavio-nestor": {
+        "nombre": "CEREZO, Octavio N\u00e9stor", 
+        "bloque": "Justicialista", 
+        "distrito": "Catamarca"
+    }, 
+    "pinedo-federico": {
+        "nombre": "PINEDO, Federico", 
+        "bloque": "PRO", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "arnaldi-monica-susana": {
+        "nombre": "ARNALDI, Monica Susana", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "montenegro-olinda": {
+        "nombre": "MONTENEGRO, Olinda", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Chaco"
+    }, 
+    "amenta-marcelo-eduardo": {
+        "nombre": "AMENTA, Marcelo Eduardo", 
+        "bloque": "Convergencia Federal", 
+        "distrito": "Buenos Aires"
+    }, 
+    "bravo-alfredo-pedro": {
+        "nombre": "BRAVO, Alfredo Pedro", 
+        "bloque": "A.R.I", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "vaquie-enrique-andres": {
+        "nombre": "VAQUIE, Enrique Andr\u00e9s", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Mendoza"
+    }, 
+    "frigeri-rodolfo-anibal": {
+        "nombre": "FRIGERI, Rodolfo Anibal", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "cappelleri-pascual": {
+        "nombre": "CAPPELLERI, Pascual", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "marco-del-pont-mercedes": {
+        "nombre": "MARCO DEL PONT, Mercedes", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "peso-stella-marys": {
+        "nombre": "PESO, Stella Marys", 
+        "bloque": "Justicialista Nacional", 
+        "distrito": "Misiones"
+    }, 
+    "moises-julio-carlos": {
+        "nombre": "MOISES, Julio Carlos", 
+        "bloque": "Justicialista", 
+        "distrito": "Jujuy"
+    }, 
+    "lynch-juan-carlos": {
+        "nombre": "LYNCH, Juan Carlos", 
+        "bloque": "Dem\u00f3crata de Capital Federal", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "bosch-de-sartori-irene-miriam": {
+        "nombre": "BOSCH de SARTORI, Irene Miriam", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Misiones"
+    }, 
+    "alcuaz-horacio-alberto": {
+        "nombre": "ALCUAZ, Horacio Alberto", 
+        "bloque": "GEN", 
+        "distrito": "Buenos Aires"
+    }, 
+    "tineo-javier-hector": {
+        "nombre": "TINEO, Javier H\u00e9ctor", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "La Rioja"
+    }, 
+    "wayar-walter-raul": {
+        "nombre": "WAYAR, Walter Ra\u00fal", 
+        "bloque": "Frente Peronista Federal", 
+        "distrito": "Salta"
+    }, 
+    "favario-carlos-alberto": {
+        "nombre": "FAVARIO, Carlos Alberto", 
+        "bloque": "Dem\u00f3crata Progresista", 
+        "distrito": "Santa Fe"
+    }, 
+    "bianchi-ivana-maria": {
+        "nombre": "BIANCHI, Ivana Mar\u00eda", 
+        "bloque": "Frente Peronista", 
+        "distrito": "San Luis"
+    }, 
+    "zancada-pablo": {
+        "nombre": "ZANCADA, Pablo", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Santa Fe"
+    }, 
+    "llano-gabriel-joaquin": {
+        "nombre": "LLANO, Gabriel Joaqu\u00edn", 
+        "bloque": "Dem\u00f3crata de Mendoza", 
+        "distrito": "Mendoza"
+    }, 
+    "harispe-gaston": {
+        "nombre": "HARISPE, Gast\u00f3n", 
+        "bloque": "Nuevo Encuentro", 
+        "distrito": "Buenos Aires"
+    }, 
+    "salum-osvaldo-ruben": {
+        "nombre": "SALUM, Osvaldo Rub\u00e9n", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Salta"
+    }, 
+    "conti-diana-beatriz": {
+        "nombre": "CONTI, Diana Beatriz", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "stolbizer-margarita-rosa": {
+        "nombre": "STOLBIZER, Margarita Rosa", 
+        "bloque": "GEN", 
+        "distrito": "Buenos Aires"
+    }, 
+    "gil-lozano-claudia-fernanda": {
+        "nombre": "GIL LOZANO, Claudia Fernanda", 
+        "bloque": "Coalici\u00f3n C\u00edvica", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "rodriguez-oscar-ernesto-r": {
+        "nombre": "RODRIGUEZ, Oscar Ernesto R.", 
+        "bloque": "Peronista Federal", 
+        "distrito": "Buenos Aires"
+    }, 
+    "ferro-francisco-jose": {
+        "nombre": "FERRO, Francisco Jos\u00e9", 
+        "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+        "distrito": "Buenos Aires"
+    }, 
+    "filomeno-alejandro-oscar": {
+        "nombre": "FILOMENO, Alejandro Oscar", 
+        "bloque": "FREPASO", 
+        "distrito": "Buenos Aires"
+    }, 
+    "morandini-norma-elena": {
+        "nombre": "MORANDINI, Norma Elena", 
+        "bloque": "Memoria y Democracia", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "rodriguez-jesus": {
+        "nombre": "RODRIGUEZ, Jesus", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "martiarena-mario-humberto": {
+        "nombre": "MARTIARENA, Mario Humberto", 
+        "bloque": "Peronismo Juje\u00f1o", 
+        "distrito": "Jujuy"
+    }, 
+    "arena-celia-isabel": {
+        "nombre": "ARENA, Celia Isabel", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Fe"
+    }, 
+    "montoya-jorge-luciano": {
+        "nombre": "MONTOYA, Jorge Luciano", 
+        "bloque": "Nucleo Unidad Peronista", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "germano-daniel": {
+        "nombre": "GERMANO, Daniel", 
+        "bloque": "Frente Peronista", 
+        "distrito": "Santa Fe"
+    }, 
+    "romero-rosario": {
+        "nombre": "ROMERO, Rosario", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "cleri-marcos": {
+        "nombre": "CLERI, Marcos", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Fe"
+    }, 
+    "camano-dante": {
+        "nombre": "CAMA\u00d1O, Dante", 
+        "bloque": "Nacional Sindical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "muller-edgar-raul": {
+        "nombre": "MULLER, Edgar Ra\u00fal", 
+        "bloque": "Frente Peronista", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "torrontegui-maria-angelica": {
+        "nombre": "TORRONTEGUI, Mar\u00eda Ang\u00e9lica", 
+        "bloque": "Frente Justicia Uni\u00f3n y Libertad", 
+        "distrito": "San Luis"
+    }, 
+    "garcia-susana-rosa": {
+        "nombre": "GARCIA, Susana Rosa", 
+        "bloque": "Coalici\u00f3n C\u00edvica", 
+        "distrito": "Santa Fe"
+    }, 
+    "lozano-encarnacion": {
+        "nombre": "LOZANO, Encarnaci\u00f3n", 
+        "bloque": "Movimiento Popular Neuquino", 
+        "distrito": "Neuqu\u00e9n"
+    }, 
+    "lafalla-arturo-pedro": {
+        "nombre": "LAFALLA, Arturo Pedro", 
+        "bloque": "Justicialista", 
+        "distrito": "Mendoza"
+    }, 
+    "garrido-arceo-jorge-antonio": {
+        "nombre": "GARRIDO ARCEO, Jorge Antonio", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "chiquichano-rosa-laudelina": {
+        "nombre": "CHIQUICHANO, Rosa Laudelina", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Chubut"
+    }, 
+    "acuna-hugo-rodolfo": {
+        "nombre": "ACU\u00d1A, Hugo Rodolfo", 
+        "bloque": "Movimiento Popular Neuquino", 
+        "distrito": "Neuqu\u00e9n"
+    }, 
+    "garrido-manuel": {
+        "nombre": "GARRIDO, Manuel", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "de-nuccio-fabian": {
+        "nombre": "DE NUCCIO, Fabi\u00e1n", 
+        "bloque": "A.R.I", 
+        "distrito": "Buenos Aires"
+    }, 
+    "alonso-gumersindo-federico": {
+        "nombre": "ALONSO, Gumersindo Federico", 
+        "bloque": "Frente C\u00edvico - C\u00f3rdoba", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "casanovas-jorge-osvaldo": {
+        "nombre": "CASANOVAS, Jorge Osvaldo", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "arbo-jose-ameghino": {
+        "nombre": "ARBO, Jos\u00e9 Ameghino", 
+        "bloque": "Liberal de Corrientes", 
+        "distrito": "Corrientes"
+    }, 
+    "katz-daniel": {
+        "nombre": "KATZ, Daniel", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "arnold-eduardo-ariel": {
+        "nombre": "ARNOLD, Eduardo Ariel", 
+        "bloque": "No Integra Bloque", 
+        "distrito": "Santa Cruz"
+    }, 
+    "binner-hermes": {
+        "nombre": "BINNER, Hermes", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Santa Fe"
+    }, 
+    "kosiner-pablo-francisco-juan": {
+        "nombre": "KOSINER, Pablo Francisco Juan", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Salta"
+    }, 
+    "kenny-eduardo-enrique-federico": {
+        "nombre": "KENNY, Eduardo Enrique Federico", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "La Pampa"
+    }, 
+    "alonso-laura": {
+        "nombre": "ALONSO, Laura", 
+        "bloque": "PRO", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "bromberg-isaac-benjamin": {
+        "nombre": "BROMBERG, Isaac Benjam\u00edn", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "diez-maria-ines": {
+        "nombre": "DIEZ, Mar\u00eda In\u00e9s", 
+        "bloque": "Renovador de Salta", 
+        "distrito": "Salta"
+    }, 
+    "acosta-de-ahumada-maria-julia": {
+        "nombre": "ACOSTA de AHUMADA, Mar\u00eda Julia", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Catamarca"
+    }, 
+    "cortina-roy": {
+        "nombre": "CORTINA, Roy", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "kakubur-emilio": {
+        "nombre": "KAKUBUR, Emilio", 
+        "bloque": "Dignidad Peronista", 
+        "distrito": "Misiones"
+    }, 
+    "jerez-eusebia-antonia": {
+        "nombre": "JEREZ, Eusebia Antonia", 
+        "bloque": "Fuerza Republicana", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "schiaretti-juan": {
+        "nombre": "SCHIARETTI, Juan", 
+        "bloque": "Justicialista", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "jalil-luis-julian": {
+        "nombre": "JALIL, Luis Juli\u00e1n", 
+        "bloque": "Movimiento Popular Neuquino", 
+        "distrito": "Neuqu\u00e9n"
+    }, 
+    "romero-jose-antonio": {
+        "nombre": "ROMERO, Jos\u00e9 Antonio", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "polino-hector-teodoro": {
+        "nombre": "POLINO, Hector Teodoro", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "peralta-fabian-francisco": {
+        "nombre": "PERALTA, Fabi\u00e1n Francisco", 
+        "bloque": "GEN", 
+        "distrito": "Santa Fe"
+    }, 
+    "donda-perez-victoria-analia": {
+        "nombre": "DONDA PEREZ, Victoria Anal\u00eda", 
+        "bloque": "Libres del Sur", 
+        "distrito": "Buenos Aires"
+    }, 
+    "gutierrez-graciela-beatriz": {
+        "nombre": "GUTIERREZ, Graciela Beatriz", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Cruz"
+    }, 
+    "ostropolsky-aldo-hector": {
+        "nombre": "OSTROPOLSKY, Aldo Hector", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Mendoza"
+    }, 
+    "colombi-ricardo": {
+        "nombre": "COLOMBI, Ricardo", 
+        "bloque": "Frente de Todos", 
+        "distrito": "Corrientes"
+    }, 
+    "santilli-diego-cesar": {
+        "nombre": "SANTILLI, Diego Cesar", 
+        "bloque": "Justicialista", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "bertolyotti-delma-noemi": {
+        "nombre": "BERTOLYOTTI, Delma Noem\u00ed", 
+        "bloque": "Justicialista", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "becerra-omar-enrique": {
+        "nombre": "BECERRA, Omar Enrique", 
+        "bloque": "Justicialista", 
+        "distrito": "Tierra del Fuego"
+    }, 
+    "velarde-marta-sylvia": {
+        "nombre": "VELARDE, Marta Sylvia", 
+        "bloque": "Justicialismo Republicano", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "ubaldini-saul-edolver": {
+        "nombre": "UBALDINI, Saul Edolver", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "carrillo-maria-del-carmen": {
+        "nombre": "CARRILLO, Mar\u00eda Del Carmen", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "pinto-sergio-damian": {
+        "nombre": "PINTO, Sergio Dami\u00e1n", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Mendoza"
+    }, 
+    "yarade-rodolfo-fernando": {
+        "nombre": "YARADE, Rodolfo Fernando", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Salta"
+    }, 
+    "vargas-aignasse-geronimo": {
+        "nombre": "VARGAS AIGNASSE, Ger\u00f3nimo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "dalla-fontana-ariel": {
+        "nombre": "DALLA FONTANA, Ariel", 
+        "bloque": "Santa Fe Federal", 
+        "distrito": "Santa Fe"
+    }, 
+    "montoya-fernando-ramon": {
+        "nombre": "MONTOYA, Fernando Ram\u00f3n", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "varisco-sergio-fausto": {
+        "nombre": "VARISCO, Sergio Fausto", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "metaza-mario-alfredo": {
+        "nombre": "METAZA, Mario Alfredo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Cruz"
+    }, 
+    "maffei-marta-olinda": {
+        "nombre": "MAFFEI, Marta Olinda", 
+        "bloque": "A.R.I", 
+        "distrito": "Buenos Aires"
+    }, 
+    "morejon-manuel-amor": {
+        "nombre": "MOREJON, Manuel Amor", 
+        "bloque": "Peronista", 
+        "distrito": "Chubut"
+    }, 
+    "bossa-mauricio": {
+        "nombre": "BOSSA, Mauricio", 
+        "bloque": "U. Ce. De.", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "brawer-mara": {
+        "nombre": "BRAWER, Mara", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "jerez-esteban-eduardo": {
+        "nombre": "JEREZ, Esteban Eduardo", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "ruiz-aida-delia": {
+        "nombre": "RUIZ, Aida Delia", 
+        "bloque": "Frente C\u00edvico por Santiago", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "castanon-hugo": {
+        "nombre": "CASTA\u00d1ON, Hugo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Rio Negro"
+    }, 
+    "gennaro-victor": {
+        "nombre": "GENNARO, Victor", 
+        "bloque": "Unidad Popular", 
+        "distrito": "Buenos Aires"
+    }, 
+    "carbonetto-daniel": {
+        "nombre": "CARBONETTO, Daniel", 
+        "bloque": "M.M.T.A.", 
+        "distrito": "Buenos Aires"
+    }, 
+    "villata-graciela-susana": {
+        "nombre": "VILLATA, Graciela Susana", 
+        "bloque": "Frente C\u00edvico - C\u00f3rdoba", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "de-ferrari-rueda-patricia": {
+        "nombre": "De FERRARI RUEDA, Patricia", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "rossi-cipriana-lorena": {
+        "nombre": "ROSSI, Cipriana Lorena", 
+        "bloque": "Uni\u00f3n Peronista", 
+        "distrito": "Rio Negro"
+    }, 
+    "roma-rafael-edgardo": {
+        "nombre": "ROMA, Rafael Edgardo", 
+        "bloque": "A.R.I", 
+        "distrito": "Buenos Aires"
+    }, 
+    "molina-manuel-isauro": {
+        "nombre": "MOLINA, Manuel Isauro", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Catamarca"
+    }, 
+    "pascual-jorge-raul": {
+        "nombre": "PASCUAL, Jorge Raul", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Rio Negro"
+    }, 
+    "eliceche-carlos-tomas": {
+        "nombre": "ELICECHE, Carlos Tomas", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Chubut"
+    }, 
+    "martinez-llano-jose-rodolfo": {
+        "nombre": "MARTINEZ LLANO, Jos\u00e9 Rodolfo", 
+        "bloque": "Justicialista", 
+        "distrito": "Corrientes"
+    }, 
+    "zavallo-gustavo": {
+        "nombre": "ZAVALLO, Gustavo", 
+        "bloque": "Peronismo Federal", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "caserio-carlos-alberto": {
+        "nombre": "CASERIO, Carlos Alberto", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "pereyra-guillermo-antonio": {
+        "nombre": "PEREYRA, Guillermo Antonio", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Mendoza"
+    }, 
+    "ruckauf-carlos-federico": {
+        "nombre": "RUCKAUF, Carlos Federico", 
+        "bloque": "Peronista Federal", 
+        "distrito": "Buenos Aires"
+    }, 
+    "gutierrez-francisco-virgilio": {
+        "nombre": "GUTIERREZ, Francisco Virgilio", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "fernandez-limia-adan-noe": {
+        "nombre": "FERNANDEZ LIMIA, Adan No\u00e9", 
+        "bloque": "Justicialista", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "bazze-miguel-angel": {
+        "nombre": "BAZZE, Miguel \u00c1ngel", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "currilen-oscar-ruben": {
+        "nombre": "CURRILEN, Oscar Rub\u00e9n", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Chubut"
+    }, 
+    "gonzalez-juan-dante": {
+        "nombre": "GONZALEZ, Juan Dante", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Mendoza"
+    }, 
+    "piemonte-hector-horacio": {
+        "nombre": "PIEMONTE, H\u00e9ctor Horacio", 
+        "bloque": "Coalici\u00f3n C\u00edvica - ARI", 
+        "distrito": "Buenos Aires"
+    }, 
+    "brown-carlos-ramon": {
+        "nombre": "BROWN, Carlos Ram\u00f3n", 
+        "bloque": "Frente Peronista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "balestrini-alberto": {
+        "nombre": "BALESTRINI, Alberto", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "pastoriza-mirta-ameliana": {
+        "nombre": "PASTORIZA, Mirta Ameliana", 
+        "bloque": "Frente C\u00edvico por Santiago", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "santander-mario": {
+        "nombre": "SANTANDER, Mario", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "La Rioja"
+    }, 
+    "bordenave-marcela-antonia": {
+        "nombre": "BORDENAVE, Marcela Antonia", 
+        "bloque": "A.R.I", 
+        "distrito": "Buenos Aires"
+    }, 
+    "bernal-maria-eugenia": {
+        "nombre": "BERNAL, Mar\u00eda Eugenia", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Jujuy"
+    }, 
+    "barbagelata-maria-elena": {
+        "nombre": "BARBAGELATA, Mar\u00eda Elena", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "narducci-alicia-isabel": {
+        "nombre": "NARDUCCI, Alicia Isabel", 
+        "bloque": "Justicialista", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "pastoriza-eduardo": {
+        "nombre": "PASTORIZA, Eduardo", 
+        "bloque": "Bloque por la Verdad", 
+        "distrito": "Catamarca"
+    }, 
+    "daud-jorge-carlos": {
+        "nombre": "DAUD, Jorge Carlos", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "del-campillo-hector-eduardo": {
+        "nombre": "DEL CAMPILLO, H\u00e9ctor Eduardo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "naim-lidia-lucia": {
+        "nombre": "NAIM, Lidia Luc\u00eda", 
+        "bloque": "Solidaridad e Igualdad (SI)", 
+        "distrito": "Buenos Aires"
+    }, 
+    "oviedo-alejandra-beatriz": {
+        "nombre": "OVIEDO, Alejandra Beatriz", 
+        "bloque": "Justicialista Nacional", 
+        "distrito": "La Rioja"
+    }, 
+    "fiore-vinuales-maria-cristina-del-valle": {
+        "nombre": "FIORE VI\u00d1UALES, Mar\u00eda Cristina del Valle", 
+        "bloque": "Renovador de Salta", 
+        "distrito": "Salta"
+    }, 
+    "garcia-de-moreno-eva": {
+        "nombre": "GARCIA de MORENO, Eva", 
+        "bloque": "Trabajo y Dignidad", 
+        "distrito": "Chubut"
+    }, 
+    "perotti-omar-angel": {
+        "nombre": "PEROTTI, Omar Angel", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Fe"
+    }, 
+    "di-landro-oscar-jorge": {
+        "nombre": "DI LANDRO, Oscar Jorge", 
+        "bloque": "Peronista Federal", 
+        "distrito": "Buenos Aires"
+    }, 
+    "cejas-jorge-alberto": {
+        "nombre": "CEJAS, Jorge Alberto", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Rio Negro"
+    }, 
+    "lanceta-ruben-orfel": {
+        "nombre": "LANCETA, Rub\u00e9n Orfel", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "lemme-maria-alicia": {
+        "nombre": "LEMME, Mar\u00eda Alicia", 
+        "bloque": "Frente del Movimiento Popular", 
+        "distrito": "San Luis"
+    }, 
+    "milman-gerardo-fabian": {
+        "nombre": "MILMAN, Gerardo Fabi\u00e1n", 
+        "bloque": "GEN", 
+        "distrito": "Buenos Aires"
+    }, 
+    "comelli-alicia-marcela": {
+        "nombre": "COMELLI, Alicia Marcela", 
+        "bloque": "Movimiento Popular Neuquino", 
+        "distrito": "Neuqu\u00e9n"
+    }, 
+    "bulacio-nancy-evangelina": {
+        "nombre": "BULACIO, Nancy Evangelina", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "bullrich-esteban": {
+        "nombre": "BULLRICH, Esteban", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "lamisovsky-arnaldo": {
+        "nombre": "LAMISOVSKY, Arnaldo", 
+        "bloque": "Justicialista", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "llanos-ermindo-edgardo-marcelo": {
+        "nombre": "LLANOS, Ermindo Edgardo Marcelo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Jujuy"
+    }, 
+    "erro-norberto-pedro": {
+        "nombre": "ERRO, Norberto Pedro", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "garre-nilda-celia": {
+        "nombre": "GARRE, Nilda Celia", 
+        "bloque": "FREPASO", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "schmidt-liermann-cornelia": {
+        "nombre": "SCHMIDT-LIERMANN, Cornelia", 
+        "bloque": "PRO", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "foresi-irma-amelia": {
+        "nombre": "FORESI, Irma Amelia", 
+        "bloque": "Justicialista", 
+        "distrito": "Santa Fe"
+    }, 
+    "aragon-santiago": {
+        "nombre": "ARAGON, Santiago", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "nardelli-santiago": {
+        "nombre": "NARDELLI, Santiago", 
+        "bloque": "No Integra Bloque", 
+        "distrito": "Buenos Aires"
+    }, 
+    "gutierrez-julio-cesar": {
+        "nombre": "GUTIERREZ, Julio C\u00e9sar", 
+        "bloque": "Justicialista", 
+        "distrito": "Santa Fe"
+    }, 
+    "damilano-grivarello-viviana-monica": {
+        "nombre": "DAMILANO GRIVARELLO, Viviana M\u00f3nica", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Chaco"
+    }, 
+    "robledo-roberto-ricardo": {
+        "nombre": "ROBLEDO, Roberto Ricardo", 
+        "bloque": "Partido Justicialista La Pampa", 
+        "distrito": "La Pampa"
+    }, 
+    "mastrogiacomo-miguel-angel": {
+        "nombre": "MASTROGIACOMO, Miguel Angel", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "di-pollina-eduardo-alfredo": {
+        "nombre": "DI POLLINA, Eduardo Alfredo", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Santa Fe"
+    }, 
+    "rodriguez-marcela-virginia": {
+        "nombre": "RODRIGUEZ, Marcela Virginia", 
+        "bloque": "Democracia Igualitaria y Participativa", 
+        "distrito": "Buenos Aires"
+    }, 
+    "morgado-claudio-marcelo": {
+        "nombre": "MORGADO, Claudio Marcelo", 
+        "bloque": "Partido de la Concertaci\u00f3n - FORJA", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "gil-lavedra-ricardo-rodolfo": {
+        "nombre": "GIL LAVEDRA, Ricardo Rodolfo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "mansur-nelida-mabel": {
+        "nombre": "MANSUR, N\u00e9lida Mabel", 
+        "bloque": "Partido Unidad Federalista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "cuevas-hugo-oscar": {
+        "nombre": "CUEVAS, Hugo Oscar", 
+        "bloque": "De la Concertaci\u00f3n", 
+        "distrito": "Rio Negro"
+    }, 
+    "galvalisi-luis-alberto": {
+        "nombre": "GALVALISI, Luis Alberto", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "esain-daniel-martin": {
+        "nombre": "ESAIN, Daniel Mart\u00edn", 
+        "bloque": "Participaci\u00f3n Ciudadana", 
+        "distrito": "Mendoza"
+    }, 
+    "beveraggi-margarita-beatriz": {
+        "nombre": "BEVERAGGI, Margarita Beatriz", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Chaco"
+    }, 
+    "de-la-barrera-guillermo": {
+        "nombre": "DE LA BARRERA, Guillermo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Catamarca"
+    }, 
+    "depetri-edgardo-fernando": {
+        "nombre": "DEPETRI, Edgardo Fernando", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "perez-suarez-ines": {
+        "nombre": "PEREZ SUAREZ, In\u00e9s", 
+        "bloque": "Eva Per\u00f3n", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "elizondo-dante": {
+        "nombre": "ELIZONDO, Dante", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "San Juan"
+    }, 
+    "marconetto-aldo-juan": {
+        "nombre": "MARCONETTO, Aldo Juan", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Chubut"
+    }, 
+    "biglieri-maria-emilia": {
+        "nombre": "BIGLIERI, Mar\u00eda Emilia", 
+        "bloque": "Dem\u00f3crata Progresista", 
+        "distrito": "Santa Fe"
+    }, 
+    "cerdan-argentina": {
+        "nombre": "CERDAN, Argentina", 
+        "bloque": "Justicialista", 
+        "distrito": "Formosa"
+    }, 
+    "correa-juan-carlos": {
+        "nombre": "CORREA, Juan Carlos", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "heredia-arturo-miguel": {
+        "nombre": "HEREDIA, Arturo Miguel", 
+        "bloque": "Peronismo Federal", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "ferrari-gustavo-alfredo": {
+        "nombre": "FERRARI, Gustavo Alfredo", 
+        "bloque": "Frente Peronista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "gastanaga-graciela-ines": {
+        "nombre": "GASTA\u00d1AGA, Graciela Ines", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "mouilleron-roberto-mario": {
+        "nombre": "MOUILLERON, Roberto Mario", 
+        "bloque": "Uni\u00f3n Peronista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "mirabile-jose-arnaldo": {
+        "nombre": "MIRABILE, Jos\u00e9 Arnaldo", 
+        "bloque": "Frente del Movimiento Popular", 
+        "distrito": "San Luis"
+    }, 
+    "grosso-leonardo": {
+        "nombre": "GROSSO, Leonardo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "zamarreno-maria-eugenia": {
+        "nombre": "ZAMARRE\u00d1O, Mar\u00eda Eugenia", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "perie-julia-argentina": {
+        "nombre": "PERIE, Julia Argentina", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Misiones"
+    }, 
+    "asseff-alberto-emilio": {
+        "nombre": "ASSEFF, Alberto Emilio", 
+        "bloque": "Frente Peronista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "dutto-gustavo-alberto": {
+        "nombre": "DUTTO, Gustavo Alberto", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "roselli-jose-alberto": {
+        "nombre": "ROSELLI, Jos\u00e9 Alberto", 
+        "bloque": "Convergencia", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "arriaga-julio-esteban": {
+        "nombre": "ARRIAGA, Julio Esteban", 
+        "bloque": "Uni\u00f3n Peronista", 
+        "distrito": "Rio Negro"
+    }, 
+    "ferrari-de-grand-teresa-hortensia": {
+        "nombre": "FERRARI de GRAND, Teresa Hortensia", 
+        "bloque": "Justicialista", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "gioja-juan-carlos": {
+        "nombre": "GIOJA, Juan Carlos", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "San Juan"
+    }, 
+    "jarque-margarita-ofelia": {
+        "nombre": "JARQUE, Margarita Ofelia", 
+        "bloque": "Encuentro", 
+        "distrito": "Buenos Aires"
+    }, 
+    "gambaro-natalia": {
+        "nombre": "GAMBARO, Natalia", 
+        "bloque": "Frente Peronista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "cardelli-jorge-justo": {
+        "nombre": "CARDELLI, Jorge Justo", 
+        "bloque": "Proyecto Sur", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "vazquez-ricardo-hector": {
+        "nombre": "VAZQUEZ, Ricardo Hector", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "parada-liliana-beatriz": {
+        "nombre": "PARADA, Liliana Beatriz", 
+        "bloque": "Unidad Popular", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "pucheta-ramona": {
+        "nombre": "PUCHETA, Ramona", 
+        "bloque": "Socialista del MIJD", 
+        "distrito": "Buenos Aires"
+    }, 
+    "cassese-marina": {
+        "nombre": "CASSESE, Marina", 
+        "bloque": "Justicialista Nacional", 
+        "distrito": "Buenos Aires"
+    }, 
+    "moreno-carlos-julio": {
+        "nombre": "MORENO, Carlos Julio", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "rojkes-de-alperovich-beatriz-liliana": {
+        "nombre": "ROJKES de ALPEROVICH, Beatriz Liliana", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "baigorria-miguel-angel": {
+        "nombre": "BAIGORRIA, Miguel Angel", 
+        "bloque": "Justicialista", 
+        "distrito": "Tierra del Fuego"
+    }, 
+    "sylvestre-begnis-juan-hector": {
+        "nombre": "SYLVESTRE BEGNIS, Juan H\u00e9ctor", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Fe"
+    }, 
+    "cisterna-victor-hugo": {
+        "nombre": "CISTERNA, Victor Hugo", 
+        "bloque": "Justicialista", 
+        "distrito": "Chubut"
+    }, 
+    "gonzalez-nancy-susana": {
+        "nombre": "GONZALEZ, Nancy Susana", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Chubut"
+    }, 
+    "garcia-irma-adriana": {
+        "nombre": "GARCIA, Irma Adriana", 
+        "bloque": "Uni\u00f3n Peronista", 
+        "distrito": "La Pampa"
+    }, 
+    "acevedo-sergio-edgardo": {
+        "nombre": "ACEVEDO, Sergio Edgardo", 
+        "bloque": "Justicialista", 
+        "distrito": "Santa Cruz"
+    }, 
+    "giubergia-miguel-angel": {
+        "nombre": "GIUBERGIA, Miguel Angel", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Jujuy"
+    }, 
+    "pruyas-tomas-ruben": {
+        "nombre": "PRUYAS, Tom\u00e1s Rub\u00e9n", 
+        "bloque": "Justicialista", 
+        "distrito": "Corrientes"
+    }, 
+    "sanchez-fernando": {
+        "nombre": "SANCHEZ, Fernando", 
+        "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "fortuna-francisco-jose": {
+        "nombre": "FORTUNA, Francisco Jos\u00e9", 
+        "bloque": "C\u00f3rdoba Federal", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "blanco-jesus-abel": {
+        "nombre": "BLANCO, Jesus Abel", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "collantes-genaro": {
+        "nombre": "COLLANTES, Genaro", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Catamarca"
+    }, 
+    "lusquinos-luis-bernardo": {
+        "nombre": "LUSQUI\u00d1OS, Luis Bernardo", 
+        "bloque": "Frente Justicia Uni\u00f3n y Libertad", 
+        "distrito": "San Luis"
+    }, 
+    "forte-ulises-umberto": {
+        "nombre": "FORTE, Ulises Umberto", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "La Pampa"
+    }, 
+    "calchaqui-mariel": {
+        "nombre": "CALCHAQUI, Mariel", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tierra del Fuego"
+    }, 
+    "martinez-silvia-virginia": {
+        "nombre": "MARTINEZ, Silvia Virginia", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "hotton-cynthia-liliana": {
+        "nombre": "HOTTON, Cynthia Liliana", 
+        "bloque": "Valores para mi Pa\u00eds", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "molinari-romero-luis": {
+        "nombre": "MOLINARI ROMERO, Luis", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "yazbek-ruben-david": {
+        "nombre": "YAZBEK, Rub\u00e9n David", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Catamarca"
+    }, 
+    "fein-monica-hayde": {
+        "nombre": "FEIN, M\u00f3nica Hayde", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Santa Fe"
+    }, 
+    "delich-francisco": {
+        "nombre": "DELICH, Francisco", 
+        "bloque": "Partido Nuevo Contra la Corrupci\u00f3n", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "godoy-ruperto-eduardo": {
+        "nombre": "GODOY, Ruperto Eduardo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "San Juan"
+    }, 
+    "martinez-carignano-ernesto-felix": {
+        "nombre": "MARTINEZ CARIGNANO, Ernesto F\u00e9lix", 
+        "bloque": "Frente C\u00edvico - C\u00f3rdoba", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "artola-isabel-amanda": {
+        "nombre": "ARTOLA, Isabel Amanda", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "rial-osvaldo-hugo": {
+        "nombre": "RIAL, Osvaldo Hugo", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "urlich-carlos": {
+        "nombre": "URLICH, Carlos", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Chaco"
+    }, 
+    "parentella-irma-fidela": {
+        "nombre": "PARENTELLA, Irma Fidela", 
+        "bloque": "Frente Grande", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "faustinelli-hipolito": {
+        "nombre": "FAUSTINELLI, Hip\u00f3lito", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "guccione-jose-daniel": {
+        "nombre": "GUCCIONE, Jos\u00e9 Daniel", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Misiones"
+    }, 
+    "majdalani-silvia-cristina": {
+        "nombre": "MAJDALANI, Silvia Cristina", 
+        "bloque": "PRO", 
+        "distrito": "Buenos Aires"
+    }, 
+    "paroli-raul-omar": {
+        "nombre": "PAROLI, Ra\u00fal Omar", 
+        "bloque": "Frente C\u00edvico y Social de Catamarca", 
+        "distrito": "Catamarca"
+    }, 
+    "ferra-de-bartol-margarita": {
+        "nombre": "FERRA de BARTOL, Margarita", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "San Juan"
+    }, 
+    "pepe-lorenzo-antonio": {
+        "nombre": "PEPE, Lorenzo Antonio", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "martinez-oscar-ariel": {
+        "nombre": "MARTINEZ, Oscar Ariel", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Fe"
+    }, 
+    "portela-agustin-alberto": {
+        "nombre": "PORTELA, Agust\u00edn Alberto", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Corrientes"
+    }, 
+    "jaroslavsky-gracia-maria": {
+        "nombre": "JAROSLAVSKY, Gracia Maria", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "maldonado-hugo": {
+        "nombre": "MALDONADO, Hugo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Chaco"
+    }, 
+    "casanas-juan-francisco": {
+        "nombre": "CASA\u00d1AS, Juan Francisco", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "santillan-walter-marcelo": {
+        "nombre": "SANTILLAN, Walter Marcelo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "azcoiti-pedro-jose": {
+        "nombre": "AZCOITI, Pedro Jos\u00e9", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "di-tullio-juliana": {
+        "nombre": "di TULLIO, Juliana", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "alvarez-juan-jose": {
+        "nombre": "ALVAREZ, Juan Jos\u00e9", 
+        "bloque": "Nucleo Unidad Peronista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "quiroz-elsa-siria": {
+        "nombre": "QUIROZ, Elsa Siria", 
+        "bloque": "Coalici\u00f3n C\u00edvica", 
+        "distrito": "Buenos Aires"
+    }, 
+    "ocana-maria-graciela": {
+        "nombre": "OCA\u00d1A, Maria Graciela", 
+        "bloque": "Unidad para el Desarrollo Social y la Equidad", 
+        "distrito": "Buenos Aires"
+    }, 
+    "mendoza-mayra-soledad": {
+        "nombre": "MENDOZA, Mayra Soledad", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "ibarra-eduardo-mauricio": {
+        "nombre": "IBARRA, Eduardo Mauricio", 
+        "bloque": "Uni\u00f3n por San Juan", 
+        "distrito": "San Juan"
+    }, 
+    "roldan-jose-maria": {
+        "nombre": "ROLDAN, Jos\u00e9 Mar\u00eda", 
+        "bloque": "Frente de Todos", 
+        "distrito": "Corrientes"
+    }, 
+    "tanoni-enrique": {
+        "nombre": "TANONI, Enrique", 
+        "bloque": "Justicialista", 
+        "distrito": "Salta"
+    }, 
+    "de-brasi-marta-susana": {
+        "nombre": "DE BRASI, Marta Susana", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "honcheruk-atlanto": {
+        "nombre": "HONCHERUK, Atlanto", 
+        "bloque": "Justicialista", 
+        "distrito": "Chaco"
+    }, 
+    "cordoba-stella-maris": {
+        "nombre": "CORDOBA, Stella Maris", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "di-leo-marta-isabel": {
+        "nombre": "DI LEO, Marta Isabel", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "correa-elsa-haydee": {
+        "nombre": "CORREA, Elsa Haydee", 
+        "bloque": "Justicialista", 
+        "distrito": "Mendoza"
+    }, 
+    "gorbacz-leonardo-ariel": {
+        "nombre": "GORBACZ, Leonardo Ariel", 
+        "bloque": "Proyecto Progresista", 
+        "distrito": "Tierra del Fuego"
+    }, 
+    "ibarra-vilma-lidia": {
+        "nombre": "IBARRA, Vilma Lidia", 
+        "bloque": "Nuevo Encuentro Popular y Solidario", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "zuniga-ovidio-octavio": {
+        "nombre": "ZU\u00d1IGA, Ovidio Octavio", 
+        "bloque": "Justicialista", 
+        "distrito": "Rio Negro"
+    }, 
+    "cigogna-luis-francisco-jorge": {
+        "nombre": "CIGOGNA, Luis Francisco Jorge", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "ardid-mario-rolando": {
+        "nombre": "ARDID, Mario Rolando", 
+        "bloque": "Partido Nuevo Contra la Corrupci\u00f3n", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "basile-daniel-armando": {
+        "nombre": "BASILE, Daniel Armando", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "fernandez-alfredo-cesar": {
+        "nombre": "FERNANDEZ, Alfredo Cesar", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Mendoza"
+    }, 
+    "serebrinsky-gustavo-eduardo": {
+        "nombre": "SEREBRINSKY, Gustavo Eduardo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "barbieri-mario-leandro": {
+        "nombre": "BARBIERI, Mario Leandro", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "lopez-arias-marcelo-eduardo": {
+        "nombre": "LOPEZ ARIAS, Marcelo Eduardo", 
+        "bloque": "Peronista", 
+        "distrito": "Salta"
+    }, 
+    "gonzalez-gladys-esther": {
+        "nombre": "GONZALEZ, Gladys Esther", 
+        "bloque": "PRO", 
+        "distrito": "Buenos Aires"
+    }, 
+    "de-prat-gay-alfonso": {
+        "nombre": "de PRAT GAY, Alfonso", 
+        "bloque": "Coalici\u00f3n C\u00edvica - ARI", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "de-pedro-eduardo-enrique": {
+        "nombre": "de PEDRO, Eduardo Enrique", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "bussi-ricardo": {
+        "nombre": "BUSSI, Ricardo", 
+        "bloque": "Fuerza Republicana", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "kunkel-carlos-miguel": {
+        "nombre": "KUNKEL, Carlos Miguel", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "santillan-marcelo": {
+        "nombre": "SANTILLAN, Marcelo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "accavallo-julio-cesar": {
+        "nombre": "ACCAVALLO, Julio C\u00e9sar", 
+        "bloque": "Encuentro", 
+        "distrito": "Rio Negro"
+    }, 
+    "dovena-miguel-dante": {
+        "nombre": "DOVENA, Miguel Dante", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "cavallero-hector-jose": {
+        "nombre": "CAVALLERO, Hector Jos\u00e9", 
+        "bloque": "Justicialista", 
+        "distrito": "Santa Fe"
+    }, 
+    "gullo-juan-carlos-dante": {
+        "nombre": "GULLO, Juan Carlos Dante", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "michetti-marta-gabriela": {
+        "nombre": "MICHETTI, Marta Gabriela", 
+        "bloque": "PRO", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "lopez-ernesto-segundo": {
+        "nombre": "LOPEZ, Ernesto Segundo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "San Juan"
+    }, 
+    "irrazabal-juan-manuel": {
+        "nombre": "IRRAZABAL, Juan Manuel", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Misiones"
+    }, 
+    "lopez-amelia-de-los-milagros": {
+        "nombre": "LOPEZ, Amelia de los Milagros", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "moray-hector-luis": {
+        "nombre": "MORAY, Hector Luis", 
+        "bloque": "Frente Partido Nuevo", 
+        "distrito": "Corrientes"
+    }, 
+    "zbar-agustin": {
+        "nombre": "ZBAR, Agust\u00edn", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "fernandez-sagasti-anabel": {
+        "nombre": "FERNANDEZ SAGASTI, Anabel", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Mendoza"
+    }, 
+    "de-bernardi-eduardo": {
+        "nombre": "DE BERNARDI, Eduardo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Chubut"
+    }, 
+    "iparraguirre-carlos-raul": {
+        "nombre": "IPARRAGUIRRE, Carlos Ra\u00fal", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Santa Fe"
+    }, 
+    "aguero-elda-susana": {
+        "nombre": "AGUERO, Elda Susana", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "saredi-roberto-miguel": {
+        "nombre": "SAREDI, Roberto Miguel", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "richter-ana": {
+        "nombre": "RICHTER, Ana", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "risko-silvia-lucrecia": {
+        "nombre": "RISKO, Silvia Lucrecia", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Misiones"
+    }, 
+    "bianchi-maria-del-carmen": {
+        "nombre": "BIANCHI, Mar\u00eda del Carmen", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "giacomino-daniel-oscar": {
+        "nombre": "GIACOMINO, Daniel Oscar", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "tazzioli-atilio-pascual": {
+        "nombre": "TAZZIOLI, Atilio Pascual", 
+        "bloque": "Frente Grande", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "petit-maria-de-los-angeles": {
+        "nombre": "PETIT, Mar\u00eda de los Angeles", 
+        "bloque": "Peronismo Federal", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "sebriano-luis-alberto": {
+        "nombre": "SEBRIANO, Luis Alberto", 
+        "bloque": "Justicialista", 
+        "distrito": "Formosa"
+    }, 
+    "cittadini-stella": {
+        "nombre": "CITTADINI, Stella", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "west-mariano-federico": {
+        "nombre": "WEST, Mariano Feder\u00edco", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "aspiazu-lucio-bernardo": {
+        "nombre": "ASPIAZU, Lucio Bernardo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Corrientes"
+    }, 
+    "brue-daniel-agustin": {
+        "nombre": "BRUE, Daniel Agust\u00edn", 
+        "bloque": "Frente C\u00edvico por Santiago", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "ruiz-ramon": {
+        "nombre": "RUIZ, Ram\u00f3n", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "mazzarella-susana-del-valle": {
+        "nombre": "MAZZARELLA, Susana del Valle", 
+        "bloque": "Frente C\u00edvico - C\u00f3rdoba", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "lotto-de-vecchietti-ines-beatriz": {
+        "nombre": "LOTTO de VECCHIETTI, In\u00e9s Beatriz", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Formosa"
+    }, 
+    "sacca-luis-fernando": {
+        "nombre": "SACCA, Luis Fernando", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "carmona-maria-araceli": {
+        "nombre": "CARMONA, Mar\u00eda Araceli", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Corrientes"
+    }, 
+    "rozas-angel": {
+        "nombre": "ROZAS, Angel", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Chaco"
+    }, 
+    "iturrieta-miguel-angel": {
+        "nombre": "ITURRIETA, Miguel Angel", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Misiones"
+    }, 
+    "catalan-magni-julio-cesar": {
+        "nombre": "CATALAN MAGNI, Julio C\u00e9sar", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tierra del Fuego"
+    }, 
+    "rivas-olijela-del-valle": {
+        "nombre": "RIVAS, Olijela del Valle", 
+        "bloque": "Justicialista", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "rioboo-sandra-adriana": {
+        "nombre": "RIOBOO, Sandra Adriana", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "dato-alfredo-carlos": {
+        "nombre": "DATO, Alfredo Carlos", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "garcia-merida-miguel-angel": {
+        "nombre": "GARCIA MERIDA, Miguel Angel", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "perez-jorge-raul": {
+        "nombre": "PEREZ, Jorge Ra\u00fal", 
+        "bloque": "Frente C\u00edvico por Santiago", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "britos-oraldo-norvel": {
+        "nombre": "BRITOS, Oraldo Norvel", 
+        "bloque": "Justicialista", 
+        "distrito": "San Luis"
+    }, 
+    "cettour-hugo-ramon": {
+        "nombre": "CETTOUR, Hugo Ram\u00f3n", 
+        "bloque": "Justicialista", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "nieva-alejandro-mario": {
+        "nombre": "NIEVA, Alejandro Mario", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Jujuy"
+    }, 
+    "iturraspe-nora-graciela": {
+        "nombre": "ITURRASPE, Nora Graciela", 
+        "bloque": "Unidad Popular", 
+        "distrito": "Buenos Aires"
+    }, 
+    "francioni-fabian-marcelo": {
+        "nombre": "FRANCIONI, Fabi\u00e1n Marcelo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "benas-veronica-claudia": {
+        "nombre": "BENAS, Ver\u00f3nica Claudia", 
+        "bloque": "Unidad Popular", 
+        "distrito": "Santa Fe"
+    }, 
+    "lorenzo-borocoto-eduardo": {
+        "nombre": "LORENZO BOROCOTO, Eduardo", 
+        "bloque": "Movimiento Independiente", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "doga-maria-nelida": {
+        "nombre": "DOGA, Mar\u00eda N\u00e9lida", 
+        "bloque": "Justicialista Nacional", 
+        "distrito": "Buenos Aires"
+    }, 
+    "cordoba-jose-manuel": {
+        "nombre": "CORDOBA, Jos\u00e9 Manuel", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Cruz"
+    }, 
+    "ilarregui-luis-alfredo": {
+        "nombre": "ILARREGUI, Luis Alfredo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "kirchner-nestor-carlos": {
+        "nombre": "KIRCHNER, N\u00e9stor Carlos", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "fadel-patricia-susana": {
+        "nombre": "FADEL, Patricia Susana", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Mendoza"
+    }, 
+    "soda-maria-nilda": {
+        "nombre": "SODA, Maria Nilda", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Misiones"
+    }, 
+    "piccinini-alberto-jose": {
+        "nombre": "PICCININI, Alberto Jos\u00e9", 
+        "bloque": "A.R.I", 
+        "distrito": "Santa Fe"
+    }, 
+    "pietragalla-corti-horacio": {
+        "nombre": "PIETRAGALLA CORTI, Horacio", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "vega-juan-carlos": {
+        "nombre": "VEGA, Juan Carlos", 
+        "bloque": "Coalici\u00f3n C\u00edvica", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "salim-fernando-omar": {
+        "nombre": "SALIM, Fernando Omar", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "chaya-maria-lelia": {
+        "nombre": "CHAYA, Mar\u00eda Lelia", 
+        "bloque": "Justicialista", 
+        "distrito": "Salta"
+    }, 
+    "basteiro-sergio-ariel": {
+        "nombre": "BASTEIRO, Sergio Ariel", 
+        "bloque": "Nuevo Encuentro Popular y Solidario", 
+        "distrito": "Buenos Aires"
+    }, 
+    "coto-alberto-agustin": {
+        "nombre": "COTO, Alberto Agust\u00edn", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "veaute-mariana-alejandra": {
+        "nombre": "VEAUTE, Mariana Alejandra", 
+        "bloque": "Frente C\u00edvico y Social de Catamarca", 
+        "distrito": "Catamarca"
+    }, 
+    "lemos-silvia": {
+        "nombre": "LEMOS, Silvia", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Mendoza"
+    }, 
+    "argul-marta-del-carmen": {
+        "nombre": "ARGUL, Marta del Carmen", 
+        "bloque": "MO.RE.CI", 
+        "distrito": "Jujuy"
+    }, 
+    "fiad-mario-raymundo": {
+        "nombre": "FIAD, Mario Raymundo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Jujuy"
+    }, 
+    "lorges-juan-carlos": {
+        "nombre": "LORGES, Juan Carlos", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "castro-alicia-amalia": {
+        "nombre": "CASTRO, Alicia Amalia", 
+        "bloque": "Frente para el Cambio", 
+        "distrito": "Buenos Aires"
+    }, 
+    "sesma-laura-judith": {
+        "nombre": "SESMA, Laura Judith", 
+        "bloque": "Partido Socialista", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "ritondo-cristian": {
+        "nombre": "RITONDO, Cristian", 
+        "bloque": "Propuesta Peronista", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "varizat-daniel-alberto": {
+        "nombre": "VARIZAT, Daniel Alberto", 
+        "bloque": "Justicialista", 
+        "distrito": "Santa Cruz"
+    }, 
+    "perie-hugo-ruben": {
+        "nombre": "PERIE, Hugo Rub\u00e9n", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Corrientes"
+    }, 
+    "herrera-jose-alberto": {
+        "nombre": "HERRERA, Jos\u00e9 Alberto", 
+        "bloque": "Frente C\u00edvico por Santiago", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "saade-blanca-azucena": {
+        "nombre": "SAADE, Blanca Azucena", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Salta"
+    }, 
+    "perez-alberto-cesar": {
+        "nombre": "PEREZ, Alberto Cesar", 
+        "bloque": "Movimiento Popular Neuquino", 
+        "distrito": "Neuqu\u00e9n"
+    }, 
+    "molas-pedro-omar": {
+        "nombre": "MOLAS, Pedro Omar", 
+        "bloque": "Frente C\u00edvico y Social de Catamarca", 
+        "distrito": "Catamarca"
+    }, 
+    "sartori-diego-horacio": {
+        "nombre": "SARTORI, Diego Horacio", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Misiones"
+    }, 
+    "savron-hayde-teresa": {
+        "nombre": "SAVRON, Hayde Teresa", 
+        "bloque": "Movimiento Popular Neuquino", 
+        "distrito": "Neuqu\u00e9n"
+    }, 
+    "martinelli-guillermo-jesus": {
+        "nombre": "MARTINELLI, Guillermo Jes\u00fas", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Salta"
+    }, 
+    "bielsa-rafael": {
+        "nombre": "BIELSA, Rafael", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "schiavoni-esther-aida": {
+        "nombre": "SCHIAVONI, Esther Aida", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "coirini-adriana-elsa": {
+        "nombre": "COIRINI, Adriana Elsa", 
+        "bloque": "Peronista Federal", 
+        "distrito": "Buenos Aires"
+    }, 
+    "ginzburg-nora": {
+        "nombre": "GINZBURG, Nora", 
+        "bloque": "Frente por los Derechos Ciudadanos", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "pernasetti-horacio-francisco": {
+        "nombre": "PERNASETTI, Horacio Francisco", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Catamarca"
+    }, 
+    "vivo-horacio": {
+        "nombre": "VIVO, Horacio", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "godoy-juan-carlos": {
+        "nombre": "GODOY, Juan Carlos", 
+        "bloque": "Concertaci\u00f3n Entrerriana", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "musa-laura-cristina": {
+        "nombre": "MUSA, Laura Cristina", 
+        "bloque": "A.R.I", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "camano-eduardo-oscar": {
+        "nombre": "CAMA\u00d1O, Eduardo Oscar", 
+        "bloque": "Justicialista Nacional", 
+        "distrito": "Buenos Aires"
+    }, 
+    "tunessi-juan-pedro": {
+        "nombre": "TUNESSI, Juan Pedro", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "corfield-guillermo-eduardo": {
+        "nombre": "CORFIELD, Guillermo Eduardo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "lopez-rafael-angel": {
+        "nombre": "LOPEZ, Rafael Angel", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Formosa"
+    }, 
+    "alfaro-german-enrique": {
+        "nombre": "ALFARO, Germ\u00e1n Enrique", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "baigorri-guillermo-francisco": {
+        "nombre": "BAIGORRI, Guillermo Francisco", 
+        "bloque": "Vida y Compromiso", 
+        "distrito": "San Juan"
+    }, 
+    "yague-linda-cristina": {
+        "nombre": "YAG\u00dbE, Linda Cristina", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Neuqu\u00e9n"
+    }, 
+    "zimmermann-victor": {
+        "nombre": "ZIMMERMANN, V\u00edctor", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Chaco"
+    }, 
+    "cantini-guillermo-marcelo": {
+        "nombre": "CANTINI, Guillermo Marcelo", 
+        "bloque": "Uni\u00f3n por Argentina", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "rossi-agustin-oscar": {
+        "nombre": "ROSSI, Agust\u00edn Oscar", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Fe"
+    }, 
+    "cusinato-jose-cesar-gustavo": {
+        "nombre": "CUSINATO, Jos\u00e9 C\u00e9sar Gustavo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "fellner-liliana": {
+        "nombre": "FELLNER, Liliana", 
+        "bloque": "Justicialista", 
+        "distrito": "Jujuy"
+    }, 
+    "caceres-gladys-antonia": {
+        "nombre": "CACERES, Gladys Antonia", 
+        "bloque": "Justicialista", 
+        "distrito": "La Rioja"
+    }, 
+    "cambareri-fortunato-rafael": {
+        "nombre": "CAMBARERI, Fortunato Rafael", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Chubut"
+    }, 
+    "blanco-de-peralta-blanca": {
+        "nombre": "BLANCO de PERALTA, Blanca", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Cruz"
+    }, 
+    "barrionuevo-jose-luis": {
+        "nombre": "BARRIONUEVO, Jos\u00e9 Luis", 
+        "bloque": "Nacional Sindical", 
+        "distrito": "Catamarca"
+    }, 
+    "mansur-ricardo-alfredo": {
+        "nombre": "MANSUR, Ricardo Alfredo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Mendoza"
+    }, 
+    "daza-hector-ruben": {
+        "nombre": "DAZA, H\u00e9ctor Rub\u00e9n", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Jujuy"
+    }, 
+    "lopez-juan-carlos": {
+        "nombre": "LOPEZ, Juan Carlos", 
+        "bloque": "Encuentro Popular", 
+        "distrito": "Buenos Aires"
+    }, 
+    "storani-federico-teobaldo": {
+        "nombre": "STORANI, Federico Teobaldo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "sanchez-liliana-ester": {
+        "nombre": "SANCHEZ, Liliana Ester", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "brizuela-y-doria-de-cara-olga-ines": {
+        "nombre": "BRIZUELA Y DORIA DE CARA, Olga In\u00e9s", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "La Rioja"
+    }, 
+    "bonacorsi-juan-carlos": {
+        "nombre": "BONACORSI, Juan Carlos", 
+        "bloque": "Partido Unidad Federalista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "gonzalez-oscar-roberto": {
+        "nombre": "GONZALEZ, Oscar Roberto", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "abalos-roberto": {
+        "nombre": "ABALOS, Roberto", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "melillo-fernando-cesar": {
+        "nombre": "MELILLO, Fernando Cesar", 
+        "bloque": "Frente Grande", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "canevarolo-dante-omar": {
+        "nombre": "CANEVAROLO, Dante Omar", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Cruz"
+    }, 
+    "nemirovsci-osvaldo-mario": {
+        "nombre": "NEMIROVSCI, Osvaldo Mario", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Rio Negro"
+    }, 
+    "guerci-de-siufi-beatriz-elvira": {
+        "nombre": "GUERCI de SIUFI, Beatriz Elvira", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Jujuy"
+    }, 
+    "sejas-lisandro-mauricio": {
+        "nombre": "SEJAS, Lisandro Mauricio", 
+        "bloque": "U. Ce. De.", 
+        "distrito": "Buenos Aires"
+    }, 
+    "capello-mario-osvaldo": {
+        "nombre": "CAPELLO, Mario Osvaldo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "San Juan"
+    }, 
+    "delajonquiere-nelson": {
+        "nombre": "DELAJONQUIERE, Nelson", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Santa Fe"
+    }, 
+    "spatola-paola-rosana": {
+        "nombre": "SPATOLA, Paola Rosana", 
+        "bloque": "Guardia Peronista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "fernandez-rodolfo-alfredo": {
+        "nombre": "FERNANDEZ, Rodolfo Alfredo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Corrientes"
+    }, 
+    "granados-dulce": {
+        "nombre": "GRANADOS, Dulce", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "giannettasio-graciela-maria": {
+        "nombre": "GIANNETTASIO, Graciela Mar\u00eda", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "moises-maria-carolina": {
+        "nombre": "MOISES, Mar\u00eda Carolina", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Jujuy"
+    }, 
+    "carlotto-remo-gerardo": {
+        "nombre": "CARLOTTO, Remo Gerardo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "posse-melchor-angel": {
+        "nombre": "POSSE, Melchor Angel", 
+        "bloque": "Frente del Movimiento Popular", 
+        "distrito": "Buenos Aires"
+    }, 
+    "contrera-monica-graciela": {
+        "nombre": "CONTRERA, M\u00f3nica Graciela", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Chubut"
+    }, 
+    "fernandez-marcelo-omar": {
+        "nombre": "FERNANDEZ, Marcelo Omar", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "neri-aldo": {
+        "nombre": "NERI, Aldo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "alvarez-jorge-mario": {
+        "nombre": "ALVAREZ, Jorge Mario", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Santa Fe"
+    }, 
+    "de-narvaez-francisco": {
+        "nombre": "DE NARVAEZ, Francisco", 
+        "bloque": "Frente Peronista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "baladron-manuel-justo": {
+        "nombre": "BALADRON, Manuel Justo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "La Pampa"
+    }, 
+    "pelaez-victor": {
+        "nombre": "PELAEZ, Victor", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Neuqu\u00e9n"
+    }, 
+    "cantero-gutierrez-alberto": {
+        "nombre": "CANTERO GUTIERREZ, Alberto", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "quintela-ricardo-clemente": {
+        "nombre": "QUINTELA, Ricardo Clemente", 
+        "bloque": "Justicialista", 
+        "distrito": "La Rioja"
+    }, 
+    "bortolozzi-de-bogado-adriana-raquel": {
+        "nombre": "BORTOLOZZI de BOGADO, Adriana Raquel", 
+        "bloque": "Justicialista", 
+        "distrito": "Formosa"
+    }, 
+    "rosso-graciela-zulema": {
+        "nombre": "ROSSO, Graciela Zulema", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "jobe-miguel-antonio": {
+        "nombre": "JOBE, Miguel Antonio", 
+        "bloque": "Unidad Federalista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "marino-adriana-del-carmen": {
+        "nombre": "MARINO, Adriana del Carmen", 
+        "bloque": "Frente Producci\u00f3n y Trabajo", 
+        "distrito": "San Juan"
+    }, 
+    "alfonsin-ricardo-luis": {
+        "nombre": "ALFONSIN, Ricardo Luis", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "de-marchi-omar-bruno": {
+        "nombre": "DE MARCHI, Omar Bruno", 
+        "bloque": "Dem\u00f3crata de Mendoza", 
+        "distrito": "Mendoza"
+    }, 
+    "franco-hugo-alberto": {
+        "nombre": "FRANCO, Hugo Alberto", 
+        "bloque": "Frente Popular Bonaerense", 
+        "distrito": "Buenos Aires"
+    }, 
+    "morales-nelida-beatriz": {
+        "nombre": "MORALES, N\u00e9lida Beatriz", 
+        "bloque": "Frente del Movimiento Popular", 
+        "distrito": "Buenos Aires"
+    }, 
+    "cuccovillo-ricardo-oscar": {
+        "nombre": "CUCCOVILLO, Ricardo Oscar", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "soto-gladys-beatriz": {
+        "nombre": "SOTO, Gladys Beatriz", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Chaco"
+    }, 
+    "bidegain-gloria-mercedes": {
+        "nombre": "BIDEGAIN, Gloria Mercedes", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "chiacchio-nora-alicia": {
+        "nombre": "CHIACCHIO, Nora Alicia", 
+        "bloque": "Peronista Federal", 
+        "distrito": "Buenos Aires"
+    }, 
+    "calza-nelio-higinio": {
+        "nombre": "CALZA, Nelio Higinio", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "torfe-monica-liliana": {
+        "nombre": "TORFE, M\u00f3nica Liliana", 
+        "bloque": "Renovador de Salta", 
+        "distrito": "Salta"
+    }, 
+    "roberti-alberto-oscar": {
+        "nombre": "ROBERTI, Alberto Oscar", 
+        "bloque": "Frente Renovador Peronista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "arguello-jorge": {
+        "nombre": "ARG\u00dcELLO, Jorge", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "gutierrez-monica-edith": {
+        "nombre": "GUTIERREZ, M\u00f3nica Edith", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "mongelo-jose-ricardo": {
+        "nombre": "MONGELO, Jos\u00e9 Ricardo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Chaco"
+    }, 
+    "romero-gabriel": {
+        "nombre": "ROMERO, Gabriel", 
+        "bloque": "Justicialista", 
+        "distrito": "Neuqu\u00e9n"
+    }, 
+    "menem-eduardo-adrian": {
+        "nombre": "MENEM, Eduardo Adri\u00e1n", 
+        "bloque": "Justicialista Nacional", 
+        "distrito": "La Rioja"
+    }, 
+    "monteagudo-maria-lucrecia": {
+        "nombre": "MONTEAGUDO, Mar\u00eda Lucrecia", 
+        "bloque": "Partido Intransigente", 
+        "distrito": "Buenos Aires"
+    }, 
+    "bullrich-patricia": {
+        "nombre": "BULLRICH, Patricia", 
+        "bloque": "Uni\u00f3n por Todos", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "chironi-fernando-gustavo": {
+        "nombre": "CHIRONI, Fernando Gustavo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Rio Negro"
+    }, 
+    "asef-daniel-edgardo": {
+        "nombre": "ASEF, Daniel Edgardo", 
+        "bloque": "Nucleo Unidad Peronista", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "alarcon-maria-del-carmen": {
+        "nombre": "ALARCON, Mar\u00eda del Carmen", 
+        "bloque": "Movimiento Pampa Sur", 
+        "distrito": "Santa Fe"
+    }, 
+    "barchetta-omar-segundo": {
+        "nombre": "BARCHETTA, Omar Segundo", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Santa Fe"
+    }, 
+    "sapag-silvia-estela": {
+        "nombre": "SAPAG, Silvia Estela", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Neuqu\u00e9n"
+    }, 
+    "bayonzo-liliana-amelia": {
+        "nombre": "BAYONZO, Liliana Amelia", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Chaco"
+    }, 
+    "isla-de-saraceni-celia-anita": {
+        "nombre": "ISLA de SARACENI, Celia Anita", 
+        "bloque": "Justicialista", 
+        "distrito": "Misiones"
+    }, 
+    "gonzalez-de-duhalde-hilda": {
+        "nombre": "GONZALEZ de DUHALDE, Hilda", 
+        "bloque": "Peronista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "grosso-edgardo-roger-miguel": {
+        "nombre": "GROSSO, Edgardo Roger Miguel", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "prieto-hugo-nelson": {
+        "nombre": "PRIETO, Hugo Nelson", 
+        "bloque": "De la Concertaci\u00f3n", 
+        "distrito": "Neuqu\u00e9n"
+    }, 
+    "barrios-miguel-angel": {
+        "nombre": "BARRIOS, Miguel Angel", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Santa Fe"
+    }, 
+    "garcia-mendez-emilio": {
+        "nombre": "GARCIA MENDEZ, Emilio", 
+        "bloque": "Solidaridad e Igualdad (SI)", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "poggi-claudio-javier": {
+        "nombre": "POGGI, Claudio Javier", 
+        "bloque": "Frente Justicia Uni\u00f3n y Libertad", 
+        "distrito": "San Luis"
+    }, 
+    "zabalza-juan-carlos": {
+        "nombre": "ZABALZA, Juan Carlos", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Santa Fe"
+    }, 
+    "lix-klett-roberto-ignacio": {
+        "nombre": "LIX KLETT, Roberto Ignacio", 
+        "bloque": "Fuerza Republicana", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "garcia-eduardo-daniel": {
+        "nombre": "GARCIA, Eduardo Daniel", 
+        "bloque": "Partido Socialista", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "beccani-alberto-juan": {
+        "nombre": "BECCANI, Alberto Juan", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Santa Fe"
+    }, 
+    "leguizamon-maria-laura": {
+        "nombre": "LEGUIZAMON, Mar\u00eda Laura", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "forconi-juan-carlos": {
+        "nombre": "FORCONI, Juan Carlos", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Fe"
+    }, 
+    "stubrin-marcelo-juan-alberto": {
+        "nombre": "STUBRIN, Marcelo Juan Alberto", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "walsh-patricia": {
+        "nombre": "WALSH, Patricia", 
+        "bloque": "Izquierda Unida", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "dragan-marcelo-luis": {
+        "nombre": "DRAGAN, Marcelo Luis", 
+        "bloque": "Uni\u00f3n por Argentina", 
+        "distrito": "Tierra del Fuego"
+    }, 
+    "alizegui-antonio-anibal": {
+        "nombre": "ALIZEGUI, Antonio Anibal", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "mendoza-sandra-marcela": {
+        "nombre": "MENDOZA, Sandra Marcela", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Chaco"
+    }, 
+    "vanossi-jorge": {
+        "nombre": "VANOSSI, Jorge", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "herrera-griselda-noemi": {
+        "nombre": "HERRERA, Griselda Noem\u00ed", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "La Rioja"
+    }, 
+    "macri-mauricio": {
+        "nombre": "MACRI, Mauricio", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "caballero-martin-carlos-aurelio": {
+        "nombre": "CABALLERO MARTIN, Carlos Aurelio", 
+        "bloque": "Dem\u00f3crata Progresista", 
+        "distrito": "Santa Fe"
+    }, 
+    "tate-alicia-ester": {
+        "nombre": "TATE, Alicia Ester", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Santa Fe"
+    }, 
+    "morini-pedro-juan": {
+        "nombre": "MORINI, Pedro Juan", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Santa Fe"
+    }, 
+    "rios-maria-fabiana": {
+        "nombre": "RIOS, Mar\u00eda Fabiana", 
+        "bloque": "A.R.I", 
+        "distrito": "Tierra del Fuego"
+    }, 
+    "esteban-silvia-graciela": {
+        "nombre": "ESTEBAN, Silvia Graciela", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Cruz"
+    }, 
+    "marconato-gustavo-angel": {
+        "nombre": "MARCONATO, Gustavo Angel", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Fe"
+    }, 
+    "martinez-julio-cesar": {
+        "nombre": "MARTINEZ, Julio C\u00e9sar", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "La Rioja"
+    }, 
+    "moran-juan-carlos": {
+        "nombre": "MORAN, Juan Carlos", 
+        "bloque": "Coalici\u00f3n C\u00edvica", 
+        "distrito": "Buenos Aires"
+    }, 
+    "castaldo-norah-susana": {
+        "nombre": "CASTALDO, Norah Susana", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "vitar-jose-alberto": {
+        "nombre": "VITAR, Jose Alberto", 
+        "bloque": "Frente Grande", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "sarghini-jorge-emilio": {
+        "nombre": "SARGHINI, Jorge Emilio", 
+        "bloque": "Uni\u00f3n Peronista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "parola-carlos": {
+        "nombre": "PAROLA, Carlos", 
+        "bloque": "No Integra Bloque", 
+        "distrito": "Santa Fe"
+    }, 
+    "leyba-de-marti-beatriz": {
+        "nombre": "LEYBA de MARTI, Beatriz", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "zamora-luis-fernando": {
+        "nombre": "ZAMORA, Luis Fernando", 
+        "bloque": "Autodeterminaci\u00f3n y Libertad", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "feletti-roberto-jose": {
+        "nombre": "FELETTI, Roberto Jos\u00e9", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "simoncini-silvia-rosa": {
+        "nombre": "SIMONCINI, Silvia Rosa", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Fe"
+    }, 
+    "triaca-alberto-jorge": {
+        "nombre": "TRIACA, Alberto Jorge", 
+        "bloque": "PRO", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "ciciliani-alicia-mabel": {
+        "nombre": "CICILIANI, Alicia Mabel", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Santa Fe"
+    }, 
+    "ziebart-cristina-isabel": {
+        "nombre": "ZIEBART, Cristina Isabel", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Chubut"
+    }, 
+    "vazquez-de-tabernise-silvia-beatriz": {
+        "nombre": "VAZQUEZ de TABERNISE, Silvia Beatriz", 
+        "bloque": "Partido de la Concertaci\u00f3n - FORJA", 
+        "distrito": "Buenos Aires"
+    }, 
+    "garcia-larraburu-silvina-marcela": {
+        "nombre": "GARCIA LARRABURU, Silvina Marcela", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Rio Negro"
+    }, 
+    "viale-lisandro-alfredo": {
+        "nombre": "VIALE, Lisandro Alfredo", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "galantini-eduardo": {
+        "nombre": "GALANTINI, Eduardo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Corrientes"
+    }, 
+    "cavadini-eduardo": {
+        "nombre": "CAVADINI, Eduardo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Jujuy"
+    }, 
+    "abdala-de-matarazzo-norma-amanda": {
+        "nombre": "ABDALA de MATARAZZO, Norma Amanda", 
+        "bloque": "Frente C\u00edvico por Santiago", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "moreau-leopolo-raul": {
+        "nombre": "MOREAU, Leopolo Ra\u00fal", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "breard-noel-eugenio": {
+        "nombre": "BREARD, Noel Eugenio", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Corrientes"
+    }, 
+    "bertone-rosana-andrea": {
+        "nombre": "BERTONE, Rosana Andrea", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tierra del Fuego"
+    }, 
+    "villaverde-jorge-antonio": {
+        "nombre": "VILLAVERDE, Jorge Antonio", 
+        "bloque": "Peronista Federal", 
+        "distrito": "Buenos Aires"
+    }, 
+    "bartolucci-gilda-liliana": {
+        "nombre": "BARTOLUCCI, Gilda Liliana", 
+        "bloque": "Frente Justicia Uni\u00f3n y Libertad", 
+        "distrito": "San Luis"
+    }, 
+    "muller-mabel-hilda": {
+        "nombre": "MULLER, Mabel Hilda", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "obiglio-julian-martin": {
+        "nombre": "OBIGLIO, Juli\u00e1n Mart\u00edn", 
+        "bloque": "PRO", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "romero-hector-ramon": {
+        "nombre": "ROMERO, H\u00e9ctor Ram\u00f3n", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Chaco"
+    }, 
+    "chieno-maria-elena": {
+        "nombre": "CHIENO, Mar\u00eda Elena", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Corrientes"
+    }, 
+    "alchouron-guillermo-eduardo": {
+        "nombre": "ALCHOURON, Guillermo Eduardo", 
+        "bloque": "Acci\u00f3n por la Rep\u00fablica", 
+        "distrito": "Buenos Aires"
+    }, 
+    "gonzalez-oscar-felix": {
+        "nombre": "GONZALEZ, Oscar Felix", 
+        "bloque": "Justicialista", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "storani-maria-luisa": {
+        "nombre": "STORANI, Mar\u00eda Luisa", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "fernandez-basualdo-luis-maria": {
+        "nombre": "FERNANDEZ BASUALDO, Luis Mar\u00eda", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Formosa"
+    }, 
+    "satragno-lidia-elsa": {
+        "nombre": "SATRAGNO, Lidia Elsa", 
+        "bloque": "PRO", 
+        "distrito": "Buenos Aires"
+    }, 
+    "raimundi-carlos-alberto": {
+        "nombre": "RAIMUNDI, Carlos Alberto", 
+        "bloque": "Nuevo Encuentro", 
+        "distrito": "Buenos Aires"
+    }, 
+    "roy-irma": {
+        "nombre": "ROY, Irma", 
+        "bloque": "Justicialista", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "venica-pedro-antonio": {
+        "nombre": "VENICA, Pedro Antonio", 
+        "bloque": "Ricardo Balbin", 
+        "distrito": "Formosa"
+    }, 
+    "rejal-jesus-fernando": {
+        "nombre": "REJAL, Jes\u00fas Fernando", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "La Rioja"
+    }, 
+    "martinez-alfredo": {
+        "nombre": "MARTINEZ, Alfredo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Santa Cruz"
+    }, 
+    "tulio-rosa-ester": {
+        "nombre": "TULIO, Rosa Ester", 
+        "bloque": "Peronista Federal", 
+        "distrito": "Buenos Aires"
+    }, 
+    "leonelli-maria-silvina": {
+        "nombre": "LEONELLI, Mar\u00eda Silvina", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "damiani-hernan-norberto-luis": {
+        "nombre": "DAMIANI, Hern\u00e1n Norberto Luis", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Misiones"
+    }, 
+    "martinez-soledad": {
+        "nombre": "MARTINEZ, Soledad", 
+        "bloque": "PRO", 
+        "distrito": "Buenos Aires"
+    }, 
+    "sellares-francisco-nicolas": {
+        "nombre": "SELLARES, Francisco Nicol\u00e1s", 
+        "bloque": "Justicialista", 
+        "distrito": "Santa Fe"
+    }, 
+    "thomas-enrique-luis": {
+        "nombre": "THOMAS, Enrique Luis", 
+        "bloque": "Frente Peronista", 
+        "distrito": "Mendoza"
+    }, 
+    "bejarano-mario-fernando": {
+        "nombre": "BEJARANO, Mario Fernando", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Formosa"
+    }, 
+    "luna-de-marcos-ana-zulema": {
+        "nombre": "LUNA de MARCOS, Ana Zulema", 
+        "bloque": "Frente C\u00edvico por Santiago", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "balcedo-maria-ester": {
+        "nombre": "BALCEDO, Mar\u00eda Ester", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "alvarez-elsa-maria": {
+        "nombre": "ALVAREZ, Elsa Mar\u00eda", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Santa Cruz"
+    }, 
+    "rios-liliana-maria": {
+        "nombre": "RIOS, Liliana Mar\u00eda", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "ortiz-mariela": {
+        "nombre": "ORTIZ, Mariela", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Jujuy"
+    }, 
+    "burzaco-eugenio": {
+        "nombre": "BURZACO, Eugenio", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": "Buenos Aires"
+    }, 
+    "caselles-graciela-maria": {
+        "nombre": "CASELLES, Graciela Mar\u00eda", 
+        "bloque": "Frente para la Victoria - Partido Bloqui", 
+        "distrito": "San Juan"
+    }, 
+    "puiggros-adriana-victoria": {
+        "nombre": "PUIGGROS, Adriana Victoria", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "rogel-fabian-dulio": {
+        "nombre": "ROGEL, Fabi\u00e1n Dulio", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "panzoni-patricia-ester": {
+        "nombre": "PANZONI, Patricia Ester", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "espindola-gladys-susana": {
+        "nombre": "ESPINDOLA, Gladys Susana", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "merlo-mario-raul": {
+        "nombre": "MERLO, Mario Ra\u00fal", 
+        "bloque": "Peronismo Federal", 
+        "distrito": "San Luis"
+    }, 
+    "olivero-juan-carlos": {
+        "nombre": "OLIVERO, Juan Carlos", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "La Pampa"
+    }, 
+    "albarracin-jorge-luis": {
+        "nombre": "ALBARRACIN, Jorge Luis", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Mendoza"
+    }, 
+    "mera-dalmacio": {
+        "nombre": "MERA, Dalmacio", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Catamarca"
+    }, 
+    "carca-elisa-beatriz": {
+        "nombre": "CARCA, Elisa Beatriz", 
+        "bloque": "Coalici\u00f3n C\u00edvica", 
+        "distrito": "Buenos Aires"
+    }, 
+    "areta-maria-josefa": {
+        "nombre": "ARETA, Mar\u00eda Josefa", 
+        "bloque": "Frente de Todos", 
+        "distrito": "Corrientes"
+    }, 
+    "solmoirago-raul-jorge": {
+        "nombre": "SOLMOIRAGO, Raul Jorge", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Misiones"
+    }, 
+    "gonzalez-jorge-pedro": {
+        "nombre": "GONZALEZ, Jorge Pedro", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Fe"
+    }, 
+    "heller-carlos": {
+        "nombre": "HELLER, Carlos", 
+        "bloque": "Nuevo Encuentro", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "augsburger-silvia": {
+        "nombre": "AUGSBURGER, Silvia", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Santa Fe"
+    }, 
+    "de-gennaro-victor-norberto": {
+        "nombre": "De GENNARO, Victor Norberto", 
+        "bloque": "Unidad Popular", 
+        "distrito": "Buenos Aires"
+    }, 
+    "vera-pedro-ramon-ademar": {
+        "nombre": "VERA, Pedro Ram\u00f3n Ademar", 
+        "bloque": "Peronista", 
+        "distrito": "Corrientes"
+    }, 
+    "montero-laura-gisela": {
+        "nombre": "MONTERO, Laura Gisela", 
+        "bloque": "Consenso Federal", 
+        "distrito": "Mendoza"
+    }, 
+    "korenfeld-beatriz-liliana": {
+        "nombre": "KORENFELD, Beatriz Liliana", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Cruz"
+    }, 
+    "negri-mario-raul": {
+        "nombre": "NEGRI, Mario Ra\u00fal", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "ziegler-alex-roberto": {
+        "nombre": "ZIEGLER, Alex Roberto", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Misiones"
+    }, 
+    "bedano-nora-esther": {
+        "nombre": "BEDANO, Nora Esther", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "gallo-daniel-oscar": {
+        "nombre": "GALLO, Daniel Oscar", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tierra del Fuego"
+    }, 
+    "gribaudo-christian-alejandro": {
+        "nombre": "GRIBAUDO, Christian Alejandro", 
+        "bloque": "PRO", 
+        "distrito": "Buenos Aires"
+    }, 
+    "avoscan-herman-horacio": {
+        "nombre": "AVOSCAN, Herman Horacio", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Rio Negro"
+    }, 
+    "perez-jose-adrian": {
+        "nombre": "PEREZ, Jos\u00e9 Adri\u00e1n", 
+        "bloque": "Coalici\u00f3n C\u00edvica", 
+        "distrito": "Buenos Aires"
+    }, 
+    "agosto-walter": {
+        "nombre": "AGOSTO, Walter", 
+        "bloque": "Peronismo Federal", 
+        "distrito": "Santa Fe"
+    }, 
+    "vilarino-jose-antonio": {
+        "nombre": "VILARI\u00d1O, Jos\u00e9 Antonio", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Salta"
+    }, 
+    "ciampini-jose-alberto": {
+        "nombre": "CIAMPINI, Jos\u00e9 Alberto", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Neuqu\u00e9n"
+    }, 
+    "cremer-de-busti-maria-cristina": {
+        "nombre": "CREMER de BUSTI, Mar\u00eda Cristina", 
+        "bloque": "Frente Peronista", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "sola-felipe-carlos": {
+        "nombre": "SOLA, Felipe Carlos", 
+        "bloque": "Uni\u00f3n Peronista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "leverberg-stella-maris": {
+        "nombre": "LEVERBERG, Stella Maris", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Misiones"
+    }, 
+    "benedetti-atilio-francisco-salvador": {
+        "nombre": "BENEDETTI, Atilio Francisco Salvador", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "garnero-estela-ramona": {
+        "nombre": "GARNERO, Estela Ramona", 
+        "bloque": "C\u00f3rdoba Federal", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "bonacina-mario-hector": {
+        "nombre": "BONACINA, Mario Hector", 
+        "bloque": "Movimiento C\u00edvico y Social", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "wilder-ricardo": {
+        "nombre": "WILDER, Ricardo", 
+        "bloque": "Frente de Unidad Provincial", 
+        "distrito": "Tierra del Fuego"
+    }, 
+    "nieto-brizuela-benjamin-ricardo": {
+        "nombre": "NIETO BRIZUELA, Benjam\u00edn Ricardo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "La Rioja"
+    }, 
+    "gdansky-carlos-enrique": {
+        "nombre": "GDANSKY, Carlos Enrique", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "comi-carlos-marcelo": {
+        "nombre": "COMI, Carlos Marcelo", 
+        "bloque": "Coalici\u00f3n C\u00edvica - ARI", 
+        "distrito": "Santa Fe"
+    }, 
+    "johnson-guillermo": {
+        "nombre": "JOHNSON, Guillermo", 
+        "bloque": "Justicialista", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "martini-hugo": {
+        "nombre": "MARTINI, Hugo", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "reyes-maria-fernanda": {
+        "nombre": "REYES, Mar\u00eda Fernanda", 
+        "bloque": "Coalici\u00f3n C\u00edvica", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "martinez-garbino-emilio": {
+        "nombre": "MARTINEZ GARBINO, Emilio", 
+        "bloque": "Concertaci\u00f3n Entrerriana", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "garin-de-tula-lucia": {
+        "nombre": "GARIN de TULA, Lucia", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Catamarca"
+    }, 
+    "sabbatella-martin": {
+        "nombre": "SABBATELLA, Mart\u00edn", 
+        "bloque": "Nuevo Encuentro", 
+        "distrito": "Buenos Aires"
+    }, 
+    "arregui-andres-roberto": {
+        "nombre": "ARREGUI, Andr\u00e9s Roberto", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "albrisi-cesar-alfredo": {
+        "nombre": "ALBRISI, C\u00e9sar Alfredo", 
+        "bloque": "Peronismo Federal", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "segarra-adela-rosa": {
+        "nombre": "SEGARRA, Adela Rosa", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "terada-alicia": {
+        "nombre": "TERADA, Alicia", 
+        "bloque": "Coalici\u00f3n C\u00edvica - ARI", 
+        "distrito": "Chaco"
+    }, 
+    "carmona-guillermo-ramon": {
+        "nombre": "CARMONA, Guillermo Ram\u00f3n", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Mendoza"
+    }, 
+    "garcia-maria-teresa": {
+        "nombre": "GARCIA, Mar\u00eda Teresa", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "baltuzzi-angel-enzo": {
+        "nombre": "BALTUZZI, Angel Enzo", 
+        "bloque": "Justicialista", 
+        "distrito": "Santa Fe"
+    }, 
+    "castellani-carlos-alberto": {
+        "nombre": "CASTELLANI, Carlos Alberto", 
+        "bloque": "U. Ce. De.", 
+        "distrito": "Santa Fe"
+    }, 
+    "villalba-alfredo-horacio": {
+        "nombre": "VILLALBA, Alfredo Horacio", 
+        "bloque": "Frente para el Cambio", 
+        "distrito": "Buenos Aires"
+    }, 
+    "macchi-carlos-guillermo": {
+        "nombre": "MACCHI, Carlos Guillermo", 
+        "bloque": "Partido Nuevo", 
+        "distrito": "Corrientes"
+    }, 
+    "solanas-raul-patricio": {
+        "nombre": "SOLANAS, Ra\u00fal Patricio", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "martinez-ernesto-felix": {
+        "nombre": "MARTINEZ, Ernesto F\u00e9lix", 
+        "bloque": "Frente C\u00edvico - C\u00f3rdoba", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "kroneberger-daniel-ricardo": {
+        "nombre": "KRONEBERGER, Daniel Ricardo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "La Pampa"
+    }, 
+    "biella-calvet-bernardo-jose": {
+        "nombre": "BIELLA CALVET, Bernardo Jos\u00e9", 
+        "bloque": "U.De.So. Salta", 
+        "distrito": "Salta"
+    }, 
+    "falbo-maria-del-carmen": {
+        "nombre": "FALBO, Mar\u00eda del Carmen", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "humada-julio-cesar": {
+        "nombre": "HUMADA, Julio Cesar", 
+        "bloque": "Justicialista", 
+        "distrito": "Misiones"
+    }, 
+    "gardella-patricia-susana": {
+        "nombre": "GARDELLA, Patricia Susana", 
+        "bloque": "Corriente de Pensamiento Federal", 
+        "distrito": "Buenos Aires"
+    }, 
+    "pasini-ariel-osvaldo": {
+        "nombre": "PASINI, Ariel Osvaldo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "lugo-de-gonzales-cabanas-cecilia": {
+        "nombre": "LUGO de GONZALES CABA\u00d1AS, Cecilia", 
+        "bloque": "Justicialista", 
+        "distrito": "Corrientes"
+    }, 
+    "ledesma-julio-ruben": {
+        "nombre": "LEDESMA, Julio Rub\u00e9n", 
+        "bloque": "Corriente de Pensamiento Federal", 
+        "distrito": "Buenos Aires"
+    }, 
+    "riestra-antonio-sabino": {
+        "nombre": "RIESTRA, Antonio Sabino", 
+        "bloque": "Unidad Popular", 
+        "distrito": "Santa Fe"
+    }, 
+    "martinez-oddone-heriberto-agustin": {
+        "nombre": "MARTINEZ ODDONE, Heriberto Agust\u00edn", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "accastello-eduardo": {
+        "nombre": "ACCASTELLO, Eduardo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "lenz-maria-beatriz": {
+        "nombre": "LENZ, Mar\u00eda Beatriz", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "rasino-elida-elena": {
+        "nombre": "RASINO, Elida Elena", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Santa Fe"
+    }, 
+    "perez-mirta": {
+        "nombre": "PEREZ, Mirta", 
+        "bloque": "Dignidad y Justicia", 
+        "distrito": "Buenos Aires"
+    }, 
+    "tomaz-adriana-elisa": {
+        "nombre": "TOMAZ, Adriana Elisa", 
+        "bloque": "Partido Unidad Federalista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "natale-alberto-adolfo": {
+        "nombre": "NATALE, Alberto Adolfo", 
+        "bloque": "Dem\u00f3crata Progresista", 
+        "distrito": "Santa Fe"
+    }, 
+    "courel-carlos-alberto": {
+        "nombre": "COUREL, Carlos Alberto", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "monti-lucrecia-etelvina": {
+        "nombre": "MONTI, Lucrecia Etelvina", 
+        "bloque": "Justicialista Nacional", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "ferrero-fernanda": {
+        "nombre": "FERRERO, Fernanda", 
+        "bloque": "Recrear para el Crecimiento", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "buryaile-ricardo": {
+        "nombre": "BURYAILE, Ricardo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Formosa"
+    }, 
+    "palou-marta": {
+        "nombre": "PALOU, Marta", 
+        "bloque": "Justicialista", 
+        "distrito": "Misiones"
+    }, 
+    "tinnirello-carlos-alberto": {
+        "nombre": "TINNIRELLO, Carlos Alberto", 
+        "bloque": "Red de Encuentro Social", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "rios-roberto-fabian": {
+        "nombre": "RIOS, Roberto Fabi\u00e1n", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Corrientes"
+    }, 
+    "ferrigno-obarrio-santiago": {
+        "nombre": "FERRIGNO OBARRIO, Santiago", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "La Pampa"
+    }, 
+    "piumato-julio-juan": {
+        "nombre": "PIUMATO, Julio Ju\u00e1n", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "martin-maria-elena": {
+        "nombre": "MARTIN, Mar\u00eda Elena", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Santa Fe"
+    }, 
+    "recalde-hector-pedro": {
+        "nombre": "RECALDE, H\u00e9ctor Pedro", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "vaca-narvaja-patricia": {
+        "nombre": "VACA NARVAJA, Patricia", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "alvarez-rodriguez-cristina": {
+        "nombre": "ALVAREZ RODRIGUEZ, Cristina", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "pansa-sergio-horacio": {
+        "nombre": "PANSA, Sergio Horacio", 
+        "bloque": "Frente Peronista", 
+        "distrito": "San Luis"
+    }, 
+    "brillo-jose-ricardo": {
+        "nombre": "BRILLO, Jos\u00e9 Ricardo", 
+        "bloque": "Movimiento Popular Neuquino", 
+        "distrito": "Neuqu\u00e9n"
+    }, 
+    "olmos-graciela-hortencia": {
+        "nombre": "OLMOS, Graciela Hortencia", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "ibarra-mauricio": {
+        "nombre": "IBARRA, Mauricio", 
+        "bloque": "Uni\u00f3n por San Juan", 
+        "distrito": "San Juan"
+    }, 
+    "re-hilma-leonor": {
+        "nombre": "RE, Hilma Leonor", 
+        "bloque": "Coalici\u00f3n C\u00edvica - ARI", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "alarcia-martha-carmen": {
+        "nombre": "ALARCIA, Martha Carmen", 
+        "bloque": "Justicialista", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "flores-hector": {
+        "nombre": "FLORES, H\u00e9ctor", 
+        "bloque": "Coalici\u00f3n C\u00edvica", 
+        "distrito": "Buenos Aires"
+    }, 
+    "puig-de-stubrin-lilia": {
+        "nombre": "PUIG de STUBRIN, Lilia", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Santa Fe"
+    }, 
+    "mendez-de-ferreyra-araceli-estela": {
+        "nombre": "MENDEZ de FERREYRA, Araceli Estela", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Corrientes"
+    }, 
+    "gonzalez-maria-america": {
+        "nombre": "GONZALEZ, Mar\u00eda Am\u00e9rica", 
+        "bloque": "Solidaridad e Igualdad (SI)", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "solanas-julio-rodolfo-francisco": {
+        "nombre": "SOLANAS, Julio Rodolfo Francisco", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "bianco-lia-fabiola": {
+        "nombre": "BIANCO, L\u00eda Fabiola", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Misiones"
+    }, 
+    "oscos-maria-ilse": {
+        "nombre": "OSCOS, Mar\u00eda Ilse", 
+        "bloque": "Movimiento Popular Neuquino", 
+        "distrito": "Neuqu\u00e9n"
+    }, 
+    "milesi-marta-silvia": {
+        "nombre": "MILESI, Marta Silvia", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Rio Negro"
+    }, 
+    "moyano-juan-facundo": {
+        "nombre": "MOYANO, Juan Facundo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "roggero-humberto-jesus": {
+        "nombre": "ROGGERO, Humberto Jesus", 
+        "bloque": "Justicialista", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "storero-hugo": {
+        "nombre": "STORERO, Hugo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Santa Fe"
+    }, 
+    "trejo-luis-alberto": {
+        "nombre": "TREJO, Luis Alberto", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Tierra del Fuego"
+    }, 
+    "baragiola-vilma-rosana": {
+        "nombre": "BARAGIOLA, Vilma Rosana", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "paredes-urquiza-alberto-nicolas": {
+        "nombre": "PAREDES URQUIZA, Alberto Nicol\u00e1s", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "La Rioja"
+    }, 
+    "felix-omar": {
+        "nombre": "FELIX, Omar", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Mendoza"
+    }, 
+    "bisutti-delia-beatriz": {
+        "nombre": "BISUTTI, Delia Beatriz", 
+        "bloque": "Solidaridad e Igualdad (SI)", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "urtubey-juan-manuel": {
+        "nombre": "URTUBEY, Juan Manuel", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Salta"
+    }, 
+    "yoma-jorge-raul": {
+        "nombre": "YOMA, Jorge Raul", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "La Rioja"
+    }, 
+    "sluga-juan-carlos": {
+        "nombre": "SLUGA, Juan Carlos", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "roquel-rodolfo": {
+        "nombre": "ROQUEL, Rodolfo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Formosa"
+    }, 
+    "baylac-juan-pablo": {
+        "nombre": "BAYLAC, Juan Pablo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "tomas-hector-daniel": {
+        "nombre": "TOMAS, H\u00e9ctor Daniel", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "San Juan"
+    }, 
+    "fiol-paulina-esther": {
+        "nombre": "FIOL, Paulina Esther", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Fe"
+    }, 
+    "perroni-ana-maria": {
+        "nombre": "PERRONI, Ana Mar\u00eda", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Corrientes"
+    }, 
+    "merino-raul-guillermo": {
+        "nombre": "MERINO, Raul Guillermo", 
+        "bloque": "Partido Nuevo Contra la Corrupci\u00f3n", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "conca-julio-cesar": {
+        "nombre": "CONCA, Julio Cesar", 
+        "bloque": "Bloquista de San Juan", 
+        "distrito": "San Juan"
+    }, 
+    "nebreda-carmen-rosa": {
+        "nombre": "NEBREDA, Carmen Rosa", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "abdala-josefina": {
+        "nombre": "ABDALA, Josefina", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Mendoza"
+    }, 
+    "di-cola-eduardo-roman": {
+        "nombre": "DI COLA, Eduardo Rom\u00e1n", 
+        "bloque": "Justicialista", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "halak-beatriz-susana": {
+        "nombre": "HALAK, Beatriz Susana", 
+        "bloque": "Uni\u00f3n Peronista", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "genem-amanda-susana": {
+        "nombre": "GENEM, Amanda Susana", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Mendoza"
+    }, 
+    "duclos-omar-arnaldo": {
+        "nombre": "DUCLOS, Omar Arnaldo", 
+        "bloque": "GEN", 
+        "distrito": "Buenos Aires"
+    }, 
+    "mediza-heriberto-eloy": {
+        "nombre": "MEDIZA, Heriberto Eloy", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "La Pampa"
+    }, 
+    "zuccardi-cristina": {
+        "nombre": "ZUCCARDI, Cristina", 
+        "bloque": "FREPASO", 
+        "distrito": "Mendoza"
+    }, 
+    "kuney-monica-adriana": {
+        "nombre": "KUNEY, M\u00f3nica Adriana", 
+        "bloque": "Justicialista", 
+        "distrito": "Santa Cruz"
+    }, 
+    "rapetti-ricardo-francisco": {
+        "nombre": "RAPETTI, Ricardo Francisco", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "pinto-bruchmann-juan-domingo": {
+        "nombre": "PINTO BRUCHMANN, Juan Domingo", 
+        "bloque": "Justicialista", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "morante-antonio-arnaldo-maria": {
+        "nombre": "MORANTE, Antonio Arnaldo Mar\u00eda", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Chaco"
+    }, 
+    "di-benedetto-gustavo-daniel": {
+        "nombre": "DI BENEDETTO, Gustavo Daniel", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Chubut"
+    }, 
+    "argumedo-alcira-susana": {
+        "nombre": "ARGUMEDO, Alcira Susana", 
+        "bloque": "Proyecto Sur", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "briozzo-alberto-nicolas": {
+        "nombre": "BRIOZZO, Alberto Nicolas", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "obeid-jorge-alberto": {
+        "nombre": "OBEID, Jorge Alberto", 
+        "bloque": "Peronismo Federal", 
+        "distrito": "Santa Fe"
+    }, 
+    "porto-hector-norberto": {
+        "nombre": "PORTO, H\u00e9ctor Norberto", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "redczuk-oscar-felipe": {
+        "nombre": "REDCZUK, Oscar Felipe", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Misiones"
+    }, 
+    "cecco-carlos-jaime": {
+        "nombre": "CECCO, Carlos Jaime", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "gutierrez-alicia-veronica": {
+        "nombre": "GUTIERREZ, Alicia Veronica", 
+        "bloque": "A.R.I", 
+        "distrito": "Santa Fe"
+    }, 
+    "sciutto-ruben-dario": {
+        "nombre": "SCIUTTO, Rub\u00e9n Dar\u00edo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tierra del Fuego"
+    }, 
+    "escobar-jorge-alberto": {
+        "nombre": "ESCOBAR, Jorge Alberto", 
+        "bloque": "Justicialista", 
+        "distrito": "San Juan"
+    }, 
+    "solanas-fernando-ezequiel": {
+        "nombre": "SOLANAS, Fernando Ezequiel", 
+        "bloque": "Proyecto Sur", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "lofrano-elsa-gladi": {
+        "nombre": "LOFRANO, Elsa Gladi", 
+        "bloque": "Justicialista", 
+        "distrito": "Chubut"
+    }, 
+    "baldata-griselda-angela": {
+        "nombre": "BALDATA, Griselda Angela", 
+        "bloque": "Coalici\u00f3n C\u00edvica", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "leguizamon-anibal-ernesto": {
+        "nombre": "LEGUIZAMON, Anibal Ernesto", 
+        "bloque": "Peronismo Peronista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "perez-alberto-jose": {
+        "nombre": "PEREZ, Alberto Jos\u00e9", 
+        "bloque": "Frente Peronista", 
+        "distrito": "San Luis"
+    }, 
+    "alesandri-carlos-tomas": {
+        "nombre": "ALESANDRI, Carlos Tomas", 
+        "bloque": "Justicialista", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "ferri-gustavo-enrique": {
+        "nombre": "FERRI, Gustavo Enrique", 
+        "bloque": "Justicialista Nacional", 
+        "distrito": "Buenos Aires"
+    }, 
+    "pampuro-jose-juan": {
+        "nombre": "PAMPURO, Jos\u00e9 Juan", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "macaluse-eduardo-gabriel": {
+        "nombre": "MACALUSE, Eduardo Gabriel", 
+        "bloque": "Unidad Popular", 
+        "distrito": "Buenos Aires"
+    }, 
+    "salim-juan-arturo": {
+        "nombre": "SALIM, Juan Arturo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "figueroa-jose-oscar": {
+        "nombre": "FIGUEROA, Jos\u00e9 Oscar", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "dominguez-julian-andres": {
+        "nombre": "DOMINGUEZ, Juli\u00e1n Andr\u00e9s", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "juri-mariana": {
+        "nombre": "JURI, Mariana", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Mendoza"
+    }, 
+    "puerta-federico-ramon": {
+        "nombre": "PUERTA, Federico Ram\u00f3n", 
+        "bloque": "Frente Peronista", 
+        "distrito": "Misiones"
+    }, 
+    "stella-anibal-jesus": {
+        "nombre": "STELLA, Anibal Jesus", 
+        "bloque": "Peronista Federal", 
+        "distrito": "Buenos Aires"
+    }, 
+    "chemes-jorge-omar": {
+        "nombre": "CHEMES, Jorge Omar", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "palomo-nelida-manuela": {
+        "nombre": "PALOMO, Nelida Manuela", 
+        "bloque": "Justicialista", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "bernazza-claudia-alicia": {
+        "nombre": "BERNAZZA, Claudia Alicia", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "larroque-andres": {
+        "nombre": "LARROQUE, Andr\u00e9s", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "lubertino-maria-jose": {
+        "nombre": "LUBERTINO, Mar\u00eda Jos\u00e9", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "scalesi-juan-carlos": {
+        "nombre": "SCALESI, Juan Carlos", 
+        "bloque": "Consenso Federal", 
+        "distrito": "Rio Negro"
+    }, 
+    "llambi-susana-beatriz": {
+        "nombre": "LLAMBI, Susana Beatriz", 
+        "bloque": "Justicialista", 
+        "distrito": "Neuqu\u00e9n"
+    }, 
+    "coscia-jorge-edmundo": {
+        "nombre": "COSCIA, Jorge Edmundo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "bianchi-silvestre-marcela": {
+        "nombre": "BIANCHI SILVESTRE, Marcela", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "cantos-jose-maria": {
+        "nombre": "CANTOS, Jos\u00e9 Mar\u00eda", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "bertol-paula-maria": {
+        "nombre": "BERTOL, Paula Mar\u00eda", 
+        "bloque": "PRO", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "gerez-elda-ramona": {
+        "nombre": "GEREZ, Elda Ramona", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Santa Fe"
+    }, 
+    "aguirre-de-soria-hilda": {
+        "nombre": "AGUIRRE de SORIA, Hilda", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "La Rioja"
+    }, 
+    "giustiniani-ruben-hector": {
+        "nombre": "GIUSTINIANI, Rub\u00e9n Hector", 
+        "bloque": "Partido Socialista", 
+        "distrito": "Santa Fe"
+    }, 
+    "atanasof-alfredo-nestor": {
+        "nombre": "ATANASOF, Alfredo N\u00e9stor", 
+        "bloque": "Frente Peronista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "alonso-maria-luz": {
+        "nombre": "ALONSO, Mar\u00eda Luz", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "La Pampa"
+    }, 
+    "garramuno-jorge-alberto": {
+        "nombre": "GARRAMU\u00d1O, Jorge Alberto", 
+        "bloque": "Movimiento Popular Fueguino", 
+        "distrito": "Tierra del Fuego"
+    }, 
+    "diaz-bancalari-jose-maria": {
+        "nombre": "DIAZ BANCALARI, Jos\u00e9 Mar\u00eda", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "calcagno-eric": {
+        "nombre": "CALCAGNO, Eric", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "lernoud-maria-teresa": {
+        "nombre": "LERNOUD, Mar\u00eda Teresa", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Chubut"
+    }, 
+    "legislador-a-designar": {
+        "nombre": "#, Legislador a Designar", 
+        "bloque": "No Integra Bloque", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "gutierrez-gustavo-eduardo": {
+        "nombre": "GUTIERREZ, Gustavo Eduardo", 
+        "bloque": "Dem\u00f3crata de Mendoza", 
+        "distrito": "Mendoza"
+    }, 
+    "ianni-ana-maria": {
+        "nombre": "IANNI, Ana Mar\u00eda", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Cruz"
+    }, 
+    "rossi-alejandro-luis": {
+        "nombre": "ROSSI, Alejandro Luis", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Fe"
+    }, 
+    "santin-eduardo": {
+        "nombre": "SANTIN, Eduardo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "fellner-eduardo-alfredo": {
+        "nombre": "FELLNER, Eduardo Alfredo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Jujuy"
+    }, 
+    "torres-francisco": {
+        "nombre": "TORRES, Francisco", 
+        "bloque": "Fuerza Republicana", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "iglesias-roberto-raul": {
+        "nombre": "IGLESIAS, Roberto Raul", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Mendoza"
+    }, 
+    "de-la-rosa-maria-graciela": {
+        "nombre": "DE LA ROSA, Maria Graciela", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Formosa"
+    }, 
+    "landau-jorge-alberto": {
+        "nombre": "LANDAU, Jorge Alberto", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "berraute-ana": {
+        "nombre": "BERRAUTE, Ana", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Fe"
+    }, 
+    "canteros-gustavo-jesus-adolfo": {
+        "nombre": "CANTEROS, Gustavo Jes\u00fas Adolfo", 
+        "bloque": "Proyecto Corrientes", 
+        "distrito": "Corrientes"
+    }, 
+    "donkin-carlos-guillermo": {
+        "nombre": "DONKIN, Carlos Guillermo", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Formosa"
+    }, 
+    "anauate-carlos-alfredo": {
+        "nombre": "ANAUATE, Carlos Alfredo", 
+        "bloque": "Mov. de Bases Independientes", 
+        "distrito": "Santiago del Estero"
+    }, 
+    "quiroga-horacio-rodolfo": {
+        "nombre": "QUIROGA, Horacio Rodolfo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Neuqu\u00e9n"
+    }, 
+    "alessandro-dario-pedro": {
+        "nombre": "ALESSANDRO, Dario Pedro", 
+        "bloque": "FREPASO", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "gomez-ricardo-carmelo": {
+        "nombre": "GOMEZ, Ricardo Carmelo", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "fernandez-valoni-jose-luis": {
+        "nombre": "FERNANDEZ VALONI, Jos\u00e9 Luis", 
+        "bloque": "Acci\u00f3n por la Rep\u00fablica", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "snopek-carlos-daniel": {
+        "nombre": "SNOPEK, Carlos Daniel", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Jujuy"
+    }, 
+    "jano-ricardo-javier": {
+        "nombre": "JANO, Ricardo Javier", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Buenos Aires"
+    }, 
+    "belous-nelida": {
+        "nombre": "BELOUS, N\u00e9lida", 
+        "bloque": "Bloque Social Patag\u00f3nico", 
+        "distrito": "Tierra del Fuego"
+    }, 
+    "geijo-angel-oscar": {
+        "nombre": "GEIJO, Angel Oscar", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Chaco"
+    }, 
+    "barrandeguy-raul-enrique": {
+        "nombre": "BARRANDEGUY, Ra\u00fal Enrique", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "balian-alejandro": {
+        "nombre": "BALIAN, Alejandro", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "ferreyra-araceli": {
+        "nombre": "FERREYRA, Araceli", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Corrientes"
+    }, 
+    "valinotto-jorge-anselmo": {
+        "nombre": "VALINOTTO, Jorge Anselmo", 
+        "bloque": "Frente C\u00edvico - C\u00f3rdoba", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "pais-juan-mario": {
+        "nombre": "PAIS, Juan Mario", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Chubut"
+    }, 
+    "gonzalez-rafael-alfredo": {
+        "nombre": "GONZALEZ, Rafael Alfredo", 
+        "bloque": "Justicialista", 
+        "distrito": "Chaco"
+    }, 
+    "giaccone-claudia-alejandra": {
+        "nombre": "GIACCONE, Claudia Alejandra", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Fe"
+    }, 
+    "giorgetti-jorge-raul": {
+        "nombre": "GIORGETTI, Jorge Ra\u00fal", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Santa Fe"
+    }, 
+    "amadeo-eduardo-pablo": {
+        "nombre": "AMADEO, Eduardo Pablo", 
+        "bloque": "Frente Peronista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "bonasso-miguel": {
+        "nombre": "BONASSO, Miguel", 
+        "bloque": "Di\u00e1logo por Buenos Aires", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "larreguy-carlos-alberto": {
+        "nombre": "LARREGUY, Carlos Alberto", 
+        "bloque": "Justicialista", 
+        "distrito": "Rio Negro"
+    }, 
+    "cortinas-ismael-ramon": {
+        "nombre": "CORTINAS, Ismael Ram\u00f3n", 
+        "bloque": "Autonomista de Corrientes", 
+        "distrito": "Corrientes"
+    }, 
+    "rodil-rodolfo": {
+        "nombre": "RODIL, Rodolfo", 
+        "bloque": "Encuentro Popular", 
+        "distrito": "Buenos Aires"
+    }, 
+    "tonelli-pablo-gabriel": {
+        "nombre": "TONELLI, Pablo Gabriel", 
+        "bloque": "PRO", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "herzovich-maria-elena": {
+        "nombre": "HERZOVICH, Mar\u00eda Elena", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "aguilar-lino-walter": {
+        "nombre": "AGUILAR, Lino Walter", 
+        "bloque": "Frente Peronista", 
+        "distrito": "San Luis"
+    }, 
+    "hernandez-simon-fermin": {
+        "nombre": "HERNANDEZ, Sim\u00f3n Ferm\u00edn", 
+        "bloque": "Frente C\u00edvico Social", 
+        "distrito": "Catamarca"
+    }, 
+    "videla-nora-esther": {
+        "nombre": "VIDELA, Nora Esther", 
+        "bloque": "Frente Peronista", 
+        "distrito": "San Luis"
+    }, 
+    "rosas-angel": {
+        "nombre": "ROSAS, Angel", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Chaco"
+    }, 
+    "garcia-hamilton-jose-ignacio": {
+        "nombre": "GARCIA HAMILTON, Jos\u00e9 Ignacio", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "guzman-olga-elizabeth": {
+        "nombre": "GUZMAN, Olga Elizabeth", 
+        "bloque": "Movimiento Popular Neuquino", 
+        "distrito": "Neuqu\u00e9n"
+    }, 
+    "merchan-paula-cecilia": {
+        "nombre": "MERCHAN, Paula Cecilia", 
+        "bloque": "Libres del Sur", 
+        "distrito": "C\u00f3rdoba"
+    }, 
+    "minguez-juan-jesus": {
+        "nombre": "MINGUEZ, Juan Jes\u00fas", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "San Juan"
+    }, 
+    "vitale-domingo": {
+        "nombre": "VITALE, Domingo", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "torino-hector-omar": {
+        "nombre": "TORINO, H\u00e9ctor Omar", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "San Luis"
+    }, 
+    "cafiero-mario-alejandro": {
+        "nombre": "CAFIERO, Mario Alejandro", 
+        "bloque": "Soberania Popular", 
+        "distrito": "Buenos Aires"
+    }, 
+    "falu-jose-ricardo": {
+        "nombre": "FALU, Jos\u00e9 Ricardo", 
+        "bloque": "Justicialista", 
+        "distrito": "Tucum\u00e1n"
+    }, 
+    "cesar-nora": {
+        "nombre": "CESAR, Nora", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "perez-martinez-claudio-hector": {
+        "nombre": "PEREZ MARTINEZ, Claudio H\u00e9ctor", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "La Pampa"
+    }, 
+    "elorriaga-osvaldo-enrique": {
+        "nombre": "ELORRIAGA, Osvaldo Enrique", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "fadul-liliana": {
+        "nombre": "FADUL, Liliana", 
+        "bloque": "Partido Federal Fueguino", 
+        "distrito": "Tierra del Fuego"
+    }, 
+    "costa-eduardo-raul": {
+        "nombre": "COSTA, Eduardo Ra\u00fal", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Santa Cruz"
+    }, 
+    "rodriguez-gonzalez-oliva": {
+        "nombre": "RODRIGUEZ GONZALEZ, Oliva", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "hernandez-cinthyia-gabriela": {
+        "nombre": "HERNANDEZ, Cinthyia Gabriela", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Rio Negro"
+    }, 
+    "osuna-blanca-ines": {
+        "nombre": "OSUNA, Blanca In\u00e9s", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Entre R\u00edos"
+    }, 
+    "ortiz-correa-marcia-sara-maria": {
+        "nombre": "ORTIZ CORREA, Marcia Sara Mar\u00eda", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Catamarca"
+    }, 
+    "fontdevila-pablo-antonio": {
+        "nombre": "FONTDEVILA, Pablo Antonio", 
+        "bloque": "Justicialista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "patti-luis-abelardo": {
+        "nombre": "PATTI, Luis Abelardo", 
+        "bloque": "Unidad Federalista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "junio-juan-carlos-isaac": {
+        "nombre": "JUNIO, Juan Carlos Isaac", 
+        "bloque": "Nuevo Encuentro", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "lovaglio-saravia-antonio": {
+        "nombre": "LOVAGLIO SARAVIA, Antonio", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Salta"
+    }, 
+    "plaini-francisco-omar": {
+        "nombre": "PLAINI, Francisco Omar", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Buenos Aires"
+    }, 
+    "del-riccio-ana-maria-del-carmen": {
+        "nombre": "DEL RICCIO, Ana Mar\u00eda del Carmen", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Formosa"
+    }, 
+    "unac-jose-ruben": {
+        "nombre": "U\u00d1AC, Jos\u00e9 Rub\u00e9n", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "San Juan"
+    }, 
+    "basterra-luis-eugenio": {
+        "nombre": "BASTERRA, Luis Eugenio", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Formosa"
+    }, 
+    "fernandez-horacio-anibal": {
+        "nombre": "FERNANDEZ, Horacio Anibal", 
+        "bloque": "Justicialista", 
+        "distrito": "La Pampa"
+    }, 
+    "albrieu-oscar-edmundo-nicolas": {
+        "nombre": "ALBRIEU, Oscar Edmundo Nicolas", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Rio Negro"
+    }, 
+    "quintero-marta-beatriz": {
+        "nombre": "QUINTERO, Marta Beatriz", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "La Rioja"
+    }, 
+    "acuna-kunz-juan": {
+        "nombre": "ACU\u00d1A KUNZ, Juan", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Santa Cruz"
+    }, 
+    "calvo-pedro-jorge-camilo": {
+        "nombre": "CALVO, Pedro Jorge Camilo", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "linares-maria-virginia": {
+        "nombre": "LINARES, Mar\u00eda Virginia", 
+        "bloque": "GEN", 
+        "distrito": "Buenos Aires"
+    }, 
+    "pradines-roberto-arturo": {
+        "nombre": "PRADINES, Roberto Arturo", 
+        "bloque": "Dem\u00f3crata de Mendoza", 
+        "distrito": "Mendoza"
+    }, 
+    "millet-juan-carlos": {
+        "nombre": "MILLET, Juan Carlos", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Santa Fe"
+    }, 
+    "toledo-hugo-david": {
+        "nombre": "TOLEDO, Hugo David", 
+        "bloque": "Peronista Federal", 
+        "distrito": "Buenos Aires"
+    }, 
+    "rattin-antonio-ubaldo": {
+        "nombre": "RATTIN, Antonio Ubaldo", 
+        "bloque": "Unidad Federalista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "rivara-raul-alberto": {
+        "nombre": "RIVARA, Ra\u00fal Alberto", 
+        "bloque": "Uni\u00f3n Peronista", 
+        "distrito": "Buenos Aires"
+    }, 
+    "marino-juliana-isabel": {
+        "nombre": "MARINO, Juliana Isabel", 
+        "bloque": "Frente para la Victoria - PJ", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }, 
+    "lozano-claudio-raul": {
+        "nombre": "LOZANO, Claudio Ra\u00fal", 
+        "bloque": "Unidad Popular", 
+        "distrito": "Cdad.Aut.Bs.As."
+    }
+}
