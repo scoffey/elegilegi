@@ -30,6 +30,7 @@ a:hover {
 #project {
 	font-size: 18pt;
 	padding-top: 64px;
+	font-weight: bold;
 }
 #date {
 	font-size: 10pt;

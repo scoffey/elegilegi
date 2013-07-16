@@ -13,7 +13,11 @@ function display(id) {
 function reset() {
 	currentProject = null;
 	currentVotes = {};
-	$.getJSON('data/index.json', function (data) {
+	$('#link').click(function () {
+		if (!currentProject) return;
+		window.open(currentProject.url, '_blank');
+	});
+	$.getJSON('data/curated-index.json', function (data) {
 		projectIds = data;
 		loadRandomProject();
 	});
@@ -25,6 +29,10 @@ function reset() {
 
 function loadRandomProject() {
 	currentProject = null;
+	if (projectIds.length == 0) {
+		finish();
+		return;
+	}
 	var i = Math.floor(Math.random() * projectIds.length);
 	var id = projectIds[i];
 	projectIds.splice(i, 1);
@@ -32,8 +40,9 @@ function loadRandomProject() {
 	$('#date').text('');
 	$.getJSON('data/proyectos/' + id + '.json', function (data) {
 		currentProject = data;
-		$('#project').text(data.asunto);
-		$('#date').text(data.fecha);
+		$('#project').text(data.nombre);
+		$('#summary').text(data.sumario);
+		$('#date').text(data.asunto + ' - ' + data.fecha);
 	});
 }
 
@@ -47,7 +56,33 @@ function match(reps) {
 			currentVotes[r] = 1;
 		}
 	}
-	(currentVotes);
+}
+
+function finish() {
+	var results = new Array();
+	for (var i in currentVotes) {
+		var n = currentVotes[i];
+		if (!(results[n])) {
+			results[n] = new Array();
+		}
+		results[n].push(representatives[i]);
+	}
+	var count = 0;
+	$('#reps').empty();
+	for (var i = results.length - 1; i >= 0; i--) {
+		var a = results[i];
+		for (var j = 0; j < a.length; j++) {
+			var e = document.createElement('li');
+			$(e).text(a[j].nombre + ' ('
+				+ a[j].bloque + ') '
+				+ a[j].distrito + ' [' + i + ']');
+			$('#reps').append(e);
+			count++;
+		}
+		if (count >= 5) break; // only show top matches
+	}
+	$('#voting').stop(true);
+	display('results');
 }
 
 $('#vote-aye').click(function () {
@@ -65,33 +100,11 @@ $('#vote-abs').click(function () {
 	$('#voting').fadeOut(200, loadRandomProject).fadeIn(100);
 });
 
-$('#finish').click(function () {
-	var results = new Array();
-	for (var i in currentVotes) {
-		var n = currentVotes[i];
-		if (!(results[n])) {
-			results[n] = new Array();
-		}
-		results[n].push(representatives[i]);
-	}
-	$('#reps').empty();
-	for (var i = results.length - 1; i >= 0; i--) {
-		var a = results[i];
-		for (var j = 0; j < a.length; j++) {
-			var e = document.createElement('li');
-			$(e).text(a[j].nombre + ' ('
-				+ a[j].bloque + ') '
-				+ a[j].distrito + ' [' + i + ']');
-			$('#reps').append(e);
-		}
-		break; // only show top matches -- TODO
-	}
-	display('results');
-});
+//$('#finish').click(finish);
 
 $('#start').click(function () { display('voting'); });
 $('#info').click(function () { display('about'); });
 $('#back').click(function () { display('intro'); });
-$('#resume').click(function () { display('voting'); });
+//$('#resume').click(function () { display('voting'); });
 $('#reset').click(reset);
 $(document).ready(reset);
