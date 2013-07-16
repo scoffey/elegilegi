@@ -1,5 +1,4 @@
 {
-    "fecha": "11/12/2008 01:08", 
     "votacion": {
         "AFIRMATIVO": [
             "acosta-de-ahumada-maria-julia", 
@@ -264,5 +263,9 @@
             "zancada-pablo"
         ]
     }, 
-    "asunto": "Exp. 38-PE-08 - Orden del D\u00eda 1530 - Votaci\u00f3n en General."
+    "url": "http://www.infoleg.gov.ar/infolegInternet/anexos/145000-149999/148719/norma.htm", 
+    "fecha": "11/12/2008 01:08", 
+    "asunto": "Exp. 38-PE-08 - Orden del D\u00eda 1530 - Votaci\u00f3n en General.", 
+    "nombre": "Ley de blanqueo de capitales", 
+    "sumario": "REGIMEN DE NORMALIZACION TRIBUTARIA, PROMOCION Y PROTECCION DEL EMPLEO REGISTRADO CON PRIORIDAD EN PYMES Y EXTERIORIZACION Y REPATRIACION DE CAPITALES."
 }

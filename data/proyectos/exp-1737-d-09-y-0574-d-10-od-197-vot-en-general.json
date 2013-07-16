@@ -1,5 +1,4 @@
 {
-    "fecha": "05/05/2010 02:25", 
     "votacion": {
         "AFIRMATIVO": [
             "acosta-de-ahumada-maria-julia", 
@@ -266,5 +265,9 @@
             "ziegler-alex-roberto"
         ]
     }, 
-    "asunto": "Exp. 1737-D-09 y 0574-D-10, O.D. 197 - Vot. en General."
+    "url": "http://www.infoleg.gob.ar/infolegInternet/anexos/165000-169999/169608/norma.htm", 
+    "fecha": "05/05/2010 02:25", 
+    "asunto": "Exp. 1737-D-09 y 0574-D-10, O.D. 197 - Vot. en General.", 
+    "nombre": "Ley de matrimonio igualitario", 
+    "sumario": "MATRIMONIO; CODIGO CIVIL, MODIFICACION DEL TITULO I , SECCION II \"DE LOS DERECHOS EN LAS RELACIONES DE FAMILIA\" , INCLUYE A LAS PERSONAS DEL MISMO SEXO."
 }

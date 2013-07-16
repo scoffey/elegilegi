@@ -1,5 +1,4 @@
 {
-    "fecha": "21/11/2012 19:21", 
     "votacion": {
         "AFIRMATIVO": [
             "abdala-de-matarazzo-norma-amanda", 
@@ -266,5 +265,9 @@
             "triaca-alberto-jorge"
         ]
     }, 
-    "asunto": "Expediente 04-PE-12 - Orden del D\u00eda 1458 - Votaci\u00f3n en General."
+    "url": "http://infoleg.gov.ar/infolegInternet/anexos/205000-209999/206592/norma.htm", 
+    "fecha": "21/11/2012 19:21", 
+    "asunto": "Expediente 04-PE-12 - Orden del D\u00eda 1458 - Votaci\u00f3n en General.", 
+    "nombre": "Ley de Mercado de Capitales", 
+    "sumario": "LEY DE MERCADO DE CAPITALES: REFORMA INTEGRAL DEL REGIMEN DE LA OFERTA PUBLICA DE VALORES NEGOCIABLES AUTORIZADOS POR LA COMISION NACIONAL DE VALORES. DEROGACION DE LA LEY 17811, DEL ARTICULO 80 DE LA LEY 11672, DECRETO 656/92, DECRETO 677/01, DECRETO 749/00, DECRETO 476/04 Y LOS ARTICULOS 80 A 84 DEL DECRETO 2284/91."
 }

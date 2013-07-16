@@ -1,5 +1,4 @@
 {
-    "fecha": "17/09/2009 01:15", 
     "votacion": {
         "AFIRMATIVO": [
             "acosta-de-ahumada-maria-julia", 
@@ -266,5 +265,9 @@
             "sesma-laura-judith"
         ]
     }, 
-    "asunto": "Exp. 22-PE-09 y otros - Orden del D\u00eda 2005 - Vot. en General"
+    "url": "http://www.infoleg.gob.ar/infolegInternet/anexos/155000-159999/158649/norma.htm", 
+    "fecha": "17/09/2009 01:15", 
+    "asunto": "Exp. 22-PE-09 y otros - Orden del D\u00eda 2005 - Vot. en General", 
+    "nombre": "Ley de Medios", 
+    "sumario": "REGULACION DE LOS SERVICIOS DE COMUNICACION AUDIOVISUAL EN TODO EL AMBITO DEL TERRITORIO DE LA REPUBLICA ARGENTINA Y PROMOCION DE LAS TECNOLOGIAS DE LA INFORMACION Y LA COMUNICACION. DEROGACION DE LA LEY 22285 (LEY DE RADIODIFUSION)."
 }

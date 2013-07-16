@@ -1,5 +1,4 @@
 {
-    "fecha": "08/08/2012 14:46", 
     "votacion": {
         "AFIRMATIVO": [
             "abdala-de-matarazzo-norma-amanda", 
@@ -264,5 +263,9 @@
             "yoma-jorge-raul"
         ]
     }, 
-    "asunto": "Expediente 1943-D-12 (y otros) - Orden del D\u00eda 494 - Votaci\u00f3n en General y Particular."
+    "url": "http://infoleg.mecon.gov.ar/infolegInternet/anexos/200000-204999/202127/norma.htm", 
+    "fecha": "08/08/2012 14:46", 
+    "asunto": "Expediente 1943-D-12 (y otros) - Orden del D\u00eda 494 - Votaci\u00f3n en General y Particular.", 
+    "nombre": "Ley de transferencia de fondos del Banco Ciudad al Naci\u00f3n", 
+    "sumario": "DEPOSITOS JUDICIALES DE LOS TRIBUNALES NACIONALES Y FEDERALES: EFECTUENSE EN EL BANCO DE LA NACION ARGENTINA; MODIFICACION DE LAS LEYES 20785 Y 21799. DEROGACION DE LA LEY 16869 (DEPOSITOS JUDICIALES)."
 }

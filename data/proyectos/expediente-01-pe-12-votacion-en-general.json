@@ -1,5 +1,4 @@
 {
-    "fecha": "14/03/2012 21:42", 
     "votacion": {
         "AFIRMATIVO": [
             "abdala-de-matarazzo-norma-amanda", 
@@ -266,5 +265,9 @@
             "zabalza-juan-carlos"
         ]
     }, 
-    "asunto": "Expediente 01-PE-12 - Votaci\u00f3n en General."
+    "url": "http://www.infoleg.gob.ar/infolegInternet/anexos/195000-199999/195621/norma.htm", 
+    "fecha": "14/03/2012 21:42", 
+    "asunto": "Expediente 01-PE-12 - Votaci\u00f3n en General.", 
+    "nombre": "Modificaci\u00f3n de la Carta Org\u00e1nica del BCRA", 
+    "sumario": "MODIFICACION DE LA LEY 24144 (CARTA ORGANICA DEL BANCO CENTRAL DE LA REPUBLICA ARGENTINA) Y DE LA LEY 23928 (LEY DE CONVERTIBILIDAD)."
 }
