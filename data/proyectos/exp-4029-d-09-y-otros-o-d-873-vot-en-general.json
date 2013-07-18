@@ -1,5 +1,4 @@
 {
-    "fecha": "19/08/2010 03:06", 
     "votacion": {
         "AFIRMATIVO": [
             "agosto-walter", 
@@ -266,5 +265,9 @@
             "ziegler-alex-roberto"
         ]
     }, 
-    "asunto": "Exp. 4029-D-09 (y otros) - O. D. 873 - Vot. en General."
+    "url": "http://www1.hcdn.gov.ar/proyxml/expediente.asp?fundamentos=si&numexp=4029-D-2009", 
+    "fecha": "19/08/2010 03:06", 
+    "asunto": "Exp. 4029-D-09 (y otros) - O. D. 873 - Vot. en General.", 
+    "nombre": "82% m\u00f3vil a jubilados", 
+    "sumario": "MOVILIDAD DE LAS PRESTACIONES PREVISIONALES: SISTEMA INTEGRADO DE JUBILACIONES Y PENSIONES, LEY 24241, MODIFICACION DEL ARTICULO 32."
 }

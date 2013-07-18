@@ -1,5 +1,4 @@
 {
-    "fecha": "28/02/2013 02:00", 
     "votacion": {
         "AFIRMATIVO": [
             "abdala-de-matarazzo-norma-amanda", 
@@ -264,5 +263,9 @@
             "zabalza-juan-carlos"
         ]
     }, 
-    "asunto": "Expediente 236-S-12 - Orden del D\u00eda 1867 - Votaci\u00f3n en General y Particular."
+    "url": "http://www.infoleg.gov.ar/infolegInternet/anexos/205000-209999/208948/norma.htm", 
+    "fecha": "28/02/2013 02:00", 
+    "asunto": "Expediente 236-S-12 - Orden del D\u00eda 1867 - Votaci\u00f3n en General y Particular.", 
+    "nombre": "Memor\u00e1ndum de entendimiento entre el gobierno de la Rep\u00fablica Argentina y el gobierno de la Rep\u00fablica Isl\u00e1mica de Ir\u00e1n", 
+    "sumario": "APROBACION DEL MEMORANDUM DE ENTENDIMIENTO ENTRE EL GOBIERNO DE LA REPUBLICA ARGENTINA Y EL GOBIERNO DE LA REPUBLICA ISLAMICA DE IRAN, SOBRE LOS TEMAS VINCULADOS AL ATAQUE TERRORISTA A LA SEDE DE LA AMIA EN BUENOS AIRES EL 18 DE JULIO DE 1994."
 }

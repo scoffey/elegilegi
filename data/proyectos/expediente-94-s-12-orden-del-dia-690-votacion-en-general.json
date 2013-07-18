@@ -1,5 +1,4 @@
 {
-    "fecha": "22/08/2012 21:02", 
     "votacion": {
         "AFIRMATIVO": [
             "abdala-de-matarazzo-norma-amanda", 
@@ -266,5 +265,9 @@
             "zabalza-juan-carlos"
         ]
     }, 
-    "asunto": "Expediente 94-S-12 - Orden del D\u00eda 690 - Votaci\u00f3n en General."
+    "url": "http://www.infoleg.gov.ar/infolegInternet/anexos/200000-204999/201393/norma.htm", 
+    "fecha": "22/08/2012 21:02", 
+    "asunto": "Expediente 94-S-12 - Orden del D\u00eda 690 - Votaci\u00f3n en General.", 
+    "nombre": "Ley de expropiaci\u00f3n de la ex imprenta Ciccone", 
+    "sumario": "DECLARAR DE UTILIDAD PUBLICA Y SUJETA A EXPROPIACION A LA COMPA\u00d1\u00cdA DE VALORES SUDAMERICANA S.A."
 }

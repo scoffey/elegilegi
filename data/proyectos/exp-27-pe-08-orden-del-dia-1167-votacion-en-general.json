@@ -1,5 +1,4 @@
 {
-    "fecha": "07/11/2008 02:01", 
     "votacion": {
         "AFIRMATIVO": [
             "acosta-de-ahumada-maria-julia", 
@@ -264,5 +263,9 @@
             "velarde-marta-sylvia"
         ]
     }, 
-    "asunto": "Exp. 27-PE-08 - Orden del D\u00eda 1167 - Votaci\u00f3n en General."
+    "url": "http://www.infoleg.gov.ar/infolegInternet/anexos/145000-149999/148141/norma.htm", 
+    "fecha": "07/11/2008 02:01", 
+    "asunto": "Exp. 27-PE-08 - Orden del D\u00eda 1167 - Votaci\u00f3n en General.", 
+    "nombre": "Estatizaci\u00f3n de las AFJP", 
+    "sumario": "SISTEMA INTEGRADO PREVISIONAL ARGENTINO (SIPA): TRANSFERENCIA DE LOS AFILIADOS DEL REGIMEN DE CAPITALIZACION A UN UNICO REGIMEN PREVISIONAL PUBLICO, AFILIADOS Y BENEFICIARIOS, RECURSOS."
 }

@@ -1,5 +1,4 @@
 {
-    "fecha": "05/07/2008 12:14", 
     "votacion": {
         "AFIRMATIVO": [
             "acosta-de-ahumada-maria-julia", 
@@ -266,5 +265,9 @@
             "zavallo-gustavo"
         ]
     }, 
-    "asunto": "Exp. 13-PE-08 - Votaci\u00f3n en General."
+    "url": "http://www.hcdn.gov.ar/comisiones/permanentes/cpyhacienda/proyectos/proyecto.jsp?id=96429", 
+    "fecha": "05/07/2008 12:14", 
+    "asunto": "Exp. 13-PE-08 - Votaci\u00f3n en General.", 
+    "nombre": "Resoluci\u00f3n 125 (Retenciones agropecuarias)", 
+    "sumario": "RETENCIONES AGROPECUARIAS: RATIFICACION DE LAS RESOLUCIONES DEL MINISTERIO DE ECONOMIA Y PRODUCCION 125/08 Y 141/08, 64/08 Y SUS COMPLEMENTARIAS 284/08 Y 285/08; CREACION DEL FONDO DE REDISTRIBUCION SOCIAL."
 }
