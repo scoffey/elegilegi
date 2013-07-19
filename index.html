@@ -6,16 +6,20 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </head>
 <body>
-<h1>eLegiLegi</h1>
+<div id="heading">
+	<div class="container">
+		<h1>elegilegi</h1>
+		<p class="tagline">un juego para elegir legisladores que votan como vos</p>
+		<p class="action"><a id="info" href="javascript:void(0);">Acerca de</a></p>
+	</div>
+</div>
 <div id="intro">
-	<p>Un juego para conocer al legislador que vota como vos.</p>
 	<ol>
-	<li>Te mostramos los proyectos de ley que se votaron en el Congreso en los &uacute;ltimos a&ntilde;os.</li>
-	<li>Respond&eacute;s si hubieras votado a favor, en contra o abstenci&oacute;n de los proyectos que quieras.</li>
-	<li>Te mostramos cu&aacute;l es el legislador que vot&oacute; m&aacute;s parecido a vos. &iquest;Ser&aacute; el que vos pens&aacute;s?</li>
+	<li>Te presentamos proyectos de ley que se votaron en el Congreso en los &uacute;ltimos a&ntilde;os.</li>
+	<li>Respond&eacute;s si hubieras votado a favor, en contra o abstenci&oacute;n.</li>
+	<li>Te mostramos los legisladores que votaron m&aacute;s parecido a vos. &iquest;Ser&aacute;n los que vos pens&aacute;s?</li>
 	</ol>
-	<p><a id="start" href="javascript:void(0);">Comenzar</a></p>
-	<p><a id="info" href="javascript:void(0);">Acerca de</a></p>
+	<p class="action"><a id="start" href="javascript:void(0);">Comenzar</a></p>
 </div>
 <div id="about">
 	<p>Esta aplicaci&oacute;n fue desarrollada originalmente para la <a href="http://garagelab.tumblr.com/post/1651627498/2dahackathondedatospublicosgubernamentales">Hackaton de Datos P&uacute;blicos</a> de <a href="https://twitter.com/garagelab">@garagelab</a> en diciembre de 2010 por <a href="https://twitter.com/scoffey">@scoffey</a>, <a href="https://twitter.com/maraoz">@maraoz</a>, <a href="https://twitter.com/martint">@martint</a>, <a href="https://twitter.com/k0001">@k0001</a>, <a href="https://twitter.com/demenece">@demenece</a> y otros colaboradores.</p>
@@ -29,8 +33,8 @@
 	<p id="date">Fecha</p>
 	<p id="question">&iquest;Votar&iacute;as a favor de este proyecto?</p>
 	<ul>
-	<li><a id="vote-aye" href="javascript:void(0);">S&iacute;</a></li>
-	<li><a id="vote-nay" href="javascript:void(0);">No</a></li>
+	<li><a id="vote-aye" href="javascript:void(0);">S&Iacute;</a></li>
+	<li><a id="vote-nay" href="javascript:void(0);">NO</a></li>
 	<li><a id="vote-abs" href="javascript:void(0);">No s&eacute;, paso</a></li>
 	</ul>
 	<!-- p><a id="finish" href="javascript:void(0);">Ver resultados</a></p -->

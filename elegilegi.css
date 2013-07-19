@@ -1,20 +1,62 @@
 body {
-	margin: auto;
+	margin: 80px auto;
 	width: 800px;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	background: url(media/congreso.jpg) black no-repeat;
+	background-size: cover;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: inherit;
+	font-weight: 300;
 }
 a, a:visited {
 	text-decoration: none;
-	color: rgb(0, 0, 238);
+	color: rgb(0, 0, 192);
 }
 a:hover {
 	text-decoration: underline;
-	color: rgb(0, 0, 238);
+	color: rgb(0, 0, 192);
+}
+#heading {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	width: 100%;
+}
+#heading h1 {
+	display: inline;
+	margin: 0 8px;
+}
+#heading .tagline {
+	display: inline;
+	margin: 0 8px;
+	letter-spacing: 0.2em;
+}
+#heading .action {
+	float: right;
+	padding: 0 8px;
+}
+#heading .action a, #heading .action a:visited, #heading .action a:hover {
+	color: rgb(127, 127, 255);
+}
+.container {
+	width: 800px;
+	margin: 10px auto;
+}
+#intro .action {
+	text-align: center;
+}
+#voting, #intro, #about, #results {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 40px 80px;
 }
 #voting ul {
 	list-style: none;
 	display: block;
-	height: 200px;
+	height: 160px;
 	width: 320px;
 	padding: 0;
 	margin: 0 auto;
@@ -28,9 +70,7 @@ a:hover {
 	text-align: center;
 }
 #project {
-	font-size: 18pt;
-	padding-top: 64px;
-	font-weight: bold;
+	font-size: 24pt;
 }
 #date {
 	font-size: 10pt;
@@ -38,25 +78,22 @@ a:hover {
 }
 #question {
 	padding-top: 32px;
-	font-weight: bold;
 }
-#vote-aye, #vote-nay, #vote-abs {
+#vote-aye, #vote-nay, #vote-abs, #start {
 	background-repeat: repeat-x;
 	border: 1px solid rgba(0, 0, 0, 0.0976563);
 	border-bottom-color: rgba(0, 0, 0, 0.246094);
-	border-radius: 8px;
+	/* border-radius: 8px; */
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 	border-collapse: separate;
-	box-shadow: rgba(255, 255, 255, 0.199219) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.046875) 0px 1px 2px 0px;
+	box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 	box-sizing: border-box;
 	color: rgb(255, 255, 255);
 	cursor: pointer;
 	display: inline-block;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	font-size: 32px;
-	font-weight: bold;
 	height: 64px;
 	letter-spacing: normal;
 	line-height: 52px;
@@ -73,18 +110,27 @@ a:hover {
 }
 #vote-aye {
 	background-color: rgb(91, 183, 91);
-	background-image: -webkit-linear-gradient(top, rgb(98, 196, 98), rgb(81, 163, 81));
+	background-image: -webkit-linear-gradient(top, rgb(98, 196, 98), rgb(61, 123, 61));
 }
 #vote-nay {
 	background-color: rgb(189, 54, 47);
-	background-image: -webkit-linear-gradient(top, rgb(238, 95, 91), rgb(189, 54, 47));
+	background-image: -webkit-linear-gradient(top, rgb(238, 95, 91), rgb(149, 34, 37));
 }
 #vote-abs {
 	background-color: rgb(248, 148, 6);
-	background-image: -webkit-linear-gradient(top, rgb(251, 180, 80), rgb(248, 148, 6));
+	background-image: -webkit-linear-gradient(top, rgb(251, 180, 80), rgb(198, 118, 3));
 	font-size: 16px;
 	width: 144px;
 	line-height: 24px;
 	height: 36px;
 	margin: 0 72px;
+}
+#start {
+	background-color: rgb(0, 68, 204);
+	background-image: -webkit-linear-gradient(top, rgb(0, 136, 204), rgb(0, 48, 154));
+	font-size: 24px;
+	width: 144px;
+	line-height: 28px;
+	height: 40px;
+	margin: 0 auto;
 }
