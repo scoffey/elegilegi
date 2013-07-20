@@ -37,10 +37,24 @@ a:hover {
 }
 #heading .action {
 	float: right;
-	padding: 0 8px;
+	margin: 8px;
 }
-#heading .action a, #heading .action a:visited, #heading .action a:hover {
-	color: rgb(127, 127, 255);
+#info {
+	height: 28px;
+	width: 28px;
+	background: #333;
+	color: #999;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	font-size: 14pt;
+	line-height: 30px;
+	margin: 0;
+}
+#info:hover {
+	background: #666;
+	color: #fff;
+	text-decoration: none;
 }
 .container {
 	width: 800px;
@@ -49,21 +63,25 @@ a:hover {
 #intro .action {
 	text-align: center;
 }
-#voting, #intro, #about, #results {
+#about {
+	background-color: rgba(200, 220, 255, 0.8);
+	padding: 40px 80px;
+}
+#voting, #intro, #results {
 	background-color: rgba(255, 255, 255, 0.8);
 	padding: 40px 80px;
 }
 #voting ul {
 	list-style: none;
 	display: block;
-	height: 160px;
-	width: 320px;
+	width: 256px;
 	padding: 0;
 	margin: 0 auto;
+	text-align: center;
 }
 #voting ul li {
-	float: left;
-	margin: 16px;
+	display: inline-block;
+	margin: 0;
 	padding: 0;
 }
 #voting p {
@@ -80,57 +98,46 @@ a:hover {
 	padding-top: 32px;
 }
 #vote-aye, #vote-nay, #vote-abs, #start {
-	background-repeat: repeat-x;
-	border: 1px solid rgba(0, 0, 0, 0.0976563);
-	border-bottom-color: rgba(0, 0, 0, 0.246094);
-	/* border-radius: 8px; */
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
-	border-collapse: separate;
-	box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
-	box-sizing: border-box;
 	color: rgb(255, 255, 255);
 	cursor: pointer;
 	display: inline-block;
 	text-decoration: none;
 	font-size: 32px;
-	height: 64px;
-	letter-spacing: normal;
-	line-height: 52px;
-	margin: 0;
-	max-width: none;
-	padding: 4px 12px;
+	margin: 2px 0;
 	text-align: center;
-	text-indent: 0px;
-	text-shadow: rgba(0, 0, 0, 0.246094) 0px -1px 0px;
-	text-transform: none;
-	vertical-align: middle;
-	width: 128px;
-	word-spacing: 0px;
+	text-indent: 0;
 }
 #vote-aye {
+	width: 120px;
+	padding: 16px 0;
 	background-color: rgb(91, 183, 91);
-	background-image: -webkit-linear-gradient(top, rgb(98, 196, 98), rgb(61, 123, 61));
+}
+#vote-aye:hover {
+	background-color: rgb(91, 223, 91);
 }
 #vote-nay {
+	width: 120px;
+	padding: 16px 0;
 	background-color: rgb(189, 54, 47);
-	background-image: -webkit-linear-gradient(top, rgb(238, 95, 91), rgb(149, 34, 37));
+}
+#vote-nay:hover {
+	background-color: rgb(229, 54, 47);
 }
 #vote-abs {
+	width: 244px;
+	padding: 12px 0;
 	background-color: rgb(248, 148, 6);
-	background-image: -webkit-linear-gradient(top, rgb(251, 180, 80), rgb(198, 118, 3));
 	font-size: 16px;
-	width: 144px;
-	line-height: 24px;
-	height: 36px;
-	margin: 0 72px;
+}
+#vote-abs:hover {
+	background-color: rgb(255, 188, 6);
 }
 #start {
 	background-color: rgb(0, 68, 204);
-	background-image: -webkit-linear-gradient(top, rgb(0, 136, 204), rgb(0, 48, 154));
 	font-size: 24px;
-	width: 144px;
-	line-height: 28px;
-	height: 40px;
+	padding: 12px 16px;
 	margin: 0 auto;
+}
+#start:hover {
+	background-color: rgb(0, 68, 244);
 }

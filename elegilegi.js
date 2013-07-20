@@ -3,11 +3,21 @@ var representatives = null;
 var currentProject = null;
 var currentVotes = null;
 
-function display(id) {
-	$('#intro').css('display', (id == 'intro' ? 'block' : 'none'));
-	$('#about').css('display', (id == 'about' ? 'block' : 'none'));
-	$('#voting').css('display', (id == 'voting' ? 'block' : 'none'));
-	$('#results').css('display', (id == 'results' ? 'block' : 'none'));
+function shuffle(array) {
+    var counter = array.length, temp, index;
+
+    // While there are elements in the array
+    while (counter > 0) {
+        // Pick a random index
+        index = (Math.random() * counter--) | 0;
+
+        // And swap the last element with it
+        temp = array[counter];
+        array[counter] = array[index];
+        array[index] = temp;
+    }
+
+    return array;
 }
 
 function reset() {
@@ -18,13 +28,15 @@ function reset() {
 		window.open(currentProject.url, '_blank');
 	});
 	$.getJSON('data/curated-index.json', function (data) {
-		projectIds = data;
-		loadRandomProject();
+		projectIds = shuffle(data);
 	});
 	$.getJSON('data/legisladores.json', function (data) {
 		representatives = data;
 	});
-	display('intro');
+	$('#intro').css('display', 'block');
+	$('#about').css('display', 'none');
+	$('#voting').css('display', 'none');
+	$('#results').css('display', 'none');
 }
 
 function loadRandomProject() {
@@ -33,16 +45,13 @@ function loadRandomProject() {
 		finish();
 		return;
 	}
-	var i = Math.floor(Math.random() * projectIds.length);
-	var id = projectIds[i];
-	projectIds.splice(i, 1);
-	$('#project').text('');
-	$('#date').text('');
+	var id = projectIds.pop();
 	$.getJSON('data/proyectos/' + id + '.json', function (data) {
 		currentProject = data;
 		$('#project').text(data.nombre);
 		$('#summary').text(data.sumario);
 		$('#date').text(data.asunto + ' - ' + data.fecha);
+		$('#voting').fadeIn(100);
 	});
 }
 
@@ -79,32 +88,34 @@ function finish() {
 			$('#reps').append(e);
 			count++;
 		}
-		if (count >= 5) break; // only show top matches
+		if (count >= 8) break; // only show top matches
 	}
 	$('#voting').stop(true);
-	display('results');
+	$('#voting').fadeOut(200, function () {
+		$('#results').fadeIn(100);
+	});
 }
 
 $('#vote-aye').click(function () {
 	if (!currentProject) return;
 	match(currentProject.votacion.AFIRMATIVO);
-	$('#voting').fadeOut(200, loadRandomProject).fadeIn(100);
+	$('#voting').fadeOut(200, loadRandomProject);
 });
 $('#vote-nay').click(function () {
 	if (!currentProject) return;
 	match(currentProject.votacion.NEGATIVO);
-	$('#voting').fadeOut(200, loadRandomProject).fadeIn(100);
+	$('#voting').fadeOut(200, loadRandomProject);
 });
 $('#vote-abs').click(function () {
 	if (!currentProject) return;
-	$('#voting').fadeOut(200, loadRandomProject).fadeIn(100);
+	$('#voting').fadeOut(200, loadRandomProject);
 });
 
 //$('#finish').click(finish);
 
-$('#start').click(function () { display('voting'); });
-$('#info').click(function () { display('about'); });
-$('#back').click(function () { display('intro'); });
-//$('#resume').click(function () { display('voting'); });
+$('#start').click(function () { $('#intro').fadeOut(200, loadRandomProject); });
+$('#info').click(function () { $('#about').slideToggle(500); });
+$('#back').click(function () { $('#about').slideToggle(500); });
+//$('#resume').click(function () { ('#voting').css('display', 'block'); });
 $('#reset').click(reset);
 $(document).ready(reset);
