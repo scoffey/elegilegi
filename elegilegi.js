@@ -23,10 +23,6 @@ function shuffle(array) {
 function reset() {
 	currentProject = null;
 	currentVotes = {};
-	$('#link').click(function () {
-		if (!currentProject) return;
-		window.open(currentProject.url, '_blank');
-	});
 	$.getJSON('data/curated-index.json', function (data) {
 		projectIds = shuffle(data);
 	});
@@ -50,7 +46,7 @@ function loadRandomProject() {
 		currentProject = data;
 		$('#project').text(data.nombre);
 		$('#summary').text(data.sumario);
-		$('#date').text(data.asunto + ' - ' + data.fecha);
+		$('#date').text(data.asunto + ' \u2014 ' + data.fecha);
 		$('#voting').fadeIn(100);
 	});
 }
@@ -96,26 +92,31 @@ function finish() {
 	});
 }
 
-$('#vote-aye').click(function () {
-	if (!currentProject) return;
-	match(currentProject.votacion.AFIRMATIVO);
-	$('#voting').fadeOut(200, loadRandomProject);
-});
-$('#vote-nay').click(function () {
-	if (!currentProject) return;
-	match(currentProject.votacion.NEGATIVO);
-	$('#voting').fadeOut(200, loadRandomProject);
-});
-$('#vote-abs').click(function () {
-	if (!currentProject) return;
-	$('#voting').fadeOut(200, loadRandomProject);
-});
+$(document).ready(function () {
+	$('#vote-aye').click(function () {
+		if (!currentProject) return;
+		match(currentProject.votacion.AFIRMATIVO);
+		$('#voting').fadeOut(200, loadRandomProject);
+	});
+	$('#vote-nay').click(function () {
+		if (!currentProject) return;
+		match(currentProject.votacion.NEGATIVO);
+		$('#voting').fadeOut(200, loadRandomProject);
+	});
+	$('#vote-abs').click(function () {
+		if (!currentProject) return;
+		$('#voting').fadeOut(200, loadRandomProject);
+	});
 
-//$('#finish').click(finish);
-
-$('#start').click(function () { $('#intro').fadeOut(200, loadRandomProject); });
-$('#info').click(function () { $('#about').slideToggle(500); });
-$('#back').click(function () { $('#about').slideToggle(500); });
-//$('#resume').click(function () { ('#voting').css('display', 'block'); });
-$('#reset').click(reset);
-$(document).ready(reset);
+	$('#link').click(function () {
+		if (!currentProject) return;
+		window.open(currentProject.url, '_blank');
+	});
+	$('#start').click(function () {
+		$('#intro').fadeOut(200, loadRandomProject);
+	});
+	$('#info').click(function () { $('#about').slideToggle(500); });
+	$('#back').click(function () { $('#about').slideToggle(500); });
+	$('#reset').click(reset);
+	reset();
+});
