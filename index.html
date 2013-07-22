@@ -10,22 +10,22 @@
 	<div class="container">
 		<h1>elegilegi</h1>
 		<p class="tagline">un juego para elegir legisladores que votan como vos</p>
-		<p class="action"><a id="info" href="javascript:void(0);" title="Acerca de esta aplicaci&oacute;n">?</a></p>
+		<p class="corner"><a id="info" href="javascript:void(0);" title="Acerca de esta aplicaci&oacute;n">?</a></p>
 	</div>
-</div>
-<div id="intro">
-	<ol>
-	<li>Te presentamos proyectos de ley que se votaron en el Congreso en los &uacute;ltimos a&ntilde;os.</li>
-	<li>Respond&eacute;s si hubieras votado a favor, en contra o abstenci&oacute;n.</li>
-	<li>Te mostramos los legisladores que votaron m&aacute;s parecido a vos. &iquest;Ser&aacute;n los que vos pens&aacute;s?</li>
-	</ol>
-	<p class="action"><a id="start" href="javascript:void(0);">Comenzar</a></p>
 </div>
 <div id="about">
 	<p>Esta aplicaci&oacute;n fue desarrollada originalmente para la <a href="http://garagelab.tumblr.com/post/1651627498/2dahackathondedatospublicosgubernamentales">Hackaton de Datos P&uacute;blicos</a> de <a href="https://twitter.com/garagelab">@garagelab</a> en diciembre de 2010 por <a href="https://twitter.com/scoffey">@scoffey</a>, <a href="https://twitter.com/maraoz">@maraoz</a>, <a href="https://twitter.com/martint">@martint</a>, <a href="https://twitter.com/k0001">@k0001</a>, <a href="https://twitter.com/demenece">@demenece</a> y otros colaboradores.</p>
-	<p>En mayo de 2013, a ra&iacute;z del inter&eacute;s de <a href="https://twitter.com/CongresoInterac">@CongresoInterac</a>, el proyecto fue retomado por <a href="https://twitter.com/scoffey">@scoffey</a> para ser reimplementado, ahora con los datos de votaciones nominales compilados por <a href="https://twitter.com/andy_tow">@andy_tow</a> y la selecci&oacute;n de proyectos propuesta por <a href="https://twitter.com/martinszy">@martinszy</a>.</p>
-	<p>El c&oacute;digo fuente de la aplicaci&oacute;n es abierto y se encuentra disponible en <a href="https://github.com/scoffey/elegilegi">github.com/scoffey/elegilegi</a>.</p>
-	<p><a id="back" href="javascript:void(0);">Cerrar</a></p>
+	<p>En mayo de 2013, a ra&iacute;z del inter&eacute;s de <a href="https://twitter.com/CongresoInterac">@CongresoInterac</a> y el contacto de <a href="https://twitter.com/martinszy">@martinszy</a>, el proyecto fue retomado por <a href="https://twitter.com/scoffey">@scoffey</a> para ser reimplementado, ahora con los datos de votaciones nominales compilados por <a href="https://twitter.com/andy_tow">@andy_tow</a>.</p>
+	<p>El c&oacute;digo fuente es abierto y se encuentra disponible en <a href="https://github.com/scoffey/elegilegi">github.com/scoffey/elegilegi</a>. Los datos son de dominio p&uacute;blico.</p>
+	<p class="center"><a id="back" class="action" href="javascript:void(0);">Cerrar</a></p>
+</div>
+<div id="intro">
+	<ol>
+	<li>Te presentamos 30 proyectos de ley que se votaron en el Congreso en los &uacute;ltimos 10 a&ntilde;os.</li>
+	<li>Respond&eacute;s si hubieras votado a favor, en contra o abstenci&oacute;n.</li>
+	<li>Te mostramos los legisladores que votaron m&aacute;s parecido a vos. &iquest;Ser&aacute;n los que pens&aacute;s?</li>
+	</ol>
+	<p class="center"><a id="start" class="action" href="javascript:void(0);">Comenzar</a></p>
 </div>
 <div id="voting">
 	<p id="project">Proyecto</p>
@@ -44,7 +44,7 @@
 	<p>Estos son los legisladores que votaron m&aacute;s parecido a vos:</p>
 	<ol id="reps"></ol>
 	<!-- p><a id="resume" href="javascript:void(0);">Seguir votando</a></p -->
-	<p><a id="reset" href="javascript:void(0);">Volver a empezar</a></p>
+	<p class="center"><a id="reset" class="action" href="javascript:void(0);">Volver a empezar</a></p>
 </div>
 <script type="text/javascript" src="elegilegi.js"></script>
 </body>
