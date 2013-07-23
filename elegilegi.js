@@ -198,7 +198,7 @@ $(document).ready(function () {
 			+ 'que votan como vos: ';
 		window.open('http://twitter.com/intent/tweet?text='
 			+ encodeURIComponent(tweet) + '&url='
-			+ encodeURIComponent(url)
+			+ encodeURIComponent(location.href)
 			+ '&hashtags=opengov,elegilegi',
 			'twitter-share-dialog', 'width=550,height=420');
 	});
