@@ -46,8 +46,20 @@
 	<p id="progress-bar"><span></span></p>
 </div>
 <div id="results">
-	<p>Estos son los legisladores que votaron m&aacute;s parecido a vos:</p>
-	<ol id="reps"></ol>
+	<p>Estos son los legisladores ordenados por coincidencias y discrepancias con tus votos.</p>
+	<p class="shady">Pod&eacute;s ordenar los resultados por columna.</p>
+	<table>
+		<thead>
+			<tr>
+				<td>Legislador</td>
+				<td class="center"><a href="javascript:void(0);" id="coincidences">Coincidencias</a></td>
+				<td class="center"><a href="javascript:void(0);" id="discrepancies">Discrepancias</a></td>
+				<td class="center"><a href="javascript:void(0);" id="difference">Diferencia</a></td>
+			</tr>
+		</thead>
+		<tbody id="rows">
+		</tbody>
+	</table>
 	<p>Nota: S&oacute;lo se muestran diputados. Tenemos pendiente compilar las votaciones del Senado.</p>
 	<p class="center"><a id="reset" class="action" href="javascript:void(0);">Volver a empezar</a></p>
 	<p class="center">&iquest;Quer&eacute;s ayudar a un amigo que no sabe qu&eacute; votar?<br />&iexcl;Sos libre de hacer Patria y compartirle este link!<br /><a id="facebook" href="javascript:void(0);">Facebook</a> - <a id="twitter" href="javascript:void(0);">Twitter</a> - <a id="googleplus" href="javascript:void(0);">Google+</a></p>

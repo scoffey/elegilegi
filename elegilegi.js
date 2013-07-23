@@ -1,7 +1,7 @@
 var projectIds = null;
 var representatives = null;
 var currentProject = null;
-var currentVotes = null;
+var results = null;
 
 var projects = [
 	"exp-11-pe-11-orden-del-dia-03-votacion-en-general",
@@ -55,11 +55,8 @@ function shuffle(array) {
 
 function reset() {
 	currentProject = null;
-	currentVotes = {};
+	results = {};
 	projectIds = shuffle(projects.slice(0));
-	$.getJSON('data/legisladores.json', function (data) {
-		representatives = data;
-	});
 	$('#intro').css('display', 'block');
 	$('#about').css('display', 'none');
 	$('#voting').css('display', 'none');
@@ -87,41 +84,87 @@ function loadRandomProject() {
 	});
 }
 
-function match(reps) {
-	if (!reps) return;
-	for (var i = 0; i < reps.length; i++) {
-		var r = reps[i];
-		if (currentVotes[r]) {
-			currentVotes[r] += 1;
+function vote(choice) {
+	var voting = currentProject.votacion;
+	if (!voting) return;
+	if (choice) {
+		voteHelper(voting.AFIRMATIVO, true);
+		voteHelper(voting.NEGATIVO, false);
+		voteHelper(voting.ABSTENCION, false);
+	} else {
+		voteHelper(voting.AFIRMATIVO, false);
+		voteHelper(voting.NEGATIVO, true);
+		voteHelper(voting.ABSTENCION, false);
+	}
+}
+
+function voteHelper(keys, coinciding) {
+	if (!keys) return;
+	for (var i = 0; i < keys.length; i++) {
+		var k = keys[i];
+		if (!(results[k])) {
+			results[k] = $.extend({
+				coincidences: 0,
+				discrepancies: 0,
+			}, representatives[k]);
+		}
+		if (coinciding) {
+			results[k].coincidences += 1;
 		} else {
-			currentVotes[r] = 1;
+			results[k].discrepancies += 1;
 		}
 	}
 }
 
+function printResults(field) {
+	var rows = $('#rows');
+	rows.empty();
+	var tuples = sortResults(field);
+	for (var i = 0; i < tuples.length; i++) {
+		var r = tuples[i];
+		var tr = document.createElement('tr');
+		$(tr).attr('id', i);
+
+		var td = document.createElement('td');
+		var span = document.createElement('span'); 
+		$(span).text(r.nombre);
+		$(td).append(span);
+		$(td).append(document.createElement('br'));
+		var info = document.createElement('span'); 
+		$(info).text(r.bloque + ' (' + r.distrito + ')');
+		$(info).addClass('shady');
+		$(td).append(info);
+		tr.appendChild(td);
+
+		printResultsHelper(tr, r.coincidences);
+		printResultsHelper(tr, r.discrepancies);
+		printResultsHelper(tr, r.coincidences - r.discrepancies);
+		rows.append(tr);
+	}
+}
+
+function printResultsHelper(tr, text) {
+	var td = document.createElement('td');
+	$(td).text(text);
+	$(td).addClass('center');
+	tr.appendChild(td);
+}
+
+function sortResults(field) {
+	var tuples = new Array();
+	for (i in results) {
+		var r = results[i];
+		r.id = i;
+		r.difference = r.coincidences - r.discrepancies;
+		tuples.push(r);
+	}
+	var sort = (field == 'discrepancies' ? 1 : -1);
+	tuples.sort(function (a, b) { return sort * (a[field] - b[field]); });
+	return tuples;
+}
+
 function finish() {
-	var results = new Array();
-	for (var i in currentVotes) {
-		var n = currentVotes[i];
-		if (!(results[n])) {
-			results[n] = new Array();
-		}
-		results[n].push(representatives[i]);
-	}
-	var count = 0;
-	$('#reps').empty();
-	for (var i = results.length - 1; i >= 0; i--) {
-		var a = results[i];
-		for (var j = 0; j < a.length; j++) {
-			var e = document.createElement('li');
-			$(e).text(a[j].nombre + ' ('
-				+ a[j].bloque + ') '
-				+ a[j].distrito + ' [' + i + ']');
-			$('#reps').append(e);
-			count++;
-		}
-		if (count >= 8) break; // only show top matches
-	}
+	printResults('difference');
 	$('#voting').stop(true);
 	$('#voting').fadeOut(200, function () {
 		$('#results').fadeIn(100);
@@ -131,12 +174,12 @@ function finish() {
 $(document).ready(function () {
 	$('#vote-aye').click(function () {
 		if (!currentProject) return;
-		match(currentProject.votacion.AFIRMATIVO);
+		vote(true);
 		$('#voting').fadeOut(200, loadRandomProject);
 	});
 	$('#vote-nay').click(function () {
 		if (!currentProject) return;
-		match(currentProject.votacion.NEGATIVO);
+		vote(false);
 		$('#voting').fadeOut(200, loadRandomProject);
 	});
 	$('#vote-abs').click(function () {
@@ -165,13 +208,20 @@ $(document).ready(function () {
 			'google-share-dialog', 'width=600,height=600');
 	});
 
+	$.getJSON('data/legisladores.json', function (data) {
+		representatives = data;
+		$('#start').click(function () {
+			$('#intro').fadeOut(200, loadRandomProject);
+		});
+	});
+
+	$('#coincidences').click(function () { printResults('coincidences'); });
+	$('#discrepancies').click(function () { printResults('discrepancies'); });
+	$('#difference').click(function () { printResults('difference'); });
 
 	$('#link').click(function () {
 		if (!currentProject) return;
 		window.open(currentProject.url, '_blank');
-	});
-	$('#start').click(function () {
-		$('#intro').fadeOut(200, loadRandomProject);
 	});
 	$('#info').click(function () { $('#about').slideToggle(500); });
 	$('#back').click(function () { $('#about').slideToggle(500); });
