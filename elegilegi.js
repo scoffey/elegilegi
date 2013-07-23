@@ -144,6 +144,28 @@ $(document).ready(function () {
 		$('#voting').fadeOut(200, loadRandomProject);
 	});
 
+	$('#facebook').click(function () {
+		window.open('https://www.facebook.com/sharer/sharer.php?u='
+			+ encodeURIComponent(location.href),
+			'facebook-share-dialog', 'width=626,height=436');
+	});
+	$('#twitter').click(function () {
+		var tweet = '\u00bfNo sab\u00e9s a qui\u00e9n votar? '
+			+ 'Prob\u00e1 este juego para elegir legisladores '
+			+ 'que votan como vos: ';
+		window.open('http://twitter.com/intent/tweet?text='
+			+ encodeURIComponent(tweet) + '&url='
+			+ encodeURIComponent(url)
+			+ '&hashtags=opengov,elegilegi',
+			'twitter-share-dialog', 'width=550,height=420');
+	});
+	$('#googleplus').click(function () {
+		window.open('https://plus.google.com/share?url='
+			+ encodeURIComponent(location.href),
+			'google-share-dialog', 'width=600,height=600');
+	});
+
+
 	$('#link').click(function () {
 		if (!currentProject) return;
 		window.open(currentProject.url, '_blank');
