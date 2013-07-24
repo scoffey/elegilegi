@@ -6,6 +6,7 @@
 <meta property="og:description" content="Un juego para elegir legisladores que votan como vos" />
 <meta property="og:image" content="media/congreso.jpg" />
 <link rel="stylesheet" type="text/css" href="elegilegi.css"></link>
+<script>if (document.location.hostname == 'scoffey.github.io') document.location.href = 'http://elegilegi.org/';</script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 </head>
 <body>
@@ -27,7 +28,7 @@
 	<ol>
 	<li>Te presentamos 30 proyectos de ley que se votaron en el Congreso en los &uacute;ltimos 10 a&ntilde;os.</li>
 	<li>Respond&eacute;s si hubieras votado a favor, en contra o abstenci&oacute;n.</li>
-	<li>Te mostramos los legisladores que votaron m&aacute;s parecido a vos. &iquest;Ser&aacute;n los que pens&aacute;s?</li>
+	<li>Te mostramos los legisladores que votaron como vos. &iquest;Ser&aacute;n los que pens&aacute;s?</li>
 	</ol>
 	<p class="center"><a id="start" class="action" href="javascript:void(0);">Comenzar</a></p>
 </div>
@@ -46,15 +47,16 @@
 	<p id="progress-bar"><span></span></p>
 </div>
 <div id="results">
-	<p>Estos son los legisladores ordenados por coincidencias y discrepancias con tus votos.</p>
-	<p class="shady">Pod&eacute;s ordenar los resultados por columna.</p>
+	<p>Estos son los legisladores listados por coincidencias y discrepancias con tus votos.</p>
+	<p class="shady">IMPORTANTE: Pod&eacute;s ordenar los resultados por columna pero dejamos la interpretaci&oacute;n de cada orden a tu criterio.</p>
 	<table>
 		<thead>
 			<tr>
-				<td>Legislador</td>
-				<td class="center"><a href="javascript:void(0);" id="coincidences">Coincidencias</a></td>
-				<td class="center"><a href="javascript:void(0);" id="discrepancies">Discrepancias</a></td>
-				<td class="center"><a href="javascript:void(0);" id="difference">Diferencia</a></td>
+				<td id="name">Legislador</td>
+				<td class="center" id="chance">Chance de coincidir</td>
+				<td class="center" id="coincidences">Coincidencias</td>
+				<td class="center" id="discrepancies">Discrepancias</td>
+				<td class="center" id="difference">Diferencia</td>
 			</tr>
 		</thead>
 		<tbody id="rows">
