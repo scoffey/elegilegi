@@ -116,10 +116,10 @@ function voteHelper(keys, coinciding) {
 	}
 }
 
-function printResults(field) {
+function printResults(callback) {
 	var rows = $('#rows');
 	rows.empty();
-	var tuples = sortResults(field);
+	var tuples = sortResults(callback);
 	for (var i = 0; i < tuples.length; i++) {
 		var r = tuples[i];
 		var tr = document.createElement('tr');
@@ -136,9 +136,10 @@ function printResults(field) {
 		$(td).append(info);
 		tr.appendChild(td);
 
+		printResultsHelper(tr, r.chance + '%');
 		printResultsHelper(tr, r.coincidences);
 		printResultsHelper(tr, r.discrepancies);
-		printResultsHelper(tr, r.coincidences - r.discrepancies);
+		printResultsHelper(tr, r.difference);
 		rows.append(tr);
 	}
 }
@@ -150,21 +151,58 @@ function printResultsHelper(tr, text) {
 	tr.appendChild(td);
 }
 
-function sortResults(field) {
+function sortResults(callback) {
 	var tuples = new Array();
 	for (i in results) {
 		var r = results[i];
+		var total = r.coincidences + r.discrepancies;
 		r.id = i;
 		r.difference = r.coincidences - r.discrepancies;
+		r.chance = Math.round(r.coincidences * 100 / total);
 		tuples.push(r);
 	}
-	var sort = (field == 'discrepancies' ? 1 : -1);
-	tuples.sort(function (a, b) { return sort * (a[field] - b[field]); });
+	tuples.sort(callback);
 	return tuples;
 }
 
+function sortByName(a, b) {
+	return a.nombre.localeCompare(b.nombre);
+}
+
+function sortByChance(a, b) {
+	var d = b.chance - a.chance; if (d) return d;
+	var d = b.difference - a.difference; if (d) return d;
+	var d = b.coincidences - a.coincidences; if (d) return d;
+	var d = a.discrepancies - b.discrepancies; if (d) return d;
+	return a.nombre.localeCompare(b.nombre);
+}
+
+function sortByDifference(a, b) {
+	var d = b.difference - a.difference; if (d) return d;
+	var d = b.chance - a.chance; if (d) return d;
+	var d = b.coincidences - a.coincidences; if (d) return d;
+	var d = a.discrepancies - b.discrepancies; if (d) return d;
+	return a.nombre.localeCompare(b.nombre);
+}
+
+function sortByCoincidences(a, b) {
+	var d = b.coincidences - a.coincidences; if (d) return d;
+	var d = b.chance - a.chance; if (d) return d;
+	var d = b.difference - a.difference; if (d) return d;
+	var d = a.discrepancies - b.discrepancies; if (d) return d;
+	return a.nombre.localeCompare(b.nombre);
+}
+
+function sortByDiscrepancies(a, b) {
+	var d = a.discrepancies - b.discrepancies; if (d) return d;
+	var d = b.chance - a.chance; if (d) return d;
+	var d = b.difference - a.difference; if (d) return d;
+	var d = b.coincidenres - a.coincidences; if (d) return d;
+	return a.nombre.localeCompare(b.nombre);
+}
+
 function finish() {
-	printResults('difference');
+	printResults(sortByDifference);
 	$('#voting').stop(true);
 	$('#voting').fadeOut(200, function () {
 		$('#results').fadeIn(100);
@@ -172,6 +210,20 @@ function finish() {
 }
 
 $(document).ready(function () {
+	$(document).ajaxError(function (evnt, jqxhr, options, e) {
+		alert('Error al cargar datos de: ' + options.url
+			+ '\n\n' + JSON.stringify(jqxhr, null, 2)
+			+ '\n\nPor favor, recarg\u00e1 la p\u00e1gina.');
+	});
+
+	$.getJSON('data/legisladores.json', function (data) {
+		representatives = data;
+		$('#start').click(function () {
+			$('#intro').fadeOut(200, loadRandomProject);
+		});
+	});
+
+	$('#name').click(function () { printResults(sortByName); });
 	$('#vote-aye').click(function () {
 		if (!currentProject) return;
 		vote(true);
@@ -208,20 +260,21 @@ $(document).ready(function () {
 			'google-share-dialog', 'width=600,height=600');
 	});
 
-	$.getJSON('data/legisladores.json', function (data) {
-		representatives = data;
-		$('#start').click(function () {
-			$('#intro').fadeOut(200, loadRandomProject);
-		});
+	$('#chance').click(function () {
+		printResults(sortByChance);
+	});
+	$('#coincidences').click(function () {
+		printResults(sortByCoincidences);
+	});
+	$('#discrepancies').click(function () {
+		printResults(sortByDiscrepancies);
+	});
+	$('#difference').click(function () {
+		printResults(sortByDifference);
 	});
 
-	$('#coincidences').click(function () { printResults('coincidences'); });
-	$('#discrepancies').click(function () { printResults('discrepancies'); });
-	$('#difference').click(function () { printResults('difference'); });
-
 	$('#link').click(function () {
-		if (!currentProject) return;
-		window.open(currentProject.url, '_blank');
+		if (currentProject) window.open(currentProject.url, '_blank');
 	});
 	$('#info').click(function () { $('#about').slideToggle(500); });
 	$('#back').click(function () { $('#about').slideToggle(500); });

@@ -175,13 +175,14 @@ a.action:hover {
 #results table td {
 	padding: 8px;
 }
-#results table thead a {
-	color: white;
-}
 #results table thead td {
 	color: white;
 	background-color: rgb(0, 122, 255);
 	padding: 12px 8px;
+}
+#results table thead td:hover {
+	background-color: rgba(0, 122, 255, 0.5);
+	cursor: pointer;
 }
 #results table tbody tr:nth-child(even) {
 	background-color: rgba(0, 122, 255, 0.1);
