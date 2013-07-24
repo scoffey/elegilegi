@@ -1,7 +1,13 @@
+@font-face {
+	font-family: "Liberation Sans";
+	font-weight: 100;
+	font-style: normal;
+	src: url('media/LiberationSans-Regular.ttf') format('truetype');
+}
 body {
 	margin: 80px auto;
 	width: 800px;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Liberation Sans", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	font-weight: 300;
 	background: url(media/congreso.jpg) black no-repeat fixed;
 	background-size: cover;
@@ -22,7 +28,7 @@ a:hover {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.7);
 	color: white;
 	width: 100%;
 }
@@ -64,10 +70,28 @@ a:hover {
 .center {
 	text-align: center;
 }
+#intro ol {
+	text-indent: 0;
+	margin: 0;
+	padding: 0;
+}
 #intro li {
-	width: 180px;
-	margin: 20px;
+	text-indent: 0;
+	list-style-type: none;
+	width: 200px;
+	margin: 0 20px;
+	padding-top: 120px;
+	text-align: center;
 	float: left;
+}
+#intro li:nth-child(3n+1) {
+	background: url(media/1.png) top center no-repeat;
+}
+#intro li:nth-child(3n+2) {
+	background: url(media/2.png) top center no-repeat;
+}
+#intro li:nth-child(3n) {
+	background: url(media/3.png) top center no-repeat;
 }
 #voting, #about, #intro, #results {
 	background-color: rgba(255, 255, 255, 0.8);
@@ -181,7 +205,7 @@ a.action:hover {
 	padding: 12px 8px;
 }
 #results table thead td:hover {
-	background-color: rgba(0, 122, 255, 0.5);
+	background-color: rgb(60, 182, 255);
 	cursor: pointer;
 }
 #results table tbody tr:nth-child(even) {
