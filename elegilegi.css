@@ -70,6 +70,9 @@ a:hover {
 .center {
 	text-align: center;
 }
+.nodisplay {
+	display: none;
+}
 #intro ol {
 	text-indent: 0;
 	margin: 0;
@@ -190,8 +193,11 @@ a:hover {
 #start {
 	font-size: 24px;
 }
-.news {
+em {
 	color: #06f;
+	font-style: normal;
+}
+.news {
 	margin: 48px 192px;
 }
 a.action {

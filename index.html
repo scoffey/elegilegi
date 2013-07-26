@@ -18,9 +18,9 @@
 	</div>
 </div>
 <div id="about">
-	<p>Esta aplicaci&oacute;n fue desarrollada originalmente para la <a href="http://garagelab.tumblr.com/post/1651627498/2dahackathondedatospublicosgubernamentales">Hackathon de Datos P&uacute;blicos</a> de <a href="https://twitter.com/garagelab">@garagelab</a> en diciembre de 2010 por <a href="https://twitter.com/scoffey">@scoffey</a>, <a href="https://twitter.com/maraoz">@maraoz</a>, <a href="https://twitter.com/martint">@martint</a>, <a href="https://twitter.com/k0001">@k0001</a>, <a href="https://twitter.com/demenece">@demenece</a> y otros colaboradores.</p>
-	<p>En mayo de 2013, a ra&iacute;z del inter&eacute;s de <a href="https://twitter.com/CongresoInterac">@CongresoInterac</a> y el contacto de <a href="https://twitter.com/martinszy">@martinszy</a>, el proyecto fue retomado por <a href="https://twitter.com/scoffey">@scoffey</a> para ser reimplementado, ahora con los <a href="https://www.google.com/fusiontables/DataSource?docid=10UMOJ_ntHgZsy3EJYfoGEHEHGBahhKUuO0_e_BI">datos de votaciones nominales</a> compilados por <a href="https://twitter.com/andy_tow">@andy_tow</a>.</p>
-	<p>El c&oacute;digo fuente es abierto y se encuentra disponible en <a href="https://github.com/scoffey/elegilegi">github.com/scoffey/elegilegi</a>. Los datos son de dominio p&uacute;blico.</p>
+	<p>Esta aplicaci&oacute;n fue desarrollada originalmente para la <a href="http://garagelab.tumblr.com/post/1651627498/2dahackathondedatospublicosgubernamentales" target="_blank">Hackathon de Datos P&uacute;blicos</a> de <a href="https://twitter.com/garagelab">@garagelab</a> en diciembre de 2010 por <a href="https://twitter.com/scoffey">@scoffey</a>, <a href="https://twitter.com/maraoz">@maraoz</a>, <a href="https://twitter.com/martint">@martint</a>, <a href="https://twitter.com/k0001">@k0001</a>, <a href="https://twitter.com/demenece">@demenece</a> y otros colaboradores.</p>
+	<p>En mayo de 2013, a ra&iacute;z del inter&eacute;s de <a href="https://twitter.com/CongresoInterac">@CongresoInterac</a> y el contacto de <a href="https://twitter.com/martinszy">@martinszy</a>, el proyecto fue retomado por <a href="https://twitter.com/scoffey">@scoffey</a> para ser reimplementado, ahora con los <a href="https://www.google.com/fusiontables/DataSource?docid=10UMOJ_ntHgZsy3EJYfoGEHEHGBahhKUuO0_e_BI" target="_blank">datos de votaciones nominales</a> compilados por <a href="https://twitter.com/andy_tow">@andy_tow</a>.</p>
+	<p>El c&oacute;digo fuente es abierto y se encuentra disponible en <a href="https://github.com/scoffey/elegilegi" target="_blank">github.com/scoffey/elegilegi</a>. Los datos son de dominio p&uacute;blico.</p>
 	<p>Esta aplicaci&oacute;n no registra tus votos ni almacena informaci&oacute;n personal.</p>
 	<p class="center"><a id="back" class="action" href="javascript:void(0);">Cerrar</a></p>
 </div>
@@ -31,7 +31,7 @@
 	<li>3. Te mostramos los legisladores que votaron como vos. &iquest;Ser&aacute;n los que pens&aacute;s?</li>
 	</ol>
 	<p class="center"><a id="start" class="action" href="javascript:void(0);">Comenzar</a></p>
-	<p class="center news">NUEVO: Agregamos Abstenci&oacute;n y Ausente como opciones de votaci&oacute;n para obtener coincidencias con legisladores que suelen votar as&iacute;.</p>
+	<p class="center news"><em>NUEVO: Agregamos Abstenci&oacute;n y Ausente como opciones de votaci&oacute;n para obtener coincidencias con legisladores que suelen votar as&iacute;.</em></p>
 	<p class="center">&iquest;Quer&eacute;s ayudar a un amigo que no sabe qu&eacute; votar?<br />&iexcl;Sos libre de hacer Patria y compartirle este link!<br /><a class="facebook" href="javascript:void(0);">Facebook</a> - <a class="twitter" href="javascript:void(0);">Twitter</a> - <a class="googleplus" href="javascript:void(0);">Google+</a></p>
 </div>
 <div id="voting">
@@ -51,7 +51,8 @@
 	<p id="progress-bar"><span></span></p>
 </div>
 <div id="results">
-	<p>Estos son los legisladores listados por coincidencias y discrepancias con tus votos.</p>
+	<p>Estos son los legisladores listados por coincidencias y discrepancias con tus votos. <a href="javascript:void(0);" onclick="$('#how-it-works').slideToggle(200);">C&oacute;mo funciona</a>.</p>
+	<p id="how-it-works" class="nodisplay">Cada proyecto de ley tiene 4 votos posibles (<em>afirmativo</em>, <em>negativo</em>, <em>abstenci&oacute;n</em> y <em>ausente</em>) y la opci&oacute;n de ser <em>salteado</em>. Para cada proyecto de ley no salteado, se le asigna 1 <em>coincidencia</em> a cada legislador que haya votado lo mismo que vos y 1 <em>discrepancia</em> a cada legislador cuyo voto sea alguno de los otros 3. Al final de la votaci&oacute;n de todos los proyectos de ley seleccionados, se muestran las coincidencias y discrepancias obtenidas con cada legislador. Adicionalmente, se calcula la <em>chance de coincidir</em> como la cantidad de coincidencias sobre el total de votos del legislador (coincidencias y discrepancias sumadas) y la <em>diferencia</em> como la resta entre las coincidencias y las discrepancias. La tabla puede ser ordenada por distintas columnas. Apelamos al esp&iacute;ritu cr&iacute;tico para interpretar estos resultados.</p>
 	<p class="shady">IMPORTANTE: Pod&eacute;s ordenar los resultados por columna pero dejamos la interpretaci&oacute;n de cada orden a tu criterio.</p>
 	<table>
 		<thead>
@@ -69,7 +70,8 @@
 	<p>Nota: S&oacute;lo se muestran diputados. Tenemos pendiente compilar las votaciones del Senado.</p>
 	<p class="center"><a id="reset" class="action" href="javascript:void(0);">Volver a empezar</a></p>
 	<p class="center">&iquest;Quer&eacute;s ayudar a un amigo que no sabe qu&eacute; votar?<br />&iexcl;Sos libre de hacer Patria y compartirle este link!<br /><a class="facebook" href="javascript:void(0);">Facebook</a> - <a class="twitter" href="javascript:void(0);">Twitter</a> - <a class="googleplus" href="javascript:void(0);">Google+</a></p>
-	<p class="center"><a href="javascript:void(0);" onclick="$('#what-to-do').slideToggle(200);">&iquest;Quer&eacute;s ver m&aacute;s aplicaciones como esta?</a><br /><span id="what-to-do" style="display: none;">&iexcl;Pedile a tus candidatos en campa&ntilde;a que se debatan proyectos como la<br /><a href="http://www1.hcdn.gov.ar/proyxml/expediente.asp?fundamentos=si&numexp=1541-D-2010" target="_blank">Ley de Transparencia, Gobierno Abierto y Acceso a la Informaci&oacute;n P&uacute;blica</a>!<br />(En 2012 este proyecto <a href="http://www.lanacion.com.ar/1528367-el-proyecto-de-acceso-a-la-informacion-volveria-a-foja-cero" target="_blank">perdi&oacute; estado parlamentario</a>.)<br />Contactalos por e-mail, Twitter u otros medios a ver si te responden.</span></p>
+	<p class="center"><a href="javascript:void(0);" onclick="$('#what-to-do').slideToggle(200);">&iquest;Quer&eacute;s ver m&aacute;s aplicaciones como esta?</a></p>
+	<p id="what-to-do" class="center nodisplay">&iexcl;Pedile a tus candidatos en campa&ntilde;a que se debatan proyectos como la<br /><a href="http://www1.hcdn.gov.ar/proyxml/expediente.asp?fundamentos=si&numexp=1541-D-2010" target="_blank">Ley de Transparencia, Gobierno Abierto y Acceso a la Informaci&oacute;n P&uacute;blica</a>!<br />(En 2012 este proyecto <a href="http://www.lanacion.com.ar/1528367-el-proyecto-de-acceso-a-la-informacion-volveria-a-foja-cero" target="_blank">perdi&oacute; estado parlamentario</a>.)<br />Contactalos por e-mail, Twitter u otros medios a ver si te responden.</p>
 </div>
 <script type="text/javascript" src="elegilegi.js"></script>
 <script>
