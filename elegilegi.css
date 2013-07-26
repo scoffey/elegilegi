@@ -79,7 +79,7 @@ a:hover {
 	text-indent: 0;
 	list-style-type: none;
 	width: 200px;
-	margin: 0 20px;
+	margin: 20px;
 	padding-top: 120px;
 	text-align: center;
 	float: left;
@@ -126,7 +126,7 @@ a:hover {
 	font-size: 10pt;
 	color: gray;
 }
-#vote-aye, #vote-nay, #vote-abs, a.action {
+#vote-aye, #vote-nay, #vote-abstention, #vote-absentee, #vote-skip, a.action {
 	color: black;
 	cursor: pointer;
 	display: inline-block;
@@ -157,19 +157,42 @@ a:hover {
 	color: white;
 	background-color: rgb(189, 54, 47);
 }
-#vote-abs {
+#vote-abstention {
 	width: 244px;
 	padding: 12px 0;
 	font-size: 16px;
-	color: rgb(248, 148, 6);
+	color: #f90;
 }
-#vote-abs:hover {
+#vote-abstention:hover {
 	color: white;
-	background-color: rgb(248, 148, 6);
+	background-color: #f90;
+}
+#vote-absentee {
+	width: 244px;
+	padding: 12px 0;
+	font-size: 16px;
+	color: #999;
+}
+#vote-absentee:hover {
+	color: white;
+	background-color: #999;
+}
+#vote-skip {
+	width: 244px;
+	padding: 12px 0;
+	font-size: 16px;
+	color: #06f;
+}
+#vote-skip:hover {
+	color: white;
+	background-color: #06f;
 }
 #start {
-	margin-top: 32px;
 	font-size: 24px;
+}
+.news {
+	color: #06f;
+	margin: 48px 192px;
 }
 a.action {
 	padding: 12px 16px;

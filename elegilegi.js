@@ -37,20 +37,16 @@ var projects = [
 ];
 
 function shuffle(array) {
-    var counter = array.length, temp, index;
+	var counter = array.length, temp, index;
 
-    // While there are elements in the array
-    while (counter > 0) {
-        // Pick a random index
-        index = (Math.random() * counter--) | 0;
+	while (counter > 0) {
+		index = (Math.random() * counter--) | 0;
+		temp = array[counter];
+		array[counter] = array[index];
+		array[index] = temp;
+	}
 
-        // And swap the last element with it
-        temp = array[counter];
-        array[counter] = array[index];
-        array[index] = temp;
-    }
-
-    return array;
+	return array;
 }
 
 function reset() {
@@ -87,15 +83,10 @@ function loadRandomProject() {
 function vote(choice) {
 	var voting = currentProject.votacion;
 	if (!voting) return;
-	if (choice) {
-		voteHelper(voting.AFIRMATIVO, true);
-		voteHelper(voting.NEGATIVO, false);
-		voteHelper(voting.ABSTENCION, false);
-	} else {
-		voteHelper(voting.AFIRMATIVO, false);
-		voteHelper(voting.NEGATIVO, true);
-		voteHelper(voting.ABSTENCION, false);
-	}
+	voteHelper(voting.AFIRMATIVO, (choice == 'Y'));
+	voteHelper(voting.NEGATIVO, (choice == 'N'));
+	voteHelper(voting.ABSTENCION, (choice == 'A'));
+	voteHelper(voting.AUSENTE, (choice == '0'));
 }
 
 function voteHelper(keys, coinciding) {
@@ -209,6 +200,29 @@ function finish() {
 	});
 }
 
+function shareOnFacebook() {
+	window.open('https://www.facebook.com/sharer/sharer.php?u='
+		+ encodeURIComponent(location.href),
+		'facebook-share-dialog', 'width=626,height=436');
+}
+
+function shareOnTwitter() {
+	var tweet = '\u00bfNo sab\u00e9s a qui\u00e9n votar? '
+		+ 'Prob\u00e1 este juego para elegir legisladores '
+		+ 'que votan como vos: ';
+	window.open('http://twitter.com/intent/tweet?text='
+		+ encodeURIComponent(tweet) + '&url='
+		+ encodeURIComponent(location.href)
+		+ '&hashtags=opengov,elegilegi',
+		'twitter-share-dialog', 'width=550,height=420');
+}
+
+function shareOnGooglePlus() {
+	window.open('https://plus.google.com/share?url='
+		+ encodeURIComponent(location.href),
+		'google-share-dialog', 'width=600,height=600');
+}
+
 $(document).ready(function () {
 	$(document).ajaxError(function (evnt, jqxhr, options, e) {
 		alert('Error al cargar datos de: ' + options.url
@@ -223,43 +237,38 @@ $(document).ready(function () {
 		});
 	});
 
-	$('#name').click(function () { printResults(sortByName); });
 	$('#vote-aye').click(function () {
 		if (!currentProject) return;
-		vote(true);
+		vote('Y');
 		$('#voting').fadeOut(200, loadRandomProject);
 	});
 	$('#vote-nay').click(function () {
 		if (!currentProject) return;
-		vote(false);
+		vote('N');
 		$('#voting').fadeOut(200, loadRandomProject);
 	});
-	$('#vote-abs').click(function () {
+	$('#vote-abstention').click(function () {
+		if (!currentProject) return;
+		vote('A');
+		$('#voting').fadeOut(200, loadRandomProject);
+	});
+	$('#vote-absentee').click(function () {
+		if (!currentProject) return;
+		vote('0');
+		$('#voting').fadeOut(200, loadRandomProject);
+	});
+	$('#vote-skip').click(function () {
 		if (!currentProject) return;
 		$('#voting').fadeOut(200, loadRandomProject);
 	});
 
-	$('#facebook').click(function () {
-		window.open('https://www.facebook.com/sharer/sharer.php?u='
-			+ encodeURIComponent(location.href),
-			'facebook-share-dialog', 'width=626,height=436');
-	});
-	$('#twitter').click(function () {
-		var tweet = '\u00bfNo sab\u00e9s a qui\u00e9n votar? '
-			+ 'Prob\u00e1 este juego para elegir legisladores '
-			+ 'que votan como vos: ';
-		window.open('http://twitter.com/intent/tweet?text='
-			+ encodeURIComponent(tweet) + '&url='
-			+ encodeURIComponent(location.href)
-			+ '&hashtags=opengov,elegilegi',
-			'twitter-share-dialog', 'width=550,height=420');
-	});
-	$('#googleplus').click(function () {
-		window.open('https://plus.google.com/share?url='
-			+ encodeURIComponent(location.href),
-			'google-share-dialog', 'width=600,height=600');
-	});
+	$('.facebook').click(shareOnFacebook);
+	$('.twitter').click(shareOnTwitter);
+	$('.googleplus').click(shareOnGooglePlus);
 
+	$('#name').click(function () {
+		printResults(sortByName);
+	});
 	$('#chance').click(function () {
 		printResults(sortByChance);
 	});

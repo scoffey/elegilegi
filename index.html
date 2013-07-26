@@ -27,10 +27,12 @@
 <div id="intro">
 	<ol>
 	<li>1. Te presentamos 30 proyectos de ley que se votaron en el Congreso en los &uacute;ltimos 10 a&ntilde;os.</li>
-	<li>2. Respond&eacute;s si hubieras votado a favor, en contra o abstenci&oacute;n.</li>
+	<li>2. Respond&eacute;s si hubieras votado a favor, en contra, abstenci&oacute;n o ausente (o salte&aacute;s).</li>
 	<li>3. Te mostramos los legisladores que votaron como vos. &iquest;Ser&aacute;n los que pens&aacute;s?</li>
 	</ol>
 	<p class="center"><a id="start" class="action" href="javascript:void(0);">Comenzar</a></p>
+	<p class="center news">NUEVO: Agregamos Abstenci&oacute;n y Ausente como opciones de votaci&oacute;n para obtener coincidencias con legisladores que suelen votar as&iacute;.</p>
+	<p class="center">&iquest;Quer&eacute;s ayudar a un amigo que no sabe qu&eacute; votar?<br />&iexcl;Sos libre de hacer Patria y compartirle este link!<br /><a class="facebook" href="javascript:void(0);">Facebook</a> - <a class="twitter" href="javascript:void(0);">Twitter</a> - <a class="googleplus" href="javascript:void(0);">Google+</a></p>
 </div>
 <div id="voting">
 	<p id="project">Proyecto</p>
@@ -41,7 +43,9 @@
 	<ul>
 	<li><a id="vote-aye" href="javascript:void(0);">S&Iacute;</a></li>
 	<li><a id="vote-nay" href="javascript:void(0);">NO</a></li>
-	<li><a id="vote-abs" href="javascript:void(0);">No s&eacute;, paso</a></li>
+	<li><a id="vote-abstention" href="javascript:void(0);">ABSTENCI&Oacute;N</a></li>
+	<li><a id="vote-absentee" href="javascript:void(0);">AUSENTE</a></li>
+	<li><a id="vote-skip" href="javascript:void(0);">No s&eacute;, paso</a></li>
 	</ul>
 	<p id="progress-status" class="shady">Completado: 0 / 30</p>
 	<p id="progress-bar"><span></span></p>
@@ -64,7 +68,7 @@
 	</table>
 	<p>Nota: S&oacute;lo se muestran diputados. Tenemos pendiente compilar las votaciones del Senado.</p>
 	<p class="center"><a id="reset" class="action" href="javascript:void(0);">Volver a empezar</a></p>
-	<p class="center">&iquest;Quer&eacute;s ayudar a un amigo que no sabe qu&eacute; votar?<br />&iexcl;Sos libre de hacer Patria y compartirle este link!<br /><a id="facebook" href="javascript:void(0);">Facebook</a> - <a id="twitter" href="javascript:void(0);">Twitter</a> - <a id="googleplus" href="javascript:void(0);">Google+</a></p>
+	<p class="center">&iquest;Quer&eacute;s ayudar a un amigo que no sabe qu&eacute; votar?<br />&iexcl;Sos libre de hacer Patria y compartirle este link!<br /><a class="facebook" href="javascript:void(0);">Facebook</a> - <a class="twitter" href="javascript:void(0);">Twitter</a> - <a class="googleplus" href="javascript:void(0);">Google+</a></p>
 	<p class="center"><a href="javascript:void(0);" onclick="$('#what-to-do').slideToggle(200);">&iquest;Quer&eacute;s ver m&aacute;s aplicaciones como esta?</a><br /><span id="what-to-do" style="display: none;">&iexcl;Pedile a tus candidatos en campa&ntilde;a que se debatan proyectos como la<br /><a href="http://www1.hcdn.gov.ar/proyxml/expediente.asp?fundamentos=si&numexp=1541-D-2010" target="_blank">Ley de Transparencia, Gobierno Abierto y Acceso a la Informaci&oacute;n P&uacute;blica</a>!<br />(En 2012 este proyecto <a href="http://www.lanacion.com.ar/1528367-el-proyecto-de-acceso-a-la-informacion-volveria-a-foja-cero" target="_blank">perdi&oacute; estado parlamentario</a>.)<br />Contactalos por e-mail, Twitter u otros medios a ver si te responden.</span></p>
 </div>
 <script type="text/javascript" src="elegilegi.js"></script>
