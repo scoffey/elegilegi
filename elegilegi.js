@@ -128,6 +128,7 @@ function printResults(callback) {
 		tr.appendChild(td);
 
 		printResultsHelper(tr, r.chance + '%');
+		printResultsHelper(tr, r.participation + '%');
 		printResultsHelper(tr, r.coincidences);
 		printResultsHelper(tr, r.discrepancies);
 		printResultsHelper(tr, r.difference);
@@ -150,6 +151,7 @@ function sortResults(callback) {
 		r.id = i;
 		r.difference = r.coincidences - r.discrepancies;
 		r.chance = Math.round(r.coincidences * 100 / total);
+		r.participation = Math.round(total * 100 / projects.length)
 		tuples.push(r);
 	}
 	tuples.sort(callback);
@@ -162,6 +164,7 @@ function sortByName(a, b) {
 
 function sortByChance(a, b) {
 	var d = b.chance - a.chance; if (d) return d;
+	var d = b.participation - a.participation; if (d) return d;
 	var d = b.difference - a.difference; if (d) return d;
 	var d = b.coincidences - a.coincidences; if (d) return d;
 	var d = a.discrepancies - b.discrepancies; if (d) return d;
@@ -171,6 +174,7 @@ function sortByChance(a, b) {
 function sortByDifference(a, b) {
 	var d = b.difference - a.difference; if (d) return d;
 	var d = b.chance - a.chance; if (d) return d;
+	var d = b.participation - a.participation; if (d) return d;
 	var d = b.coincidences - a.coincidences; if (d) return d;
 	var d = a.discrepancies - b.discrepancies; if (d) return d;
 	return a.nombre.localeCompare(b.nombre);
@@ -179,6 +183,7 @@ function sortByDifference(a, b) {
 function sortByCoincidences(a, b) {
 	var d = b.coincidences - a.coincidences; if (d) return d;
 	var d = b.chance - a.chance; if (d) return d;
+	var d = b.participation - a.participation; if (d) return d;
 	var d = b.difference - a.difference; if (d) return d;
 	var d = a.discrepancies - b.discrepancies; if (d) return d;
 	return a.nombre.localeCompare(b.nombre);
@@ -187,8 +192,18 @@ function sortByCoincidences(a, b) {
 function sortByDiscrepancies(a, b) {
 	var d = a.discrepancies - b.discrepancies; if (d) return d;
 	var d = b.chance - a.chance; if (d) return d;
+	var d = b.participation - a.participation; if (d) return d;
 	var d = b.difference - a.difference; if (d) return d;
-	var d = b.coincidenres - a.coincidences; if (d) return d;
+	var d = b.coincidences - a.coincidences; if (d) return d;
+	return a.nombre.localeCompare(b.nombre);
+}
+
+function sortByParticipation(a, b) {
+	var d = b.participation - a.participation; if (d) return d;
+	var d = b.chance - a.chance; if (d) return d;
+	var d = b.difference - a.difference; if (d) return d;
+	var d = b.coincidences - a.coincidences; if (d) return d;
+	var d = a.discrepancies - b.discrepancies; if (d) return d;
 	return a.nombre.localeCompare(b.nombre);
 }
 
@@ -271,6 +286,9 @@ $(document).ready(function () {
 	});
 	$('#chance').click(function () {
 		printResults(sortByChance);
+	});
+	$('#participation').click(function () {
+		printResults(sortByParticipation);
 	});
 	$('#coincidences').click(function () {
 		printResults(sortByCoincidences);

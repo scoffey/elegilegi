@@ -3,9 +3,16 @@ elegilegi
 
 Un juego elegir legisladores que votan como vos.
 
-Latest stable release is available at [scoffey.github.io/elegilegi](http://scoffey.github.io/elegilegi/).
+Créditos
+--------
 
-Source code is available at [github.com/scoffey/elegilegi](https://github.com/scoffey/elegilegi).
+Esta aplicación fue desarrollada originalmente para la [Hackathon de Datos Públicos](http://garagelab.tumblr.com/post/1651627498/2dahackathondedatospublicosgubernamentales) de [@garagelab](https://twitter.com/garagelab) en diciembre de 2010 por [@scoffey](https://twitter.com/scoffey), [@maraoz](https://twitter.com/maraoz), [@martint](https://twitter.com/martint), [@k0001](https://twitter.com/k0001), [@demenece](https://twitter.com/demenece) y otros colaboradores.
+
+En mayo de 2013, a raíz del interés de [@CongresoInterac](https://twitter.com/) y el contacto de [@martinszy](https://twitter.com/martinszy), el proyecto fue retomado por [@scoffey](https://twitter.com/scoffey) para ser reimplementado, ahora con los [datos de votaciones nominales](https://www.google.com/fusiontables/DataSource?docid=10UMOJ_ntHgZsy3EJYfoGEHEHGBahhKUuO0_e_BI) compilados por [@andy_tow](https://twitter.com/andy_tow).
+
+El código fuente es abierto y se encuentra disponible en [github.com/scoffey/elegilegi](https://github.com/scoffey/elegilegi/). Los datos son de dominio público.
+
+Esta aplicación no registra tus votos ni almacena información personal.
 
 Copyright
 ---------

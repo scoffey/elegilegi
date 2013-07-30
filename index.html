@@ -18,10 +18,20 @@
 	</div>
 </div>
 <div id="about">
-	<p>Esta aplicaci&oacute;n fue desarrollada originalmente para la <a href="http://garagelab.tumblr.com/post/1651627498/2dahackathondedatospublicosgubernamentales" target="_blank">Hackathon de Datos P&uacute;blicos</a> de <a href="https://twitter.com/garagelab">@garagelab</a> en diciembre de 2010 por <a href="https://twitter.com/scoffey">@scoffey</a>, <a href="https://twitter.com/maraoz">@maraoz</a>, <a href="https://twitter.com/martint">@martint</a>, <a href="https://twitter.com/k0001">@k0001</a>, <a href="https://twitter.com/demenece">@demenece</a> y otros colaboradores.</p>
-	<p>En mayo de 2013, a ra&iacute;z del inter&eacute;s de <a href="https://twitter.com/CongresoInterac">@CongresoInterac</a> y el contacto de <a href="https://twitter.com/martinszy">@martinszy</a>, el proyecto fue retomado por <a href="https://twitter.com/scoffey">@scoffey</a> para ser reimplementado, ahora con los <a href="https://www.google.com/fusiontables/DataSource?docid=10UMOJ_ntHgZsy3EJYfoGEHEHGBahhKUuO0_e_BI" target="_blank">datos de votaciones nominales</a> compilados por <a href="https://twitter.com/andy_tow">@andy_tow</a>.</p>
-	<p>El c&oacute;digo fuente es abierto y se encuentra disponible en <a href="https://github.com/scoffey/elegilegi" target="_blank">github.com/scoffey/elegilegi</a>. Los datos son de dominio p&uacute;blico.</p>
+	<p><em>C&oacute;mo funciona</em><p>
+	<ul>
+		<li>Cada proyecto de ley tiene 4 votos posibles (<em>afirmativo</em>, <em>negativo</em>, <em>abstenci&oacute;n</em> y <em>ausente</em>) y la opci&oacute;n de ser <em>salteado</em>.</li>
+		<li>Para cada proyecto de ley no salteado, se le asigna 1 <em>coincidencia</em> a cada legislador que haya votado lo mismo que vos y 1 <em>discrepancia</em> a cada legislador cuyo voto sea alguno de los otros 3.</li>
+		<li>Luego de votar o saltear los proyectos de ley, se muestran las coincidencias y discrepancias obtenidas con cada legislador.</li>
+		<li>La <em>chance de coincidir</em> se calcula como la cantidad de coincidencias sobre el total de votos del legislador (coincidencias y discrepancias sumadas).</li>
+		<li>La <em>diferencia</em> se calcula como la resta entre las coincidencias y las discrepancias.</li>
+		<li>La <em>participaci&oacute;n</em> se calcula como el total de votos del legislador (coincidencias y discrepancias sumadas) sobre el total de proyectos seleccionados (los no salteados dentro de los disponibles).</li>
+		<li>La tabla puede ser ordenada por distintas columnas. Se apela al esp&iacute;ritu cr&iacute;tico para interpretar estos resultados.</li>
+	</ul>
+	<p>Esta aplicaci&oacute;n es de <a href="https://github.com/scoffey/elegilegi/" target="_blank">c&oacute;digo abierto</a>. Los <a href="https://www.google.com/fusiontables/DataSource?docid=10UMOJ_ntHgZsy3EJYfoGEHEHGBahhKUuO0_e_BI" target="_blank">datos</a> son de dominio p&uacute;blico.</p>
 	<p>Esta aplicaci&oacute;n no registra tus votos ni almacena informaci&oacute;n personal.</p>
+	<p>Idea original y desarrollo por <a href="https://twitter.com/scoffey" target="_blank">@scoffey</a>. Datos liberados por <a href="https://twitter.com/andy_tow" target="_blank">@andy_tow</a>.</p>
+	<p><a href="https://github.com/scoffey/elegilegi/blob/master/README.md#creditos" target="_blank">M&aacute;s cr&eacute;ditos</p>
 	<p class="center"><a id="back" class="action" href="javascript:void(0);">Cerrar</a></p>
 </div>
 <div id="intro">
@@ -51,14 +61,14 @@
 	<p id="progress-bar"><span></span></p>
 </div>
 <div id="results">
-	<p>Estos son los legisladores listados por coincidencias y discrepancias con tus votos. <a href="javascript:void(0);" onclick="$('#how-it-works').slideToggle(200);">C&oacute;mo funciona</a>.</p>
-	<p id="how-it-works" class="nodisplay">Cada proyecto de ley tiene 4 votos posibles (<em>afirmativo</em>, <em>negativo</em>, <em>abstenci&oacute;n</em> y <em>ausente</em>) y la opci&oacute;n de ser <em>salteado</em>. Para cada proyecto de ley no salteado, se le asigna 1 <em>coincidencia</em> a cada legislador que haya votado lo mismo que vos y 1 <em>discrepancia</em> a cada legislador cuyo voto sea alguno de los otros 3. Al final de la votaci&oacute;n de todos los proyectos de ley seleccionados, se muestran las coincidencias y discrepancias obtenidas con cada legislador. Adicionalmente, se calcula la <em>chance de coincidir</em> como la cantidad de coincidencias sobre el total de votos del legislador (coincidencias y discrepancias sumadas) y la <em>diferencia</em> como la resta entre las coincidencias y las discrepancias. La tabla puede ser ordenada por distintas columnas. Se apela al esp&iacute;ritu cr&iacute;tico para interpretar estos resultados.</p>
+	<p>Estos son los legisladores listados por coincidencias y discrepancias con tus votos.</p>
 	<p class="shady">IMPORTANTE: Pod&eacute;s ordenar los resultados por columna.</p>
 	<table>
 		<thead>
 			<tr>
 				<td id="name">Legislador</td>
 				<td class="center" id="chance">Chance de coincidir</td>
+				<td class="center" id="participation">Participaci&oacute;n</td>
 				<td class="center" id="coincidences">Coincidencias</td>
 				<td class="center" id="discrepancies">Discrepancias</td>
 				<td class="center" id="difference">Diferencia</td>
