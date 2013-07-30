@@ -12,6 +12,11 @@ En mayo de 2013, a raíz del interés de [@CongresoInterac](https://twitter.com/
 
 El código fuente es abierto y se encuentra disponible en [github.com/scoffey/elegilegi](https://github.com/scoffey/elegilegi/). Los datos son de dominio público.
 
+Créditos fotográficos:
+
+  * [Palacio del Honorable Congreso de la Nación](http://www.flickr.com/photos/crystyna/2108707325/)
+  * [Palacio de la Legislatura de la Ciudad de Buenos Aires](http://www.flickr.com/photos/canadianaeh/5632984516/)
+
 Esta aplicación no registra tus votos ni almacena información personal.
 
 Copyright
