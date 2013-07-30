@@ -1,0 +1,302 @@
+{
+    "sanchez": {
+        "nombre": "S\u00c1NCHEZ, Fernando", 
+        "bloque": "Coalici\u00f3n C\u00edvica - Ari", 
+        "distrito": ""
+    }, 
+    "lipovetzky": {
+        "nombre": "LIPOVETZKY, Daniel", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "palmeyro": {
+        "nombre": "PALMEYRO, Claudio M.", 
+        "bloque": "Sindical Peronista", 
+        "distrito": ""
+    }, 
+    "sanchez-andia": {
+        "nombre": "S\u00c1NCHEZ AND\u00cdA, Roc\u00edo", 
+        "bloque": "Coalici\u00f3n C\u00edvica - Ari", 
+        "distrito": ""
+    }, 
+    "varela": {
+        "nombre": "VARELA, Marta Luc\u00eda", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "spalla": {
+        "nombre": "SPALLA, Mar\u00eda K.", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "gullo": {
+        "nombre": "GULLO, J.C. Dante", 
+        "bloque": "Frente para la Victoria", 
+        "distrito": ""
+    }, 
+    "saya": {
+        "nombre": "SAYA, Lidia N.", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "morales-gorleri": {
+        "nombre": "MORALES GORLERI, V.", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "arenaza": {
+        "nombre": "ARENAZA, Juan P.", 
+        "bloque": "Bases para la Uni\u00f3n", 
+        "distrito": ""
+    }, 
+    "bergel": {
+        "nombre": "BERGEL, Pablo", 
+        "bloque": "Proyecto Sur", 
+        "distrito": ""
+    }, 
+    "gonzalez": {
+        "nombre": "GONZ\u00c1LEZ, Mar\u00eda A.", 
+        "bloque": "Buenos Aires para Todos", 
+        "distrito": ""
+    }, 
+    "pagani": {
+        "nombre": "PAGANI, Enzo Luis", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "ibarra": {
+        "nombre": "IBARRA, An\u00edbal", 
+        "bloque": "Frente Progresista y Popular", 
+        "distrito": ""
+    }, 
+    "nenna": {
+        "nombre": "NENNA, Francisco", 
+        "bloque": "Frente para la Victoria", 
+        "distrito": ""
+    }, 
+    "screnci-silva": {
+        "nombre": "SCRENCI SILVA, Bruno G.", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "quintana": {
+        "nombre": "QUINTANA, Francisco", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "garcia-tunon": {
+        "nombre": "GARC\u00cdA TU\u00d1\u00d3N, L.S.", 
+        "bloque": "Buenos Aires para Todos", 
+        "distrito": ""
+    }, 
+    "rebot": {
+        "nombre": "REBOT, Helio D.", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "bergman": {
+        "nombre": "BERGMAN, Sergio", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "seijo": {
+        "nombre": "SEIJO, Gabriela", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "quattromano": {
+        "nombre": "QUATTROMANO, Roberto", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "bisutti": {
+        "nombre": "BISUTTI, Delia B.", 
+        "bloque": "Nuevo Encuentro", 
+        "distrito": ""
+    }, 
+    "martinez-barrios": {
+        "nombre": "MART\u00cdNEZ BARRIOS, D.", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "rachid": {
+        "nombre": "RACHID, Mar\u00eda", 
+        "bloque": "Frente para la Victoria", 
+        "distrito": ""
+    }, 
+    "neira": {
+        "nombre": "NEIRA, Claudia", 
+        "bloque": "Buenos Aires para Todos", 
+        "distrito": ""
+    }, 
+    "cerruti": {
+        "nombre": "CERRUTI, Gabriela Carla", 
+        "bloque": "Nuevo Encuentro", 
+        "distrito": ""
+    }, 
+    "bodart": {
+        "nombre": "BODART, Alejandro", 
+        "bloque": "MST en Movimiento Proyecto Sur", 
+        "distrito": ""
+    }, 
+    "montes": {
+        "nombre": "MONTES, Adriana I.", 
+        "bloque": "Bases para la Uni\u00f3n", 
+        "distrito": ""
+    }, 
+    "herrero": {
+        "nombre": "HERRERO, Raquel", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "form": {
+        "nombre": "FORM, Edgardo", 
+        "bloque": "Nuevo Encuentro", 
+        "distrito": ""
+    }, 
+    "presti": {
+        "nombre": "PRESTI, Daniel", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "selser": {
+        "nombre": "SELSER, Jorge G.", 
+        "bloque": "Proyecto Sur", 
+        "distrito": ""
+    }, 
+    "polledo": {
+        "nombre": "POLLEDO, Carmen", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "alegre": {
+        "nombre": "ALEGRE, Gabriela Patricia", 
+        "bloque": "Frente para la Victoria", 
+        "distrito": ""
+    }, 
+    "garayalde": {
+        "nombre": "GARAYALDE, Jorge M.H.", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "presman": {
+        "nombre": "PRESMAN, Claudio D.", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": ""
+    }, 
+    "campos": {
+        "nombre": "CAMPOS, Antonio R.", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": ""
+    }, 
+    "amor": {
+        "nombre": "AMOR, Alejandro", 
+        "bloque": "Frente para la Victoria", 
+        "distrito": ""
+    }, 
+    "amoroso": {
+        "nombre": "AMOROSO, V\u00edctor Daniel", 
+        "bloque": "Confianza P\u00fablica", 
+        "distrito": ""
+    }, 
+    "romeo": {
+        "nombre": "ROMEO, Mateo", 
+        "bloque": "Frente para la Victoria", 
+        "distrito": ""
+    }, 
+    "naddeo": {
+        "nombre": "NADDEO, Mar\u00eda E.", 
+        "bloque": "Frente Progresista y Popular", 
+        "distrito": ""
+    }, 
+    "lubertino": {
+        "nombre": "LUBERTINO, Mar\u00eda Jos\u00e9", 
+        "bloque": "Frente para la Victoria", 
+        "distrito": ""
+    }, 
+    "gentili": {
+        "nombre": "GENTILI, Rafael A.", 
+        "bloque": "Proyecto Sur", 
+        "distrito": ""
+    }, 
+    "acevedo": {
+        "nombre": "ACEVEDO, Jos\u00e9 Luis", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "rueda": {
+        "nombre": "RUEDA, L\u00eda", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "basteiro": {
+        "nombre": "BASTEIRO, Fabio H.", 
+        "bloque": "Buenos Aires para Todos", 
+        "distrito": ""
+    }, 
+    "gonzalez-gass": {
+        "nombre": "GONZ\u00c1LEZ GASS, Virginia", 
+        "bloque": "Proyecto Sur", 
+        "distrito": ""
+    }, 
+    "cabandie": {
+        "nombre": "CABANDI\u00c9, Juan", 
+        "bloque": "Frente para la Victoria", 
+        "distrito": ""
+    }, 
+    "de-andreis": {
+        "nombre": "DE ANDREIS, Fernando", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "ocampo": {
+        "nombre": "OCAMPO, Fernando Mart\u00edn", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "raffo": {
+        "nombre": "RAFFO, Julio", 
+        "bloque": "Proyecto Sur", 
+        "distrito": ""
+    }, 
+    "garcia": {
+        "nombre": "GARC\u00cdA, Alejandro", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "ferraro": {
+        "nombre": "FERRARO, Maximiliano", 
+        "bloque": "Coalici\u00f3n C\u00edvica - Ari", 
+        "distrito": ""
+    }, 
+    "zago": {
+        "nombre": "ZAGO, Oscar Roberto", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "rinaldi": {
+        "nombre": "RINALDI, Susana", 
+        "bloque": "Frente Progresista y Popular", 
+        "distrito": ""
+    }, 
+    "moscariello": {
+        "nombre": "MOSCARIELLO, Oscar A.", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "frigerio": {
+        "nombre": "FRIGERIO, Rogelio", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "camps": {
+        "nombre": "CAMPS, Adri\u00e1n R.", 
+        "bloque": "Proyecto Sur", 
+        "distrito": ""
+    }, 
+    "ritondo": {
+        "nombre": "RITONDO, Cristian Adri\u00e1n", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }
+}
