@@ -117,11 +117,11 @@ function printResults(callback) {
 		$(tr).attr('id', i);
 
 		var td = document.createElement('td');
-		var span = document.createElement('span'); 
+		var span = document.createElement('span');
 		$(span).text(r.nombre);
 		$(td).append(span);
 		$(td).append(document.createElement('br'));
-		var info = document.createElement('span'); 
+		var info = document.createElement('span');
 		$(info).text(r.bloque + ' (' + r.distrito + ')');
 		$(info).addClass('shady');
 		$(td).append(info);
@@ -134,6 +134,7 @@ function printResults(callback) {
 		printResultsHelper(tr, r.difference);
 		rows.append(tr);
 	}
+	render(tuples);
 }
 
 function printResultsHelper(tr, text) {
@@ -308,3 +309,106 @@ $(document).ready(function () {
 	$('#reset').click(reset);
 	reset();
 });
+
+function render(data) {
+
+$('#chart').empty();
+
+var margin = {top: 20, right: 20, bottom: 30 + 140, left: 40},
+    width = 720 - margin.left - margin.right,
+    height = 640 - margin.top - margin.bottom;
+
+var x = d3.scale.linear()
+    .range([0, width]);
+
+var y = d3.scale.linear()
+    .range([height, 0]);
+
+var color = d3.scale.category20c();
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+
+var svg = d3.select("#chart").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  svg.style("background-color", "white");
+
+  x.domain(d3.extent(data, function(d) { return d.participation; })).nice();
+  y.domain(d3.extent(data, function(d) { return d.chance; })).nice();
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("x", width)
+      .attr("y", -6)
+      .style("text-anchor", "end")
+      .text("Participaci\u00f3n (%)");
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("class", "label")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Chance de coincidir (%)");
+
+var div = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
+
+  svg.selectAll(".dot")
+      .data(data)
+    .enter().append("circle")
+      .attr("class", "dot")
+      .attr("r", 2)
+      .attr("cx", function(d) { return x(d.participation + Math.random() - 0.5); })
+      .attr("cy", function(d) { return y(d.chance + Math.random() - 0.5); })
+      .style("fill", function(d) { return color(d.bloque); })
+      .on("mouseover", function (d) {
+        div.transition()
+                .duration(200)
+                .style("opacity", .9);
+        div.html(d.nombre)
+                .style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY - 28) + "px");
+      }).on("mouseout", function(d) {
+        div.transition()
+                .duration(500)
+                .style("opacity", 0);
+      });
+
+  var legend = svg.selectAll(".legend")
+      .data(color.domain())
+    .enter().append("g")
+      .attr("class", "legend")
+      .attr("transform", function(d, i) { return "translate(" + (i % 4) * 165 + "," + Math.floor(i / 4) * 12 + ")"; });
+
+  legend.append("rect")
+      .attr("y", height + 40)
+      .attr("width", 10)
+      .attr("height", 10)
+      .style("fill", color);
+
+  legend.append("text")
+      .attr("x", 12)
+      .attr("y", height + 5 + 40)
+      .attr("dy", ".35em")
+      .style("text-anchor", "start")
+      .text(function(d) { return (d.length > 30 ? d.substr(0, 27) + '...' : d); });
+
+}

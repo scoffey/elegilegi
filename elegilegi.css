@@ -222,11 +222,15 @@ a.action:hover {
 	height: 10px;
 	border-radius: 5px;
 }
+#results table .shady {
+	font-size: 8pt;
+}
 #results table {
+	font-size: 10pt;
 	width: 100%;
 }
 #results table td {
-	padding: 8px;
+	padding: 4px;
 }
 #results table thead td {
 	color: white;
@@ -239,4 +243,18 @@ a.action:hover {
 }
 #results table tbody tr:nth-child(even) {
 	background-color: rgba(0, 122, 255, 0.1);
+}
+.legend {
+	font-size: 8pt;
+}
+.tooltip {
+	position: absolute;
+	text-align: left;
+	width: 180px;
+	height: 14px;
+	padding: 4px;
+	font: 8pt sans-serif;
+	background: rgba(255, 255, 255, 0.8);
+	border: 0;
+	pointer-events: none;
 }
