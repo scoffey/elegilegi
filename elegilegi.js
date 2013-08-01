@@ -137,6 +137,22 @@ function printResults(callback) {
 	render(tuples);
 }
 
+function initFilters(provinces) {
+	if (document.getElementById('province').options.length > 0) return;
+	$('#province').empty();
+	items = [];
+	for (var i in provinces) { items.push(i); }
+	items.sort();
+	for (var i = 0; i < items.length; i++) {
+		var s = items[i];
+		var option = $('<option></option>').attr('value', s).text(s);
+		$('#province').append(option);
+	}
+	var option = $('<option></option>').attr('value', '')
+			.attr('selected', 'selected').text('(Todos)');
+	$('#province').append(option);
+}
+
 function printResultsHelper(tr, text) {
 	var td = document.createElement('td');
 	$(td).text(text);
@@ -146,8 +162,12 @@ function printResultsHelper(tr, text) {
 
 function sortResults(callback) {
 	var tuples = new Array();
+	var options = {};
+	var province = $('#province').val();
 	for (i in results) {
 		var r = results[i];
+		options[r.distrito] = true;
+		if (province && province != r.distrito) continue;
 		var total = r.coincidences + r.discrepancies;
 		r.id = i;
 		r.difference = r.coincidences - r.discrepancies;
@@ -156,6 +176,7 @@ function sortResults(callback) {
 		tuples.push(r);
 	}
 	tuples.sort(callback);
+	initFilters(options); // TODO: move away from sort
 	return tuples;
 }
 
@@ -298,6 +319,10 @@ $(document).ready(function () {
 		printResults(sortByDiscrepancies);
 	});
 	$('#difference').click(function () {
+		printResults(sortByDifference);
+	});
+
+	$('#province').click(function () {
 		printResults(sortByDifference);
 	});
 

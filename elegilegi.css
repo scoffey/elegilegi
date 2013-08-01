@@ -261,3 +261,10 @@ a.action:hover {
 	border: 0;
 	pointer-events: none;
 }
+select {
+	padding: 4px;
+	margin: 0;
+	border: 1px solid #ccc;
+	font: inherit;
+	outline: none; /* remove focus ring from Webkit */
+}
