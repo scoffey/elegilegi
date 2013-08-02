@@ -139,11 +139,11 @@ function printResults(callback) {
 	render(tuples);
 }
 
-function initFilters(provinces) {
+function initFilters(options) {
 	if (document.getElementById('province').options.length > 0) return;
 	$('#province').empty();
 	items = [];
-	for (var i in provinces) { items.push(i); }
+	for (var i in options) { items.push(i); }
 	items.sort();
 	for (var i = 0; i < items.length; i++) {
 		var s = items[i];
@@ -164,11 +164,9 @@ function printResultsHelper(tr, text) {
 
 function sortResults(callback) {
 	var tuples = new Array();
-	var options = {};
 	var province = $('#province').val();
 	for (i in results) {
 		var r = results[i];
-		options[r.distrito] = true;
 		if (province && province != r.distrito) continue;
 		var total = r.coincidences + r.discrepancies;
 		r.id = i;
@@ -178,7 +176,6 @@ function sortResults(callback) {
 		tuples.push(r);
 	}
 	tuples.sort(callback);
-	initFilters(options); // TODO: move away from sort
 	return tuples;
 }
 
@@ -274,6 +271,12 @@ $(document).ready(function () {
 		$('#start').click(function () {
 			$('#intro').fadeOut(200, loadRandomProject);
 		});
+		var options = {};
+		for (var i in representatives) {
+			var r = representatives[i];
+			options[r.distrito] = true;
+		}
+		initFilters(options);
 	});
 
 	$('#vote-aye').click(function () {
@@ -326,6 +329,7 @@ $(document).ready(function () {
 
 	$('#province').click(function () {
 		printResults(sortByDifference);
+		$('html, body').animate({'scrollTop': 0}, 'slow');
 	});
 
 	$('#link').click(function () {
@@ -367,8 +371,6 @@ var svg = d3.select("#chart").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-  svg.style("background-color", "white");
-
   x.domain(d3.extent(data, function(d) { return d.participation; })).nice();
   y.domain(d3.extent(data, function(d) { return d.chance; })).nice();
 
@@ -402,9 +404,9 @@ var div = d3.select("body").append("div")
       .data(data)
     .enter().append("circle")
       .attr("class", "dot")
-      .attr("r", 2)
-      .attr("cx", function(d) { return x(d.participation + Math.random() - 0.5); })
-      .attr("cy", function(d) { return y(d.chance + Math.random() - 0.5); })
+      .attr("r", 3)
+      .attr("cx", function(d) { return x(d.participation + 4 * Math.random() - 2); })
+      .attr("cy", function(d) { return y(d.chance + 4 * Math.random() - 2); })
       .style("fill", function(d) { return color(d.bloque); })
       .on("mouseover", function (d) {
         div.transition()
