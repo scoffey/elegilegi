@@ -18,11 +18,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 a, a:visited {
 	text-decoration: none;
-	color: rgb(0, 122, 255);
+	color: #06f;
 }
 a:hover {
 	text-decoration: underline;
-	color: rgb(0, 122, 255);
 }
 #heading {
 	position: fixed;
@@ -60,7 +59,7 @@ a:hover {
 }
 #info:hover {
 	color: white;
-	background-color: rgb(0, 122, 255);
+	background-color: #06f;
 	text-decoration: none;
 }
 .container {
@@ -206,11 +205,11 @@ em {
 a.action {
 	padding: 12px 16px;
 	margin: 0 auto;
-	color: rgb(0, 122, 255);
+	color: #06f;
 }
 a.action:hover {
 	color: white;
-	background-color: rgb(0, 122, 255);
+	background-color: #06f;
 }
 #progress-bar {
 	width: 100%;
@@ -220,7 +219,7 @@ a.action:hover {
 }
 #progress-bar span {
 	display: block;
-	background-color: rgb(0, 122, 255);
+	background-color: #06f;
 	width: 0%; /* Adjust with JavaScript */
 	height: 10px;
 	border-radius: 5px;
@@ -237,11 +236,11 @@ a.action:hover {
 }
 #results table thead td {
 	color: white;
-	background-color: rgb(0, 122, 255);
+	background-color: #06f;
 	padding: 12px 8px;
 }
 #results table thead td:hover {
-	background-color: rgb(60, 182, 255);
+	background-color: #39f;
 	cursor: pointer;
 }
 #results table tbody tr:nth-child(even) {
