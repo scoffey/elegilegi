@@ -4,36 +4,38 @@ var currentProject = null;
 var results = null;
 
 var projects = [
-	"exp-11-pe-11-orden-del-dia-03-votacion-en-general",
-	"exp-13-pe-08-votacion-en-general",
-	"exp-16-jgm-11-orden-del-dia-01-votacon-en-general",
-	"exp-1737-d-09-y-0574-d-10-od-197-vot-en-general",
-	"exp-22-pe-09-y-otros-orden-del-dia-2005-vot-en-general",
-	"exp-27-pe-08-orden-del-dia-1167-votacion-en-general",
-	"exp-2843-d-06-y-otro-orden-del-dia-1479-vot-en-general",
-	"exp-31-pe-09-votacion-en-general-y-particular",
-	"exp-3306-d-10-orden-del-dia-1044-votacion-en-general",
-	"exp-38-pe-08-orden-del-dia-1530-votacion-en-general",
-	"exp-4029-d-09-y-otros-o-d-873-vot-en-general",
-	"exp-7243-d-10-y-otros-orden-del-dia-2913-votacion-en-general",
-	"expediente-01-pe-12-votacion-en-general",
-	"expediente-04-pe-12-orden-del-dia-1458-votacion-en-general",
-	"expediente-1-pe-10-y-otros-orden-del-dia-1868",
-	"expediente-1-pe-11-orden-del-dia-09-votacion-en-general",
-	"expediente-10-s-13-orden-del-dia-1905-votacion-en-general",
-	"expediente-11-s-13-orden-del-dia-1907-votacion-en-general-y-particular",
-	"expediente-118-s-12-orden-del-dia-1164-votacion-en-general",
-	"expediente-12-s-13-orden-del-dia-1906-votacion-en-general-y-particular",
-	"expediente-121-s-12-orden-del-dia-1308-votacion-en-general",
-	"expediente-128-s-11-orden-del-dia-1812-votacion-en-general-y-particular",
-	"expediente-15-jgm-12-orden-del-dia-1044-votacion-en-general-y-particular",
-	"expediente-1943-d-12-y-otros-orden-del-dia-494-votacion-en-general-y-particular",
-	"expediente-236-s-12-orden-del-dia-1867-votacion-en-general-y-particular",
-	"expediente-24-pe-10-orden-del-dia-n-10-votacion-en-general",
-	"expediente-26-s-12-orden-del-dia-192-votacion-en-general",
-	"expediente-29-s-12-orden-del-dia-288-votacion-en-general-",
-	"expediente-8-pe-11-orden-del-dia-07-votacion-en-general",
-	"expediente-94-s-12-orden-del-dia-690-votacion-en-general"
+	'ley-24145',
+	'ley-26080',
+	'ley-26331',
+	'ley-26425',
+	'ley-26522',
+	'ley-26571',
+	'ley-26618',
+	'ley-26637',
+	'ley-26639',
+	'ley-26649',
+	'ley-26728',
+	'ley-26729',
+	'ley-26734',
+	'ley-26736',
+	'ley-26737',
+	'ley-26739',
+	'ley-26740',
+	'ley-26743',
+	'ley-26761',
+	'ley-26764',
+	'ley-26773',
+	'ley-26774',
+	'ley-26784',
+	'ley-26790',
+	'ley-26831',
+	'ley-26842',
+	'ley-26843',
+	'ley-26844',
+	'ley-26853',
+	'ley-26854',
+	'ley-26860',
+	'proyecto-res-125'
 ];
 
 function shuffle(array) {
@@ -66,7 +68,7 @@ function loadRandomProject() {
 		return;
 	}
 	var id = projectIds.pop();
-	$.getJSON('data/proyectos/' + id + '.json', function (data) {
+	$.getJSON('data/' + id + '.json', function (data) {
 		currentProject = data;
 		$('#project').text(data.nombre);
 		$('#summary').text(data.sumario);
