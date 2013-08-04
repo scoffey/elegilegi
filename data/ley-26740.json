@@ -1,5 +1,30 @@
 {
+    "asunto": "Expediente 26-S-12 - Orden del D\u00eda 192 - Votaci\u00f3n en General.", 
+    "fecha": "28/03/2012 20:31", 
+    "nombre": "Transferencia del subte y premetro a CABA", 
+    "sumario": "RATIFICACION DE LA TRANSFERENCIA A LA CIUDAD AUTONOMA DE BUENOS AIRES DE LOS SERVICIOS DE TRANSPORTE SUBTERRANEO Y PREMETRO DISPUESTA EN EL MARCO DE LAS LEYES 23696 Y 24588 Y SUS MODIFICATORIAS Y DE LOS DECRETOS 2608/93, 1527/94 Y 393/99 QUE FUERA ACEPTADA POR EL GOBIERNO DE LA CITADA CIUDAD MEDIANTE LA LEY 373 Y RATIFICADA A TRAVES DEL ACTA ACUERDO CELEBRADA EL 03/01/2012 ENTRE EL ESTADO NACIONAL Y LA CIUDAD AUTONOMA DE BUENOS AIRES.", 
+    "url": "http://www.infoleg.gov.ar/infolegInternet/anexos/195000-199999/195894/norma.htm", 
     "votacion": {
+        "ABSTENCION": [
+            "argumedo-alcira-susana", 
+            "barchetta-omar-segundo", 
+            "cardelli-jorge-justo", 
+            "ciciliani-alicia-mabel", 
+            "cuccovillo-ricardo-oscar", 
+            "de-gennaro-victor-norberto", 
+            "lozano-claudio-raul", 
+            "mouilleron-roberto-mario", 
+            "muller-edgar-raul", 
+            "parada-liliana-beatriz", 
+            "pucheta-ramona", 
+            "rasino-elida-elena", 
+            "riestra-antonio-sabino", 
+            "rivara-raul-alberto", 
+            "rodriguez-marcela-virginia", 
+            "solanas-fernando-ezequiel", 
+            "yague-linda-cristina", 
+            "zabalza-juan-carlos"
+        ], 
         "AFIRMATIVO": [
             "abdala-de-matarazzo-norma-amanda", 
             "aguad-oscar-raul", 
@@ -188,26 +213,6 @@
             "sola-felipe-carlos", 
             "yoma-jorge-raul"
         ], 
-        "ABSTENCION": [
-            "argumedo-alcira-susana", 
-            "barchetta-omar-segundo", 
-            "cardelli-jorge-justo", 
-            "ciciliani-alicia-mabel", 
-            "cuccovillo-ricardo-oscar", 
-            "de-gennaro-victor-norberto", 
-            "lozano-claudio-raul", 
-            "mouilleron-roberto-mario", 
-            "muller-edgar-raul", 
-            "parada-liliana-beatriz", 
-            "pucheta-ramona", 
-            "rasino-elida-elena", 
-            "riestra-antonio-sabino", 
-            "rivara-raul-alberto", 
-            "rodriguez-marcela-virginia", 
-            "solanas-fernando-ezequiel", 
-            "yague-linda-cristina", 
-            "zabalza-juan-carlos"
-        ], 
         "NEGATIVO": [
             "aguilar-lino-walter", 
             "alonso-gumersindo-federico", 
@@ -264,10 +269,5 @@
             "videla-nora-esther", 
             "villata-graciela-susana"
         ]
-    }, 
-    "url": "http://www.infoleg.gov.ar/infolegInternet/anexos/195000-199999/195894/norma.htm", 
-    "fecha": "28/03/2012 20:31", 
-    "asunto": "Expediente 26-S-12 - Orden del D\u00eda 192 - Votaci\u00f3n en General.", 
-    "nombre": "Transferencia del subte y del premetro a CABA", 
-    "sumario": "RATIFICACION DE LA TRANSFERENCIA A LA CIUDAD AUTONOMA DE BUENOS AIRES DE LOS SERVICIOS DE TRANSPORTE SUBTERRANEO Y PREMETRO DISPUESTA EN EL MARCO DE LAS LEYES 23696 Y 24588 Y SUS MODIFICATORIAS Y DE LOS DECRETOS 2608/93, 1527/94 Y 393/99 QUE FUERA ACEPTADA POR EL GOBIERNO DE LA CITADA CIUDAD MEDIANTE LA LEY 373 Y RATIFICADA A TRAVES DEL ACTA ACUERDO CELEBRADA EL 03/01/2012 ENTRE EL ESTADO NACIONAL Y LA CIUDAD AUTONOMA DE BUENOS AIRES."
+    }
 }

@@ -1,4 +1,9 @@
 {
+    "asunto": "Expediente 2200-S-2009 - Votaci\u00f3n en general", 
+    "fecha": "30/09/2010", 
+    "nombre": "Ley de protecci\u00f3n de glaciares", 
+    "sumario": "R\u00c9GIMEN DE PRESUPUESTOS M\u00cdNIMOS PARA LA PRESERVACI\u00d3N DE LOS GLACIARES Y DEL AMBIENTE PERIGLACIAL.", 
+    "url": "http://www.infoleg.gov.ar/infolegInternet/anexos/170000-174999/174117/norma.htm", 
     "votacion": {
         "AFIRMATIVO": [
             "agosto-walter", 
@@ -262,10 +267,5 @@
             "yarade-rodolfo-fernando", 
             "ziegler-alex-roberto"
         ]
-    }, 
-    "url": "http://www.infoleg.gov.ar/infolegInternet/anexos/170000-174999/174117/norma.htm", 
-    "fecha": "30/09/2010", 
-    "asunto": "Expediente 2200-S-2009 - Votaci\u00f3n en general", 
-    "nombre": "Ley de protecci\u00f3n de glaciares", 
-    "sumario": "R\u00e9gimen de Presupuestos M\u00ednimos para la Preservaci\u00f3n de los Glaciares y del Ambiente Periglacial."
+    }
 }

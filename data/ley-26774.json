@@ -1,5 +1,13 @@
 {
+    "asunto": "Expediente 118-S-12 - Orden del D\u00eda 1164 - Votaci\u00f3n en General.", 
+    "fecha": "31/10/2012 23:30", 
+    "nombre": "Voto Joven a partir de los 16 a\u00f1os", 
+    "sumario": "MODIFICACION A LA LEY 346, DE CIUDADANIA Y NATURALIZACION: SUSTITUCION DE LOS ARTICULOS 2 (ARGENTINOS POR NATURALIZACION) Y 7 (GOCE DE TODOS LOS DERECHOS POLITICOS A LOS ARGENTINOS QUE HUBIERAN CUMPLIDO DIECISEIS - 16 - A\u00d1OS DE EDAD). MODIFICACION A LA LEY 19945, CODIGO ELECTORAL NACIONAL.", 
+    "url": "http://infoleg.mecon.gov.ar/infolegInternet/anexos/200000-204999/204176/norma.htm", 
     "votacion": {
+        "ABSTENCION": [
+            "brillo-jose-ricardo"
+        ], 
         "AFIRMATIVO": [
             "abdala-de-matarazzo-norma-amanda", 
             "albrieu-oscar-edmundo-nicolas", 
@@ -257,17 +265,9 @@
             "yarade-rodolfo-fernando", 
             "zabalza-juan-carlos"
         ], 
-        "ABSTENCION": [
-            "brillo-jose-ricardo"
-        ], 
         "NEGATIVO": [
             "garramuno-jorge-alberto", 
             "olmedo-alfredo-horacio"
         ]
-    }, 
-    "url": "http://infoleg.mecon.gov.ar/infolegInternet/anexos/200000-204999/204176/norma.htm", 
-    "fecha": "31/10/2012 23:30", 
-    "asunto": "Expediente 118-S-12 - Orden del D\u00eda 1164 - Votaci\u00f3n en General.", 
-    "nombre": "Voto Joven a partir de los 16 a\u00f1os", 
-    "sumario": "MODIFICACION A LA LEY 346, DE CIUDADANIA Y NATURALIZACION: SUSTITUCION DE LOS ARTICULOS 2 (ARGENTINOS POR NATURALIZACION) Y 7 (GOCE DE TODOS LOS DERECHOS POLITICOS A LOS ARGENTINOS QUE HUBIERAN CUMPLIDO DIECISEIS - 16 - A\u00d1OS DE EDAD). MODIFICACION A LA LEY 19945, CODIGO ELECTORAL NACIONAL: SUSTITUCION DE LOS ARTICULOS 1 (ELECTORES NACIONALES LOS CIUDADANOS DESDE LOS DIECISEIS - 16 - A\u00d1OS DE EDAD) Y 12 INCISO A) (EXENTOS DE LA OBLIGACION DE VOTAR: LOS JOVENES ENTRE DIECISEIS - 16 - A\u00d1OS Y LOS DIECIOCHO - 18 - A\u00d1OS Y LOS MAYORES DE SETENTA - 70 - A\u00d1OS)."
+    }
 }

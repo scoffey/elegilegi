@@ -1,5 +1,13 @@
 {
+    "asunto": "Exp. 31-PE-09 - Votaci\u00f3n en General y Particular.", 
+    "fecha": "18/11/2009 19:00", 
+    "nombre": "PASO y financiamiento de campa\u00f1as electorales", 
+    "sumario": "REFORMA POLITICO ELECTORAL: LEY DE DEMOCRATIZACION DE LA REPRESENTACION POLITICA, LA TRANSPARENCIA Y LA EQUIDAD ELECTORAL. MODIFICACION DE LA LEY 23298 (PARTIDOS POLITICOS), DE LA LEY 26215 (FINANCIAMIENTO DE LOS PARTIDOS POLITICOS) Y DEL CODIGO ELECTORAL NACIONAL (LEY 19945). ELECCIONES PRIMARIAS ABIERTAS Y SIMULTANEAS OBLIGATORIAS (PASO).", 
+    "url": "http://www.infoleg.gov.ar/infolegInternet/anexos/160000-164999/161453/norma.htm", 
     "votacion": {
+        "ABSTENCION": [
+            "morejon-manuel-amor"
+        ], 
         "AFIRMATIVO": [
             "acosta-de-ahumada-maria-julia", 
             "acuna-hugo-rodolfo", 
@@ -160,9 +168,6 @@
             "soto-gladys-beatriz", 
             "villaverde-jorge-antonio"
         ], 
-        "ABSTENCION": [
-            "morejon-manuel-amor"
-        ], 
         "NEGATIVO": [
             "acuna-kunz-juan", 
             "agosto-walter", 
@@ -264,10 +269,5 @@
             "zancada-pablo", 
             "zavallo-gustavo"
         ]
-    }, 
-    "url": "http://www.infoleg.gov.ar/infolegInternet/anexos/160000-164999/161453/norma.htm", 
-    "fecha": "18/11/2009 19:00", 
-    "asunto": "Exp. 31-PE-09 - Votaci\u00f3n en General y Particular.", 
-    "nombre": "Financiamiento de campa\u00f1as electorales y r\u00e9gimen de las PASO", 
-    "sumario": "REFORMA POLITICO ELECTORAL: LEY DE DEMOCRATIZACION DE LA REPRESENTACION POLITICA, LA TRANSPARENCIA Y LA EQUIDAD ELECTORAL. MODIFICACION DE LA LEY 23298 (PARTIDOS POLITICOS), DE LA LEY 26215 (FINANCIAMIENTO DE LOS PARTIDOS POLITICOS) Y DEL CODIGO ELECTORAL NACIONAL (LEY 19945). ELECCIONES PRIMARIAS ABIERTAS Y SIMULTANEAS OBLIGATORIAS (PASO)."
+    }
 }

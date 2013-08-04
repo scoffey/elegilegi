@@ -1,4 +1,9 @@
 {
+    "asunto": "Expediente 1-PE-10 (y otros) - Orden del D\u00eda 1868.", 
+    "fecha": "13/03/2013 19:49", 
+    "nombre": "R\u00e9gimen de personal de casas particulares ", 
+    "sumario": "REGIMEN ESPECIAL DE CONTRATO DE TRABAJO PARA EL PERSONAL DE CASAS PARTICULARES; DEROGACION DEL DECRETO-LEY 326/1956 Y SUS MODIFICATORIOS, Y DE LOS DECRETOS 7979/56 Y MODIFICATORIOS Y DECRETO 14785/57.", 
+    "url": "http://www.infoleg.gov.ar/infolegInternet/anexos/210000-214999/210489/norma.htm", 
     "votacion": {
         "AFIRMATIVO": [
             "abdala-de-matarazzo-norma-amanda", 
@@ -260,10 +265,5 @@
             "yarade-rodolfo-fernando", 
             "yoma-jorge-raul"
         ]
-    }, 
-    "url": "http://www.infoleg.gov.ar/infolegInternet/anexos/210000-214999/210489/norma.htm", 
-    "fecha": "13/03/2013 19:49", 
-    "asunto": "Expediente 1-PE-10 (y otros) - Orden del D\u00eda 1868.", 
-    "nombre": "R\u00e9gimen de contrato de personal de casas particulares ", 
-    "sumario": "REGIMEN ESPECIAL DE CONTRATO DE TRABAJO PARA EL PERSONAL DE CASAS PARTICULARES; DEROGACION DEL DECRETO-LEY 326/1956 Y SUS MODIFICATORIOS, Y DE LOS DECRETOS 7979/56 Y MODIFICATORIOS Y DECRETO 14785/57."
+    }
 }

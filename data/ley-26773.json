@@ -1,5 +1,14 @@
 {
+    "asunto": "Expediente 2600-D-2013 - Votaci\u00f3n en general", 
+    "fecha": "24/10/2012", 
+    "nombre": "Ley de ART", 
+    "sumario": "R\u00c9GIMEN DE ORDENAMIENTO DE LA REPARACI\u00d3N DE LOS DA\u00d1OS DERIVADOS DE LOS ACCIDENTES DE TRABAJO Y ENFERMEDADES PROFESIONALES.", 
+    "url": "http://infoleg.mecon.gov.ar/infolegInternet/anexos/200000-204999/203798/norma.htm", 
     "votacion": {
+        "ABSTENCION": [
+            "daher-zulema-beatriz", 
+            "garcia-irma-adriana"
+        ], 
         "AFIRMATIVO": [
             "abdala-de-matarazzo-norma-amanda", 
             "acosta-de-ahumada-maria-julia", 
@@ -250,10 +259,6 @@
             "west-mariano-federico", 
             "yoma-jorge-raul"
         ], 
-        "ABSTENCION": [
-            "daher-zulema-beatriz", 
-            "garcia-irma-adriana"
-        ], 
         "NEGATIVO": [
             "alonso-laura", 
             "bertol-paula-maria", 
@@ -264,10 +269,5 @@
             "pinedo-federico", 
             "triaca-alberto-jorge"
         ]
-    }, 
-    "url": "http://infoleg.mecon.gov.ar/infolegInternet/anexos/200000-204999/203798/norma.htm", 
-    "fecha": "24/10/2012", 
-    "asunto": "Expediente 2600-D-2013 - Votaci\u00f3n en general", 
-    "nombre": "Ley de ART", 
-    "sumario": "R\u00e9gimen de ordenamiento de la reparaci\u00f3n de los da\u00f1os derivados de los accidentes de trabajo y enfermedades profesionales."
+    }
 }
