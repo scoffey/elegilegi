@@ -2,6 +2,8 @@ var projectIds = null;
 var representatives = null;
 var currentProject = null;
 var results = null;
+var votes = {};
+var projectData = {};
 
 var projects = [
 	'ley-24145',
@@ -54,6 +56,7 @@ function shuffle(array) {
 function reset() {
 	currentProject = null;
 	results = {};
+	votes = {};
 	projectIds = shuffle(projects.slice(0));
 	$('#intro').css('display', 'block');
 	$('#about').css('display', 'none');
@@ -70,6 +73,8 @@ function loadRandomProject() {
 	var id = projectIds.pop();
 	$.getJSON('data/' + id + '.json', function (data) {
 		currentProject = data;
+		currentProject.id = id;
+		projectData[id] = data;
 		$('#project').text(data.nombre);
 		$('#summary').text(data.sumario);
 		$('#date').text(data.fecha + ' - ' + data.asunto);
@@ -85,6 +90,7 @@ function loadRandomProject() {
 function vote(choice) {
 	var voting = currentProject.votacion;
 	if (!voting) return;
+	votes[currentProject.id] = choice;
 	voteHelper(voting.AFIRMATIVO, (choice == 'Y'));
 	voteHelper(voting.NEGATIVO, (choice == 'N'));
 	voteHelper(voting.ABSTENCION, (choice == 'A'));
@@ -109,6 +115,60 @@ function voteHelper(keys, coinciding) {
 	}
 }
 
+function showTooltip(e) {
+	var id = e.target.parentNode.getAttribute('id');
+	var c = $('<ul></ul>');
+	var d = $('<ul></ul>');
+	var li = null;
+	for (var i in projectData) {
+		var v = projectData[i].votacion;
+		var vote = votes[i];
+		if (!v || !vote) continue;
+		var n = projectData[i].nombre;
+		if (v.AFIRMATIVO && v.AFIRMATIVO.indexOf(id) != -1) {
+			li = $('<li></li>').text(n + ' (SI)');
+			if (vote == 'Y') c.append(li); else d.append(li);
+		}
+		if (v.NEGATIVO && v.NEGATIVO.indexOf(id) != -1) {
+			li = $('<li></li>').text(n + ' (NO)');
+			if (vote == 'N') c.append(li); else d.append(li);
+		}
+		if (v.ABSTENCION && v.ABSTENCION.indexOf(id) != -1) {
+			li = $('<li></li>').text(n + ' (ABSTENCION)');
+			if (vote == 'A') c.append(li); else d.append(li);
+		}
+		if (v.AUSENTE && v.AUSENTE.indexOf(id) != -1) {
+			li = $('<li></li>').text(n + ' (AUSENTE)');
+			if (vote == '0') c.append(li); else d.append(li);
+		}
+	}
+	var tooltip = getTooltip().finish().empty();
+	var b = {'font-weight': 'bold'};
+	tooltip.append($('<p></p>').css(b).text('Coincidencias:'));
+	tooltip.append(c);
+	tooltip.append($('<p></p>').css(b).text('Discrepancias:'));
+	tooltip.append(d);
+	var offset = $(e.target).offset();
+	tooltip.css({
+		'top': (offset.top) + 'px',
+		'left': (offset.left - tooltip.width() - 15) + 'px'
+	}).fadeIn(200);
+}
+
+function hideTooltip() {
+	getTooltip().finish().fadeOut(500);
+}
+
+function getTooltip() {
+	if (!document.getElementById('tooltip')) { // singleton
+		var e = document.createElement('div');
+		e.setAttribute('id', 'tooltip');
+		$('body').append(e);
+		$(e).addClass('tooltip');
+	}
+	return $('#tooltip');
+}
+
 function printResults(callback) {
 	var rows = $('#rows');
 	rows.empty();
@@ -116,7 +176,7 @@ function printResults(callback) {
 	for (var i = 0; i < tuples.length; i++) {
 		var r = tuples[i];
 		var tr = document.createElement('tr');
-		$(tr).attr('id', i);
+		$(tr).attr('id', r.id);
 
 		var td = document.createElement('td');
 		var span = document.createElement('span');
@@ -131,35 +191,26 @@ function printResults(callback) {
 
 		printResultsHelper(tr, r.chance + '%');
 		printResultsHelper(tr, r.participation + '%');
-		printResultsHelper(tr, r.coincidences);
-		printResultsHelper(tr, r.discrepancies);
-		printResultsHelper(tr, r.difference);
+		printResultsHelper(tr, r.coincidences)
+			.on('mouseover', showTooltip)
+			.on('mouseout', hideTooltip);
+		printResultsHelper(tr, r.discrepancies)
+			.on('mouseover', showTooltip)
+			.on('mouseout', hideTooltip);
+		printResultsHelper(tr, r.difference)
+			.on('mouseover', showTooltip)
+			.on('mouseout', hideTooltip);
 		rows.append(tr);
 	}
 	render(tuples);
 }
 
-function initFilters(options) {
-	if (document.getElementById('province').options.length > 0) return;
-	$('#province').empty();
-	items = [];
-	for (var i in options) { items.push(i); }
-	items.sort();
-	for (var i = 0; i < items.length; i++) {
-		var s = items[i];
-		var option = $('<option></option>').attr('value', s).text(s);
-		$('#province').append(option);
-	}
-	var option = $('<option></option>').attr('value', '')
-			.attr('selected', 'selected').text('(Todos)');
-	$('#province').append(option);
-}
-
 function printResultsHelper(tr, text) {
 	var td = document.createElement('td');
-	$(td).text(text);
-	$(td).addClass('center');
+	var e = $(td);
+	e.text(text).addClass('center');
 	tr.appendChild(td);
+	return e;
 }
 
 function sortResults(callback) {
@@ -234,6 +285,22 @@ function finish() {
 	$('#voting').fadeOut(200, function () {
 		$('#results').fadeIn(100);
 	});
+}
+
+function initFilters(options) {
+	if (document.getElementById('province').options.length > 0) return;
+	$('#province').empty();
+	items = [];
+	for (var i in options) { items.push(i); }
+	items.sort();
+	for (var i = 0; i < items.length; i++) {
+		var s = items[i];
+		var option = $('<option></option>').attr('value', s).text(s);
+		$('#province').append(option);
+	}
+	var option = $('<option></option>').attr('value', '')
+			.attr('selected', 'selected').text('(Todos)');
+	$('#province').append(option);
 }
 
 function shareOnFacebook() {
@@ -341,6 +408,10 @@ $(document).ready(function () {
 	reset();
 });
 
+function truncate(s, maxlen) {
+	return (s.length > maxlen ? s.substr(0, maxlen - 3) + '...' : s);
+}
+
 function render(data) {
 
 $('#chart').empty();
@@ -397,7 +468,7 @@ var svg = d3.select("#chart").append("svg")
       .text("Chance de coincidir (%)");
 
 var div = d3.select("body").append("div")
-    .attr("class", "tooltip")
+    .attr("class", "chart-tooltip")
     .style("opacity", 0);
 
   svg.selectAll(".dot")
@@ -412,9 +483,9 @@ var div = d3.select("body").append("div")
         div.transition()
                 .duration(200)
                 .style("opacity", .9);
-        div.html(d.nombre)
-                .style("left", (d3.event.pageX) + "px")
-                .style("top", (d3.event.pageY - 28) + "px");
+        div.html(d.nombre + ' (' + truncate(d.bloque, 30) + ')')
+                .style("left", (d3.event.pageX + 2) + "px")
+                .style("top", (d3.event.pageY - 36) + "px");
       }).on("mouseout", function(d) {
         div.transition()
                 .duration(500)
@@ -438,6 +509,6 @@ var div = d3.select("body").append("div")
       .attr("y", height + 5 + 40)
       .attr("dy", ".35em")
       .style("text-anchor", "start")
-      .text(function(d) { return (d.length > 30 ? d.substr(0, 27) + '...' : d); });
+      .text(function(d) { return truncate(d, 30); });
 
 }

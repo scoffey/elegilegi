@@ -251,14 +251,32 @@ a.action:hover {
 }
 .tooltip {
 	position: absolute;
-	text-align: left;
-	width: 180px;
-	height: 14px;
-	padding: 4px;
+	top: 0;
+	left: 0;
+	width: 320px;
+	margin: 0;
+	padding: 0 8px;
 	font: 8pt sans-serif;
-	background: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0.9);
 	border: 0;
 	pointer-events: none;
+	cursor: pointer;
+}
+.tooltip ul {
+	padding-left: 16px;
+}
+.chart-tooltip {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 180px;
+	height: 25px;
+	padding: 4px;
+	font: 8pt sans-serif;
+	background: rgba(255, 255, 255, 0.7);
+	border: 0;
+	pointer-events: none;
+	cursor: pointer;
 }
 select {
 	padding: 4px;
