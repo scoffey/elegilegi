@@ -216,14 +216,18 @@ function printResultsHelper(tr, text) {
 function sortResults(callback) {
 	var tuples = new Array();
 	var province = $('#province').val();
-	for (i in results) {
+	var totalVotes = 0;
+	for (var i in votes) {
+		totalVotes++;
+	}
+	for (var i in results) {
 		var r = results[i];
 		if (province && province != r.distrito) continue;
 		var total = r.coincidences + r.discrepancies;
 		r.id = i;
 		r.difference = r.coincidences - r.discrepancies;
 		r.chance = Math.round(r.coincidences * 100 / total);
-		r.participation = Math.round(total * 100 / projects.length)
+		r.participation = Math.round(total * 100 / totalVotes)
 		tuples.push(r);
 	}
 	tuples.sort(callback);
