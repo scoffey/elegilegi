@@ -1,4 +1,9 @@
 {
+    "asunto": "Expediente 10-S-13 - Orden del D\u00eda 1905 - Votaci\u00f3n en General.", 
+    "fecha": "25/04/2013 05:39", 
+    "nombre": "Modificaci\u00f3n del Consejo de la Magistratura", 
+    "sumario": "PROCEDIMIENTO PARA LA ELECCI\u00d3N DE LOS MIEMBROS DEL CONSEJO DE LA MAGISTRATURA. COMPOSICI\u00d3N. DURACI\u00d3N. REQUISITOS. MODIFICACI\u00d3N DE LAS LEYES 24.937, 11.672, 19.362, 17.928, 23.853, 24.156 Y 26.376.", 
+    "url": "http://www.infoleg.gob.ar/infolegInternet/anexos/215000-219999/215215/norma.htm", 
     "votacion": {
         "AFIRMATIVO": [
             "abdala-de-matarazzo-norma-amanda", 
@@ -262,10 +267,5 @@
             "yoma-jorge-raul", 
             "zabalza-juan-carlos"
         ]
-    }, 
-    "url": "http://infoleg.mecon.gov.ar/infolegInternet/anexos/110000-114999/114258/norma.htm", 
-    "fecha": "25/04/2013 05:39", 
-    "asunto": "Expediente 10-S-13 - Orden del D\u00eda 1905 - Votaci\u00f3n en General.", 
-    "nombre": "Modificaci\u00f3n del Consejo de la Magistratura", 
-    "sumario": "MODIFICACION DE LA LEY 24937 DE CREACION DEL CONSEJO DE LA MAGISTRATURA (TEXTO ORDENADO 1999) Y SUS MODIFICATORIAS."
+    }
 }

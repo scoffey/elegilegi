@@ -7,7 +7,6 @@ var projectData = {};
 
 var projects = [
 	'ley-24145',
-	'ley-26080',
 	'ley-26331',
 	'ley-26425',
 	'ley-26522',
@@ -36,6 +35,7 @@ var projects = [
 	'ley-26844',
 	'ley-26853',
 	'ley-26854',
+	'ley-26855',
 	'ley-26860',
 	'proyecto-res-125'
 ];
