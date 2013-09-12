@@ -4,7 +4,28 @@ var currentProject = null;
 var results = null;
 
 var projects = [
-	"expediente-2222-j-11"
+	'ley-2095',
+	'ley-2265',
+	'ley-2801',
+	'ley-2894',
+	'ley-2930',
+	'ley-2972',
+	'ley-2992',
+	'ley-3060',
+	'ley-3947',
+	'ley-4039',
+	'ley-4109',
+	'ley-4110',
+	'ley-4113',
+	'ley-4114',
+	'ley-4315',
+	'ley-4318',
+	'ley-4352',
+	'ley-4467',
+	'ley-4471',
+	'ley-4472',
+	'ley-4565',
+	'ley-4631'
 ];
 
 function shuffle(array) {
@@ -37,7 +58,7 @@ function loadRandomProject() {
 		return;
 	}
 	var id = projectIds.pop();
-	$.getJSON(id + '.json', function (data) {
+	$.getJSON('data/' + id + '.json', function (data) {
 		currentProject = data;
 		$('#project').text(data.nombre);
 		$('#summary').text(data.sumario);
@@ -68,7 +89,7 @@ function voteHelper(keys, coinciding) {
 			results[k] = $.extend({
 				coincidences: 0,
 				discrepancies: 0,
-			}, representatives[k]);
+			}, representatives[k] || {'nombre': k, 'bloque': ''});
 		}
 		if (coinciding) {
 			results[k].coincidences += 1;
