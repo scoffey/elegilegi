@@ -26,7 +26,7 @@
     }, 
     "di-filippo": {
         "nombre": "DI FILIPPO, Facundo Mart\u00edn", 
-        "bloque": "C.C\u00edv.", 
+        "bloque": "Coalici\u00f3n C\u00edvica", 
         "distrito": ""
     }, 
     "naddeo": {
@@ -41,7 +41,7 @@
     }, 
     "smith": {
         "nombre": "SMITH, Guillermo", 
-        "bloque": "C.C\u00edv.", 
+        "bloque": "Coalici\u00f3n C\u00edvica", 
         "distrito": ""
     }, 
     "ingaramo": {
@@ -61,12 +61,12 @@
     }, 
     "la-ruffa": {
         "nombre": "LA RUFFA, Silvia", 
-        "bloque": "FV-CP", 
+        "bloque": "Frente para la Victoria - Concertaci\u00f3n Plural", 
         "distrito": ""
     }, 
     "mouzo": {
         "nombre": "MOUZO, Dora Matilde", 
-        "bloque": "EvP", 
+        "bloque": "Eva Per\u00f3n", 
         "distrito": ""
     }, 
     "oliveto": {
@@ -131,7 +131,7 @@
     }, 
     "failde": {
         "nombre": "FAILDE, Pablo", 
-        "bloque": "FV-CP", 
+        "bloque": "Frente para la Victoria - Concertaci\u00f3n Plural", 
         "distrito": ""
     }, 
     "talotti": {
@@ -171,7 +171,7 @@
     }, 
     "parada": {
         "nombre": "PARADA, Liliana Beatriz", 
-        "bloque": "IS", 
+        "bloque": "Igualdad Social (ARI Buenos Aires para Todos)", 
         "distrito": ""
     }, 
     "palmeyro": {
@@ -186,7 +186,7 @@
     }, 
     "asinelli": {
         "nombre": "ASINELLI, Christian", 
-        "bloque": "FV-CP", 
+        "bloque": "Frente para la Victoria - Concertaci\u00f3n Plural", 
         "distrito": ""
     }, 
     "molina": {
@@ -261,7 +261,7 @@
     }, 
     "de-anchorena": {
         "nombre": "DE ANCHORENA, Teresa", 
-        "bloque": "C.C\u00edv.", 
+        "bloque": "Coalici\u00f3n C\u00edvica", 
         "distrito": ""
     }, 
     "cerruti": {
@@ -276,7 +276,7 @@
     }, 
     "olivera": {
         "nombre": "OLIVERA, Enrique Jos\u00e9", 
-        "bloque": "C.C\u00edv.", 
+        "bloque": "Coalici\u00f3n C\u00edvica", 
         "distrito": ""
     }, 
     "vitali": {
@@ -316,7 +316,7 @@
     }, 
     "urdapilleta": {
         "nombre": "URDAPILLETA, In\u00e9s", 
-        "bloque": "FV-CP", 
+        "bloque": "Frente para la Victoria - Concertaci\u00f3n Plural", 
         "distrito": ""
     }, 
     "moresi": {
@@ -336,7 +336,7 @@
     }, 
     "cantero": {
         "nombre": "CANTERO, Fernando", 
-        "bloque": "AcIg", 
+        "bloque": "Autonom\u00eda con Igualdad", 
         "distrito": ""
     }, 
     "ritondo": {
@@ -361,7 +361,7 @@
     }, 
     "gomez": {
         "nombre": "G\u00d3MEZ, Ver\u00f3nica Mar\u00eda", 
-        "bloque": "PS", 
+        "bloque": "Partido Socialista", 
         "distrito": ""
     }, 
     "bergel": {
@@ -376,7 +376,7 @@
     }, 
     "kravetz": {
         "nombre": "KRAVETZ, Diego Gabriel", 
-        "bloque": "EP", 
+        "bloque": "Encuentro Progresista", 
         "distrito": ""
     }, 
     "raffo": {
@@ -386,7 +386,7 @@
     }, 
     "centanaro": {
         "nombre": "CENTANARO, Ivana Cecilia", 
-        "bloque": "FV-CP", 
+        "bloque": "Frente para la Victoria - Concertaci\u00f3n Plural", 
         "distrito": ""
     }, 
     "rebot": {
@@ -416,7 +416,7 @@
     }, 
     "parrilli": {
         "nombre": "PARRILLI, Marcelo", 
-        "bloque": "MST-MPSUR", 
+        "bloque": "MST en Movimiento Proyecto Sur", 
         "distrito": ""
     }, 
     "epszteyn": {
@@ -426,7 +426,7 @@
     }, 
     "rabinovich": {
         "nombre": "RABINOVICH, Alejandro Daniel", 
-        "bloque": "AcIg", 
+        "bloque": "Autonom\u00eda con Igualdad", 
         "distrito": ""
     }, 
     "form": {
@@ -471,17 +471,17 @@
     }, 
     "dangelo": {
         "nombre": "D'ANGELO, Juli\u00e1n", 
-        "bloque": "PS", 
+        "bloque": "Partido Socialista", 
         "distrito": ""
     }, 
     "olmos": {
         "nombre": "OLMOS, Juan Manuel", 
-        "bloque": "FV-CP", 
+        "bloque": "Frente para la Victoria - Concertaci\u00f3n Plural", 
         "distrito": ""
     }, 
     "fernandez": {
         "nombre": "FERN\u00c1NDEZ, Ra\u00fal Enrique", 
-        "bloque": "EP", 
+        "bloque": "Encuentro Progresista", 
         "distrito": ""
     }, 
     "farias-gomez": {
@@ -506,7 +506,7 @@
     }, 
     "walsh": {
         "nombre": "WALSH, Patricia", 
-        "bloque": "NI", 
+        "bloque": "Nueva Izquierda", 
         "distrito": ""
     }, 
     "varela": {
@@ -526,7 +526,7 @@
     }, 
     "bello": {
         "nombre": "BELLO, Alicia", 
-        "bloque": "FV-CP", 
+        "bloque": "Frente para la Victoria - Concertaci\u00f3n Plural", 
         "distrito": ""
     }, 
     "tamargo": {
@@ -554,7 +554,7 @@
         "bloque": "Propuesta Republicana", 
         "distrito": ""
     }, 
-    "gonzalez": {
+    "gonzalez-maria-america": {
         "nombre": "GONZ\u00c1LEZ, Mar\u00eda A.", 
         "bloque": "Buenos Aires para Todos", 
         "distrito": ""
@@ -584,9 +584,14 @@
         "bloque": "Frente para la Victoria", 
         "distrito": ""
     }, 
-    "lubertino": {
-        "nombre": "LUBERTINO, Mar\u00eda Jos\u00e9", 
+    "lubertino-beltran-maria-jose": {
+        "nombre": "LUBERTINO BELTR\u00c1N, Mar\u00eda Jos\u00e9", 
         "bloque": "Frente para la Victoria", 
+        "distrito": ""
+    }, 
+    "lubertino-monica-alicia": {
+        "nombre": "LUBERTINO, M\u00f3nica Alicia", 
+        "bloque": "Uni\u00f3n Federal", 
         "distrito": ""
     }, 
     "maffia": {
@@ -601,7 +606,7 @@
     }, 
     "gramajo": {
         "nombre": "GRAMAJO, Sebasti\u00e1n Miguel", 
-        "bloque": "FV-CP", 
+        "bloque": "Frente para la Victoria - Concertaci\u00f3n Plural", 
         "distrito": ""
     }, 
     "seijo": {
@@ -611,7 +616,7 @@
     }, 
     "romagnoli": {
         "nombre": "ROMAGNOLI, Gerardo Jos\u00e9", 
-        "bloque": "AyL", 
+        "bloque": "Autodeterminaci\u00f3n y Libertad", 
         "distrito": ""
     }, 
     "presti": {
@@ -624,7 +629,17 @@
         "bloque": "ARI", 
         "distrito": ""
     }, 
-    "gonzalez-gass": {
+    "gonzalez-alvaro-gustavo": {
+        "nombre": "GONZ\u00c1LEZ, \u00c1lvaro Gustavo", 
+        "bloque": "Propuesta Republicana", 
+        "distrito": ""
+    }, 
+    "gonzalez-maria-america": {
+        "nombre": "GONZ\u00c1LEZ, Mar\u00eda Am\u00e9rica", 
+        "bloque": "Proyecto Sur", 
+        "distrito": ""
+    }, 
+    "gonzalez-gass-virginia": {
         "nombre": "GONZ\u00c1LEZ GASS, Virginia", 
         "bloque": "Proyecto Sur", 
         "distrito": ""
@@ -656,7 +671,7 @@
     }, 
     "pedreira": {
         "nombre": "PEDREIRA, Silvina Aurora", 
-        "bloque": "BP", 
+        "bloque": "Bloque Peronista", 
         "distrito": ""
     }, 
     "moscariello": {
