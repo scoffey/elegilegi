@@ -1,8 +1,8 @@
 {
     "asunto": "", 
-    "fecha": "", 
+    "fecha": "11/12/2008", 
     "nombre": "Metrobus", 
-    "sumario": "", 
+    "sumario": "Implementaci\u00f3n del sistema de tr\u00e1nsito r\u00e1pido, diferenciado y en red para el transporte p\u00fablico masivo por automotor de pasajeros denominado Metrobus de Buenos Aires. Desarrollo progresivo, planificaci\u00f3n, traza de la red, corredor modelo, etc.", 
     "url": "http://www.cedom.gov.ar/es/legislacion/normas/leyes/ley2992.html", 
     "votacion": {
         "AFIRMATIVO": [
