@@ -300,7 +300,8 @@ select {
 	body {
 		margin: 0 auto;
 		width: 95%;
-		background: url(media/congreso-800.jpg) black no-repeat fixed;
+		background: url(media/congreso-800.jpg) black no-repeat fixed 100% 100%;
+		min-height: 100%;
 	}
 	#heading {
 		position: relative;
