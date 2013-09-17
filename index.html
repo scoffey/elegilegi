@@ -5,9 +5,10 @@
 <meta property="og:title" content="elegilegi" />
 <meta property="og:description" content="Un juego para elegir legisladores que votan como vos" />
 <meta property="og:image" content="media/congreso.jpg" />
-<link rel="stylesheet" type="text/css" href="elegilegi.css"></link>
+<link rel="stylesheet" type="text/css" href="style.css"></link>
 <script>if (document.location.hostname == 'scoffey.github.io') document.location.href = 'http://elegilegi.org/';</script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
 </head>
 <body>
 <div id="heading">
@@ -25,7 +26,7 @@
 		<li>Luego de votar o saltear los proyectos de ley, se muestran las coincidencias y discrepancias obtenidas con cada legislador.</li>
 		<li>La <em>chance de coincidir</em> se calcula como la cantidad de coincidencias sobre el total de votos del legislador (coincidencias y discrepancias sumadas).</li>
 		<li>La <em>diferencia</em> se calcula como la resta entre las coincidencias y las discrepancias.</li>
-		<li>La <em>participaci&oacute;n</em> se calcula como el total de votos del legislador (coincidencias y discrepancias sumadas) sobre el total de proyectos seleccionados (los no salteados dentro de los disponibles).</li>
+		<li>La <em>participaci&oacute;n</em> se calcula como el total de votos del legislador (coincidencias y discrepancias sumadas) sobre el total de proyectos no salteados.</li>
 		<li>La tabla puede ser ordenada por distintas columnas. Se apela al esp&iacute;ritu cr&iacute;tico para interpretar estos resultados.</li>
 	</ul>
 	<p>Esta aplicaci&oacute;n es de <a href="https://github.com/scoffey/elegilegi/" target="_blank">c&oacute;digo abierto</a>. Los <a href="https://www.google.com/fusiontables/DataSource?docid=10UMOJ_ntHgZsy3EJYfoGEHEHGBahhKUuO0_e_BI" target="_blank">datos</a> son de dominio p&uacute;blico.</p>
@@ -36,12 +37,12 @@
 </div>
 <div id="intro">
 	<ol>
-	<li>1. Te presentamos 30 proyectos de ley que se votaron en el Congreso en los &uacute;ltimos 10 a&ntilde;os.</li>
-	<li>2. Respond&eacute;s si hubieras votado a favor, en contra, abstenci&oacute;n o ausente (o salte&aacute;s).</li>
+	<li>1. Te presentamos 32 proyectos de ley que se votaron en el Congreso entre 2006 y 2013.</li>
+	<li>2. Respond&eacute;s si hubieras votado a favor, en contra, abstenci&oacute;n o ausente. (Tambi&eacute;n pod&eacute;s saltear)</li>
 	<li>3. Te mostramos los legisladores que votaron como vos. &iquest;Ser&aacute;n los que pens&aacute;s?</li>
 	</ol>
 	<p class="center"><a id="start" class="action" href="javascript:void(0);">Comenzar</a></p>
-	<p class="center news"><em>NUEVO: Agregamos Abstenci&oacute;n y Ausente como opciones de votaci&oacute;n para obtener coincidencias con legisladores que suelen votar as&iacute;.</em></p>
+	<p class="center news"><a href="caba/">NUEVO: Versi&oacute;n de prueba para la Legislatura de la Ciudad de Buenos Aires</a></p>
 	<p class="center">&iquest;Quer&eacute;s ayudar a un amigo que no sabe qu&eacute; votar?<br />&iexcl;Sos libre de hacer Patria y compartirle este link!<br /><a class="facebook" href="javascript:void(0);">Facebook</a> - <a class="twitter" href="javascript:void(0);">Twitter</a> - <a class="googleplus" href="javascript:void(0);">Google+</a></p>
 </div>
 <div id="voting">
@@ -57,7 +58,7 @@
 	<li><a id="vote-absentee" href="javascript:void(0);">AUSENTE</a></li>
 	<li><a id="vote-skip" href="javascript:void(0);">No s&eacute;, paso</a></li>
 	</ul>
-	<p id="progress-status" class="shady">Completado: 0 / 30</p>
+	<p id="progress-status" class="shady">Completado: 0 / 32</p>
 	<p id="progress-bar"><span></span></p>
 </div>
 <div id="results">
@@ -78,6 +79,8 @@
 		</tbody>
 	</table>
 	<p>Nota: S&oacute;lo se muestran diputados. Tenemos pendiente compilar las votaciones del Senado.</p>
+	<p><label for="province">Filtrar por distrito: </label><select id="province"></select></p>
+	<div id="chart"></div>
 	<p class="center"><a id="reset" class="action" href="javascript:void(0);">Volver a empezar</a></p>
 	<p class="center">&iquest;Quer&eacute;s ayudar a un amigo que no sabe qu&eacute; votar?<br />&iexcl;Sos libre de hacer Patria y compartirle este link!<br /><a class="facebook" href="javascript:void(0);">Facebook</a> - <a class="twitter" href="javascript:void(0);">Twitter</a> - <a class="googleplus" href="javascript:void(0);">Google+</a></p>
 	<p class="center"><a href="javascript:void(0);" onclick="$('#what-to-do').slideToggle(200);">&iquest;Quer&eacute;s ver m&aacute;s aplicaciones como esta?</a></p>
