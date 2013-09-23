@@ -300,8 +300,8 @@ select {
 	}
 	#heading {
 		position: relative;
-		padding: 1em;
-		width: calc(100% - 2em);
+		padding: 2.5%;
+		width: 90%;
 		margin: 1em 0;
 	}
 	#heading .tagline {
@@ -372,11 +372,12 @@ select {
 
 
 	#intro li {
-		width: calc(100% - 2.5em);
+		width: 85%;
+		padding-left: 15%;
+		box-sizing: border-box;
 		font-size: 0.9em;
 		margin-bottom: 1.5em;
 		padding-top: 0;
-		padding-left: 2.6em;
 		background-size: auto 2em !important;
 		background-position: top left !important;
 
@@ -393,8 +394,8 @@ select {
 	}
 
 	#heading {
-		padding: 0.5em;
-		width: calc(100% - 1em);
+		padding: 1%;
+		width: 98%;
 	}
 
 	#heading h1 {
