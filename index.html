@@ -9,7 +9,11 @@
 <link rel="stylesheet" type="text/css" href="style.css"></link>
 <script>if (document.location.hostname == 'scoffey.github.io') document.location.href = 'http://elegilegi.org/';</script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+    if(window.innerWidth>800){
+    	document.write('<script src="http://d3js.org/d3.v3.min.js"></'+'script>');
+    }
+</script>
 </head>
 <body>
 <div id="heading">
@@ -37,14 +41,13 @@
 	<p class="center"><a id="back" class="action" href="javascript:void(0);">Cerrar</a></p>
 </div>
 <div id="intro">
-	<a href="javascript:void(0);" id="comojugar">C&oacute;mo jugar</a>
 	<ol>
 	<li>1. Te presentamos 32 proyectos de ley que se votaron en el Congreso entre 2006 y 2013.</li>
 	<li>2. Respond&eacute;s si hubieras votado a favor, en contra, abstenci&oacute;n o ausente. (Tambi&eacute;n pod&eacute;s saltear)</li>
 	<li>3. Te mostramos los legisladores que votaron como vos. &iquest;Ser&aacute;n los que pens&aacute;s?</li>
 	</ol>
 	<p class="center"><a id="start" class="action" href="javascript:void(0);">Comenzar</a></p>
-	<p class="center news"><a href="caba/">NUEVO: Versi&oacute;n de prueba para la Legislatura de la Ciudad de Buenos Aires</a></p>
+	<p class="center news" style="background: #eea; border: 4px solid #ffa; padding: 1em;">Nota: Esta es una versi&oacute;n de prueba compatible con celulares y dispositivos de pantalla peque&ntilde;a. La versi&oacute;n oficial es la que est&aacute; en <A href="http://www.elegilegi.org">www.elegilegi.org</a></p>
 	<p class="center">&iquest;Quer&eacute;s ayudar a un amigo que no sabe qu&eacute; votar?<br />&iexcl;Sos libre de hacer Patria y compartirle este link!<br /><a class="facebook" href="javascript:void(0);">Facebook</a> - <a class="twitter" href="javascript:void(0);">Twitter</a> - <a class="googleplus" href="javascript:void(0);">Google+</a></p>
 </div>
 <div id="voting">
@@ -89,6 +92,28 @@
 	<p id="what-to-do" class="center nodisplay">&iexcl;Pedile a tus candidatos en campa&ntilde;a que se debatan proyectos como la<br /><a href="http://www1.hcdn.gov.ar/proyxml/expediente.asp?fundamentos=si&numexp=1541-D-2010" target="_blank">Ley de Transparencia, Gobierno Abierto y Acceso a la Informaci&oacute;n P&uacute;blica</a>!<br />(En 2012 este proyecto <a href="http://www.lanacion.com.ar/1528367-el-proyecto-de-acceso-a-la-informacion-volveria-a-foja-cero" target="_blank">perdi&oacute; estado parlamentario</a>.)<br />Contactalos por e-mail, Twitter u otros medios a ver si te responden.</p>
 </div>
 <script type="text/javascript" src="elegilegi.js"></script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://www.clinica-web.com.ar/piwik/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "6"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
+<!-- Piwik Image Tracker -->
+<img src="http://www.clinica-web.com.ar/piwik/piwik.php?idsite=6&amp;rec=1" style="border:0" alt="" />
+<!-- End Piwik -->
+
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -407,7 +407,6 @@ $(document).ready(function () {
 		if (currentProject) window.open(currentProject.url, '_blank');
 	});
 	$('#info').click(function () { $('#about').slideToggle(500); });
-	$('#comojugar').click(function () { $('#intro ol').slideToggle(500); });
 	$('#back').click(function () { $('#about').slideToggle(500); });
 	$('#reset').click(reset);
 	reset();
@@ -418,6 +417,7 @@ function truncate(s, maxlen) {
 }
 
 function render(data) {
+if (!window.d3) { return }
 
 $('#chart').empty();
 

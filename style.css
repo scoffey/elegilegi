@@ -291,16 +291,11 @@ select {
 }
 
 
-#comojugar {
-	display: none;
-}
-
-
 @media (max-width: 850px) {
 	body {
 		margin: 0 auto;
 		width: 95%;
-		background: url(media/congreso-800.jpg) black no-repeat fixed 100% 100%;
+		background: url(media/congreso-800.jpg) black no-repeat top left;
 		min-height: 100%;
 	}
 	#heading {
@@ -359,24 +354,32 @@ select {
 		border-spacing: 1px;
 	}
 
+	.tagline {
+		font-size: 0.8em;
+	}
+
+	#heading {
+		margin: 0;
+	}
+
 }
 
 @media (max-width: 500px) {
 	body {
 		width: 100%;
 	}
-	#comojugar {
-		display: block;
-		text-align: center;
-	}
-	#intro ol {
-		display: none;
-	}
+
+
 
 	#intro li {
-		width: 100%;
-		margin-bottom: 2em;
-		zoom: 0.75;
+		width: calc(100% - 2.5em);
+		font-size: 0.9em;
+		margin-bottom: 1.5em;
+		padding-top: 0;
+		padding-left: 2.6em;
+		background-size: auto 2em !important;
+		background-position: top left !important;
+
 	}
 
 	#results table thead td {
@@ -402,5 +405,10 @@ select {
 		margin: 0;
 		width: 100%;
 	}
+
+	.tagline {
+		font-size: 0.7em;
+	}
+
 
 }
