@@ -6,7 +6,6 @@ var votes = {};
 var projectData = {};
 
 var projects = [
-	'ley-24145',
 	'ley-26331',
 	'ley-26425',
 	'ley-26522',
@@ -22,6 +21,7 @@ var projects = [
 	'ley-26737',
 	'ley-26739',
 	'ley-26740',
+	'ley-26741',
 	'ley-26743',
 	'ley-26761',
 	'ley-26764',
