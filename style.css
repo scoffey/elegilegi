@@ -301,7 +301,7 @@ select {
 	#heading {
 		position: relative;
 		padding: 2.5%;
-		width: 90%;
+		width: 95%;
 		margin: 1em 0;
 	}
 	#heading .tagline {
@@ -323,6 +323,7 @@ select {
 	.news {
 		margin: 100px 10%;
 	}
+	#about,
 	#results,
 	#voting {
 		padding: 2em;
@@ -345,6 +346,7 @@ select {
 		word-break:break-all;
 	}	
 
+	#about,
 	#results,
 	#voting {
 		padding: 1em;
@@ -354,6 +356,7 @@ select {
 		border-spacing: 1px;
 	}
 
+	#about,
 	.tagline {
 		font-size: 0.8em;
 	}
@@ -388,6 +391,7 @@ select {
 		font-size: 0.65em;
 	}
 
+	#about,
 	#results,
 	#voting {
 		padding: 0.5em;
