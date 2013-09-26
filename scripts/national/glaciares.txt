@@ -1,0 +1,257 @@
+nombre	distrito	bloque	vota
+AGOSTO, Walter	Santa Fe	Peronismo Federal	AFIRMATIVO
+AGUAD, Oscar Raúl	Córdoba	Unión Cívica Radical	AFIRMATIVO
+ALCUAZ, Horacio Alberto	Buenos Aires	GEN	AFIRMATIVO
+ALFONSIN, Ricardo Luis	Buenos Aires	Unión Cívica Radical	AFIRMATIVO
+ALONSO, Gumersindo Federico	Córdoba	Frente Cívico - Córdoba	AFIRMATIVO
+ALVAREZ, Elsa María	Santa Cruz	Unión Cívica Radical	AFIRMATIVO
+ALVAREZ, Jorge Mario	Santa Fe	Unión Cívica Radical	AFIRMATIVO
+AMADEO, Eduardo Pablo	Buenos Aires	Peronismo Federal	AFIRMATIVO
+ARBO, José Ameghino	Corrientes	Liberal de Corrientes	AFIRMATIVO
+ARENA, Celia Isabel	Santa Fe	Peronismo Federal	AFIRMATIVO
+ARGUMEDO, Alcira Susana	Cdad.Aut.Bs.As.	Movimiento Proyecto Sur	AFIRMATIVO
+ASEF, Daniel Edgardo	Córdoba	Peronista Córdoba Ciudadana	AFIRMATIVO
+ASPIAZU, Lucio Bernardo	Corrientes	Unión Cívica Radical	AFIRMATIVO
+ATANASOF, Alfredo Néstor	Buenos Aires	Peronismo Federal	AFIRMATIVO
+BALDATA, Griselda Angela	Córdoba	Coalición Cívica	AFIRMATIVO
+BARBIERI, Mario Leandro	Buenos Aires	Unión Cívica Radical	AFIRMATIVO
+BARRIOS, Miguel Angel	Santa Fe	Partido Socialista	AFIRMATIVO
+BASTEIRO, Sergio Ariel	Buenos Aires	Nuevo Encuentro Popular y Solidario	AFIRMATIVO
+BELOUS, Nélida	Tierra del Fuego	Proyecto Progresista	AFIRMATIVO
+BENAS, Verónica Claudia	Santa Fe	SI por la Unidad Popular	AFIRMATIVO
+BENEDETTI, Atilio Francisco Salvador	Entre Ríos	Unión Cívica Radical	AFIRMATIVO
+BERTOL, Paula María	Cdad.Aut.Bs.As.	Propuesta Republicana	AFIRMATIVO
+BIANCHI, Ivana María	San Luis	Peronismo Federal	AFIRMATIVO
+BONASSO, Miguel	Cdad.Aut.Bs.As.	Diálogo por Buenos Aires	AFIRMATIVO
+BULLRICH, Patricia	Cdad.Aut.Bs.As.	Coalición Cívica	AFIRMATIVO
+BURYAILE, Ricardo	Formosa	Unión Cívica Radical	AFIRMATIVO
+CARCA, Elisa Beatriz	Buenos Aires	Coalición Cívica	AFIRMATIVO
+CARDELLI, Jorge Justo	Cdad.Aut.Bs.As.	Movimiento Proyecto Sur	AFIRMATIVO
+CARRANZA, Carlos Alberto	Santa Fe	Peronismo Federal	AFIRMATIVO
+CARRIO, Elisa María	Cdad.Aut.Bs.As.	Coalición Cívica	AFIRMATIVO
+CASAÑAS, Juan Francisco	Tucumán	Unión Cívica Radical	AFIRMATIVO
+CASTALDO, Norah Susana	Tucumán	Unión Cívica Radical	AFIRMATIVO
+CASTAÑON, Hugo	Rio Negro	Unión Cívica Radical	AFIRMATIVO
+CHEMES, Jorge Omar	Entre Ríos	Unión Cívica Radical	AFIRMATIVO
+CICILIANI, Alicia Mabel	Santa Fe	Partido Socialista	AFIRMATIVO
+COMELLI, Alicia Marcela	Neuquén	Movimiento Popular Neuquino	AFIRMATIVO
+COMI, Carlos Marcelo	Santa Fe	Coalición Cívica	AFIRMATIVO
+CORTINA, Roy	Cdad.Aut.Bs.As.	Partido Socialista	AFIRMATIVO
+COSTA, Eduardo Raúl	Santa Cruz	Unión Cívica Radical	AFIRMATIVO
+CUCCOVILLO, Ricardo Oscar	Buenos Aires	Partido Socialista	AFIRMATIVO
+CURRILEN, Oscar Rubén	Chubut	Peronista	AFIRMATIVO
+CUSINATO, José César Gustavo	Entre Ríos	Unión Cívica Radical	AFIRMATIVO
+DAHER, Zulema Beatríz	Salta	Peronismo Federal	AFIRMATIVO
+DE NARVAEZ, Francisco	Buenos Aires	Peronismo Federal	AFIRMATIVO
+de PRAT GAY, Alfonso	Cdad.Aut.Bs.As.	Coalición Cívica	AFIRMATIVO
+DONDA PEREZ, Victoria Analía	Buenos Aires	Libres del Sur	AFIRMATIVO
+ERRO, Norberto Pedro	Buenos Aires	Unión Cívica Radical	AFIRMATIVO
+ESPINDOLA, Gladys Susana	Córdoba	Unión Cívica Radical	AFIRMATIVO
+FADUL, Liliana	Tierra del Fuego	Partido Federal Fueguino	AFIRMATIVO
+FAUSTINELLI, Hipólito	Córdoba	Unión Cívica Radical	AFIRMATIVO
+FAVARIO, Carlos Alberto	Santa Fe	Demócrata Progresista	AFIRMATIVO
+FEIN, Mónica Hayde	Santa Fe	Partido Socialista	AFIRMATIVO
+FERNANDEZ, Rodolfo Alfredo	Corrientes	Unión Cívica Radical	AFIRMATIVO
+FERRARI, Gustavo Alfredo	Buenos Aires	Peronismo Federal	AFIRMATIVO
+FIAD, Mario Raymundo	Jujuy	Unión Cívica Radical	AFIRMATIVO
+FLORES, Héctor	Buenos Aires	Coalición Cívica	AFIRMATIVO
+FORCONI, Juan Carlos	Santa Fe	Peronismo Federal	AFIRMATIVO
+FORTE, Ulises Umberto	La Pampa	Unión Cívica Radical	AFIRMATIVO
+FORTUNA, Francisco José	Córdoba	Córdoba Federal	AFIRMATIVO
+GAMBARO, Natalia	Buenos Aires	Peronismo Federal	AFIRMATIVO
+GARCIA, Irma Adriana	La Pampa	Peronismo Federal	AFIRMATIVO
+GARCIA, Susana Rosa	Santa Fe	Coalición Cívica	AFIRMATIVO
+GARNERO, Estela Ramona	Córdoba	Córdoba Federal	AFIRMATIVO
+GERMANO, Daniel	Santa Fe	Peronismo Federal	AFIRMATIVO
+GIL LAVEDRA, Ricardo Rodolfo	Cdad.Aut.Bs.As.	Unión Cívica Radical	AFIRMATIVO
+GIL LOZANO, Claudia Fernanda	Cdad.Aut.Bs.As.	Coalición Cívica	AFIRMATIVO
+GIUBERGIA, Miguel Angel	Jujuy	Unión Cívica Radical	AFIRMATIVO
+GIUDICI, Silvana Myriam	Cdad.Aut.Bs.As.	Unión Cívica Radical	AFIRMATIVO
+GONZALEZ, Gladys Esther	Buenos Aires	Propuesta Republicana	AFIRMATIVO
+GRIBAUDO, Christian Alejandro	Buenos Aires	Propuesta Republicana	AFIRMATIVO
+GUZMAN, Olga Elizabeth	Neuquén	Movimiento Popular Neuquino	AFIRMATIVO
+IBARRA, Mauricio	San Juan	Peronismo Federal	AFIRMATIVO
+IBARRA, Vilma Lidia	Cdad.Aut.Bs.As.	Nuevo Encuentro Popular y Solidario	AFIRMATIVO
+IGLESIAS, Fernando Adolfo	Cdad.Aut.Bs.As.	Coalición Cívica	AFIRMATIVO
+JURI, Mariana	Mendoza	Unión Cívica Radical	AFIRMATIVO
+KATZ, Daniel	Buenos Aires	Unión Cívica Radical	AFIRMATIVO
+LINARES, María Virginia	Buenos Aires	GEN	AFIRMATIVO
+LOPEZ ARIAS, Marcelo Eduardo	Salta	Peronista	AFIRMATIVO
+LOZANO, Claudio Raúl	Cdad.Aut.Bs.As.	Movimiento Proyecto Sur	AFIRMATIVO
+MACALUSE, Eduardo Gabriel	Buenos Aires	SI por la Unidad Popular	AFIRMATIVO
+MANSUR, Ricardo Alfredo	Mendoza	Unión Cívica Radical	AFIRMATIVO
+MARTINEZ CARIGNANO, Ernesto Félix	Córdoba	Frente Cívico - Córdoba	AFIRMATIVO
+MARTINEZ ODDONE, Heriberto Agustín	Córdoba	Unión Cívica Radical	AFIRMATIVO
+MARTINEZ, Julio César	La Rioja	Unión Cívica Radical	AFIRMATIVO
+MARTINEZ, Soledad	Buenos Aires	Propuesta Republicana	AFIRMATIVO
+MERCHAN, Paula Cecilia	Córdoba	Libres del Sur	AFIRMATIVO
+MERLO, Mario Raúl	San Luis	Peronismo Federal	AFIRMATIVO
+MICHETTI, Marta Gabriela	Cdad.Aut.Bs.As.	Propuesta Republicana	AFIRMATIVO
+MILMAN, Gerardo Fabián	Buenos Aires	GEN	AFIRMATIVO
+MORAN, Juan Carlos	Buenos Aires	Coalición Cívica	AFIRMATIVO
+MOREJON, Manuel Amor	Chubut	Peronista	AFIRMATIVO
+MOUILLERON, Roberto Mario	Buenos Aires	Peronismo Federal	AFIRMATIVO
+OBEID, Jorge Alberto	Santa Fe	Peronismo Federal	AFIRMATIVO
+ORSOLINI, Pablo Eduardo	Chaco	Unión Cívica Radical	AFIRMATIVO
+PANSA, Sergio Horacio	San Luis	Peronismo Federal	AFIRMATIVO
+PARADA, Liliana Beatriz	Cdad.Aut.Bs.As.	Movimiento Proyecto Sur	AFIRMATIVO
+PERALTA, Fabián Francisco	Santa Fe	GEN	AFIRMATIVO
+PEREZ, Alberto José	San Luis	Peronismo Federal	AFIRMATIVO
+PEREZ, José Adrián	Buenos Aires	Coalición Cívica	AFIRMATIVO
+PIEMONTE, Héctor Horacio	Buenos Aires	Coalición Cívica	AFIRMATIVO
+PINEDO, Federico	Cdad.Aut.Bs.As.	Propuesta Republicana	AFIRMATIVO
+PINTO, Sergio Damián	Mendoza	Unión Cívica Radical	AFIRMATIVO
+PORTELA, Agustín Alberto	Corrientes	Unión Cívica Radical	AFIRMATIVO
+PUERTA, Federico Ramón	Misiones	Peronismo Federal	AFIRMATIVO
+QUIROGA, Horacio Rodolfo	Neuquén	Unión Cívica Radical	AFIRMATIVO
+QUIROZ, Elsa Siria	Buenos Aires	Coalición Cívica	AFIRMATIVO
+RE, Hilma Leonor	Entre Ríos	Coalición Cívica	AFIRMATIVO
+REYES, María Fernanda	Cdad.Aut.Bs.As.	Coalición Cívica	AFIRMATIVO
+RIOBOO, Sandra Adriana	Buenos Aires	Unión Cívica Radical	AFIRMATIVO
+RIVARA, Raúl Alberto	Buenos Aires	Peronismo Federal	AFIRMATIVO
+RODRIGUEZ, Marcela Virginia	Buenos Aires	Coalición Cívica	AFIRMATIVO
+ROSSI, Cipriana Lorena	Rio Negro	Peronismo Federal	AFIRMATIVO
+SABBATELLA, Martín	Buenos Aires	Nuevo Encuentro Popular y Solidario	AFIRMATIVO
+SATRAGNO, Lidia Elsa	Buenos Aires	Propuesta Republicana	AFIRMATIVO
+SEREBRINSKY, Gustavo Eduardo	Buenos Aires	Unión Cívica Radical	AFIRMATIVO
+SOLA, Felipe Carlos	Buenos Aires	Peronismo Federal	AFIRMATIVO
+SOLANAS, Fernando Ezequiel	Cdad.Aut.Bs.As.	Movimiento Proyecto Sur	AFIRMATIVO
+STOLBIZER, Margarita Rosa	Buenos Aires	GEN	AFIRMATIVO
+STORANI, María Luisa	Buenos Aires	Unión Cívica Radical	AFIRMATIVO
+STORNI, Silvia	Córdoba	Unión Cívica Radical	AFIRMATIVO
+TERADA, Alicia	Chaco	Coalición Cívica	AFIRMATIVO
+THOMAS, Enrique Luis	Mendoza	Peronismo Federal	AFIRMATIVO
+TRIACA, Alberto Jorge	Cdad.Aut.Bs.As.	Propuesta Republicana	AFIRMATIVO
+TUNESSI, Juan Pedro	Buenos Aires	Unión Cívica Radical	AFIRMATIVO
+URLICH, Carlos	Chaco	Unión Cívica Radical	AFIRMATIVO
+VEGA, Juan Carlos	Córdoba	Coalición Cívica	AFIRMATIVO
+VIALE, Lisandro Alfredo	Entre Ríos	Partido Socialista	AFIRMATIVO
+VIDELA, Nora Esther	San Luis	Peronismo Federal	AFIRMATIVO
+ZAVALLO, Gustavo	Entre Ríos	Peronismo Federal	AFIRMATIVO
+ALBRIEU, Oscar Edmundo Nicolas	Rio Negro	Frente para la Victoria - PJ	AUSENTE
+ALIZEGUI, Antonio Anibal	Entre Ríos	Frente para la Victoria - PJ	AUSENTE
+ALONSO, Laura	Cdad.Aut.Bs.As.	Propuesta Republicana	AUSENTE
+ALVAREZ, Juan José	Buenos Aires	Peronista	AUSENTE
+ARETA, María Josefa	Corrientes	Frente de Todos	AUSENTE
+BEDANO, Nora Esther	Córdoba	Frente para la Victoria - PJ	AUSENTE
+BLANCO de PERALTA, Blanca	Santa Cruz	Frente para la Victoria - PJ	AUSENTE
+BRILLO, José Ricardo	Neuquén	Movimiento Popular Neuquino	AUSENTE
+BULLRICH, Esteban	Cdad.Aut.Bs.As.	Propuesta Republicana	AUSENTE
+CAMAÑO, Graciela	Buenos Aires	Peronista	AUSENTE
+CREMER de BUSTI, María Cristina	Entre Ríos	Peronismo Federal	AUSENTE
+DATO, Alfredo Carlos	Tucumán	Frente para la Victoria - PJ	AUSENTE
+DE MARCHI, Omar Bruno	Mendoza	Demócrata de Mendoza	AUSENTE
+DEL CAMPILLO, Héctor Eduardo	Córdoba	Unión Cívica Radical	AUSENTE
+FIOL, Paulina Esther	Santa Fe	Frente para la Victoria - PJ	AUSENTE
+GALLARDO, Miriam Graciela del Valle	Tucumán	Frente para la Victoria - PJ	AUSENTE
+GARDELLA, Patricia Susana	Buenos Aires	Corriente de Pensamiento Federal	AUSENTE
+GIOJA, Juan Carlos	San Juan	Frente para la Victoria - PJ	AUSENTE
+GONZALEZ, Juan Dante	Mendoza	Frente para la Victoria - PJ	AUSENTE
+GRANADOS, Dulce	Buenos Aires	Frente para la Victoria - PJ	AUSENTE
+HELLER, Carlos	Cdad.Aut.Bs.As.	Nuevo Encuentro Popular y Solidario	AUSENTE
+HOTTON, Cynthia Liliana	Cdad.Aut.Bs.As.	Valores para mi País	AUSENTE
+ITURRASPE, Nora Graciela	Buenos Aires	SI por la Unidad Popular	AUSENTE
+KENNY, Eduardo Enrique Federico	La Pampa	Unión Cívica Radical	AUSENTE
+KIRCHNER, Néstor Carlos	Buenos Aires	Frente para la Victoria - PJ	AUSENTE
+LANCETA, Rubén Orfel	Buenos Aires	Unión Cívica Radical	AUSENTE
+LEDESMA, Julio Rubén	Buenos Aires	Corriente de Pensamiento Federal	AUSENTE
+LOPEZ, Rafael Angel	Formosa	Frente para la Victoria - PJ	AUSENTE
+LORGES, Juan Carlos	Buenos Aires	Frente para la Victoria - PJ	AUSENTE
+MAJDALANI, Silvia Cristina	Buenos Aires	Propuesta Republicana	AUSENTE
+MAZZARELLA, Susana del Valle	Córdoba	Frente Cívico - Córdoba	AUSENTE
+MENDOZA, Sandra Marcela	Chaco	Frente para la Victoria - PJ	AUSENTE
+MONTOYA, Jorge Luciano	Córdoba	Peronista	AUSENTE
+PUIGGROS, Adriana Victoria	Buenos Aires	Frente para la Victoria - PJ	AUSENTE
+RIVAS, Jorge	Buenos Aires	Nuevo Encuentro Popular y Solidario	AUSENTE
+RUCCI, Claudia Monica	Buenos Aires	Peronismo Federal	AUSENTE
+RUIZ, Ramón	Buenos Aires	Frente para la Victoria - PJ	AUSENTE
+SEGARRA, Adela Rosa	Buenos Aires	Frente para la Victoria - PJ	AUSENTE
+SLUGA, Juan Carlos	Buenos Aires	Frente para la Victoria - PJ	AUSENTE
+VARGAS AIGNASSE, Gerónimo	Tucumán	Frente para la Victoria - PJ	AUSENTE
+YOMA, Jorge Raul	La Rioja	Frente para la Victoria - PJ	AUSENTE
+ABDALA de MATARAZZO, Norma Amanda	Santiago del Estero	Frente Cívico por Santiago	NEGATIVO
+ACOSTA de AHUMADA, María Julia	Catamarca	Frente para la Victoria - PJ	NEGATIVO
+AGUIRRE de SORIA, Hilda	La Rioja	Frente para la Victoria - PJ	NEGATIVO
+ALFARO, Germán Enrique	Tucumán	Frente para la Victoria - PJ	NEGATIVO
+ALVARO, Héctor Jorge	Mendoza	De la Concertación	NEGATIVO
+ARGÜELLO, Octavio	Buenos Aires	Frente para la Victoria - PJ	NEGATIVO
+BARRANDEGUY, Raúl Enrique	Entre Ríos	Frente para la Victoria - PJ	NEGATIVO
+BERNAL, María Eugenia	Jujuy	Frente para la Victoria - PJ	NEGATIVO
+BERTONE, Rosana Andrea	Tierra del Fuego	Frente para la Victoria - PJ	NEGATIVO
+BIDEGAIN, Gloria Mercedes	Buenos Aires	Frente para la Victoria - PJ	NEGATIVO
+BRUE, Daniel Agustín	Santiago del Estero	Frente Cívico por Santiago	NEGATIVO
+CALCHAQUI, Mariel	Tierra del Fuego	Frente para la Victoria - PJ	NEGATIVO
+CARLOTTO, Remo Gerardo	Buenos Aires	Frente para la Victoria - PJ	NEGATIVO
+CASELLES, Graciela María	San Juan	Frente para la Victoria - Partido Bloqui	NEGATIVO
+CEJAS, Jorge Alberto	Rio Negro	Frente para la Victoria - PJ	NEGATIVO
+CHIENO, María Elena	Corrientes	Frente para la Victoria - PJ	NEGATIVO
+CHIQUICHANO, Rosa Laudelina	Chubut	Frente para la Victoria - PJ	NEGATIVO
+CIGOGNA, Luis Francisco Jorge	Buenos Aires	Frente para la Victoria - PJ	NEGATIVO
+CONTI, Diana Beatriz	Buenos Aires	Frente para la Victoria - PJ	NEGATIVO
+CORDOBA, Stella Maris	Tucumán	Frente para la Victoria - PJ	NEGATIVO
+DAMILANO GRIVARELLO, Viviana Mónica	Chaco	Frente para la Victoria - PJ	NEGATIVO
+DE LA ROSA, Maria Graciela	Formosa	Frente para la Victoria - PJ	NEGATIVO
+di TULLIO, Juliana	Buenos Aires	Frente para la Victoria - PJ	NEGATIVO
+DIAZ BANCALARI, José María	Buenos Aires	Frente para la Victoria - PJ	NEGATIVO
+DIAZ ROIG, Juan Carlos	Formosa	Frente para la Victoria - PJ	NEGATIVO
+DIAZ, Susana Eladia	Tucumán	Frente para la Victoria - PJ	NEGATIVO
+FADEL, Patricia Susana	Mendoza	Frente para la Victoria - PJ	NEGATIVO
+FELIX, Omar	Mendoza	Frente para la Victoria - PJ	NEGATIVO
+FERNANDEZ BASUALDO, Luis María	Formosa	Frente para la Victoria - PJ	NEGATIVO
+FERRA DE BARTOL, Margarita	San Juan	Frente para la Victoria - PJ	NEGATIVO
+GARCIA, María Teresa	Buenos Aires	Frente para la Victoria - PJ	NEGATIVO
+GIANNETTASIO, Graciela María	Buenos Aires	Frente para la Victoria - PJ	NEGATIVO
+GODOY, Ruperto Eduardo	San Juan	Frente para la Victoria - PJ	NEGATIVO
+GONZALEZ, Nancy Susana	Chubut	Frente para la Victoria - PJ	NEGATIVO
+GULLO, Juan Carlos Dante	Cdad.Aut.Bs.As.	Frente para la Victoria - PJ	NEGATIVO
+HERRERA, José Alberto	Santiago del Estero	Frente Cívico por Santiago	NEGATIVO
+IRRAZABAL, Juan Manuel	Misiones	Frente para la Victoria - PJ	NEGATIVO
+KORENFELD, Beatriz Liliana	Santa Cruz	Frente para la Victoria - PJ	NEGATIVO
+KUNKEL, Carlos Miguel	Buenos Aires	Frente para la Victoria - PJ	NEGATIVO
+LANDAU, Jorge Alberto	Buenos Aires	Frente para la Victoria - PJ	NEGATIVO
+LEGUIZAMON, María Laura	Buenos Aires	Frente para la Victoria - PJ	NEGATIVO
+LEVERBERG, Stella Maris	Misiones	Frente para la Victoria - PJ	NEGATIVO
+LLANOS, Ermindo Edgardo Marcelo	Jujuy	Frente para la Victoria - PJ	NEGATIVO
+LLERA, Timoteo	Misiones	Frente para la Victoria - PJ	NEGATIVO
+LUNA de MARCOS, Ana Zulema	Santiago del Estero	Frente Cívico por Santiago	NEGATIVO
+MARCONATO, Gustavo Angel	Santa Fe	Frente para la Victoria - PJ	NEGATIVO
+MARTIARENA, Mario Humberto	Jujuy	Peronismo Jujeño	NEGATIVO
+MERA, Dalmacio	Catamarca	Frente para la Victoria - PJ	NEGATIVO
+MOLAS, Pedro Omar	Catamarca	Unión Cívica Radical	NEGATIVO
+MORANTE, Antonio Arnaldo María	Chaco	Frente para la Victoria - PJ	NEGATIVO
+MORENO, Carlos Julio	Buenos Aires	Frente para la Victoria - PJ	NEGATIVO
+NEBREDA, Carmen Rosa	Córdoba	Frente para la Victoria - PJ	NEGATIVO
+OLIVA, Cristian Rodolfo	Santiago del Estero	Frente Cívico por Santiago	NEGATIVO
+OLMEDO, Alfredo Horacio	Salta	Salta Somos Todos	NEGATIVO
+PAIS, Juan Mario	Chubut	Frente para la Victoria - PJ	NEGATIVO
+PAREDES URQUIZA, Alberto Nicolás	La Rioja	Frente para la Victoria - PJ	NEGATIVO
+PAROLI, Raúl Omar	Catamarca	Frente Cívico y Social de Catamarca	NEGATIVO
+PASINI, Ariel Osvaldo	Buenos Aires	Frente para la Victoria - PJ	NEGATIVO
+PASTORIZA, Mirta Ameliana	Santiago del Estero	Frente Cívico por Santiago	NEGATIVO
+PEREYRA, Guillermo Antonio	Mendoza	Frente para la Victoria - PJ	NEGATIVO
+PEREZ, Jorge Raúl	Santiago del Estero	Frente Cívico por Santiago	NEGATIVO
+PERIE, Hugo Rubén	Corrientes	Frente para la Victoria - PJ	NEGATIVO
+PERIE, Julia Argentina	Misiones	Frente para la Victoria - PJ	NEGATIVO
+PILATTI VERGARA, María Inés	Chaco	Frente para la Victoria - PJ	NEGATIVO
+PLAINI, Francisco Omar	Buenos Aires	Frente para la Victoria - PJ	NEGATIVO
+PRIETO, Hugo Nelson	Neuquén	De la Concertación	NEGATIVO
+QUINTERO, Marta Beatriz	La Rioja	Frente para la Victoria - PJ	NEGATIVO
+RECALDE, Héctor Pedro	Buenos Aires	Frente para la Victoria - PJ	NEGATIVO
+REGAZZOLI, María Cristina	La Pampa	Partido Justicialista La Pampa	NEGATIVO
+RISKO, Silvia Lucrecia	Misiones	Frente para la Victoria - PJ	NEGATIVO
+ROBLEDO, Roberto Ricardo	La Pampa	Partido Justicialista La Pampa	NEGATIVO
+RODRIGUEZ, Evaristo Arturo	Santa Cruz	Frente para la Victoria - PJ	NEGATIVO
+ROSSI, Agustín Oscar	Santa Fe	Frente para la Victoria - PJ	NEGATIVO
+ROSSI, Alejandro Luis	Santa Fe	Frente para la Victoria - PJ	NEGATIVO
+SALIM, Juan Arturo	Tucumán	Frente para la Victoria - PJ	NEGATIVO
+SCALESI, Juan Carlos	Rio Negro	Consenso Federal	NEGATIVO
+SCIUTTO, Rubén Darío	Tierra del Fuego	Frente para la Victoria - PJ	NEGATIVO
+TOMAS, Héctor Daniel	San Juan	Frente para la Victoria - PJ	NEGATIVO
+TORFE, Mónica Liliana	Salta	Renovador de Salta	NEGATIVO
+VAZQUEZ de TABERNISE, Silvia Beatriz	Buenos Aires	Partido de la Concertación - FORJA	NEGATIVO
+VEAUTE, Mariana Alejandra	Catamarca	Unión Cívica Radical	NEGATIVO
+VILARIÑO, José Antonio	Salta	Frente para la Victoria - PJ	NEGATIVO
+WAYAR, Walter Raúl	Salta	Frente Peronista Federal	NEGATIVO
+WEST, Mariano Federíco	Buenos Aires	Frente para la Victoria - PJ	NEGATIVO
+YARADE, Rodolfo Fernando	Salta	Frente para la Victoria - PJ	NEGATIVO
+ZIEGLER, Alex Roberto	Misiones	Frente para la Victoria - PJ	NEGATIVO
