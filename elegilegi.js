@@ -417,6 +417,7 @@ function truncate(s, maxlen) {
 }
 
 function render(data) {
+if (!window.d3) { return }
 
 $('#chart').empty();
 

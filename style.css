@@ -1,8 +1,10 @@
-@font-face {
-	font-family: "Liberation Sans";
-	font-weight: 100;
-	font-style: normal;
-	src: url('media/LiberationSans-Regular.ttf') format('truetype');
+@media (min-width: 600px) {
+	@font-face {
+		font-family: "Liberation Sans";
+		font-weight: 100;
+		font-style: normal;
+		src: url('media/LiberationSans-Regular.ttf') format('truetype');
+	}
 }
 body {
 	margin: 80px auto;
@@ -66,6 +68,7 @@ a:hover {
 	width: 800px;
 	margin: 10px auto;
 }
+
 .center {
 	text-align: center;
 }
@@ -76,6 +79,7 @@ a:hover {
 	text-indent: 0;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 #intro li {
 	text-indent: 0;
@@ -284,4 +288,132 @@ select {
 	border: 1px solid #ccc;
 	font: inherit;
 	outline: none; /* remove focus ring from Webkit */
+}
+
+
+@media (max-width: 850px) {
+	body {
+		margin: 0 auto;
+		width: 95%;
+		background: url(media/congreso-800.jpg) black no-repeat top left;
+		min-height: 100%;
+	}
+	#heading {
+		position: relative;
+		padding: 2.5%;
+		width: 95%;
+		margin: 1em 0;
+	}
+	#heading .tagline {
+		display: block;
+	}
+	#heading .corner {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+	}
+	.container {
+		width: 90%;
+		margin: 10px auto;
+	}
+	#intro li {
+		width: 31%;
+		margin: 1%;
+	}
+	.news {
+		margin: 100px 10%;
+	}
+	#about,
+	#results,
+	#voting {
+		padding: 2em;
+	}
+	#results p,
+	#voting p {
+		margin-top: 0;
+	}
+
+	#results table thead td {
+		padding: 4px 2px;
+	}	
+}
+
+
+@media (max-width: 600px) {
+	#results table thead td {
+		padding: 4px 1px;
+		font-size: 0.8em;
+		word-break:break-all;
+	}	
+
+	#about,
+	#results,
+	#voting {
+		padding: 1em;
+	}
+
+	#results table {
+		border-spacing: 1px;
+	}
+
+	#about,
+	.tagline {
+		font-size: 0.8em;
+	}
+
+	#heading {
+		margin: 0;
+	}
+
+}
+
+@media (max-width: 500px) {
+	body {
+		width: 100%;
+	}
+
+
+
+	#intro li {
+		width: 85%;
+		padding-left: 15%;
+		box-sizing: border-box;
+		font-size: 0.9em;
+		margin-bottom: 1.5em;
+		padding-top: 0;
+		background-size: auto 2em !important;
+		background-position: top left !important;
+
+	}
+
+	#results table thead td {
+		padding: 4px 1px;
+		font-size: 0.65em;
+	}
+
+	#about,
+	#results,
+	#voting {
+		padding: 0.5em;
+	}
+
+	#heading {
+		padding: 1%;
+		width: 98%;
+	}
+
+	#heading h1 {
+		margin: 0;
+	}
+
+	.container {
+		margin: 0;
+		width: 100%;
+	}
+
+	.tagline {
+		font-size: 0.7em;
+	}
+
+
 }
