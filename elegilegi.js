@@ -79,7 +79,7 @@ function loadRandomProject() {
 		$('#project').text(data.nombre);
 		$('#summary').text(data.sumario);
 		$('#date').text(data.fecha + ' - ' + data.asunto);
-		$('#voting').fadeIn(100, function () { $('#vote-nay').click(); });
+		$('#voting').fadeIn(100);
 		var n = projects.length;
 		var i = n - projectIds.length - 1;
 		var p = Math.round(i * 100 / n);
