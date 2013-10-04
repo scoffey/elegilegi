@@ -283,5 +283,6 @@ select {
 	margin: 0;
 	border: 1px solid #ccc;
 	font: inherit;
+	font-size: 10pt;
 	outline: none; /* remove focus ring from Webkit */
 }

@@ -4,6 +4,7 @@ var currentProject = null;
 var results = null;
 var votes = {};
 var projectData = {};
+var sortingCallbacks = {};
 
 var projects = [
 	'ley-26331',
@@ -78,7 +79,7 @@ function loadRandomProject() {
 		$('#project').text(data.nombre);
 		$('#summary').text(data.sumario);
 		$('#date').text(data.fecha + ' - ' + data.asunto);
-		$('#voting').fadeIn(100);
+		$('#voting').fadeIn(100, function () { $('#vote-nay').click(); });
 		var n = projects.length;
 		var i = n - projectIds.length - 1;
 		var p = Math.round(i * 100 / n);
@@ -169,10 +170,10 @@ function getTooltip() {
 	return $('#tooltip');
 }
 
-function printResults(callback) {
+function printResults() {
 	var rows = $('#rows');
 	rows.empty();
-	var tuples = sortResults(callback);
+	var tuples = sortResults();
 	for (var i = 0; i < tuples.length; i++) {
 		var r = tuples[i];
 		var tr = document.createElement('tr');
@@ -184,7 +185,7 @@ function printResults(callback) {
 		$(td).append(span);
 		$(td).append(document.createElement('br'));
 		var info = document.createElement('span');
-		$(info).text(r.bloque + ' (' + r.distrito + ')');
+		$(info).text(r.bloque + ' (' + r.distrito + ') - ' + r.camara);
 		$(info).addClass('shady');
 		$(td).append(info);
 		tr.appendChild(td);
@@ -213,98 +214,94 @@ function printResultsHelper(tr, text) {
 	return e;
 }
 
-function sortResults(callback) {
+function sortResults() {
 	var tuples = new Array();
-	var province = $('#province').val();
 	var totalVotes = 0;
 	for (var i in votes) {
 		totalVotes++;
 	}
+	var district = $('#district').val();
+	var house = $('#house').val();
+	var relevance = parseInt($('#relevance').val());
+	var order = $('#order').val();
 	for (var i in results) {
 		var r = results[i];
-		if (province && province != r.distrito) continue;
 		var total = r.coincidences + r.discrepancies;
 		r.id = i;
 		r.difference = r.coincidences - r.discrepancies;
 		r.chance = Math.round(r.coincidences * 100 / total);
 		r.participation = Math.round(total * 100 / totalVotes)
-		tuples.push(r);
+		if (filterResult(r, district, house, relevance)) {
+			tuples.push(r);
+		}
 	}
+	var callback = sortingCallbacks[order] || sortingCallback.difference; 
 	tuples.sort(callback);
 	return tuples;
 }
 
-function sortByName(a, b) {
-	return a.nombre.localeCompare(b.nombre);
+function filterResult(r, district, house, relevance) {
+	if (district && r.distrito != district) return false;
+	if (house && r.camara.indexOf(house) == -1) return false;
+	if (relevance && r.participation < relevance) return false;
+	return true;
 }
 
-function sortByChance(a, b) {
+sortingCallbacks.name = function (a, b) {
+	return a.nombre.localeCompare(b.nombre);
+};
+
+sortingCallbacks.chance = function (a, b) {
 	var d = b.chance - a.chance; if (d) return d;
 	var d = b.participation - a.participation; if (d) return d;
 	var d = b.difference - a.difference; if (d) return d;
 	var d = b.coincidences - a.coincidences; if (d) return d;
 	var d = a.discrepancies - b.discrepancies; if (d) return d;
 	return a.nombre.localeCompare(b.nombre);
-}
+};
 
-function sortByDifference(a, b) {
+sortingCallbacks.difference = function (a, b) {
 	var d = b.difference - a.difference; if (d) return d;
 	var d = b.chance - a.chance; if (d) return d;
 	var d = b.participation - a.participation; if (d) return d;
 	var d = b.coincidences - a.coincidences; if (d) return d;
 	var d = a.discrepancies - b.discrepancies; if (d) return d;
 	return a.nombre.localeCompare(b.nombre);
-}
+};
 
-function sortByCoincidences(a, b) {
+sortingCallbacks.coincidences = function (a, b) {
 	var d = b.coincidences - a.coincidences; if (d) return d;
 	var d = b.chance - a.chance; if (d) return d;
 	var d = b.participation - a.participation; if (d) return d;
 	var d = b.difference - a.difference; if (d) return d;
 	var d = a.discrepancies - b.discrepancies; if (d) return d;
 	return a.nombre.localeCompare(b.nombre);
-}
+};
 
-function sortByDiscrepancies(a, b) {
+sortingCallbacks.discrepancies = function (a, b) {
 	var d = a.discrepancies - b.discrepancies; if (d) return d;
 	var d = b.chance - a.chance; if (d) return d;
 	var d = b.participation - a.participation; if (d) return d;
 	var d = b.difference - a.difference; if (d) return d;
 	var d = b.coincidences - a.coincidences; if (d) return d;
 	return a.nombre.localeCompare(b.nombre);
-}
+};
 
-function sortByParticipation(a, b) {
+sortingCallbacks.participation = function (a, b) {
 	var d = b.participation - a.participation; if (d) return d;
 	var d = b.chance - a.chance; if (d) return d;
 	var d = b.difference - a.difference; if (d) return d;
 	var d = b.coincidences - a.coincidences; if (d) return d;
 	var d = a.discrepancies - b.discrepancies; if (d) return d;
 	return a.nombre.localeCompare(b.nombre);
-}
+};
 
 function finish() {
-	printResults(sortByDifference);
+	printResults();
 	$('#voting').stop(true);
 	$('#voting').fadeOut(200, function () {
 		$('#results').fadeIn(100);
 	});
-}
-
-function initFilters(options) {
-	if (document.getElementById('province').options.length > 0) return;
-	$('#province').empty();
-	items = [];
-	for (var i in options) { items.push(i); }
-	items.sort();
-	for (var i = 0; i < items.length; i++) {
-		var s = items[i];
-		var option = $('<option></option>').attr('value', s).text(s);
-		$('#province').append(option);
-	}
-	var option = $('<option></option>').attr('value', '')
-			.attr('selected', 'selected').text('(Todos)');
-	$('#province').append(option);
 }
 
 function shareOnFacebook() {
@@ -342,12 +339,6 @@ $(document).ready(function () {
 		$('#start').click(function () {
 			$('#intro').fadeOut(200, loadRandomProject);
 		});
-		var options = {};
-		for (var i in representatives) {
-			var r = representatives[i];
-			options[r.distrito] = true;
-		}
-		initFilters(options);
 	});
 
 	$('#vote-aye').click(function () {
@@ -379,28 +370,34 @@ $(document).ready(function () {
 	$('.twitter').click(shareOnTwitter);
 	$('.googleplus').click(shareOnGooglePlus);
 
+	$('#district').change(printResults);
+	$('#house').change(printResults);
+	$('#relevance').change(printResults);
+	$('#order').change(printResults);
+
 	$('#name').click(function () {
-		printResults(sortByName);
+		$('#order').val('name');
+		printResults();
 	});
 	$('#chance').click(function () {
-		printResults(sortByChance);
+		$('#order').val('chance');
+		printResults();
 	});
 	$('#participation').click(function () {
-		printResults(sortByParticipation);
+		$('#order').val('participation');
+		printResults();
 	});
 	$('#coincidences').click(function () {
-		printResults(sortByCoincidences);
+		$('#order').val('coincidences');
+		printResults();
 	});
 	$('#discrepancies').click(function () {
-		printResults(sortByDiscrepancies);
+		$('#order').val('discrepancies');
+		printResults();
 	});
 	$('#difference').click(function () {
-		printResults(sortByDifference);
-	});
-
-	$('#province').click(function () {
-		printResults(sortByDifference);
-		$('html, body').animate({'scrollTop': 0}, 'slow');
+		$('#order').val('difference');
+		printResults();
 	});
 
 	$('#link').click(function () {

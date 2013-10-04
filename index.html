@@ -61,7 +61,53 @@
 </div>
 <div id="results">
 	<p>Estos son los legisladores listados por coincidencias y discrepancias con tus votos.</p>
-	<p class="shady">IMPORTANTE: Pod&eacute;s ordenar los resultados por columna.</p>
+	<p>
+		<select id="district">
+			<option value="" selected="selected">Todos los distritos</option>
+			<option value="Buenos Aires">Buenos Aires</option>
+			<option value="CABA">CABA</option>
+			<option value="Catamarca">Catamarca</option>
+			<option value="Chaco">Chaco</option>
+			<option value="Chubut">Chubut</option>
+			<option value="Corrientes">Corrientes</option>
+			<option value="C&oacute;rdoba">C&oacute;rdoba</option>
+			<option value="Entre R&iacute;os">Entre R&iacute;os</option>
+			<option value="Formosa">Formosa</option>
+			<option value="Jujuy">Jujuy</option>
+			<option value="La Pampa">La Pampa</option>
+			<option value="La Rioja">La Rioja</option>
+			<option value="Mendoza">Mendoza</option>
+			<option value="Misiones">Misiones</option>
+			<option value="Neuqu&eacute;n">Neuqu&eacute;n</option>
+			<option value="R&iacute;o Negro">R&iacute;o Negro</option>
+			<option value="Salta">Salta</option>
+			<option value="San Juan">San Juan</option>
+			<option value="San Luis">San Luis</option>
+			<option value="Santa Cruz">Santa Cruz</option>
+			<option value="Santa Fe">Santa Fe</option>
+			<option value="Santiago del Estero">Santiago del Estero</option>
+			<option value="Tierra del Fuego">Tierra del Fuego</option>
+			<option value="Tucum&aacute;n">Tucum&aacute;n</option>
+		</select>
+		<select id="house">
+			<option value="" selected="selected">Ambas c&aacute;maras</option>
+			<option value="Diputados">S&oacute;lo diputados</option>
+			<option value="Senado">S&oacute;lo senadores</option>
+		</select>
+		<select id="relevance">
+			<option value="0" selected="selected">Cualquier participaci&oacute;n</option>
+			<option value="25">M&aacute;s del 25%</option>
+			<option value="50">M&aacute;s del 50%</option>
+		</select>
+		<select id="order">
+			<option value="name">Ordenar por nombre</td>
+			<option value="chance">Ordenar por chance de coincidir</td>
+			<option value="participation">Ordenar por participaci&oacute;n</td>
+			<option value="coincidences">Ordenar por coincidencias</td>
+			<option value="discrepancies">Ordenar por discrepancias</td>
+			<option value="difference" selected="selected">Ordenar por diferencia</td>
+		</select>
+	</p>
 	<table>
 		<thead>
 			<tr>
@@ -76,7 +122,6 @@
 		<tbody id="rows">
 		</tbody>
 	</table>
-	<p><label for="province">Filtrar por distrito: </label><select id="province"></select></p>
 	<div id="chart"></div>
 	<p class="center"><a id="reset" class="action" href="javascript:void(0);">Volver a empezar</a></p>
 	<p class="center">&iquest;Quer&eacute;s ayudar a un amigo que no sabe qu&eacute; votar?<br />&iexcl;Sos libre de hacer Patria y compartirle este link!<br /><a class="facebook" href="javascript:void(0);">Facebook</a> - <a class="twitter" href="javascript:void(0);">Twitter</a> - <a class="googleplus" href="javascript:void(0);">Google+</a></p>
