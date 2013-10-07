@@ -88,14 +88,18 @@ function loadRandomProject() {
 	});
 }
 
-function vote(choice) {
-	var voting = currentProject.votacion;
-	if (!voting) return;
-	votes[currentProject.id] = choice;
-	voteHelper(voting.AFIRMATIVO, (choice == 'Y'));
-	voteHelper(voting.NEGATIVO, (choice == 'N'));
-	voteHelper(voting.ABSTENCION, (choice == 'A'));
-	voteHelper(voting.AUSENTE, (choice == '0'));
+function getVoteHandler(choice) {
+	return function () {
+		var p = currentProject;
+		currentProject = null; // don't vote same project again
+		if (!p || !p.votacion) return;
+		votes[p.id] = choice;
+		voteHelper(p.votacion.AFIRMATIVO, (choice == 'Y'));
+		voteHelper(p.votacion.NEGATIVO, (choice == 'N'));
+		voteHelper(p.votacion.ABSTENCION, (choice == 'A'));
+		voteHelper(p.votacion.AUSENTE, (choice == '0'));
+		$('#voting').fadeOut(200, loadRandomProject);
+	};
 }
 
 function voteHelper(keys, coinciding) {
@@ -104,8 +108,12 @@ function voteHelper(keys, coinciding) {
 		var k = keys[i];
 		if (!(results[k])) {
 			results[k] = $.extend({
+				id: k,
 				coincidences: 0,
 				discrepancies: 0,
+				difference: null,
+				chance: null,
+				participation: null
 			}, representatives[k]);
 		}
 		if (coinciding) {
@@ -227,7 +235,6 @@ function sortResults() {
 	for (var i in results) {
 		var r = results[i];
 		var total = r.coincidences + r.discrepancies;
-		r.id = i;
 		r.difference = r.coincidences - r.discrepancies;
 		r.chance = Math.round(r.coincidences * 100 / total);
 		r.participation = Math.round(total * 100 / totalVotes)
@@ -341,26 +348,10 @@ $(document).ready(function () {
 		});
 	});
 
-	$('#vote-aye').click(function () {
-		if (!currentProject) return;
-		vote('Y');
-		$('#voting').fadeOut(200, loadRandomProject);
-	});
-	$('#vote-nay').click(function () {
-		if (!currentProject) return;
-		vote('N');
-		$('#voting').fadeOut(200, loadRandomProject);
-	});
-	$('#vote-abstention').click(function () {
-		if (!currentProject) return;
-		vote('A');
-		$('#voting').fadeOut(200, loadRandomProject);
-	});
-	$('#vote-absentee').click(function () {
-		if (!currentProject) return;
-		vote('0');
-		$('#voting').fadeOut(200, loadRandomProject);
-	});
+	$('#vote-aye').click(getVoteHandler('Y'));
+	$('#vote-nay').click(getVoteHandler('N'));
+	$('#vote-abstention').click(getVoteHandler('A'));
+	$('#vote-absentee').click(getVoteHandler('0'));
 	$('#vote-skip').click(function () {
 		if (!currentProject) return;
 		$('#voting').fadeOut(200, loadRandomProject);
