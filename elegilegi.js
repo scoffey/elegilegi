@@ -405,6 +405,7 @@ function truncate(s, maxlen) {
 }
 
 function render(data) {
+if (window.innerWidth < 850) return;
 
 $('#chart').empty();
 
