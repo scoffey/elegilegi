@@ -50,6 +50,12 @@
     "aguad-oscar-raul": {
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "C\u00f3rdoba", 
+            "lista": "UNI\u00d3N C\u00cdVICA RADICAL", 
+            "orden": 1
+        }, 
         "distrito": "C\u00f3rdoba", 
         "nombre": "AGUAD, Oscar Ra\u00fal"
     }, 
@@ -122,6 +128,12 @@
     "alfonsin-ricardo-luis": {
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "FRENTE PROGRESISTA, CIVICO Y SOCIAL", 
+            "orden": 2
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "ALFONSIN, Ricardo Luis"
     }, 
@@ -140,6 +152,12 @@
     "alonso-laura": {
         "bloque": "PRO", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Ciudad de Buenos Aires", 
+            "lista": "ALIANZA UNION PRO", 
+            "orden": 3
+        }, 
         "distrito": "CABA", 
         "nombre": "ALONSO, Laura"
     }, 
@@ -236,6 +254,12 @@
     "argumedo-alcira-susana": {
         "bloque": "Proyecto Sur", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Ciudad de Buenos Aires", 
+            "lista": "ALIANZA UNEN", 
+            "orden": 5
+        }, 
         "distrito": "CABA", 
         "nombre": "ARGUMEDO, Alcira Susana"
     }, 
@@ -260,6 +284,12 @@
     "artaza-eugenio-justiniano": {
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
         "camara": "Senado", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Corrientes", 
+            "lista": "ALIANZA CAMBIO POPULAR", 
+            "orden": 1
+        }, 
         "distrito": "Corrientes", 
         "nombre": "ARTAZA, Eugenio Justiniano"
     }, 
@@ -290,6 +320,12 @@
     "atanasof-alfredo-nestor": {
         "bloque": "Frente Peronista", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "UNIDOS POR LA LIBERTAD Y EL TRABAJO", 
+            "orden": 7
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "ATANASOF, Alfredo N\u00e9stor"
     }, 
@@ -374,6 +410,12 @@
     "barrionuevo-jose-luis": {
         "bloque": "Nacional Sindical", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Catamarca", 
+            "lista": "FRENTE TERCERA POSICION - UNIDAD CATAMARQUE\u00d1A", 
+            "orden": 1
+        }, 
         "distrito": "Catamarca", 
         "nombre": "BARRIONUEVO, Jos\u00e9 Luis"
     }, 
@@ -458,6 +500,12 @@
     "benedetti-atilio-francisco-salvador": {
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Entre R\u00edos", 
+            "lista": "UNION CIVICA RADICAL", 
+            "orden": 1
+        }, 
         "distrito": "Entre R\u00edos", 
         "nombre": "BENEDETTI, Atilio Francisco Salvador"
     }, 
@@ -494,6 +542,12 @@
     "bertone-rosana-andrea": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Tierra del Fuego", 
+            "lista": "FRENTE PARA LA VICTORIA", 
+            "orden": 1
+        }, 
         "distrito": "Tierra del Fuego", 
         "nombre": "BERTONE, Rosana Andrea"
     }, 
@@ -542,6 +596,12 @@
     "biella-calvet-bernardo-jose": {
         "bloque": "U.De.So. Salta", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Salta", 
+            "lista": "UNION POR LA REPUBLICA - FRENTE POR LA JUSTICIA", 
+            "orden": 1
+        }, 
         "distrito": "Salta", 
         "nombre": "BIELLA CALVET, Bernardo Jos\u00e9"
     }, 
@@ -554,6 +614,12 @@
     "binner-hermes": {
         "bloque": "Partido Socialista", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Santa Fe", 
+            "lista": "FRENTE PROGRESISTA CIVICO Y SOCIAL", 
+            "orden": 1
+        }, 
         "distrito": "Santa Fe", 
         "nombre": "BINNER, Hermes"
     }, 
@@ -650,6 +716,12 @@
     "brue-daniel-agustin": {
         "bloque": "Frente C\u00edvico por Santiago", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Santiago del Estero", 
+            "lista": "FRENTE CIVICO POR SANTIAGO", 
+            "orden": 1
+        }, 
         "distrito": "Santiago del Estero", 
         "nombre": "BRUE, Daniel Agust\u00edn"
     }, 
@@ -668,6 +740,12 @@
     "buryaile-ricardo": {
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Formosa", 
+            "lista": "FRENTE AMPLIO FORMOSE\u00d1O", 
+            "orden": 1
+        }, 
         "distrito": "Formosa", 
         "nombre": "BURYAILE, Ricardo"
     }, 
@@ -680,6 +758,12 @@
     "bussi-ricardo-argentino": {
         "bloque": "Fuerza Republicana", 
         "camara": "Senado", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Tucum\u00e1n", 
+            "lista": "FUERZA REPUBLICANA", 
+            "orden": 1
+        }, 
         "distrito": "Tucum\u00e1n", 
         "nombre": "BUSSI, Ricardo Argentino"
     }, 
@@ -758,6 +842,12 @@
     "cano-jose-manuel": {
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
         "camara": "Senado", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Tucum\u00e1n", 
+            "lista": "FRENTE ACUERDO CIVICO Y SOCIAL", 
+            "orden": 1
+        }, 
         "distrito": "Tucum\u00e1n", 
         "nombre": "CANO, Jos\u00e9 Manuel"
     }, 
@@ -812,6 +902,12 @@
     "carlotto-remo-gerardo": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "ALIANZA FRENTE PARA LA VICTORIA", 
+            "orden": 5
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "CARLOTTO, Remo Gerardo"
     }, 
@@ -842,12 +938,24 @@
     "carrio-elisa-maria": {
         "bloque": "Coalici\u00f3n C\u00edvica - ARI", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Ciudad de Buenos Aires", 
+            "lista": "ALIANZA UNEN", 
+            "orden": 1
+        }, 
         "distrito": "CABA", 
         "nombre": "CARRIO, Elisa Mar\u00eda"
     }, 
     "casanas-juan-francisco": {
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Tucum\u00e1n", 
+            "lista": "FRENTE ACUERDO CIVICO Y SOCIAL", 
+            "orden": 3
+        }, 
         "distrito": "Tucum\u00e1n", 
         "nombre": "CASA\u00d1AS, Juan Francisco"
     }, 
@@ -860,6 +968,12 @@
     "caserio-carlos-alberto": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "C\u00f3rdoba", 
+            "lista": "ALIANZA UNI\u00d3N POR C\u00d3RDOBA", 
+            "orden": 3
+        }, 
         "distrito": "C\u00f3rdoba", 
         "nombre": "CASERIO, Carlos Alberto"
     }, 
@@ -896,6 +1010,12 @@
     "catalan-magni-julio-cesar": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Tierra del Fuego", 
+            "lista": "FRENTE PARA LA VICTORIA", 
+            "orden": 2
+        }, 
         "distrito": "Tierra del Fuego", 
         "nombre": "CATALAN MAGNI, Julio C\u00e9sar"
     }, 
@@ -938,6 +1058,12 @@
     "chieno-maria-elena": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Corrientes", 
+            "lista": "FRENTE PARA LA VICTORIA", 
+            "orden": 2
+        }, 
         "distrito": "Corrientes", 
         "nombre": "CHIENO, Mar\u00eda Elena"
     }, 
@@ -962,12 +1088,24 @@
     "ciciliani-alicia-mabel": {
         "bloque": "Partido Socialista", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Santa Fe", 
+            "lista": "FRENTE PROGRESISTA CIVICO Y SOCIAL", 
+            "orden": 3
+        }, 
         "distrito": "Santa Fe", 
         "nombre": "CICILIANI, Alicia Mabel"
     }, 
     "cigogna-luis-francisco-jorge": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "ALIANZA FRENTE PARA LA VICTORIA", 
+            "orden": 13
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "CIGOGNA, Luis Francisco Jorge"
     }, 
@@ -1004,6 +1142,12 @@
     "colazo-mario-jorge": {
         "bloque": "Justicialista-Frente para la Victoria", 
         "camara": "Senado", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Tierra del Fuego", 
+            "lista": "POPULAR", 
+            "orden": 1
+        }, 
         "distrito": "Tierra del Fuego", 
         "nombre": "COLAZO, Mario Jorge"
     }, 
@@ -1040,6 +1184,12 @@
     "conti-diana-beatriz": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "ALIANZA FRENTE PARA LA VICTORIA", 
+            "orden": 9
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "CONTI, Diana Beatriz"
     }, 
@@ -1100,6 +1250,12 @@
     "costa-eduardo-raul": {
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Santa Cruz", 
+            "lista": "UNION PARA VIVIR MEJOR", 
+            "orden": 1
+        }, 
         "distrito": "Santa Cruz", 
         "nombre": "COSTA, Eduardo Ra\u00fal"
     }, 
@@ -1112,6 +1268,12 @@
     "cremer-de-busti-maria-cristina": {
         "bloque": "Frente Peronista", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Entre R\u00edos", 
+            "lista": "ALIANZA UNION POR ENTRE RIOS", 
+            "orden": 1
+        }, 
         "distrito": "Entre R\u00edos", 
         "nombre": "CREMER de BUSTI, Mar\u00eda Cristina"
     }, 
@@ -1268,6 +1430,12 @@
     "depetri-edgardo-fernando": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "ALIANZA FRENTE PARA LA VICTORIA", 
+            "orden": 10
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "DEPETRI, Edgardo Fernando"
     }, 
@@ -1292,6 +1460,12 @@
     "di-tullio-juliana": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "ALIANZA FRENTE PARA LA VICTORIA", 
+            "orden": 2
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "di TULLIO, Juliana"
     }, 
@@ -1310,6 +1484,12 @@
     "diaz-roig-juan-carlos": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Formosa", 
+            "lista": "FRENTE PARA LA VICTORIA", 
+            "orden": 1
+        }, 
         "distrito": "Formosa", 
         "nombre": "DIAZ ROIG, Juan Carlos"
     }, 
@@ -1388,6 +1568,12 @@
     "escudero-sonia-margarita": {
         "bloque": "Justicialista 8 de Octubre", 
         "camara": "Senado", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Salta", 
+            "lista": "FRENTE POPULAR SALTE\u00d1O", 
+            "orden": 2
+        }, 
         "distrito": "Salta", 
         "nombre": "ESCUDERO, Sonia Margarita"
     }, 
@@ -1520,6 +1706,12 @@
     "ferrari-gustavo-alfredo": {
         "bloque": "Frente Peronista", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "UNIDOS POR LA LIBERTAD Y EL TRABAJO", 
+            "orden": 4
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "FERRARI, Gustavo Alfredo"
     }, 
@@ -1550,6 +1742,12 @@
     "fiad-mario-raymundo": {
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Jujuy", 
+            "lista": "FRENTE JUJE\u00d1O, LISTA:", 
+            "orden": 1
+        }, 
         "distrito": "Jujuy", 
         "nombre": "FIAD, Mario Raymundo"
     }, 
@@ -1562,6 +1760,12 @@
     "filmus-daniel-fernando": {
         "bloque": "Justicialista-Frente para la Victoria", 
         "camara": "Senado", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Ciudad de Buenos Aires", 
+            "lista": "FRENTE PARA LA VICTORIA", 
+            "orden": 1
+        }, 
         "distrito": "CABA", 
         "nombre": "FILMUS, Daniel Fernando"
     }, 
@@ -1574,6 +1778,12 @@
     "fiore-vinuales-maria-cristina-del-valle": {
         "bloque": "Renovador de Salta", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Salta", 
+            "lista": "FRENTE PARA LA VICTORIA", 
+            "orden": 2
+        }, 
         "distrito": "Salta", 
         "nombre": "FIORE VI\u00d1UALES, Mar\u00eda Cristina del Valle"
     }, 
@@ -1622,6 +1832,12 @@
     "fuentes-marcelo-jorge": {
         "bloque": "Justicialista-Frente para la Victoria", 
         "camara": "Senado", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Neuqu\u00e9n", 
+            "lista": "FRENTE PARA LA VICTORIA", 
+            "orden": 1
+        }, 
         "distrito": "Neuqu\u00e9n", 
         "nombre": "FUENTES, Marcelo Jorge"
     }, 
@@ -1664,6 +1880,12 @@
     "gambaro-natalia": {
         "bloque": "Frente Peronista", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "UNIDOS POR LA LIBERTAD Y EL TRABAJO", 
+            "orden": 8
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "GAMBARO, Natalia"
     }, 
@@ -1694,12 +1916,24 @@
     "garcia-larraburu-silvina-marcela": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "R\u00edo Negro", 
+            "lista": "FRENTE PARA LA VICTORIA", 
+            "orden": 2
+        }, 
         "distrito": "R\u00edo Negro", 
         "nombre": "GARCIA LARRABURU, Silvina Marcela"
     }, 
     "garcia-maria-teresa": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "ALIANZA FRENTE PARA LA VICTORIA", 
+            "orden": 6
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "GARCIA, Mar\u00eda Teresa"
     }, 
@@ -1736,6 +1970,12 @@
     "garramuno-jorge-alberto": {
         "bloque": "Movimiento Popular Fueguino", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Tierra del Fuego", 
+            "lista": "MOVIMIENTO POPULAR FUEGUINO", 
+            "orden": 1
+        }, 
         "distrito": "Tierra del Fuego", 
         "nombre": "GARRAMU\u00d1O, Jorge Alberto"
     }, 
@@ -1898,6 +2138,12 @@
     "gonzalez-gladys-esther": {
         "bloque": "PRO", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "FRENTE RENOVADOR", 
+            "orden": 12
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "GONZALEZ, Gladys Esther"
     }, 
@@ -1946,6 +2192,12 @@
     "gribaudo-christian-alejandro": {
         "bloque": "PRO", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "FRENTE RENOVADOR", 
+            "orden": 13
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "GRIBAUDO, Christian Alejandro"
     }, 
@@ -1958,6 +2210,12 @@
     "guastavino-pedro-guillermo-angel": {
         "bloque": "Justicialista-Frente para la Victoria", 
         "camara": "Senado", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Entre R\u00edos", 
+            "lista": "ALIANZA FRENTE PARA LA VICTORIA", 
+            "orden": 1
+        }, 
         "distrito": "Entre R\u00edos", 
         "nombre": "GUASTAVINO, Pedro Guillermo \u00c1ngel"
     }, 
@@ -2024,6 +2282,12 @@
     "heller-carlos": {
         "bloque": "Nuevo Encuentro", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Ciudad de Buenos Aires", 
+            "lista": "FRENTE PARA LA VICTORIA", 
+            "orden": 3
+        }, 
         "distrito": "CABA", 
         "nombre": "HELLER, Carlos"
     }, 
@@ -2168,6 +2432,12 @@
     "jerez-esteban-eduardo": {
         "bloque": "Propuesta Republicana", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Tucum\u00e1n", 
+            "lista": "LABORISTA DE LA INDEPENDENCIA", 
+            "orden": 3
+        }, 
         "distrito": "Tucum\u00e1n", 
         "nombre": "JEREZ, Esteban Eduardo"
     }, 
@@ -2246,6 +2516,12 @@
     "kunkel-carlos-miguel": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "ALIANZA FRENTE PARA LA VICTORIA", 
+            "orden": 7
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "KUNKEL, Carlos Miguel"
     }, 
@@ -2288,6 +2564,12 @@
     "lauritto-jose-eduardo": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Entre R\u00edos", 
+            "lista": "ALIANZA FRENTE PARA LA VICTORIA", 
+            "orden": 1
+        }, 
         "distrito": "Entre R\u00edos", 
         "nombre": "LAURITTO, Jos\u00e9 Eduardo"
     }, 
@@ -2396,6 +2678,12 @@
     "lopez-osvaldo-ramon": {
         "bloque": "Nuevo Encuentro", 
         "camara": "Senado", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Tierra del Fuego", 
+            "lista": "ESPACIO DEMOCRATICO PARA LA VICTORIA", 
+            "orden": 1
+        }, 
         "distrito": "Tierra del Fuego", 
         "nombre": "L\u00d3PEZ, Osvaldo Ram\u00f3n"
     }, 
@@ -2438,6 +2726,12 @@
     "lozano-claudio-raul": {
         "bloque": "Unidad Popular", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Ciudad de Buenos Aires", 
+            "lista": "ALIANZA CAMINO POPULAR", 
+            "orden": 1
+        }, 
         "distrito": "CABA", 
         "nombre": "LOZANO, Claudio Ra\u00fal"
     }, 
@@ -2456,6 +2750,12 @@
     "lusquinos-luis-bernardo": {
         "bloque": "Frente Justicia Uni\u00f3n y Libertad", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "San Luis", 
+            "lista": "COMPROMISO FEDERAL", 
+            "orden": 3
+        }, 
         "distrito": "San Luis", 
         "nombre": "LUSQUI\u00d1OS, Luis Bernardo"
     }, 
@@ -2486,6 +2786,12 @@
     "majdalani-silvia-cristina": {
         "bloque": "PRO", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Ciudad de Buenos Aires", 
+            "lista": "ALIANZA UNION PRO", 
+            "orden": 5
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "MAJDALANI, Silvia Cristina"
     }, 
@@ -2570,6 +2876,12 @@
     "martinez-carignano-ernesto-felix": {
         "bloque": "Frente C\u00edvico - C\u00f3rdoba", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "C\u00f3rdoba", 
+            "lista": "ALIANZA FRENTE PROGRESISTA CIVICO Y SOCIAL", 
+            "orden": 1
+        }, 
         "distrito": "C\u00f3rdoba", 
         "nombre": "MARTINEZ CARIGNANO, Ernesto F\u00e9lix"
     }, 
@@ -2594,6 +2906,12 @@
     "martinez-julio-cesar": {
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "La Rioja", 
+            "lista": "FUERZA CIVICA RIOJANA", 
+            "orden": 1
+        }, 
         "distrito": "La Rioja", 
         "nombre": "MARTINEZ, Julio C\u00e9sar"
     }, 
@@ -2618,6 +2936,12 @@
     "martinez-soledad": {
         "bloque": "PRO", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "FRENTE RENOVADOR", 
+            "orden": 6
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "MARTINEZ, Soledad"
     }, 
@@ -2690,6 +3014,12 @@
     "mendoza-sandra-marcela": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Chaco", 
+            "lista": "FRENTE PARA LA VICTORIA", 
+            "orden": 2
+        }, 
         "distrito": "Chaco", 
         "nombre": "MENDOZA, Sandra Marcela"
     }, 
@@ -2750,12 +3080,24 @@
     "michetti-marta-gabriela": {
         "bloque": "PRO", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Ciudad de Buenos Aires", 
+            "lista": "ALIANZA UNION PRO", 
+            "orden": 1
+        }, 
         "distrito": "CABA", 
         "nombre": "MICHETTI, Marta Gabriela"
     }, 
     "milman-gerardo-fabian": {
         "bloque": "GEN", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "FRENTE PROGRESISTA, CIVICO Y SOCIAL", 
+            "orden": 5
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "MILMAN, Gerardo Fabi\u00e1n"
     }, 
@@ -2864,6 +3206,12 @@
     "moreno-carlos-julio": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "ALIANZA FRENTE PARA LA VICTORIA", 
+            "orden": 8
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "MORENO, Carlos Julio"
     }, 
@@ -2954,6 +3302,12 @@
     "obeid-jorge-alberto": {
         "bloque": "Peronismo Federal", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Santa Fe", 
+            "lista": "FRENTE PARA LA VICTORIA", 
+            "orden": 1
+        }, 
         "distrito": "Santa Fe", 
         "nombre": "OBEID, Jorge Alberto"
     }, 
@@ -2972,12 +3326,24 @@
     "oliva-cristian-rodolfo": {
         "bloque": "Frente C\u00edvico por Santiago", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Santiago del Estero", 
+            "lista": "FRENTE CIVICO POR SANTIAGO", 
+            "orden": 1
+        }, 
         "distrito": "Santiago del Estero", 
         "nombre": "OLIVA, Cristian Rodolfo"
     }, 
     "olmedo-alfredo-horacio": {
         "bloque": "Salta Somos Todos", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Salta", 
+            "lista": "SALTA SOMOS TODOS", 
+            "orden": 1
+        }, 
         "distrito": "Salta", 
         "nombre": "OLMEDO, Alfredo Horacio"
     }, 
@@ -3056,6 +3422,12 @@
     "parada-liliana-beatriz": {
         "bloque": "Unidad Popular", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Ciudad de Buenos Aires", 
+            "lista": "ALIANZA CAMINO POPULAR", 
+            "orden": 2
+        }, 
         "distrito": "CABA", 
         "nombre": "PARADA, Liliana Beatriz"
     }, 
@@ -3074,6 +3446,12 @@
     "parrilli-nanci-maria-agustina": {
         "bloque": "Justicialista-Frente para la Victoria", 
         "camara": "Senado", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Neuqu\u00e9n", 
+            "lista": "FRENTE PARA LA VICTORIA", 
+            "orden": 1
+        }, 
         "distrito": "Neuqu\u00e9n", 
         "nombre": "PARRILLI, Nanci Mar\u00eda Agustina"
     }, 
@@ -3140,6 +3518,12 @@
     "perez-jose-adrian": {
         "bloque": "Coalici\u00f3n C\u00edvica", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "FRENTE RENOVADOR", 
+            "orden": 7
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "PEREZ, Jos\u00e9 Adri\u00e1n"
     }, 
@@ -3200,6 +3584,12 @@
     "pichetto-miguel-angel": {
         "bloque": "Justicialista-Frente para la Victoria", 
         "camara": "Senado", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "R\u00edo Negro", 
+            "lista": "FRENTE PARA LA VICTORIA", 
+            "orden": 1
+        }, 
         "distrito": "R\u00edo Negro", 
         "nombre": "PICHETTO, Miguel \u00c1ngel"
     }, 
@@ -3218,6 +3608,12 @@
     "pilatti-vergara-maria-ines": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Chaco", 
+            "lista": "FRENTE PARA LA VICTORIA", 
+            "orden": 2
+        }, 
         "distrito": "Chaco", 
         "nombre": "PILATTI VERGARA, Mar\u00eda In\u00e9s"
     }, 
@@ -3248,6 +3644,12 @@
     "plaini-francisco-omar": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "UNIDOS POR LA LIBERTAD Y EL TRABAJO", 
+            "orden": 2
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "PLAINI, Francisco Omar"
     }, 
@@ -3290,6 +3692,12 @@
     "puerta-federico-ramon": {
         "bloque": "Frente Peronista", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Misiones", 
+            "lista": "FRENTE UNIDOS", 
+            "orden": 1
+        }, 
         "distrito": "Misiones", 
         "nombre": "PUERTA, Federico Ram\u00f3n"
     }, 
@@ -3326,6 +3734,12 @@
     "rached-emilio-alberto": {
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
         "camara": "Senado", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Santiago del Estero", 
+            "lista": "FRENTE PROGRESISTA CIVICO Y SOCIAL", 
+            "orden": 1
+        }, 
         "distrito": "Santiago del Estero", 
         "nombre": "RACHED, Emilio Alberto"
     }, 
@@ -3344,12 +3758,24 @@
     "re-hilma-leonor": {
         "bloque": "Coalici\u00f3n C\u00edvica - ARI", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Entre R\u00edos", 
+            "lista": "UNION CIVICA RADICAL", 
+            "orden": 2
+        }, 
         "distrito": "Entre R\u00edos", 
         "nombre": "RE, Hilma Leonor"
     }, 
     "recalde-hector-pedro": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "ALIANZA FRENTE PARA LA VICTORIA", 
+            "orden": 4
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "RECALDE, H\u00e9ctor Pedro"
     }, 
@@ -3380,6 +3806,12 @@
     "reyes-maria-fernanda": {
         "bloque": "Coalici\u00f3n C\u00edvica", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Ciudad de Buenos Aires", 
+            "lista": "ALIANZA UNEN", 
+            "orden": 2
+        }, 
         "distrito": "CABA", 
         "nombre": "REYES, Mar\u00eda Fernanda"
     }, 
@@ -3434,6 +3866,12 @@
     "risko-silvia-lucrecia": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Misiones", 
+            "lista": "FRENTE RENOVADOR DE LA CONCORDIA", 
+            "orden": 2
+        }, 
         "distrito": "Misiones", 
         "nombre": "RISKO, Silvia Lucrecia"
     }, 
@@ -3530,6 +3968,12 @@
     "romero-juan-carlos": {
         "bloque": "Justicialista 8 de Octubre", 
         "camara": "Senado", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Salta", 
+            "lista": "FRENTE POPULAR SALTE\u00d1O", 
+            "orden": 1
+        }, 
         "distrito": "Salta", 
         "nombre": "ROMERO, Juan Carlos"
     }, 
@@ -3578,12 +4022,24 @@
     "rozas-angel": {
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Chaco", 
+            "lista": "UNION POR CHACO", 
+            "orden": 1
+        }, 
         "distrito": "Chaco", 
         "nombre": "ROZAS, Angel"
     }, 
     "rucci-claudia-monica": {
         "bloque": "Frente Peronista", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "UNIDOS POR LA LIBERTAD Y EL TRABAJO", 
+            "orden": 3
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "RUCCI, Claudia Monica"
     }, 
@@ -3656,6 +4112,12 @@
     "sanchez-fernando": {
         "bloque": "Coalici\u00f3n C\u00edvica - ARI - GEN - UPT", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Ciudad de Buenos Aires", 
+            "lista": "ALIANZA UNEN", 
+            "orden": 3
+        }, 
         "distrito": "CABA", 
         "nombre": "SANCHEZ, Fernando"
     }, 
@@ -3782,12 +4244,24 @@
     "sola-felipe-carlos": {
         "bloque": "Uni\u00f3n Peronista", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "FRENTE RENOVADOR", 
+            "orden": 4
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "SOLA, Felipe Carlos"
     }, 
     "solanas-fernando-ezequiel": {
         "bloque": "Proyecto Sur", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Ciudad de Buenos Aires", 
+            "lista": "ALIANZA UNEN", 
+            "orden": 1
+        }, 
         "distrito": "CABA", 
         "nombre": "SOLANAS, Fernando Ezequiel"
     }, 
@@ -3830,6 +4304,12 @@
     "stolbizer-margarita-rosa": {
         "bloque": "GEN", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "FRENTE PROGRESISTA, CIVICO Y SOCIAL", 
+            "orden": 1
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "STOLBIZER, Margarita Rosa"
     }, 
@@ -3842,6 +4322,12 @@
     "storani-maria-luisa": {
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "FRENTE PROGRESISTA, CIVICO Y SOCIAL", 
+            "orden": 7
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "STORANI, Mar\u00eda Luisa"
     }, 
@@ -3878,6 +4364,12 @@
     "terada-alicia": {
         "bloque": "Coalici\u00f3n C\u00edvica - ARI", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Chaco", 
+            "lista": "UNION POR CHACO", 
+            "orden": 2
+        }, 
         "distrito": "Chaco", 
         "nombre": "TERADA, Alicia"
     }, 
@@ -3956,6 +4448,12 @@
     "triaca-alberto-jorge": {
         "bloque": "PRO", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Ciudad de Buenos Aires", 
+            "lista": "ALIANZA UNION PRO", 
+            "orden": 4
+        }, 
         "distrito": "CABA", 
         "nombre": "TRIACA, Alberto Jorge"
     }, 
@@ -3974,6 +4472,12 @@
     "tunessi-juan-pedro": {
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Buenos Aires", 
+            "lista": "FRENTE PROGRESISTA, CIVICO Y SOCIAL", 
+            "orden": 6
+        }, 
         "distrito": "Buenos Aires", 
         "nombre": "TUNESSI, Juan Pedro"
     }, 
@@ -4082,6 +4586,12 @@
     "viale-lisandro-alfredo": {
         "bloque": "Partido Socialista", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Senado", 
+            "distrito": "Entre R\u00edos", 
+            "lista": "ALIANZA FRENTE AMPLIO PROGRESISTA", 
+            "orden": 1
+        }, 
         "distrito": "Entre R\u00edos", 
         "nombre": "VIALE, Lisandro Alfredo"
     }, 
@@ -4154,6 +4664,12 @@
     "yague-linda-cristina": {
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Neuqu\u00e9n", 
+            "lista": "COMPROMISO CIVICO NEUQUINO", 
+            "orden": 3
+        }, 
         "distrito": "Neuqu\u00e9n", 
         "nombre": "YAG\u00dcE, Linda Cristina"
     }, 
@@ -4172,6 +4688,12 @@
     "yoma-jorge-raul": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "La Rioja", 
+            "lista": "FRENTE NUEVO PACTO FE-DERAL", 
+            "orden": 1
+        }, 
         "distrito": "La Rioja", 
         "nombre": "YOMA, Jorge Raul"
     }, 
@@ -4214,6 +4736,12 @@
     "ziegler-alex-roberto": {
         "bloque": "Frente para la Victoria - PJ", 
         "camara": "Diputados", 
+        "candidatura": {
+            "camara": "Diputados", 
+            "distrito": "Misiones", 
+            "lista": "FRENTE RENOVADOR DE LA CONCORDIA", 
+            "orden": 1
+        }, 
         "distrito": "Misiones", 
         "nombre": "ZIEGLER, Alex Roberto"
     }, 
