@@ -168,7 +168,7 @@
         "camara": "Diputados", 
         "candidatura": {
             "camara": "Diputados", 
-            "distrito": "Ciudad de Buenos Aires", 
+            "distrito": "CABA", 
             "lista": "ALIANZA UNION PRO", 
             "orden": 3
         }, 
@@ -282,7 +282,7 @@
         "camara": "Diputados", 
         "candidatura": {
             "camara": "Diputados", 
-            "distrito": "Ciudad de Buenos Aires", 
+            "distrito": "CABA", 
             "lista": "ALIANZA UNEN", 
             "orden": 5
         }, 
@@ -1040,7 +1040,7 @@
         "camara": "Diputados", 
         "candidatura": {
             "camara": "Diputados", 
-            "distrito": "Ciudad de Buenos Aires", 
+            "distrito": "CABA", 
             "lista": "ALIANZA UNEN", 
             "orden": 1
         }, 
@@ -1962,7 +1962,7 @@
         "camara": "Senado", 
         "candidatura": {
             "camara": "Senado", 
-            "distrito": "Ciudad de Buenos Aires", 
+            "distrito": "CABA", 
             "lista": "FRENTE PARA LA VICTORIA", 
             "orden": 1
         }, 
@@ -2542,7 +2542,7 @@
         "camara": "Diputados", 
         "candidatura": {
             "camara": "Diputados", 
-            "distrito": "Ciudad de Buenos Aires", 
+            "distrito": "CABA", 
             "lista": "FRENTE PARA LA VICTORIA", 
             "orden": 3
         }, 
@@ -3020,7 +3020,7 @@
         "camara": "Diputados", 
         "candidatura": {
             "camara": "Senado", 
-            "distrito": "Ciudad de Buenos Aires", 
+            "distrito": "CABA", 
             "lista": "ALIANZA CAMINO POPULAR", 
             "orden": 1
         }, 
@@ -3082,7 +3082,7 @@
         "camara": "Diputados", 
         "candidatura": {
             "camara": "Diputados", 
-            "distrito": "Ciudad de Buenos Aires", 
+            "distrito": "CABA", 
             "lista": "ALIANZA UNION PRO", 
             "orden": 5
         }, 
@@ -3396,7 +3396,7 @@
         "camara": "Diputados", 
         "candidatura": {
             "camara": "Senado", 
-            "distrito": "Ciudad de Buenos Aires", 
+            "distrito": "CABA", 
             "lista": "ALIANZA UNION PRO", 
             "orden": 1
         }, 
@@ -3784,7 +3784,7 @@
         "camara": "Diputados", 
         "candidatura": {
             "camara": "Diputados", 
-            "distrito": "Ciudad de Buenos Aires", 
+            "distrito": "CABA", 
             "lista": "ALIANZA CAMINO POPULAR", 
             "orden": 2
         }, 
@@ -4214,7 +4214,7 @@
         "camara": "Diputados", 
         "candidatura": {
             "camara": "Senado", 
-            "distrito": "Ciudad de Buenos Aires", 
+            "distrito": "CABA", 
             "lista": "ALIANZA UNEN", 
             "orden": 2
         }, 
@@ -4552,7 +4552,7 @@
         "camara": "Diputados", 
         "candidatura": {
             "camara": "Diputados", 
-            "distrito": "Ciudad de Buenos Aires", 
+            "distrito": "CABA", 
             "lista": "ALIANZA UNEN", 
             "orden": 3
         }, 
@@ -4710,7 +4710,7 @@
         "camara": "Diputados", 
         "candidatura": {
             "camara": "Senado", 
-            "distrito": "Ciudad de Buenos Aires", 
+            "distrito": "CABA", 
             "lista": "ALIANZA UNEN", 
             "orden": 1
         }, 
@@ -4922,7 +4922,7 @@
         "camara": "Diputados", 
         "candidatura": {
             "camara": "Diputados", 
-            "distrito": "Ciudad de Buenos Aires", 
+            "distrito": "CABA", 
             "lista": "ALIANZA UNION PRO", 
             "orden": 4
         }, 
