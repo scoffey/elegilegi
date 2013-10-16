@@ -269,6 +269,9 @@ a.action:hover {
 .tooltip ul {
 	padding-left: 16px;
 }
+.tooltip p {
+	font: 8pt sans-serif;
+}
 .chart-tooltip {
 	position: absolute;
 	top: 0;

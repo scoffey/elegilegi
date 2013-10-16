@@ -178,6 +178,51 @@ function getTooltip() {
 	return $('#tooltip');
 }
 
+function showMiniProfile(e) {
+	var id = e.target.parentNode.getAttribute('id');
+	var r = representatives[id];
+	if (!r || !(r.foto || r.candidatura)) return;
+	var miniprofile = getMiniProfile().finish().empty();
+	if (r.foto) {
+		var img = $(document.createElement('img')).attr(
+			{'src': r.foto}).css({'float': 'right'});
+		miniprofile.append(img);
+	}
+	var p = $(document.createElement('p')).text(r.nombre);
+	miniprofile.append(p);
+	if (r.candidatura) {
+		var c = r.candidatura;
+		var t = 'Candidato/a a ' + (c.camara == 'Senado'
+			? 'Senador(a)' : 'Diputado/a') + ' #' + c.orden;
+		var p = $(document.createElement('p')).addClass('shady');
+		p.append($(document.createElement('span')).text(t));
+		p.append(document.createElement('br'));
+		p.append($(document.createElement('span')).text(c.lista));
+		p.append(document.createElement('br'));
+		p.append($(document.createElement('span')).text(c.distrito));
+		miniprofile.append(p);
+	}
+	var offset = $(e.target).offset();
+	miniprofile.css({
+		'top': (offset.top) + 'px',
+		'left': (offset.left + $(e.target).width() + 5) + 'px'
+	}).fadeIn(200);
+}
+
+function hideMiniProfile() {
+	getMiniProfile().finish().fadeOut(500);
+}
+
+function getMiniProfile() {
+	if (!document.getElementById('miniprofile')) { // singleton
+		var e = document.createElement('div');
+		e.setAttribute('id', 'miniprofile');
+		$('body').append(e);
+		$(e).addClass('tooltip');
+	}
+	return $('#miniprofile');
+}
+
 function printResults() {
 	var rows = $('#rows');
 	rows.empty();
@@ -188,14 +233,17 @@ function printResults() {
 		$(tr).attr('id', r.id);
 
 		var td = document.createElement('td');
-		var span = document.createElement('span');
-		$(span).text(r.nombre);
-		$(td).append(span);
+		var anchor = document.createElement(r.url ? 'a' : 'span');
+		$(anchor).attr(r.url ? {'href': r.url, 'target': '_blank'}
+			: {}).text(r.nombre);
+		$(td).append(anchor);
 		$(td).append(document.createElement('br'));
 		var info = document.createElement('span');
 		$(info).text(r.bloque + ' (' + r.distrito + ') - ' + r.camara);
 		$(info).addClass('shady');
-		$(td).append(info);
+		$(td).append(info)
+			.on('mouseover', showMiniProfile)
+			.on('mouseout', hideMiniProfile);
 		tr.appendChild(td);
 
 		printResultsHelper(tr, r.chance + '%');
