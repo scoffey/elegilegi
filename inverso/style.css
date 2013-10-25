@@ -189,9 +189,6 @@ select {
 	outline: none; /* remove focus ring from Webkit */
 }
 
-#projects li {
-	margin: 32px 0;
-}
 #projects li ul {
 	list-style: none;
 	padding: 0;
