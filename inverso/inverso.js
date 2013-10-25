@@ -53,7 +53,7 @@ function reset() {
 
 function saveResults(items) {
 	$.each(items, function (i, li) {
-		var id = slugify(li.innerText);
+		var id = slugify($(li).text());
 		if (representatives[id]) {
 			results[id] = representatives[id];
 		}
