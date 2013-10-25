@@ -1,0 +1,1954 @@
+{
+    "Buenos Aires": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Insaurralde, Martin", 
+                    "Di Tullio, Juliana", 
+                    "Magario, Veronica Maria", 
+                    "Recalde, Hector Pedro", 
+                    "Carlotto, Remo Gerardo", 
+                    "Garcia, Maria Teresa", 
+                    "Kunkel, Carlos Miguel", 
+                    "Moreno, Carlos Julio", 
+                    "Conti, Diana Beatriz", 
+                    "Depetri, Edgardo Fernando", 
+                    "Romero, Oscar Alberto", 
+                    "Visconti, Isabel Beatriz", 
+                    "Cigogna, Luis Francisco Jorge", 
+                    "Raverta, Maria Fernanda", 
+                    "Arrieta, Gustavo Hector", 
+                    "Grana, Adrian Eduardo", 
+                    "Arnaldi, Monica Susana", 
+                    "Onorato, Gildo Ezequiel", 
+                    "Rojas, Lucia Florentina", 
+                    "Bolinaga, Daniel Nestor", 
+                    "Vespertino Koenig, Marcelo Christian", 
+                    "Balor, Ana Luz", 
+                    "Torremare, Guillermo Francisco", 
+                    "Martinelli, Luis Maria", 
+                    "Solis, Silvia Cristina", 
+                    "Ruete, Rodrigo Maria", 
+                    "Revora, Santiago Eduardo", 
+                    "Alonso, Alicia Monica", 
+                    "Martinez, Miguel Angel", 
+                    "Diego, Leandro Roberto", 
+                    "Lampreabe, Florencia", 
+                    "Pereyra, Pablo Javier", 
+                    "Alga\u00f1araz, Maria Elena", 
+                    "Garcia, Enrique", 
+                    "Gutierrez, Omar David"
+                ], 
+                "lista": "ALIANZA FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Pitrola, Nestor Antonio", 
+                    "Bregman, Myriam Teresa", 
+                    "Giordano, Juan Carlos", 
+                    "Rapanelli, Daniel Mario", 
+                    "Simioni, Luana", 
+                    "Reynoso, Edgardo Ernesto", 
+                    "Rodriguez, Juan Pablo", 
+                    "Alfaro, Paula Anahi", 
+                    "Ayala, Eduardo", 
+                    "Garcia, Aurora Amelia", 
+                    "Bustillo, Flavio Seguro", 
+                    "Bou Abdo, Nelsa Josefa", 
+                    "Hospital, Jorge Dario", 
+                    "Urbanovich, David", 
+                    "Havercohn, Laura Beatriz", 
+                    "Perez, Carlos Alberto", 
+                    "Vera Iba\u00f1ez, Gabriela", 
+                    "Suppa, Juan", 
+                    "Garralda, Pia", 
+                    "Lavalle, Ignacio Martin", 
+                    "Constrisciani, Juan", 
+                    "Troiti\u00f1o, Silvana Alicia", 
+                    "Casas, Guillermo Alberto", 
+                    "Beica, Juan Carlos", 
+                    "Alonso Armesto, Maria Ines", 
+                    "Biaggio, Nora Iris", 
+                    "Vi\u00f1als, Ariel", 
+                    "Talmon, Debora Julieta", 
+                    "Rela\u00f1ez, Walter Esteban", 
+                    "Sobrado, Jorge Raul", 
+                    "Farias, Nancy Valeria", 
+                    "Mayer, Christian Marcelo", 
+                    "Falcon, Karina", 
+                    "Alderete, Jose Marcelo", 
+                    "Vazquez, Dalia"
+                ], 
+                "lista": "FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES"
+            }, 
+            {
+                "candidatos": [
+                    "Stolbizer, Margarita Rosa", 
+                    "Alfonsin, Ricardo Luis", 
+                    "Gutierrez, Hector Maria", 
+                    "Troiano, Gabriela Alejandra", 
+                    "Milman, Gerardo Fabian", 
+                    "Tunessi, Juan Pedro", 
+                    "Storani, Maria Luisa", 
+                    "Ceballos, Jorge Raul", 
+                    "Piani, Liliana Alicia", 
+                    "Torregiani, Elio Arnaldo", 
+                    "Villalba, Gladis Beatriz", 
+                    "Pertica, Leonel Norberto", 
+                    "Menendez, Claudia Liliana", 
+                    "Della Vedova, Roman", 
+                    "Antedomenico, Andres Maria", 
+                    "Vallarino, Ricardo", 
+                    "Arana, Nora Beatriz", 
+                    "Flores, Julio Eduardo", 
+                    "Font, Francisco Jose", 
+                    "Lyonnet, Blanca Mabel", 
+                    "Mayoral, Daniel", 
+                    "Melcon, Susana Beatriz", 
+                    "Fittipaldi, Hugo Alberto", 
+                    "Ruiz, Maria Elena", 
+                    "Arceluz, Victoria Florencia", 
+                    "Lopez, Mariana", 
+                    "Sguiglia, Deonisio Armando", 
+                    "Arruti, Silvana Cecilia", 
+                    "Sosa, Carolina Mariel", 
+                    "Ru, Mario Cristobal", 
+                    "Ramirez, Irma Nelida", 
+                    "Santillan, Daniela Ivana", 
+                    "Barberio Novillo, Jorge Carlos", 
+                    "Crisostomo, Pablo Gabriel", 
+                    "Kuhn Gonzalez, Luis Fernando"
+                ], 
+                "lista": "FRENTE PROGRESISTA, CIVICO Y SOCIAL"
+            }, 
+            {
+                "candidatos": [
+                    "Massa, Sergio Tomas", 
+                    "Giustozzi, Ruben Dario", 
+                    "Tundis, Mirtha", 
+                    "Sola, Felipe Carlos", 
+                    "De Mendiguren, Jose Ignacio", 
+                    "Martinez, Soledad", 
+                    "Perez, Jose Adrian", 
+                    "Guzman, Sandro Adrian", 
+                    "Azucena Ehcosor, Maria", 
+                    "Alegre, Gilberto Oscar", 
+                    "Daer, Hector Ricardo", 
+                    "Gonzalez, Gladys Esther", 
+                    "Gribaudo, Christian Alejandro", 
+                    "D' Alessandro, Marcelo", 
+                    "Schwindt, Maria Liliana", 
+                    "Fabiani, Eduardo Alberto", 
+                    "Alonso, Horacio Fernando", 
+                    "Litza, Monica Edith", 
+                    "Caviglia, Franco Agustin", 
+                    "Melzi, Carlos Emilio", 
+                    "Couly, Veronica", 
+                    "Solmi, Jorge Alberto", 
+                    "Gianola, Fabian Javier", 
+                    "Vanelli, Sof\u00eda", 
+                    "Saredi, Roberto Miguel", 
+                    "Errazu, Horacio Alberto", 
+                    "Grandi, Ana Maria", 
+                    "Alessandrini, Fabian Dario", 
+                    "Alende, Carlos Marcelo", 
+                    "Schuster, Elisa Noemi", 
+                    "Di Salvo, Miguel Angel", 
+                    "Errecalde, Sergio Orlando", 
+                    "Tedeschi, Maria Jose", 
+                    "Ibarra, Gabriel Felix", 
+                    "Larraburu, Damaso"
+                ], 
+                "lista": "FRENTE RENOVADOR"
+            }, 
+            {
+                "candidatos": [
+                    "De Narvaez Steuer, Francisco", 
+                    "Plaini, Francisco Omar", 
+                    "Rucci, Claudia Monica", 
+                    "Ferrari, Gustavo Alfredo", 
+                    "Amoroso, Victor Daniel", 
+                    "Laburu, Susana Lidia", 
+                    "Atanasof, Alfredo Nestor", 
+                    "Gambaro, Natalia", 
+                    "Klein, Silvio Franco", 
+                    "Go\u00f1i Campagiorni, Javier Jose", 
+                    "Matorras, Claudio", 
+                    "Cordoba, Laura Graciela", 
+                    "Juara, Gerardo Gabriel", 
+                    "Diaz, Miguel Angel", 
+                    "Colombo, Mercedes", 
+                    "Fontanes, Dora Beatriz", 
+                    "Zapata, Ricardo Horacio", 
+                    "Granillo Fernandez, Alejandro Jose", 
+                    "Barrero, Maria Esther", 
+                    "Restuccia, Eduardo Julio", 
+                    "Cano, Leandro Ariel", 
+                    "Mogni, Maria Graciela", 
+                    "Frigerio, Carlos Guido", 
+                    "Cichello, Ignacio Ernesto", 
+                    "Harrison, Ana Priscilla", 
+                    "Murgo, Juan Carlos", 
+                    "Prada, Enrique Alejandro", 
+                    "Arce Scazzari, Sabrina Soledad", 
+                    "Rodriguez Gerino, Ignacio", 
+                    "Martinez Chas, Juan Manuel", 
+                    "Antonini, Maria Del Carmen", 
+                    "Anchoni, Lucas Javier", 
+                    "Cuervo, Monica Susana", 
+                    "Perez Tamayo, Jorge Alberto", 
+                    "Moyano, Hugo Antonio"
+                ], 
+                "lista": "UNIDOS POR LA LIBERTAD Y EL TRABAJO"
+            }, 
+            {
+                "candidatos": [
+                    "Venegas, Geronimo \"Momo\"", 
+                    "Gonzalez Fernandez, Teresa \"La Colo\"", 
+                    "Guadagni, Alieto", 
+                    "Neves, Juan Carlos", 
+                    "Sfasciotti, Graciela Mabel", 
+                    "Druetta, Gustavo Adolfo", 
+                    "Alva, Oscar Hector", 
+                    "Roffo, Graciela Elena", 
+                    "Palacio, Alfredo Hugo", 
+                    "Schiariti, Miguel Alberto", 
+                    "Sanchez Jauregui, Natalia Andrea", 
+                    "Ciancio, Juan Luis", 
+                    "Lopez, Jorge", 
+                    "Sobrado, Maria Cristina", 
+                    "Franke, Roberto Ignacio", 
+                    "Lujan, Ramon Jose", 
+                    "Henchoz, Liliana Sol", 
+                    "Lobo, Diego Andres", 
+                    "Del Valle Barros, Juan Americo", 
+                    "Llagarias Miglionico, Maria Leticia", 
+                    "Hercilia Moscardi, Maria Cristina", 
+                    "Mayo, Sergio Ariel", 
+                    "Moran, Rodrigo Matias", 
+                    "Ferreyra, Sandra Silvia", 
+                    "Fernandez, Hector Alberto", 
+                    "Francavilla, Dora Cecilia", 
+                    "Zalazar, Cayetano Ramon", 
+                    "Castro, Carlos Arturo", 
+                    "Romero, Ana Maria", 
+                    "Boraci, Raul Alfredo", 
+                    "Bezrutschko, Mariana", 
+                    "Poblet, Jesus Eduardo", 
+                    "Iba\u00f1ez, Luis Adolfo", 
+                    "Portillo, Jaqueline", 
+                    "Aguilar, Manuel Roberto"
+                ], 
+                "lista": "UNION CON FE"
+            }
+        ]
+    }, 
+    "Catamarca": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Brizuela Del Moral, Eduardo Segundo", 
+                    "Juarez, Miriam Del Valle", 
+                    "Diaz, Ursula Ornella"
+                ], 
+                "lista": "ALIANZA FRENTE CIVICO Y SOCIAL"
+            }, 
+            {
+                "candidatos": [
+                    "Tomassi, Nestor Nicolas", 
+                    "Moreta, Silvia Luz", 
+                    "Gutierrez, Victor Octavio"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Barrionuevo, Jose Luis", 
+                    "Moro Gradis, Del Valle", 
+                    "Bustamante, Claudio David"
+                ], 
+                "lista": "FRENTE TERCERA POSICION - UNIDAD CATAMARQUE\u00d1A"
+            }, 
+            {
+                "candidatos": [
+                    "Lopez, Ariel Antonio", 
+                    "Sosa, Sonia Juana", 
+                    "Moreno, Maria Estela"
+                ], 
+                "lista": "OBRERO"
+            }
+        ]
+    }, 
+    "Chaco": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Esquivel, Jorge Alberto", 
+                    "Gomez, Rocio Griselda", 
+                    "Pereyra, Eduardo Eloy", 
+                    "Deniz, Oscar Humberto"
+                ], 
+                "lista": "DEL OBRERO"
+            }, 
+            {
+                "candidatos": [
+                    "Pedrini, Juan Manuel", 
+                    "Mendoza, Sandra Marcela", 
+                    "Martinez Campos, Gustavo J.E.", 
+                    "Chomiak, Maria Luisa"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Tejedor, Miguel", 
+                    "Terada, Alicia", 
+                    "Veleff, Adrian", 
+                    "Salgado, Marcelo"
+                ], 
+                "lista": "UNION POR CHACO"
+            }
+        ], 
+        "Senado": [
+            {
+                "candidatos": [
+                    "Garcia, Aldo Gabriel", 
+                    "Gauna, Gisela Carolina"
+                ], 
+                "lista": "DEL OBRERO"
+            }, 
+            {
+                "candidatos": [
+                    "Aguilar, Eduardo Alberto", 
+                    "Pilatti Vergara, Maria Ines"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Rozas, Angel", 
+                    "Gonzalez, Delia"
+                ], 
+                "lista": "UNION POR CHACO"
+            }
+        ]
+    }, 
+    "Chubut": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Reinoso, Carlos Omar", 
+                    "Bruni, Dora Rosa"
+                ], 
+                "lista": "COALICION CIVICA-AFIRMACION PARA UNA REPUBLICA IGUALITARIA -ARI"
+            }, 
+            {
+                "candidatos": [
+                    "Das Neves, Mario", 
+                    "Lagoria, Elia Nelly"
+                ], 
+                "lista": "DE ACCION CHUBUTENSE"
+            }, 
+            {
+                "candidatos": [
+                    "Yahuar, Norberto Gustavo", 
+                    "Navarro, Viviana Elizabeth"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Petersen, Osacar", 
+                    "Aguilar, Claudia"
+                ], 
+                "lista": "MOVIMIENTO POLO SOCIAL - LA TERCERA POSICION"
+            }, 
+            {
+                "candidatos": [
+                    "Mu\u00f1oz, Susana Alicia", 
+                    "Antillanca, Cesar Rolando"
+                ], 
+                "lista": "MOVIMIENTO SOCIALISTA DE LOS TRABAJADORES"
+            }, 
+            {
+                "candidatos": [
+                    "Conde, Eduardo Jose", 
+                    "Conde, Marisa Fabiana"
+                ], 
+                "lista": "UNION CIVICA RADICAL"
+            }
+        ]
+    }, 
+    "CABA": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Hagman, Itai", 
+                    "Parada, Liliana Beatriz", 
+                    "Kordon, Diana Ruth", 
+                    "Campeni, Gustavo Luis", 
+                    "Flores, Jaquelina Andrea", 
+                    "Brugo Marco, Nina Isabel", 
+                    "Iommi, Martin Andres", 
+                    "Chuffardi, Romina Florencia", 
+                    "Rocha, Guillermo Juan", 
+                    "March Rios, Nahuel", 
+                    "Horovitz, Teresa", 
+                    "Fernandez Peychaux, Santiago Nicolas", 
+                    "Tocco Basualdo, Fernando Daniel"
+                ], 
+                "lista": "ALIANZA CAMINO POPULAR"
+            }, 
+            {
+                "candidatos": [
+                    "Gomez, Norma Susana", 
+                    "Lacour, Miguel Angel", 
+                    "Prignano, Rafaella", 
+                    "Carrizo, Ezequiel Antonio", 
+                    "Calleri De Gennaro, Teresa Lucia", 
+                    "Arslanian, Marco Antonio", 
+                    "Diaz, Mirta Del Carmen", 
+                    "Aquino, Celia Florinda", 
+                    "Valloud, Ariel Hernan", 
+                    "Baez, Norma Beatriz", 
+                    "Zarate, Mario Enrique", 
+                    "Orrico, Jose Luis", 
+                    "Torres, Rosana Fernanda"
+                ], 
+                "lista": "ALIANZA COMPROMISO FEDERAL"
+            }, 
+            {
+                "candidatos": [
+                    "Altamira, Jorge (Jose Wermus)", 
+                    "D\u00b4Atri, Andrea", 
+                    "Castillo, Jose", 
+                    "Solano, Gabriel", 
+                    "Navarro Palacios, Alicia", 
+                    "Martinez, Diego", 
+                    "Gandara, Santiago", 
+                    "Wainberg, Jennifer Laila", 
+                    "Marrone, Laura", 
+                    "Schofrin, Ruben", 
+                    "Platkowski, Carlos", 
+                    "Garcia, Juliana", 
+                    "Eibuszyc, Pablo"
+                ], 
+                "lista": "ALIANZA FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES"
+            }, 
+            {
+                "candidatos": [
+                    "Carri\u00f3, Elisa Mar\u00eda", 
+                    "Lousteau, Mart\u00edn", 
+                    "Sanchez, Fernando", 
+                    "Carrizo, Ana Carla", 
+                    "Argumedo, Alcira Susana", 
+                    "Raffo, Julio C\u00e9sar Antonio", 
+                    "Ramos, Adri\u00e1n Horacio", 
+                    "Gomez, Ver\u00f3nica Mar\u00eda", 
+                    "Gamez, Ra\u00fal H\u00e9ctor", 
+                    "Mazzitelli, Mario Francisco", 
+                    "Bruk, Ver\u00f3nica Laura", 
+                    "Maccione, Carolina Antonia", 
+                    "Herrero, F\u00e9lix"
+                ], 
+                "lista": "ALIANZA UNEN"
+            }, 
+            {
+                "candidatos": [
+                    "Bergman, Sergio", 
+                    "Sturzenegger, Federico Adolfo", 
+                    "Alonso, Laura", 
+                    "Triaca, Alberto Jorge", 
+                    "Majdalani, Silvia Cristina", 
+                    "Gonzalez, Alvaro Gustavo", 
+                    "Pati\u00f1o, Jose Luis", 
+                    "Saya, Lidia Noemi", 
+                    "Conesa, Eduardo Raul", 
+                    "Pompeo, Fulvio Valerio", 
+                    "Besada, Alicia Irma", 
+                    "Lopardo, Maria Paula", 
+                    "Sorgente, Marcelo Adolfo"
+                ], 
+                "lista": "ALIANZA UNION PRO"
+            }, 
+            {
+                "candidatos": [
+                    "Zamora, Luis Fernando", 
+                    "Martinez, Marta Jacqueline", 
+                    "Iacobacci, Mariano Nicolas", 
+                    "Parra, Adriano Andres", 
+                    "Magdalena, Maria Laura", 
+                    "Mantova, Adriano Paolo", 
+                    "Lucero, Daniel Alberto", 
+                    "Sorrentino, Mariana Cecilia", 
+                    "Selmo, Carlos", 
+                    "Passano, Susana Rosa", 
+                    "Benitez Escurra, Hugo Marcial", 
+                    "Benitez, Maria De La Paz", 
+                    "Bustos, Luis Daniel"
+                ], 
+                "lista": "AUTODETERMINACION Y LIBERTAD"
+            }, 
+            {
+                "candidatos": [
+                    "Cabandi\u00e9, Juan", 
+                    "Mazure, Liliana", 
+                    "Heller, Carlos", 
+                    "Forster, Ricardo", 
+                    "Montenegro, Hilda Victoria", 
+                    "Freyre, Alejandro Daniel", 
+                    "O'dezaille, Juan Pablo", 
+                    "Valenziano, Zunilda Rosa", 
+                    "Amor, Angel Armando Alejandro", 
+                    "Achile, Marcelo Rodolfo", 
+                    "Lister, Carolina Ana", 
+                    "Grasi Y Susini, Estanislao", 
+                    "Aldana, Humberto Cristian"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }
+        ], 
+        "Senado": [
+            {
+                "candidatos": [
+                    "Lozano, Claudio Raul", 
+                    "Pok, Cynthia"
+                ], 
+                "lista": "ALIANZA CAMINO POPULAR"
+            }, 
+            {
+                "candidatos": [
+                    "Dellecarbonara, Claudio", 
+                    "Biasi, Vanina"
+                ], 
+                "lista": "ALIANZA FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES"
+            }, 
+            {
+                "candidatos": [
+                    "Solanas, Fernando Ezequiel", 
+                    "Reyes, Mar\u00eda Fernanda"
+                ], 
+                "lista": "ALIANZA UNEN"
+            }, 
+            {
+                "candidatos": [
+                    "Michetti, Marta Gabriela", 
+                    "Santilli, Diego Cesar"
+                ], 
+                "lista": "ALIANZA UNION PRO"
+            }, 
+            {
+                "candidatos": [
+                    "Sallustio, Sergio Adrian", 
+                    "Paul, Cecilia Samanta"
+                ], 
+                "lista": "AUTODETERMINACION Y LIBERTAD"
+            }, 
+            {
+                "candidatos": [
+                    "Filmus, Daniel Fernando", 
+                    "Espa\u00f1ol, Paula Irene"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }
+        ]
+    }, 
+    "Corrientes": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Artaza, Eugenio Justiniano", 
+                    "Steed, Roxana Alejandra", 
+                    "Chaparro, Edgar Esteban"
+                ], 
+                "lista": "ALIANZA CAMBIO POPULAR"
+            }, 
+            {
+                "candidatos": [
+                    "Gutnisky, Leon Horacio", 
+                    "Vargas, Lucia Concepcion", 
+                    "Azuaga, Amelia Josefa"
+                ], 
+                "lista": "ALIANZA CORRENTINA PANU-PA"
+            }, 
+            {
+                "candidatos": [
+                    "Valdes, Gustavo Adolfo", 
+                    "Semhan, Mar\u00eda de Las Mercedes", 
+                    "Lanari Zubiaur, Emilio Alberto"
+                ], 
+                "lista": "ENCUENTRO POR CORRIENTES"
+            }, 
+            {
+                "candidatos": [
+                    "Rubin, Carlos Gustavo", 
+                    "Chieno, Maria Elena", 
+                    "Meixner, Jose Ernesto"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }
+        ]
+    }, 
+    "C\u00f3rdoba": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Olivero, Mar\u00eda Liliana", 
+                    "Puddu, \u00c1ngel Hern\u00e1n", 
+                    "Salas, Eduardo Pedro", 
+                    "Parola, Mar\u00eda Patricia", 
+                    "Celli, Leticia", 
+                    "Navarro, Jorge Luis", 
+                    "Peressini, Jorge Ezequiel", 
+                    "Guazzaroni, Erica Mar\u00eda", 
+                    "Frencia, Cintia Mariel"
+                ], 
+                "lista": "ALIANZA FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES"
+            }, 
+            {
+                "candidatos": [
+                    "Martinez Carignano, Ernesto F\u00e9lix", 
+                    "Yawny, Viviana Andrea", 
+                    "Gispert, Walter Oscar", 
+                    "Cabrera Fasolis, Betiana Georgina", 
+                    "Machado, Carlos Fernando", 
+                    "Echevarria, Luciana Gabriela", 
+                    "Giuliani, Juan Carlos", 
+                    "Soardo, Leonor Jorgelina", 
+                    "Dabbene, Jos\u00e9 Mar\u00eda"
+                ], 
+                "lista": "ALIANZA FRENTE PROGRESISTA CIVICO Y SOCIAL"
+            }, 
+            {
+                "candidatos": [
+                    "Schiaretti, Juan", 
+                    "Rossi, Blanca Araceli", 
+                    "Caserio, Carlos Alberto", 
+                    "Llaryora, Mart\u00edn Miguel", 
+                    "Brezzo, Mar\u00eda Eugenia", 
+                    "Bruno, Edgar David", 
+                    "Viola, Mar\u00eda Jos\u00e9", 
+                    "Pascual, Marcelo Rafael"
+                ], 
+                "lista": "ALIANZA UNI\u00d3N POR C\u00d3RDOBA"
+            }, 
+            {
+                "candidatos": [
+                    "Baldassi, H\u00e9ctor Walter", 
+                    "Rodr\u00edguez Machado, Laura Elena", 
+                    "Roulet, N\u00e9stor Eduardo", 
+                    "Pazo, Jorge Daniel", 
+                    "Monassa, Marcela Raquel", 
+                    "Capitani, Dar\u00edo Gustavo", 
+                    "Dellarossa, Pedro Gustavo", 
+                    "Zambrano, Valeria Fernanda", 
+                    "Campra, Guillermo"
+                ], 
+                "lista": "ALIANZA UNI\u00d3N PRO"
+            }, 
+            {
+                "candidatos": [
+                    "Cucui, Roberto Juan", 
+                    "Arrieta, Vilma Guadalupe", 
+                    "Vocos, Jos\u00e9 Ignacio", 
+                    "Mart\u00ednez Villada, Leonor Mar\u00eda", 
+                    "Fern\u00e1ndez, Eduardo Manuel", 
+                    "Mart\u00ednez, Mar\u00eda Isabel", 
+                    "Cepeda, Walter Alejandro", 
+                    "Pineda, Mirta Noem\u00ed", 
+                    "Villagran, Miguel \u00c1ngel"
+                ], 
+                "lista": "COALICI\u00d3N C\u00cdVICA - ARI"
+            }, 
+            {
+                "candidatos": [
+                    "Marcone, Mar\u00eda Rosa", 
+                    "Audero, Lorenzo N\u00e9stor", 
+                    "Scala, Jorge Rafael", 
+                    "Breda, Elva Catalina", 
+                    "Carballo, Pablo Marcos Rafael", 
+                    "Rossi, Antonio Adolfo", 
+                    "Rigalt, Mar\u00eda Cecilia", 
+                    "Rodriguez, Lorenzo", 
+                    "S\u00e1nchez, Ezequiel Gonzalo"
+                ], 
+                "lista": "ENCUENTRO VECINAL C\u00d3RDOBA"
+            }, 
+            {
+                "candidatos": [
+                    "Scotto, Silvia Carolina", 
+                    "Gill, Mart\u00edn Rodrigo", 
+                    "Bernabey, Ram\u00f3n Ernesto", 
+                    "Estevez, Gabriela Beatriz", 
+                    "Pereyra, Juan Manuel Enrique", 
+                    "Guzm\u00e1n, Andr\u00e9s Ernesto", 
+                    "Dal Bo, Sandra Leda", 
+                    "Ern\u00e1ndez, Gabriel Germ\u00e1n", 
+                    "Amante, Marcos Patricio Mois\u00e9s"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Aguad, Oscar Ra\u00fal", 
+                    "Carrizo, Mar\u00eda Soledad", 
+                    "Mestre, Diego Mat\u00edas", 
+                    "Bellocq, Gerardo Alberto", 
+                    "Austin, Brenda Lis", 
+                    "Giraudo, Marco Antonio", 
+                    "Oviedo, Daniel Fernando", 
+                    "Cagnotti, Silvia Margot", 
+                    "Rujinsky, Juan Pablo"
+                ], 
+                "lista": "UNI\u00d3N C\u00cdVICA RADICAL"
+            }, 
+            {
+                "candidatos": [
+                    "Riutort, Olga Elena", 
+                    "Delbono, Daniel Nicol\u00e1s", 
+                    "Arias, Marisa In\u00e9s", 
+                    "Murua, Pablo Ariel Honorato", 
+                    "Mangoldt, Leonardo Gonzalo", 
+                    "Galaico, Vilma Edith", 
+                    "Padilla, Roberto Mat\u00edas", 
+                    "Pereyra, Mauricio Mat\u00edas", 
+                    "Barreda, Mar\u00eda Soledad"
+                ], 
+                "lista": "VECINALISMO INDEPENDIENTE"
+            }
+        ]
+    }, 
+    "Entre R\u00edos": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Schvartzman, Americo", 
+                    "Quirolo, Clara Delicia", 
+                    "Decastelli, Maria Josefina Del Carmen", 
+                    "Simon, Marina", 
+                    "Lopez, Nestor Fabian"
+                ], 
+                "lista": "ALIANZA FRENTE AMPLIO PROGRESISTA"
+            }, 
+            {
+                "candidatos": [
+                    "Lauritto, Jose Eduardo", 
+                    "Gaillard, Ana Carolina", 
+                    "Barreto, Jorge Ruben", 
+                    "Domingez, Maria Fabiana", 
+                    "Gervasoni, Lautaro"
+                ], 
+                "lista": "ALIANZA FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Cremer De Busti, Maria Cristina", 
+                    "Leissa, Luis Ernesto", 
+                    "Etienot De Papini, Josefina Beatriz", 
+                    "Alizegui, Martin Antonio Facundo", 
+                    "Lopez Segura, Eduardo Horacio"
+                ], 
+                "lista": "ALIANZA UNION POR ENTRE RIOS"
+            }, 
+            {
+                "candidatos": [
+                    "Meiners, Luis Guillermo", 
+                    "Zuviria, Veronica Gabriela", 
+                    "Fernandez, Eduardo Pascual", 
+                    "Alvarenga, Silvia Cristina", 
+                    "Juarez, Rafael Antonio"
+                ], 
+                "lista": "NUEVA IZQUIERDA"
+            }, 
+            {
+                "candidatos": [
+                    "D\u00b4Agostino, Jorge Marcelo", 
+                    "Re, Hilma Leonor", 
+                    "Olalla, Stella Maris Elisa", 
+                    "Palazzotti, Nicolas Ezequiel", 
+                    "Romero, Maria Elena"
+                ], 
+                "lista": "UNION CIVICA RADICAL"
+            }
+        ], 
+        "Senado": [
+            {
+                "candidatos": [
+                    "Viale, Lisandro Alfredo", 
+                    "Castillo, Stella Maris"
+                ], 
+                "lista": "ALIANZA FRENTE AMPLIO PROGRESISTA"
+            }, 
+            {
+                "candidatos": [
+                    "Guastavino, Pedro Guillermo Angel", 
+                    "Kunath, Sigrid Elisabeth"
+                ], 
+                "lista": "ALIANZA FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "De Angeli, Alfredo Luis", 
+                    "Sciberras, Maria Teresa (Marithe)", 
+                    "Ruiz Orrico, Juan Enrique"
+                ], 
+                "lista": "ALIANZA UNION POR ENTRE RIOS"
+            }, 
+            {
+                "candidatos": [
+                    "Geist, Gabriel Alfredo", 
+                    "Mathern, Gloria Estela Maria", 
+                    "Romero, Victor Dionisio"
+                ], 
+                "lista": "NUEVA IZQUIERDA"
+            }, 
+            {
+                "candidatos": [
+                    "Benedetti, Atilio Francisco Salvador", 
+                    "Lena, Gabriela Mabel"
+                ], 
+                "lista": "UNION CIVICA RADICAL"
+            }
+        ]
+    }, 
+    "Formosa": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Servin, Carlos Fabian", 
+                    "Coronel, Natalia Soledad"
+                ], 
+                "lista": "DEL OBRERO"
+            }, 
+            {
+                "candidatos": [
+                    "Buryaile, Ricardo", 
+                    "Dure, Lucila Beatriz"
+                ], 
+                "lista": "FRENTE AMPLIO FORMOSE\u00d1O"
+            }, 
+            {
+                "candidatos": [
+                    "Diaz Roig, Juan Carlos", 
+                    "Heinzenreder, Analia Aidee"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }
+        ]
+    }, 
+    "Jujuy": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Vilca, Alejandro Ariel", 
+                    "Mendez Torrez, Victoria", 
+                    "Egues, Silvio Norberto"
+                ], 
+                "lista": "FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES, LISTA:"
+            }, 
+            {
+                "candidatos": [
+                    "Fiad, Mario Raymundo", 
+                    "Burgos, Maria Gabriela", 
+                    "Such, Gustavo Antonio"
+                ], 
+                "lista": "FRENTE JUJE\u00d1O, LISTA:"
+            }, 
+            {
+                "candidatos": [
+                    "Tentor, Hector Olindo", 
+                    "Sadir, Silvina Cristina", 
+                    "Cardozo Traillou, Juan Miguel"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA, LISTA:"
+            }, 
+            {
+                "candidatos": [
+                    "Calsina, Elba Cecilia Isolda", 
+                    "Snopek, Alejandro Francisco", 
+                    "Guzman, Ricardo Guillermo"
+                ], 
+                "lista": "FRENTE PRIMERO JUJUY, LISTA:"
+            }, 
+            {
+                "candidatos": [
+                    "Pubzolu, Dago Alberto Justo", 
+                    "Arce, Maria De Los Angeles", 
+                    "Martinez Brajer, Maria Lorena"
+                ], 
+                "lista": "FRENTE UNION PRO , LISTA:"
+            }, 
+            {
+                "candidatos": [
+                    "Rivero, Betina Amelia", 
+                    "Sanchez, Abel Rene", 
+                    "Ortega, Martha"
+                ], 
+                "lista": "NUEVA IZQUIERDA, LISTA:"
+            }, 
+            {
+                "candidatos": [
+                    "Santillan, Luciana", 
+                    "Arroyo, Gabriela Adriana", 
+                    "Balcarce, Rafael Edmundo"
+                ], 
+                "lista": "POR UN PUEBLO UNIDO, LISTA:"
+            }
+        ]
+    }, 
+    "La Pampa": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Lupardo, Claudia Eugenia", 
+                    "Filippa, Victor Esteban", 
+                    "Pumilla, Juan Salvador"
+                ], 
+                "lista": "DE LOS TRABAJADORES SOCIALISTAS"
+            }, 
+            {
+                "candidatos": [
+                    "Torroba, Francisco", 
+                    "Testa, Patricia", 
+                    "Berhongaray, Martin Antonio"
+                ], 
+                "lista": "FRENTE PAMPEANO CIVICO Y SOCIAL"
+            }, 
+            {
+                "candidatos": [
+                    "Mac Allister, Carlos Javier", 
+                    "Leher, Adriana Beatriz", 
+                    "Maquieyra, Martin"
+                ], 
+                "lista": "FRENTE PROPUESTA FEDERAL"
+            }, 
+            {
+                "candidatos": [
+                    "Costabel, Roberto Federico", 
+                    "Maggio, Daniela Lis", 
+                    "Andrada, Alejandro Ruben"
+                ], 
+                "lista": "HUMANISTA"
+            }, 
+            {
+                "candidatos": [
+                    "Fernandez Mendia, Gustavo Rodolfo", 
+                    "Leduc, Veronica Andrea", 
+                    "Marin, Espartaco"
+                ], 
+                "lista": "JUSTICIALISTA"
+            }, 
+            {
+                "candidatos": [
+                    "Hernandez, Dario Omar", 
+                    "Giraldez, Marisa Tamara", 
+                    "Siage, Diego Mauricio"
+                ], 
+                "lista": "PUEBLO NUEVO"
+            }
+        ]
+    }, 
+    "La Rioja": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Santader, Carlos Alberto", 
+                    "Rippa, Liliana"
+                ], 
+                "lista": "COMPROMISO FEDERAL"
+            }, 
+            {
+                "candidatos": [
+                    "Yoma, Jorge Raul", 
+                    "Diaz Bazan, Judit Marisa"
+                ], 
+                "lista": "FRENTE NUEVO PACTO FE-DERAL"
+            }, 
+            {
+                "candidatos": [
+                    "Madera, Teresita Leonor", 
+                    "Alvarez, Diego Felipe"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Martinez, Julio Cesar", 
+                    "Vega, Maria Clara Del Valle"
+                ], 
+                "lista": "FUERZA CIVICA RIOJANA"
+            }, 
+            {
+                "candidatos": [
+                    "Pavon, Horacio", 
+                    "Goyochea, Ana Carolina Del Carmen"
+                ], 
+                "lista": "IZQUIERDA POR UNA OPCION SOCIALISTA"
+            }
+        ]
+    }, 
+    "Mendoza": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Cassia, Eduardo Daniel", 
+                    "Amaya Blasco, Rosa Aurora", 
+                    "Rasjido, Jose Joaquin", 
+                    "Rumbo, Martin Enrique", 
+                    "Fernandez, Elsa Beatriz"
+                ], 
+                "lista": "COMPROMISO FEDERAL"
+            }, 
+            {
+                "candidatos": [
+                    "Iglesias Gil, Roberto Raul", 
+                    "Juri Flores, Mariana", 
+                    "Fayad Kugener, Victor Manuel Federico", 
+                    "Weintraub Barg, Alejandra Claudia", 
+                    "Innocente, Adolgo Fausto"
+                ], 
+                "lista": "FEDERAL"
+            }, 
+            {
+                "candidatos": [
+                    "Montbrun, Alberto Salomon", 
+                    "Santarelli, Alicia Fanny", 
+                    "Gutierrez, Gustavo Eduardo", 
+                    "Guere\u00f1o, Patricia Del Carmen", 
+                    "Dicalbo, Rita Patricia"
+                ], 
+                "lista": "FRENTE AMPLIO PROGRESISTA - COALICION CIVICA ARI"
+            }, 
+            {
+                "candidatos": [
+                    "Del Ca\u00f1o, Nicolas", 
+                    "Sosa Capurro, Victoria Soledad", 
+                    "Escobar, Alejandro Manuel", 
+                    "Chapochnikoff, Alberto", 
+                    "Defilippi, Carolina Virginia"
+                ], 
+                "lista": "FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES"
+            }, 
+            {
+                "candidatos": [
+                    "Abraham, Alejandro", 
+                    "Chafi, Felix Omar", 
+                    "Musatto, Tatiana Carola", 
+                    "Ejarque, German Miguel", 
+                    "Ronda, Romina Laura"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Cobos, Julio Cesar Cleto", 
+                    "Gimenez, Patricia Viviana", 
+                    "Petri, Luis Alfonso", 
+                    "Cousinet, Graciela", 
+                    "Laferte Sanabria, Jesica Concepcion"
+                ], 
+                "lista": "UNION CIVICA RADICAL"
+            }, 
+            {
+                "candidatos": [
+                    "Rosales, Luis Alberto", 
+                    "Di Filipo, Nora", 
+                    "Aguinaga, Carlos Alfredo", 
+                    "Daract, Maria Victoria", 
+                    "Difonso Puchol, Eduardo Omar"
+                ], 
+                "lista": "UNION PD-PRO"
+            }
+        ]
+    }, 
+    "Misiones": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Rios, Juan Carlos", 
+                    "Lopez Forastier, Carolina", 
+                    "Di Stefano, Daniel"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Ziegler , Alex Roberto", 
+                    "Risko, Silvia Lucrecia", 
+                    "Sevi, Isaac Humberto"
+                ], 
+                "lista": "FRENTE RENOVADOR DE LA CONCORDIA"
+            }, 
+            {
+                "candidatos": [
+                    "Puerta, Federico Ramon", 
+                    "Krogulec, Paola", 
+                    "Schiavoni, Humberto Luis Arturo"
+                ], 
+                "lista": "FRENTE UNIDOS"
+            }, 
+            {
+                "candidatos": [
+                    "Fernandez Flores, Norma Edith", 
+                    "Auzmendi, Elba Noemi", 
+                    "Ferreyra, Mariana Yanina"
+                ], 
+                "lista": "PARTIDO SOCIALISTA"
+            }, 
+            {
+                "candidatos": [
+                    "Pastori, Luis Mario", 
+                    "Husulak, Antonia Irene", 
+                    "Meili, Ricardo Omar"
+                ], 
+                "lista": "UNION CIVICA RADICAL"
+            }
+        ]
+    }, 
+    "Neuqu\u00e9n": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Etcheverry, Ruben", 
+                    "Lopez, Victoria", 
+                    "Yague, Linda Cristina"
+                ], 
+                "lista": "COMPROMISO CIVICO NEUQUINO"
+            }, 
+            {
+                "candidatos": [
+                    "Blanco, Andres \"Chaplin\"", 
+                    "Aibar, Maria Del Valle", 
+                    "Sanchez, Manuel"
+                ], 
+                "lista": "FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES"
+            }, 
+            {
+                "candidatos": [
+                    "Parrilli, Nanci Maria Agustina", 
+                    "Martinez, Norman Dario", 
+                    "Reyes, Gabriel Victoriano"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Barragan, Maria Alejandra", 
+                    "Tiscornia, Luis Manuel", 
+                    "Escobar, Marcela Beatriz"
+                ], 
+                "lista": "FRENTE PROGRESISTA SUR"
+            }, 
+            {
+                "candidatos": [
+                    "Sanchez, Paula", 
+                    "Vidal, Alejandro", 
+                    "Tortora, Daniel"
+                ], 
+                "lista": "MOVIMIENTO LIBRES DEL SUR"
+            }, 
+            {
+                "candidatos": [
+                    "Villar Molina, Maria Ines", 
+                    "San Martin, Adrian", 
+                    "Sapag Aucar, Emiliano Luis"
+                ], 
+                "lista": "MOVIMIENTO POPULAR NEUQUINO"
+            }, 
+            {
+                "candidatos": [
+                    "Baggio, Francisco \"Pancho\"", 
+                    "Andrian, Silvia Susana", 
+                    "Hernandez, Daniel \"Manguerita\""
+                ], 
+                "lista": "UNION DE LOS NEUQUINOS"
+            }, 
+            {
+                "candidatos": [
+                    "Bourdieu, Graciela Beatriz", 
+                    "Huesa, Marta Isabel", 
+                    "Noriega, Ramon Angel"
+                ], 
+                "lista": "UNION POPULAR"
+            }
+        ], 
+        "Senado": [
+            {
+                "candidatos": [
+                    "Inaudi, Marcelo", 
+                    "Rambeaud, Carolina"
+                ], 
+                "lista": "COMPROMISO CIVICO NEUQUINO"
+            }, 
+            {
+                "candidatos": [
+                    "Jure, Patricia", 
+                    "Hormazabal, Natalia"
+                ], 
+                "lista": "FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES"
+            }, 
+            {
+                "candidatos": [
+                    "Fuentes, Marcelo Jorge", 
+                    "Rioseco, Teresa"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Otton Araneda, Priscila Esther", 
+                    "Bello, Jose Adolfo"
+                ], 
+                "lista": "FRENTE PROGRESISTA SUR"
+            }, 
+            {
+                "candidatos": [
+                    "Benitez, Eduardo", 
+                    "Amstein, Varleria"
+                ], 
+                "lista": "MOVIMIENTO LIBRES DEL SUR"
+            }, 
+            {
+                "candidatos": [
+                    "Pereyra, Guillermo Juan", 
+                    "Crexel, Carmen Lucila"
+                ], 
+                "lista": "MOVIMIENTO POPULAR NEUQUINO"
+            }, 
+            {
+                "candidatos": [
+                    "Rosso, Andrea Silvana", 
+                    "Peralta, Angel Miguel"
+                ], 
+                "lista": "UNION DE LOS NEUQUINOS"
+            }, 
+            {
+                "candidatos": [
+                    "Romero, Gabriel Luis \"Tom\"", 
+                    "Esquivel Caliva, Fernanda Gabriela"
+                ], 
+                "lista": "UNION POPULAR"
+            }
+        ]
+    }, 
+    "R\u00edo Negro": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Soria, Maria Emilia", 
+                    "Bardeggia, Luis Maria"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Alvarez, Mario Nestor", 
+                    "Villena, Claudia Ceferina"
+                ], 
+                "lista": "FRENTE PROGRESISTA"
+            }, 
+            {
+                "candidatos": [
+                    "Quintillan, Amalia", 
+                    "Sanchez, Rodolfo Daniel"
+                ], 
+                "lista": "OBRERO"
+            }, 
+            {
+                "candidatos": [
+                    "Lopez Asenia, Yasmin Andrea", 
+                    "Budumir, Marcos Alberto"
+                ], 
+                "lista": "UNION CIVICA RADICAL"
+            }
+        ], 
+        "Senado": [
+            {
+                "candidatos": [
+                    "Pichetto, Miguel Angel", 
+                    "Garcia Larraburu, Silvina Marcela"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Odarda, Maria Magdalena", 
+                    "Rodriguez Duch, Dario Raul"
+                ], 
+                "lista": "FRENTE PROGRESISTA"
+            }, 
+            {
+                "candidatos": [
+                    "Gonzalez Dardik, Norma Alicia", 
+                    "Rivero, Hector Horacio"
+                ], 
+                "lista": "OBRERO"
+            }, 
+            {
+                "candidatos": [
+                    "Saiz, Miguel Angel", 
+                    "Fluriach, Maria De Las Mercedes"
+                ], 
+                "lista": "UNION CIVICA RADICAL"
+            }
+        ]
+    }, 
+    "Salta": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Leavy, Sergio Napoleon", 
+                    "Navarro, Alejandra Beatriz", 
+                    "Justiniano, Jaime"
+                ], 
+                "lista": "DE LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Posadas, Carlos Federico", 
+                    "Carrizo, Sandra Violeta", 
+                    "Gorbal Mitanos, Ruben Orlando"
+                ], 
+                "lista": "FRENTE PLURAL"
+            }, 
+            {
+                "candidatos": [
+                    "Durand Cornejo, Guillermo", 
+                    "Sansone Leavy, Maria Teresita", 
+                    "Montoya, Jorge Nelson"
+                ], 
+                "lista": "FRENTE POPULAR SALTE\u00d1O"
+            }, 
+            {
+                "candidatos": [
+                    "Isa, Evita Nelida", 
+                    "Dantur, Gustavo Bernardo", 
+                    "Marinaro Rodo, Angel Francisco"
+                ], 
+                "lista": "JUSTICIALISTA"
+            }, 
+            {
+                "candidatos": [
+                    "Viel, Pablo Cesar", 
+                    "Corvalan, Norma Beatriz", 
+                    "Aragon, Ramiro"
+                ], 
+                "lista": "MEMORIA Y MOVILIZACION SOCIAL"
+            }, 
+            {
+                "candidatos": [
+                    "Ibarra, Jose Antonio", 
+                    "Fernandez, Rossana Miriam", 
+                    "Ag\u00fcero, Victor Rene"
+                ], 
+                "lista": "MOVIMIENTO INDEPENDIENTE JUSTICIA Y DIGNIDAD"
+            }, 
+            {
+                "candidatos": [
+                    "Gomez, Cecilia", 
+                    "Nieva, Juan Narciso", 
+                    "Santillan, Carlos Humberto"
+                ], 
+                "lista": "MOVIMIENTO SOCIALISTA DE LOS TRABAJADORES"
+            }, 
+            {
+                "candidatos": [
+                    "Lopez, Pablo Sebastian", 
+                    "Martin, Marta Sofia", 
+                    "Duran, Mariano Emanuel"
+                ], 
+                "lista": "OBRERO"
+            }, 
+            {
+                "candidatos": [
+                    "Gramaglia, Roberto Enrique", 
+                    "Ceballos, Fani Azucena", 
+                    "Gauffin, Jose Miguel"
+                ], 
+                "lista": "RENOVADOR DE SALTA"
+            }, 
+            {
+                "candidatos": [
+                    "Singh Kaur, Bibiana Yasbel", 
+                    "Zapata, Carlos Raul", 
+                    "Celeste, Roxana Elizabeth"
+                ], 
+                "lista": "SALTA SOMOS TODOS"
+            }, 
+            {
+                "candidatos": [
+                    "Vargas, Claudia Silvina", 
+                    "Morello, Carlos Fernando", 
+                    "Lopez, Virginia Del Valle"
+                ], 
+                "lista": "UNION POR LA REPUBLICA - FRENTE POR LA JUSTICIA"
+            }
+        ], 
+        "Senado": [
+            {
+                "candidatos": [
+                    "Urtubey, Rodolfo Julio", 
+                    "Fiore Vi\u00f1uales, Maria Cristina Del Valle"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Romero, Juan Carlos", 
+                    "Escudero, Sonia Margarita"
+                ], 
+                "lista": "FRENTE POPULAR SALTE\u00d1O"
+            }, 
+            {
+                "candidatos": [
+                    "Zacarias, Rodolfo Miguel", 
+                    "Diaz, Monica Silvana"
+                ], 
+                "lista": "MOVIMIENTO SOCIALISTA DE LOS TRABAJADORES"
+            }, 
+            {
+                "candidatos": [
+                    "Foffani, Cristina Ines", 
+                    "Torres, Pastor Ruben"
+                ], 
+                "lista": "OBRERO"
+            }, 
+            {
+                "candidatos": [
+                    "Costas Zottos, Miguel Andres", 
+                    "Gallo Barrantes, Maria Teresa"
+                ], 
+                "lista": "RENOVADOR DE SALTA"
+            }, 
+            {
+                "candidatos": [
+                    "Olmedo, Alfredo Horacio", 
+                    "Riquelme, Teodora Ramona"
+                ], 
+                "lista": "SALTA SOMOS TODOS"
+            }, 
+            {
+                "candidatos": [
+                    "Biella Calvet, Bernardo Jose", 
+                    "Cornejo, Virginia Maria"
+                ], 
+                "lista": "UNION POR LA REPUBLICA - FRENTE POR LA JUSTICIA"
+            }
+        ]
+    }, 
+    "San Juan": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Caceres Gimenez, Eduardo Augusto", 
+                    "Martinazzo Ferrer, Maria Gimena", 
+                    "Salinas Perez, Angel Eduardo"
+                ], 
+                "lista": "ALIANZA COMPROMISO FEDERAL"
+            }, 
+            {
+                "candidatos": [
+                    "Ag\u00fcero, Alberto Ignacio", 
+                    "Garrido, Maria Margarita", 
+                    "Valle, Vanesa Analia"
+                ], 
+                "lista": "ALIANZA FRENTE DEL PUEBLO"
+            }, 
+            {
+                "candidatos": [
+                    "Avelin, Nancy Barbarita", 
+                    "Arancibia, Marcelo Alberto", 
+                    "Villanova, Gerardo Alejandro"
+                ], 
+                "lista": "CRUZADA RENOVADORA"
+            }, 
+            {
+                "candidatos": [
+                    "Sanchez, Alberto Manuel", 
+                    "Pontoriero , Martha Sandra", 
+                    "Marun Sanchez, Ricardo Javier"
+                ], 
+                "lista": "DIGNIDAD CIUDADANA"
+            }, 
+            {
+                "candidatos": [
+                    "Tomas, Hector Daniel", 
+                    "Ferra, Margarita", 
+                    "Chanampa, Andres Horacio"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Cimino, Gloria Graciela", 
+                    "Avila, Jorge Anselmo", 
+                    "Flores , Angelica Josefina"
+                ], 
+                "lista": "IZQUIERDA POR UNA OPCION SOCIALISTA"
+            }, 
+            {
+                "candidatos": [
+                    "Dominguez, Hugo Javier", 
+                    "Aracena Ruzycki, Marina", 
+                    "Estevez Gil, Raul Antonio"
+                ], 
+                "lista": "UNION CIVICA RADICAL"
+            }
+        ]
+    }, 
+    "San Luis": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Arenas, Berta Hortensia", 
+                    "Salino, Fernando Aldo", 
+                    "Lusqui\u00f1os, Luis Bernardo"
+                ], 
+                "lista": "COMPROMISO FEDERAL"
+            }, 
+            {
+                "candidatos": [
+                    "Barbeito, Juan Cristobal", 
+                    "Perez, Nilda Beatriz Garcia", 
+                    "Bernardis, Raul Edi"
+                ], 
+                "lista": "DEMOCRATA INDEPENDIENTE"
+            }, 
+            {
+                "candidatos": [
+                    "Ni\u00f1o Piguillem, Cristian Pablo Marcelo", 
+                    "Ojeda, Maria Eva", 
+                    "Temoli, Gaston Enrique"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Riccardo, Jose Luis", 
+                    "Tadey, Silvia Isabel", 
+                    "Gerbesi, Graciela Mabel"
+                ], 
+                "lista": "FRENTE PROGRESISTA, CIVICO Y SOCIAL"
+            }
+        ]
+    }, 
+    "Santa Cruz": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "G\u00f3mez Bull, Mauricio Ricardo", 
+                    "Urricelqui, Ana Mar\u00eda", 
+                    "Belloni, H\u00e9ctor Javier"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Beroiza, Argentina Nieves", 
+                    "Batarev, Juan Carlos", 
+                    "Victoria, Alejandro Guillermo"
+                ], 
+                "lista": "JUSTICIALISTA"
+            }, 
+            {
+                "candidatos": [
+                    "Poliak, Emilio Alejandro", 
+                    "Ra\u00f1il, Celia Isabel", 
+                    "Rotman, Silvio Gabriel"
+                ], 
+                "lista": "MOVIMIENTO SOCIALISTA DE LOS TRABAJADORES"
+            }, 
+            {
+                "candidatos": [
+                    "Latini, Omar Daniel", 
+                    "Ramos, Elida Liliana", 
+                    "Valentin, Juan Manuel"
+                ], 
+                "lista": "OBRERO"
+            }, 
+            {
+                "candidatos": [
+                    "Costa, Eduardo Ra\u00fal", 
+                    "Toledo, Susana Mar\u00eda", 
+                    "G\u00f3mez, Adela Margarita"
+                ], 
+                "lista": "UNION PARA VIVIR MEJOR"
+            }
+        ]
+    }, 
+    "Santa Fe": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Crivaro, Octavio", 
+                    "Remondino, Maria Silvia", 
+                    "Sancevich, Sebastian", 
+                    "Rodriguez, Cecilia", 
+                    "Blanco, Carlos", 
+                    "Hernandez, Oscar", 
+                    "Bernasconi, Mariana", 
+                    "Vallejo, Pablo", 
+                    "Bernasconi, Juan Carlos"
+                ], 
+                "lista": "FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES"
+            }, 
+            {
+                "candidatos": [
+                    "Obeid, Jorge Alberto", 
+                    "Gonzalez, Josefina Victoria", 
+                    "Seminara, Eduardo Jorge", 
+                    "Luciani, Romina Lelis", 
+                    "Paulon, Victorio Dante", 
+                    "Zorzon, Amado Abel", 
+                    "Freyre, Jose Luis", 
+                    "Barrappa, Evangelina", 
+                    "Barbini, Cristian Hector"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Binner, Hermes", 
+                    "Barletta, Mario Domingo", 
+                    "Ciciliani, Alicia Mabel", 
+                    "Javkin, Pablo Lautaro", 
+                    "Copes, Ana Isabel", 
+                    "Gregoret, Hector Delfino", 
+                    "Hynes, Erica Rut", 
+                    "Monta\u00f1o, Noelia Paulina", 
+                    "Sosa, Gabriela Adelina"
+                ], 
+                "lista": "FRENTE PROGRESISTA CIVICO Y SOCIAL"
+            }, 
+            {
+                "candidatos": [
+                    "Parlante, Alejandro Mariano", 
+                    "Meier, Mercedes", 
+                    "Molinas, Luis Oscar", 
+                    "Sosa, Mar\u00eda Jimena", 
+                    "Silvetti, Sandra Emilce", 
+                    "Rosas, Adolfo Noeberto", 
+                    "Peralta, Claudia Myriam", 
+                    "Corizzo, Javier Facundo", 
+                    "Rios, Maria Ines"
+                ], 
+                "lista": "NUEVA IZQUIERDA"
+            }, 
+            {
+                "candidatos": [
+                    "Carignano, Raul Eduardo", 
+                    "Maiorana, Sandra Beatriz", 
+                    "Aeberhard, Marcela Leonor", 
+                    "Porcelli, Veronica Cristina De Baro Graf", 
+                    "Huser, Cristian Marcelo", 
+                    "Martinez, Natalia Veronica", 
+                    "Piaggo, Maria Candela", 
+                    "Kahlow, German Alcides Osvaldo", 
+                    "Vega, Bernardo Dario"
+                ], 
+                "lista": "SANTAFESINO CIEN POR CIENTO"
+            }, 
+            {
+                "candidatos": [
+                    "Torres Del Sel, Miguel Ignacio", 
+                    "Scaglia, Gisela", 
+                    "Spinozzi, Ricardo Adrian", 
+                    "Laspina, Luciano Andres", 
+                    "Bouza, Agustina", 
+                    "Colotti, Gerardo Daniel", 
+                    "Pe\u00f1alva, Carlos Ariel", 
+                    "Luchesi, Susana Elsa", 
+                    "Nu\u00f1ez, Jose Carlos"
+                ], 
+                "lista": "UNION PRO SANTA FE FEDERAL"
+            }, 
+            {
+                "candidatos": [
+                    "Bonacci, Jose Alejandro", 
+                    "Dwonikoski, Fani Luciana", 
+                    "Kiryluk, Carlos Basilio", 
+                    "Brouwer, Beatriz Ana", 
+                    "Mosqueda, Paulo Abel Ramon", 
+                    "Vallejo, Nanci Graciela", 
+                    "Martinez, Mario Antonio", 
+                    "Mendoza, Oscar Nazareno", 
+                    "Scarafia, Beatriz Amelia"
+                ], 
+                "lista": "UNITE CON FE POR LA CULTURA EDUCACION Y TRABAJO"
+            }
+        ]
+    }, 
+    "Santiago del Estero": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Brue, Pedro Antonio", 
+                    "Vizcarra, Emilia Del Carmen", 
+                    "Ledesma, Carlos Alberto"
+                ], 
+                "lista": "FE"
+            }, 
+            {
+                "candidatos": [
+                    "Oliva, Cristian Rodolfo", 
+                    "Abdala, Norma Amanda", 
+                    "Juarez, Manuel Humberto"
+                ], 
+                "lista": "FRENTE CIVICO POR SANTIAGO"
+            }, 
+            {
+                "candidatos": [
+                    "Nazar, Marcelo Antonino", 
+                    "Ortiz, Gabriela Alejandra", 
+                    "Baracat, Juan Manuel"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Griggio, Paola Anabel", 
+                    "Novara, Guillermo Antonio", 
+                    "Corbalan, Ricardo Luis"
+                ], 
+                "lista": "FRENTE PROGRESISTA CIVICO Y SOCIAL"
+            }, 
+            {
+                "candidatos": [
+                    "Favoretti, Anisa Edith", 
+                    "Guzman Moyano, Mario Orlando", 
+                    "Padilla Ramirez, Soledad Analia"
+                ], 
+                "lista": "IZQUIERDA POR UNA OPCION SOCIALISTA"
+            }
+        ], 
+        "Senado": [
+            {
+                "candidatos": [
+                    "Calabrese, Antonio", 
+                    "Britos, Patricia Griselda"
+                ], 
+                "lista": "FE"
+            }, 
+            {
+                "candidatos": [
+                    "Brue, Daniel Agustin", 
+                    "Iturrez, Ada Rosa Del Valle"
+                ], 
+                "lista": "FRENTE CIVICO POR SANTIAGO"
+            }, 
+            {
+                "candidatos": [
+                    "Ruiz, Hector Eduardo \"Chabay\"", 
+                    "Corradi, Ana Maria"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Montenegro, Gerardo Antenor", 
+                    "Fuentes, Norma Isabel"
+                ], 
+                "lista": "FRENTE POPULAR"
+            }, 
+            {
+                "candidatos": [
+                    "Rached, Emilio Alberto", 
+                    "Neme, Natalia Gabriela"
+                ], 
+                "lista": "FRENTE PROGRESISTA CIVICO Y SOCIAL"
+            }, 
+            {
+                "candidatos": [
+                    "Basualdo, Nicolas Alfonso", 
+                    "Bravo, Natalia Elizabeth"
+                ], 
+                "lista": "IZQUIERDA POR UNA OPCION SOCIALISTA"
+            }
+        ]
+    }, 
+    "Tierra del Fuego": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Chaves, Hector Horacio", 
+                    "Pardo, Norma Itamar"
+                ], 
+                "lista": "ESPACIO DEMOCRATICO PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "P\u00e9rez, Martin Alejandro", 
+                    "Cuello, Daniela"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Torres Saitz, Juan Antonio", 
+                    "\u00c1lvarez, Maria Luz"
+                ], 
+                "lista": "GEN"
+            }, 
+            {
+                "candidatos": [
+                    "Garc\u00eda, Pablo Miguel", 
+                    "Arrueta, Graciela Noemi"
+                ], 
+                "lista": "JUSTICIALISTA"
+            }, 
+            {
+                "candidatos": [
+                    "L\u00f6fler, Juan Matias", 
+                    "Bertotto Collazo, Gissel"
+                ], 
+                "lista": "MOVIMIENTO POPULAR FUEGUINO"
+            }, 
+            {
+                "candidatos": [
+                    "Martinez, Oscar Anselmo", 
+                    "Ceballos, Maria Ofelia Carolina"
+                ], 
+                "lista": "MOVIMIENTO SOLIDARIO POPULAR"
+            }, 
+            {
+                "candidatos": [
+                    "Welsch De Bairos, Edgardo", 
+                    "Navas, Maria Elena"
+                ], 
+                "lista": "POPULAR"
+            }, 
+            {
+                "candidatos": [
+                    "Da Fonseca, Angel Javier", 
+                    "Mallemaci, Natalia"
+                ], 
+                "lista": "UNION CIVICA RADICAL"
+            }, 
+            {
+                "candidatos": [
+                    "Ferreyra, Mario Felix", 
+                    "Biott, Ana Claudia"
+                ], 
+                "lista": "UNION FEDERAL"
+            }
+        ], 
+        "Senado": [
+            {
+                "candidatos": [
+                    "L\u00f3pez, Osvaldo Ramon", 
+                    "Ciar, Noemi Concepcion"
+                ], 
+                "lista": "ESPACIO DEMOCRATICO PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Bertone, Rosana Andrea", 
+                    "Catal\u00e1n Magni, Julio Cesar"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Manfredotti Lanzares, Patricia", 
+                    "Mart\u00ednez, Esteban \"Chiquito\""
+                ], 
+                "lista": "JUSTICIALISTA"
+            }, 
+            {
+                "candidatos": [
+                    "Garramu\u00f1o, Jorge Alberto", 
+                    "Boyadjian, Miriam Ruth"
+                ], 
+                "lista": "MOVIMIENTO POPULAR FUEGUINO"
+            }, 
+            {
+                "candidatos": [
+                    "Colazo, Mario Jorge", 
+                    "Cainero, Andrea Soledad"
+                ], 
+                "lista": "POPULAR"
+            }, 
+            {
+                "candidatos": [
+                    "Mart\u00edn, Jose Maria", 
+                    "Godoy, Silvia Gladis"
+                ], 
+                "lista": "UNION CIVICA RADICAL"
+            }, 
+            {
+                "candidatos": [
+                    "Fadul Mora, Liliana", 
+                    "Vargas, Guillermo Andres"
+                ], 
+                "lista": "UNION FEDERAL"
+            }
+        ]
+    }, 
+    "Tucum\u00e1n": {
+        "Diputados": [
+            {
+                "candidatos": [
+                    "Parajon, Gumersindo Manuel", 
+                    "Alberstein, Clarisa", 
+                    "Ruiz, Vicente Salvador", 
+                    "Di Cola, Estela Haydee"
+                ], 
+                "lista": "ALIANZA ALTERNATIVA POPULAR"
+            }, 
+            {
+                "candidatos": [
+                    "Cano, Jose Manuel", 
+                    "Elias De Perez, Silvia Beatriz", 
+                    "Casa\u00f1as, Juan Francisco", 
+                    "Masso, Federico Augusto"
+                ], 
+                "lista": "FRENTE ACUERDO CIVICO Y SOCIAL"
+            }, 
+            {
+                "candidatos": [
+                    "Blanco, Daniel Nelson", 
+                    "Zorzoli, Maria Azul", 
+                    "Correa Tejerizo, Jose Martin", 
+                    "Veliz, Juan Luis"
+                ], 
+                "lista": "FRENTE DE IZQUIERDA Y DE LOS TRABAJADORES"
+            }, 
+            {
+                "candidatos": [
+                    "Manzur, Juan Luis", 
+                    "Jaldo, Osvaldo Francisco", 
+                    "Carrizo, Nilda Mabel", 
+                    "Del Valle Gallardo, Miriam Graciela"
+                ], 
+                "lista": "FRENTE PARA LA VICTORIA"
+            }, 
+            {
+                "candidatos": [
+                    "Bussi, Ricardo Argentino", 
+                    "Vi\u00f1a, Claudio Daniel", 
+                    "Lucena, Susana Guillermina", 
+                    "Robles, Mercedes Dora"
+                ], 
+                "lista": "FUERZA REPUBLICANA"
+            }, 
+            {
+                "candidatos": [
+                    "Garcia Hamilton, Bernardo", 
+                    "Bianco, Dora Isabel", 
+                    "Jerez, Esteban Eduardo", 
+                    "Arias, V\u00edctor Hugo"
+                ], 
+                "lista": "LABORISTA DE LA INDEPENDENCIA"
+            }, 
+            {
+                "candidatos": [
+                    "Colombres Garmendia, Alberto", 
+                    "Costa, Maria Laura", 
+                    "Bleckwedel, Pablo", 
+                    "Diosquez Dupuy, Miguel Angel"
+                ], 
+                "lista": "PRO PROPUESTA REPUBLICANA"
+            }
+        ]
+    }
+}
