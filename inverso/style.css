@@ -189,6 +189,9 @@ select {
 	outline: none; /* remove focus ring from Webkit */
 }
 
+#projects li {
+	margin: 32px 0;
+}
 #projects li ul {
 	list-style: none;
 	padding: 0;
@@ -203,7 +206,7 @@ span.afirmativo, span.negativo, span.abstencion, span.ausente {
 	margin: 1px 8px;
 	display: inline-block;
 	text-align: center;
-	width: 72px;
+	width: 80px;
 	border: black 1pt solid;
 }
 span.afirmativo {
@@ -215,8 +218,8 @@ span.negativo {
 	border-color: rgb(189, 54, 47);
 }
 span.abstencion {
-	color: #f90 
-	border-color: #f90 
+	color: #f90;
+	border-color: #f90;
 }
 span.ausente {
 	color: #999;
