@@ -3,24 +3,30 @@ elegilegi
 
 Un juego elegir legisladores que votan como vos.
 
-Créditos
---------
-
-Esta aplicación fue desarrollada originalmente para la [Hackathon de Datos Públicos](http://garagelab.tumblr.com/post/1651627498/2dahackathondedatospublicosgubernamentales) de [@garagelab](https://twitter.com/garagelab) en diciembre de 2010 por [@scoffey](https://twitter.com/scoffey), [@maraoz](https://twitter.com/maraoz), [@martint](https://twitter.com/martint), [@k0001](https://twitter.com/k0001), [@demenece](https://twitter.com/demenece) y otros colaboradores.
-
-En mayo de 2013, a raíz del interés de [@CongresoInterac](https://twitter.com/) y el contacto de [@martinszy](https://twitter.com/martinszy), el proyecto fue retomado por [@scoffey](https://twitter.com/scoffey) para ser reimplementado, ahora con los [datos de votaciones nominales](https://www.google.com/fusiontables/DataSource?docid=10UMOJ_ntHgZsy3EJYfoGEHEHGBahhKUuO0_e_BI) compilados por [@andy_tow](https://twitter.com/andy_tow). La selección de proyectos de ley fue facilitada por [@DireLegislativo](https://twitter.com/DireLegislativo).
-
-La versión de la Legislatura de la Ciudad Autónoma de Buenos Aires contó con la colaboración de [@agustinfrizzera](https://twitter.com/agustinfrizzera) y [@gvilarino](https://twitter.com/gvilarino).
-
 El código fuente es abierto y se encuentra disponible en [github.com/scoffey/elegilegi](https://github.com/scoffey/elegilegi/). Los datos son de dominio público.
 
 Esta aplicación no registra tus votos ni almacena información personal. Sólo usa Google Analytics para medición de tráfico.
 
-Fotos
------
+Créditos
+--------
 
-  * [Palacio del Honorable Congreso de la Nación](http://www.flickr.com/photos/crystyna/2108707325/). (c) 2007 Cristina Bruseghini.
-  * [Palacio de la Legislatura de la Ciudad de Buenos Aires](http://www.flickr.com/photos/canadianaeh/5632984516/). CC BY-NC-SA 2011 Adrienne Michetti.
+Idea original y desarrollo: [@scoffey](https://twitter.com/scoffey)
+
+Liberación de datos: [@andy_tow](https://twitter.com/andy_tow)
+
+Colaboradores:
+
+  * [@garagelab](https://twitter.com/garagelab) por la incubación del proyecto.
+  * [@maraoz](https://twitter.com/maraoz), [@martint](https://twitter.com/martint), [@k0001](https://twitter.com/k0001), [@demenece](https://twitter.com/demenece) y otros colaboradores por el prototipo de elegilegi desarrollado durante la [Hackathon de Datos Públicos](http://garagelab.tumblr.com/post/1651627498/2dahackathondedatospublicosgubernamentales) de diciembre de 2010.
+  * [@martinszy](https://twitter.com/martinszy) y equipo de [@CongresoInterac](https://twitter.com/) por prensa y difusión y CSS para dispositivos móviles.
+  * [@DireLegislativo](https://twitter.com/DireLegislativo) por la selección de proyectos de ley del Congreso de la Nación.
+  * [@manuelaristaran](https://twitter.com/manuelaristaran) por el registro del dominio elegilegi.org.
+  * [@agustinfrizzera](https://twitter.com/agustinfrizzera) y [@gvilarino](https://twitter.com/gvilarino) por la selección de proyectos de ley de la Legislatura de la Ciudad Autónoma de Buenos Aires.
+  * Cristina Bruseghini por la foto del [Palacio del Honorable Congreso de la Nación](http://www.flickr.com/photos/crystyna/2108707325/). (c) 2007 Cristina Bruseghini (cortesía).
+  * Adrienne Michetti por la foto del [Palacio de la Legislatura de la Ciudad de Buenos Aires](http://www.flickr.com/photos/canadianaeh/5632984516/). CC BY-NC-SA 2011 Adrienne Michetti.
+  * Joaquín Salvador "Quino" Lavado por las tiras de Mafalda. (c) Quino (cortesía).
+  * Todos los usuarios que compartieron su feedback, apoyo y críticas por ayudar a mejorar el producto.
+  * Todos los usuarios que compartieron el link por ayudar a difundir elegilegi.
 
 En los medios
 -------------
@@ -55,6 +61,3 @@ Copyright
 Copyright (c) 2013 Santiago Coffey <scoffey@itba.edu.ar>
 
 This software is provided under the MIT license. See: LICENSE.txt
-
-Note: Data is in the public domain.
-
