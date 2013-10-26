@@ -99,12 +99,20 @@ a:hover {
 #intro li:nth-child(3n) {
 	background: url(../media/1.png) top center no-repeat;
 }
-#voting, #about, #intro, #results {
+#voting, #about, #intro, #mapview, #results {
 	background-color: rgba(255, 255, 255, 0.8);
 	padding: 40px;
 }
 #about {
 	background-color: rgba(200, 220, 255, 0.8);
+}
+#map {
+	width: 400px;
+	height: 600px;
+	margin: 0 auto;
+}
+#map path:hover {
+	fill: #06f;
 }
 #voting {
 	padding: 40px 80px;
@@ -135,14 +143,6 @@ a:hover {
 }
 .list ol li {
 	text-align: left;
-	/*
-	margin: 0;
-	padding: 0;
-	width: 140px;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	overflow: hidden;
-	*/
 }
 
 .shady {
@@ -194,13 +194,10 @@ select {
 	padding: 0;
 	margin: 0;
 }
-#projects li ul li {
-	padding: 1px;
-}
 span.afirmativo, span.negativo, span.abstencion, span.ausente {
 	font-size: 8pt;
 	padding: 1px;
-	margin: 1px 8px;
+	margin: 0 8px 4px 8px;
 	display: inline-block;
 	text-align: center;
 	width: 80px;
@@ -279,6 +276,10 @@ span.ausente {
 		word-break:break-all;
 	}
 
+	#intro img {
+		display: none;
+	}
+
 	#about,
 	#results,
 	#voting {
@@ -305,7 +306,9 @@ span.ausente {
 		width: 100%;
 	}
 
-
+	#intro img {
+		display: none;
+	}
 
 	#intro li {
 		width: 85%;

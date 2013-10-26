@@ -44,27 +44,39 @@ function reset() {
 	votes = {};
 	$('#intro').css('display', 'block');
 	$('#about').css('display', 'none');
+	$('#mapview').css('display', 'none');
 	$('#voting').css('display', 'none');
 	$('#results').css('display', 'none');
-
-	$('#district').val('');
-	$('#lists').empty();
+	$('#district').text('');
+	$('#house').text('');
 }
 
-function saveResults(items) {
-	$.each(items, function (i, li) {
-		var id = slugify($(li).text());
-		if (representatives[id]) {
-			results[id] = representatives[id];
-		}
+function start() {
+	$('#intro').fadeOut(200, function () {
+		$('#mapview').fadeIn(100);
 	});
 }
 
-function showLists(district, house, callback) {
-	var selectedLists = lists[district][house];
-	if (!selectedLists) {
-		showResults();
-	}
+function onSelectDistrict(e) {
+	var district = $(e.target).attr('id');
+	$('#mapview').fadeOut(200, function () {
+		$('#district').text(district);
+		$('#house').text('Diputados Nacionales');
+		showCandidateLists();
+		$('#voting').fadeIn(100);
+	});
+}
+
+function getHouse() {
+	var house = $('#house').text();
+	if (!house) return null;
+	return (house.indexOf('Diputados') == 0 ? 'Diputados' : 'Senado');
+}
+
+function showCandidateLists() {
+	var district = $('#district').text();
+	var selectedLists = lists[district][getHouse()];
+	if (!selectedLists) return false;
 	var root = $('#lists');
 	root.empty();
 	for (var i = 0; i < selectedLists.length; i++) {
@@ -77,50 +89,43 @@ function showLists(district, house, callback) {
 			ol.append(li);
 		}
 		var li = $(document.createElement('li'));
-		li.append(p).append(ol).addClass('list').click(callback);
+		li.append(p).append(ol).addClass('list');
+		li.click(onSelectCandidateList);
 		root.append(li);
 	}
+	return true;
 }
 
-function showHouseLists(e) {
-	var d = $('#district').val();
-	if (!d) return;
-	$('#selected-district').text(d);
-	$('#intro').fadeOut(200, function () {
-		$('#selected-house').text('Diputados Nacionales');
-		showLists(d, 'Diputados', showSenateLists);
-		$('#voting').fadeIn(100);
-	});
-}
-
-function showSenateLists(e) {
-	if (!e) showResults();
+function onSelectCandidateList(e) {
 	var items = $(e.delegateTarget).find('li');
-	saveResults(items);
+	$.each(items, function (i, li) {
+		var id = slugify($(li).text());
+		if (representatives[id]) {
+			results[id] = representatives[id];
+		}
+	});
 	$('#voting').fadeOut(200, function () {
-		$('#selected-house').text('Senadores Nacionales');
-		showLists($('#district').val(), 'Senado', showResults);
-		$('#voting').fadeIn(100);
+		if (getHouse() != 'Senado') {
+			$('#house').text('Senadores Nacionales');
+			showCandidateLists();
+			$('#voting').fadeIn(100);
+		} else {
+			showResults();
+			$('#results').fadeIn(100);
+		}
 	});
 }
 
-function showResults(e) {
-	if (e) {
-		var items = $(e.delegateTarget).find('li');
-		saveResults(items);
+function showResults() {
+	$('#projects').empty();
+	var n = 0;
+	for (var i = 0; i < projects.length; i++) {
+		var p = projectData[projects[i]];
+		n += (printProjectResult(p) ? 1 : 0);
 	}
-	$('#voting').stop(true);
-	$('#voting').fadeOut(200, function () {
-		$('#projects').empty();
-		var n = 0;
-		for (var i = 0; i < projects.length; i++) {
-			var p = projectData[projects[i]];
-			n += (printProjectResult(p) ? 1 : 0);
-		}
-		$(n ? '#available-notice' : '#not-available-notice').show();
-		$(n ? '#not-available-notice' : '#available-notice').hide();
-		$('#results').fadeIn(100);
-	});
+	$(n ? '#available-notice' : '#not-available-notice').show();
+	$(n ? '#not-available-notice' : '#available-notice').hide();
+	return (n ? true : false);
 }
 
 function printProjectResult(project) {
@@ -196,7 +201,7 @@ $(document).ready(function () {
 
 	$.getJSON('listas.json', function (data) {
 		lists = data;
-		$('#start').click(showHouseLists);
+		$('#start').click(start);
 	});
 
 	$('.facebook').click(shareOnFacebook);
@@ -205,6 +210,7 @@ $(document).ready(function () {
 
 	$('#info').click(function () { $('#about').slideToggle(500); });
 	$('#back').click(function () { $('#about').slideToggle(500); });
+	$('#map path').click(onSelectDistrict);
 	$('#reset').click(reset);
 	reset();
 });
