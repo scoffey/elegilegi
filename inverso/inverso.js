@@ -107,8 +107,13 @@ function onSelectCandidateList(e) {
 	$('#voting').fadeOut(200, function () {
 		if (getHouse() != 'Senado') {
 			$('#house').text('Senadores Nacionales');
-			showCandidateLists();
-			$('#voting').fadeIn(100);
+			var hasSenateElection = showCandidateLists();
+			if (hasSenateElection) {
+				$('#voting').fadeIn(100);
+			} else {
+				showResults();
+				$('#results').fadeIn(100);
+			}
 		} else {
 			showResults();
 			$('#results').fadeIn(100);
