@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>elegilegi</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+<body>
+<div>
+<h1>elegilegi</h1>
+<p><a href="/">elegilegi</a> / <a href="/proyectos">proyectos</a></p>
+<p>
+	<select id="camara">
+		<option value="Diputados">Diputados</option>
+		<option value="Senadores">Senadores</option>
+	</select>
+	<select id="periodo">
+		<option value="2013">2013</option>
+		<option value="2012">2012</option>
+		<option value="2011">2011</option>
+		<option value="2010">2010</option>
+		<option value="2009">2009</option>
+		<option value="2008">2008</option>
+		<option value="2007">2007</option>
+	</select>
+	<select id="tipo">
+		<option value="">(Cualquier tipo de proyecto)</option>
+		<option value="ley">Proyectos de ley</option>
+		<option value="declaracion">Proyectos de declaraci&oacute;n</option>
+		<option value="resolucion">Proyectos de resoluci&oacute;n</option>
+	</select>
+</p>
+<ul id="proyectos"></ul>
+</div>
+<script>
+$(document).ready(function () {
+	$.getJSON('/data/proyectos/index-2013-hcdn.json', function (data) {
+		var ids = [];
+		for (var i in data) ids.push(i);
+		ids.sort();
+		var items = [];
+		for (var i = 0; i < ids.length; i++) {
+			var id = ids[i];
+			var p = data[id];
+			var li = document.createElement('li');
+			var anchor = document.createElement('a');
+			var br = document.createElement('br');
+			var span = document.createElement('span');
+			$(anchor).attr('href', '/proyectos/' + id)
+				.text(p.nombre);
+			$(span).text(p.sumario);
+			$(li).append(anchor).append(br).append(span);
+			items.push(li);
+		}
+		$('#proyectos').append(items);
+	});
+});
+</script>
+</body>
+</html>

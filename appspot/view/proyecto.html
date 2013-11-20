@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+ <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# elegilegi: http://ogp.me/ns/fb/elegilegi#">
+  <title>elegilegi</title>
+  <meta property="fb:app_id" content="181581748697602" /> 
+  <meta property="og:type" content="elegilegi:bill" /> 
+  <meta property="og:url" content="https://elegilegi.appspot.com/proyectos/{{id}}" /> 
+  <meta property="og:title" content="{{nombre}}" /> 
+  <meta property="og:description" content="{{description}}" /> 
+  <meta property="og:image" content="https://fbstatic-a.akamaihd.net/images/devsite/attachment_blank.png" /> 
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+<body>
+<div>
+  <p><a href="/">elegilegi</a> / <a href="/proyectos">proyectos</a> / <a href="{{id}}">{{id}}</a></p>
+  <p>Proyecto {{tipo}} {{id}}</p>
+  <h1>{{nombre}}</h1>
+  <p>{{sumario}}</p>
+  <p><a href="{{url}}">Texto completo</a></p>
+  <p>Fecha: {{fecha}}</p>
+  <p>Tr&aacute;mite parlamentario: {{tramite}}</p>
+  <p>
+	<span>Firmantes:</span>
+	<ul>
+		{% for firmante in firmantes %}
+			<li><a href="../diputados/{{firmante|slugify}}">{{firmante}}</a></li>
+		{% endfor %}
+	</ul>
+  </p>
+  <p>
+	<span>Comisiones:</span>
+	<ul>
+		{% for comision in comisiones %}
+			<li><a href="../comisiones/{{comision|slugify}}">{{comision}}</a></li>
+		{% endfor %}
+	</ul>
+  </p>
+</div>
+<p>
+  <a id="support" href="javascript:void(0);">Apoyo</a>
+  <a id="oppose" href="javascript:void(0);">Me opongo</a>
+</p>
+<script>
+function getCookie(key) {
+	var m = document.cookie.match('(?:^|;\\s*)'+ key +'=(.*?)(?:;|$)');
+	return (m ? decodeURIComponent(m[1]) : null);
+}
+function getOnClickHandler(action) {
+	return function (evnt) {
+		var url = [location.protocol, '//', location.host,
+				location.pathname].join('');
+		var payload = {
+			'access_token': getCookie('fb_oauth_token'),
+			'method': 'POST',
+			'bill': url
+		};
+		var endpoint = 'https://graph.facebook.com/me/elegilegi:'
+			+ action;
+		$.getJSON(endpoint, payload, function (data) {
+			console.log(data);
+		});
+	};
+}
+$(document).ready(function () {
+	$('#support').click(getOnClickHandler('support'));
+	$('#oppose').click(getOnClickHandler('oppose'));
+});
+</script>
+</body>
+</html>

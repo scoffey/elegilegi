@@ -1,0 +1,38 @@
+handlers:
+
+- url: /favicon\.ico
+  static_files: static/img/favicon.ico
+  upload: static/img/favicon\.ico
+
+- url: /img
+  static_dir: static/img
+
+- url: /js
+  static_dir: static/js
+
+- url: /css
+  static_dir: static/css
+
+- url: /data
+  static_dir: static/data
+  application_readable: true
+
+- url: /
+  script: controller.main.app
+
+- url: /proyectos/?.*
+  script: controller.proyectos.app
+
+- url: /diputados/?.*
+  script: controller.diputados.app
+
+- url: /senadores/?.*
+  script: controller.senadores.app
+
+- url: /votaciones/?.*
+  script: controller.votaciones.app
+
+- url: .*
+  static_files: static/html/404.html
+  upload: static/html/404\.html
+

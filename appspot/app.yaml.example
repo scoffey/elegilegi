@@ -1,0 +1,24 @@
+application: elegilegi
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+skip_files:
+- ^(.*/)?\..*
+- ^(.*/)?.*~
+- ^(.*/)?.*\.py[co]
+
+includes:
+- routes.yaml
+
+error_handlers:
+- file: static/html/500.html
+
+env_variables:
+  FB_APP_SECRET: ''
+
+libraries:
+- name: webapp2
+  version: "2.5.2"
+
