@@ -29,31 +29,11 @@
 		<option value="resolucion">Proyectos de resoluci&oacute;n</option>
 	</select>
 </p>
-<ul id="proyectos"></ul>
+<ul id="proyectos">
+	{% for p in proyectos %}
+	<li><a href="/proyectos/{{p.key.name}}">{{p.nombre}}</a><br />{{p.sumario}}</li>
+	{% endfor %}
+</ul>
 </div>
-<script>
-$(document).ready(function () {
-	$.getJSON('/data/proyectos/index-2013-hcdn.json', function (data) {
-		var ids = [];
-		for (var i in data) ids.push(i);
-		ids.sort();
-		var items = [];
-		for (var i = 0; i < ids.length; i++) {
-			var id = ids[i];
-			var p = data[id];
-			var li = document.createElement('li');
-			var anchor = document.createElement('a');
-			var br = document.createElement('br');
-			var span = document.createElement('span');
-			$(anchor).attr('href', '/proyectos/' + id)
-				.text(p.nombre);
-			$(span).text(p.sumario);
-			$(li).append(anchor).append(br).append(span);
-			items.push(li);
-		}
-		$('#proyectos').append(items);
-	});
-});
-</script>
 </body>
 </html>
