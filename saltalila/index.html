@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>¡Salta Lila!</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+
+      <canvas id="canvas">
+        Tu web browser fue cooptado por los Kerner y no soporta HTML5!
+      </canvas>
+
+      <div id="mainMenu">
+        <h1>¡Salta Lila!</h1>
+        <h3>el juego de la “defensa de</h3>
+        <h3>la República en contra del peronismo”</h3>
+        <h3>(en palabras de Lila)</h3>
+
+        <p class="info">
+          Usá
+          <span class="key left">←</span>
+          <span class="key right">→</span>
+          para mover a Lila. Espacio para empezar.
+        </p>
+        <a class="button" href="javascript:init()">Jugar</a>
+      </div>
+
+      <div id="gameOverMenu">
+        <h1>¡Ganó el peronismo! ¡Perdió la República!</h1>
+        <h3 id="go_score">Votos de la oposición: 0</h3>
+        <h3>Votos del peronismo: 54%</h3>
+
+        <a class="button" href="javascript:reset()">Reiniciar</a>
+        <!--a id="tweetBtn" target="_blank" class="button tweet" href="#">Tweet score</a-->
+        <!--a id="fbBtn" target="_blank" class="button fb" href="#">Post on FB</a-->
+      </div>
+
+      <!-- Preloading image ;) -->
+      <img id="sprite" src="saltalila.png"/>
+
+      <div id="scoreBoard">
+        <p>Votos de la oposición: <span id="score">0</span> vs Peronismo: 54%</p>
+      </div>
+
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
