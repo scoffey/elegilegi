@@ -3,7 +3,7 @@
 		font-family: "Liberation Sans";
 		font-weight: 100;
 		font-style: normal;
-		src: url('../media/LiberationSans-Regular.ttf') format('truetype');
+		src: url('/media/LiberationSans-Regular.ttf') format('truetype');
 	}
 }
 body {
@@ -11,7 +11,7 @@ body {
 	width: 800px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Liberation Sans", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 300;
-	background: url(../media/regreso-a-la-democracia-1983.jpg) black no-repeat fixed;
+	background: url(/media/regreso-a-la-democracia-1983.jpg) black no-repeat fixed;
 	background-size: cover;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -91,13 +91,13 @@ a:hover {
 	float: left;
 }
 #intro li:nth-child(3n+1) {
-	background: url(../media/3.png) top center no-repeat;
+	background: url(/media/3.png) top center no-repeat;
 }
 #intro li:nth-child(3n+2) {
-	background: url(../media/2.png) top center no-repeat;
+	background: url(/media/2.png) top center no-repeat;
 }
 #intro li:nth-child(3n) {
-	background: url(../media/1.png) top center no-repeat;
+	background: url(/media/1.png) top center no-repeat;
 }
 #voting, #about, #intro, #mapview, #results {
 	background-color: rgba(255, 255, 255, 0.8);
@@ -225,7 +225,7 @@ span.ausente {
 	body {
 		margin: 0 auto;
 		width: 95%;
-		background: url(../media/regreso-a-la-democracia-1983.jpg) black no-repeat top left;
+		background: url(/media/regreso-a-la-democracia-1983.jpg) black no-repeat top left;
 		min-height: 100%;
 	}
 	#heading {

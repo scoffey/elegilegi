@@ -1,15 +1,17 @@
-@font-face {
-	font-family: "Liberation Sans";
-	font-weight: 100;
-	font-style: normal;
-	src: url('../media/LiberationSans-Regular.ttf') format('truetype');
+@media (min-width: 600px) {
+	@font-face {
+		font-family: "Liberation Sans";
+		font-weight: 100;
+		font-style: normal;
+		src: url('/media/LiberationSans-Regular.ttf') format('truetype');
+	}
 }
 body {
 	margin: 80px auto;
 	width: 800px;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Liberation Sans", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Liberation Sans", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 300;
-	background: url(../media/legislatura.jpg) black no-repeat fixed;
+	background: url(/media/congreso.jpg) black no-repeat fixed;
 	background-size: cover;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -18,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 a, a:visited {
 	text-decoration: none;
-	color: #960;
+	color: #06f;
 }
 a:hover {
 	text-decoration: underline;
@@ -58,14 +60,15 @@ a:hover {
 	margin: 0;
 }
 #info:hover {
-	color: black;
-	background-color: #fc0;
+	color: white;
+	background-color: #06f;
 	text-decoration: none;
 }
 .container {
 	width: 800px;
 	margin: 10px auto;
 }
+
 .center {
 	text-align: center;
 }
@@ -76,6 +79,7 @@ a:hover {
 	text-indent: 0;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 #intro li {
 	text-indent: 0;
@@ -87,13 +91,13 @@ a:hover {
 	float: left;
 }
 #intro li:nth-child(3n+1) {
-	background: url(../media/1.png) top center no-repeat;
+	background: url(/media/1.png) top center no-repeat;
 }
 #intro li:nth-child(3n+2) {
-	background: url(../media/2.png) top center no-repeat;
+	background: url(/media/2.png) top center no-repeat;
 }
 #intro li:nth-child(3n) {
-	background: url(../media/3.png) top center no-repeat;
+	background: url(/media/3.png) top center no-repeat;
 }
 #voting, #about, #intro, #results {
 	background-color: rgba(255, 255, 255, 0.8);
@@ -196,7 +200,7 @@ a:hover {
 	font-size: 24px;
 }
 em {
-	color: #960;
+	color: #06f;
 	font-style: normal;
 }
 .news {
@@ -205,11 +209,11 @@ em {
 a.action {
 	padding: 12px 16px;
 	margin: 0 auto;
-	color: #c90;
+	color: #06f;
 }
 a.action:hover {
-	color: black;
-	background-color: #fc0;
+	color: white;
+	background-color: #06f;
 }
 #progress-bar {
 	width: 100%;
@@ -219,7 +223,7 @@ a.action:hover {
 }
 #progress-bar span {
 	display: block;
-	background-color: #fc0;
+	background-color: #06f;
 	width: 0%; /* Adjust with JavaScript */
 	height: 10px;
 	border-radius: 5px;
@@ -235,12 +239,12 @@ a.action:hover {
 	padding: 4px;
 }
 #results table thead td {
-	color: black;
-	background-color: #fc0;
+	color: white;
+	background-color: #06f;
 	padding: 12px 8px;
 }
 #results table thead td:hover {
-	background-color: #fd9;
+	background-color: #39f;
 	cursor: pointer;
 }
 #results table tbody tr:nth-child(even) {
@@ -265,6 +269,9 @@ a.action:hover {
 .tooltip ul {
 	padding-left: 16px;
 }
+.tooltip p {
+	font: 8pt sans-serif;
+}
 .chart-tooltip {
 	position: absolute;
 	top: 0;
@@ -283,5 +290,134 @@ select {
 	margin: 0;
 	border: 1px solid #ccc;
 	font: inherit;
+	font-size: 10pt;
 	outline: none; /* remove focus ring from Webkit */
+}
+
+
+@media (max-width: 850px) {
+	body {
+		margin: 0 auto;
+		width: 95%;
+		background: url(/media/congreso-800.jpg) black no-repeat top left;
+		min-height: 100%;
+	}
+	#heading {
+		position: relative;
+		padding: 2.5%;
+		width: 95%;
+		margin: 1em 0;
+	}
+	#heading .tagline {
+		display: block;
+	}
+	#heading .corner {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+	}
+	.container {
+		width: 90%;
+		margin: 10px auto;
+	}
+	#intro li {
+		width: 31%;
+		margin: 1%;
+	}
+	.news {
+		margin: 100px 10%;
+	}
+	#about,
+	#results,
+	#voting {
+		padding: 2em;
+	}
+	#results p,
+	#voting p {
+		margin-top: 0;
+	}
+
+	#results table thead td {
+		padding: 4px 2px;
+	}
+}
+
+
+@media (max-width: 600px) {
+	#results table thead td {
+		padding: 4px 1px;
+		font-size: 0.8em;
+		word-break:break-all;
+	}
+
+	#about,
+	#results,
+	#voting {
+		padding: 1em;
+	}
+
+	#results table {
+		border-spacing: 1px;
+	}
+
+	#about,
+	.tagline {
+		font-size: 0.8em;
+	}
+
+	#heading {
+		margin: 0;
+	}
+
+}
+
+@media (max-width: 500px) {
+	body {
+		width: 100%;
+	}
+
+
+
+	#intro li {
+		width: 85%;
+		padding-left: 15%;
+		box-sizing: border-box;
+		font-size: 0.9em;
+		margin-bottom: 1.5em;
+		padding-top: 0;
+		background-size: auto 2em !important;
+		background-position: top left !important;
+
+	}
+
+	#results table thead td {
+		padding: 4px 1px;
+		font-size: 0.65em;
+	}
+
+	#about,
+	#results,
+	#voting {
+		padding: 0.5em;
+	}
+
+	#heading {
+		padding: 1%;
+		width: 98%;
+	}
+
+	#heading h1 {
+		margin: 0;
+	}
+
+	.container {
+		margin: 0;
+		width: 100%;
+	}
+
+	.tagline {
+		font-size: 0.7em;
+	}
+
+
 }
