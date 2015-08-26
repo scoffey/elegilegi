@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>elegilegi: un juego para elegir legisladores que votan como vos</title>
+<title>elegilegi: jug&aacute; a ser legislador, aprend&eacute; qui&eacute;n te representa mejor</title>
 <meta property="og:title" content="elegilegi" />
-<meta property="og:description" content="Un juego para elegir legisladores que votan como vos" />
-<meta property="og:image" content="media/congreso.jpg" />
+<meta property="og:description" content="Jug&aacute; a ser legislador, aprend&eacute; qui&eacute;n te representa mejor" />
+<meta property="og:image" content="/media/congreso-800.jpg" />
 <meta name="viewport" content="width=device-width" />
 <link rel="stylesheet" type="text/css" href="style.css"></link>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
@@ -29,19 +29,71 @@
 		<li>La <em>participaci&oacute;n</em> se calcula como el total de votos del legislador (coincidencias y discrepancias sumadas) sobre el total de proyectos no salteados.</li>
 		<li>La tabla puede ser ordenada por distintas columnas. Se apela al esp&iacute;ritu cr&iacute;tico para interpretar estos resultados.</li>
 	</ul>
-	<p>Esta aplicaci&oacute;n es de <a href="https://github.com/scoffey/elegilegi/" target="_blank">c&oacute;digo abierto</a> y no registra tus votos ni almacena informaci&oacute;n personal.</p>
+	<p>Esta aplicaci&oacute;n es de <a href="https://github.com/scoffey/elegilegi/" target="_blank">c&oacute;digo abierto</a> y recolecta informaci&oacute;n an&oacute;nima con fines estad&iacute;sticos.</p>
 	<p>Idea original y desarrollo por <a href="https://twitter.com/scoffey" target="_blank">@scoffey</a>. Datos liberados por <a href="https://twitter.com/andy_tow" target="_blank">@andy_tow</a>. Ver <a href="https://github.com/scoffey/elegilegi#cr%C3%A9ditos" target="_blank">m&aacute;s cr&eacute;ditos</a>.</p>
 	<p class="center"><a id="back" class="action" href="javascript:void(0);">Cerrar</a></p>
 </div>
 <div id="intro">
 	<ol>
-	<li><strong>1.</strong> Te presentamos 38 proyectos de ley que se votaron en el Congreso entre 2009 y 2015.</li>
+	<li><strong>1.</strong> Te presentamos 37 proyectos de ley que se votaron en el Congreso entre 2009 y 2015.</li>
 	<li><strong>2.</strong> Respond&eacute;s si hubieras votado a favor, en contra, abstenci&oacute;n o ausente.</li>
 	<li><strong>3.</strong> Te mostramos los legisladores que votaron como vos. &iquest;Ser&aacute;n los que pens&aacute;s?</li>
 	</ol>
 	<p class="center"><a id="start" class="action" href="javascript:void(0);">Comenzar</a></p>
 	<p class="center news"><a href="2013/">Versi&oacute;n anterior de las elecciones de 2013</a></p>
 	<p class="center">&iquest;Quer&eacute;s ayudar a un amigo que no sabe qu&eacute; votar?<br />&iexcl;Sos libre de hacer Patria y compartirle este link!<br /><a class="facebook" href="javascript:void(0);">Facebook</a> - <a class="twitter" href="javascript:void(0);">Twitter</a> - <a class="googleplus" href="javascript:void(0);">Google+</a></p>
+
+</div>
+	<div id="stats">
+	<p><em>Antes de empezar, &iquest;podr&iacute;as responder estas 4 preguntas sobre tu perfil?</em></p>
+	<p>Pod&eacute;s dejar en blanco lo que no quieras contestar.</p>
+	<p>Con esto nos ayud&aacute;s a juntar estad&iacute;sticas an&oacute;nimas&nbsp;sobre los usuarios del juego.</p>
+	<p>&iexcl;Gracias por tu colaboraci&oacute;n!</p>
+
+	<div style="width: 200px; float: left;">
+	<p><strong>Sexo:</strong></p>
+	<p>
+	<label><input name="gender" type="radio" value="M" /> Masculino</label><br />
+	<label><input name="gender" type="radio" value="F" /> Femenino</label>
+	</p>
+
+	<p><strong>Edad:</strong></p>
+	<p>
+	<label><input name="age" type="radio" value="0-15" /> 15 o menos</label><br />
+	<label><input name="age" type="radio" value="16-17" /> 16-17</label><br />
+	<label><input name="age" type="radio" value="18-21" /> 18-21</label><br />
+	<label><input name="age" type="radio" value="22-29" /> 22-29</label><br />
+	<label><input name="age" type="radio" value="30-39" /> 30-39</label><br />
+	<label><input name="age" type="radio" value="40-49" /> 40-49</label><br />
+	<label><input name="age" type="radio" value="50-59" /> 50-59</label><br />
+	<label><input name="age" type="radio" value="60-69" /> 60-69</label><br />
+	<label><input name="age" type="radio" value="70-99" /> 70 o m&aacute;s</label>
+	</p>
+
+	</div>
+	<div style="width: 500px; float: left;">
+	<p><strong>Nivel educativo:</strong></p>
+	<p>
+	<label><input name="education" type="radio" value="1" /> Primario completo</label><br />
+	<label><input name="education" type="radio" value="2" /> Secundario completo</label><br />
+	<label><input name="education" type="radio" value="3" /> Terciario o universitario completo</label>
+	</p>
+
+	<p><strong>&iquest;Con qu&eacute; agrupaci&oacute;n pol&iacute;tica te identific&aacute;s principalmente?</strong></p>
+	<p>
+	<label><input name="party" type="radio" value="fpv" /> Frente para la Victoria</label><br />
+	<label><input name="party" type="radio" value="pro" /> Cambiemos (PRO, UCR, CC ARI y aliados)</label><br />
+	<label><input name="party" type="radio" value="una" /> UNA (Frente Renovador y aliados)</label><br />
+	<label><input name="party" type="radio" value="gen" /> Progresistas (GEN, socialistas y aliados)</label><br />
+	<label><input name="party" type="radio" value="fit" /> Frente de Izquierda y los Trabajadores</label><br />
+	<label><input name="party" type="radio" value="cf" /> Compromiso Federal</label><br />
+	<label><input name="party" type="radio" value="otro" /> Otra</label><br />
+	<label><input name="party" type="radio" value="null" /> Ninguna</label>
+	</p>
+	</div>
+
+	<br style="clear: left;" />
+	<p class="center"><a id="continue" class="action" href="javascript:void(0);">Continuar</a></p>
 </div>
 <div id="voting">
 	<p id="project">Proyecto</p>
@@ -135,7 +187,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-42712446-1', 'elegilegi.org');
+  ga('create', 'UA-42712446-1', 'auto');
   ga('send', 'pageview');
 
 </script>

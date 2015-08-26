@@ -40,6 +40,7 @@ a:hover {
 #heading .tagline {
 	display: inline;
 	margin: 0 8px;
+	font-size: 11pt;
 	letter-spacing: 0.2em;
 }
 #heading .corner {
@@ -99,7 +100,7 @@ a:hover {
 #intro li:nth-child(3n) {
 	background: url(media/3.png) top center no-repeat;
 }
-#voting, #about, #intro, #results {
+#voting, #about, #intro, #results, #stats {
 	background-color: rgba(255, 255, 255, 0.8);
 	padding: 40px;
 }

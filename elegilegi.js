@@ -2,6 +2,7 @@ var projectIds = null;
 var representatives = null;
 var currentProject = null;
 var results = null;
+var userId = null;
 var votes = {};
 var projectData = {};
 var sortingCallbacks = {};
@@ -43,8 +44,8 @@ var projects = [
 	'ley-27078',
 	'ley-27097',
 	'ley-27120',
-	'ley-27132',
-	'ley-27160'
+	'ley-27132'
+	//'ley-27160'
 ];
 
 function shuffle(array) {
@@ -67,6 +68,7 @@ function reset() {
 	projectIds = shuffle(projects.slice(0));
 	$('#intro').css('display', 'block');
 	$('#about').css('display', 'none');
+	$('#stats').css('display', 'none');
 	$('#voting').css('display', 'none');
 	$('#results').css('display', 'none');
 }
@@ -105,6 +107,10 @@ function getVoteHandler(choice) {
 		voteHelper(p.votacion.ABSTENCION, (choice == 'A'));
 		voteHelper(p.votacion.AUSENTE, (choice == '0'));
 		$('#voting').fadeOut(200, loadRandomProject);
+		if (ga) {
+			var value = ["Y", "N", "A", "0"].indexOf(choice);
+			ga('send', 'event', 'game', 'vote', p.id, value);
+		}
 	};
 }
 
@@ -363,6 +369,28 @@ function finish() {
 	$('#voting').fadeOut(200, function () {
 		$('#results').fadeIn(100);
 	});
+	if (ga) {
+		ga('set', 'dimension1', getStats('gender'));
+		ga('set', 'dimension2', getStats('age'));
+		ga('set', 'dimension3', getStats('education'));
+		ga('set', 'dimension4', getStats('party'));
+		ga('send', 'pageview', '/#result');
+	}
+	var data = $.extend({'uuid': userId || '', 'segment': [
+		getStats('gender'),
+		getStats('age'),
+		getStats('education'),
+		getStats('party')
+	].join(',')}, votes);
+	$.ajax('http://www.coffey.com.ar/elegilegi/api', {
+		'dataType': 'jsonp',
+		'data': data,
+		'success': function (r) { userId = r.user_id; }
+	});
+}
+
+function getStats(name) {
+	return $('input[name="' + name + '"]:checked').val() || '';
 }
 
 function shareOnFacebook() {
@@ -373,12 +401,12 @@ function shareOnFacebook() {
 
 function shareOnTwitter() {
 	var tweet = '\u00bfNo sab\u00e9s a qui\u00e9n votar? '
-		+ 'Prob\u00e1 este juego para elegir legisladores '
-		+ 'que votan como vos: ';
+		+ 'Jug\u00e1 a ser legislador y aprend\u00e9 qui\u00e9n te '
+		+ 'representa mejor: ';
 	window.open('http://twitter.com/intent/tweet?text='
 		+ encodeURIComponent(tweet) + '&url='
 		+ encodeURIComponent(location.href)
-		+ '&hashtags=opengov,elegilegi',
+		+ '&hashtags=elegilegi,Elecciones2015',
 		'twitter-share-dialog', 'width=550,height=420');
 }
 
@@ -398,8 +426,14 @@ $(document).ready(function () {
 	$.getJSON('data/legisladores.json', function (data) {
 		representatives = data;
 		$('#start').click(function () {
-			$('#intro').fadeOut(200, loadRandomProject);
+			$('#intro').fadeOut(200, function () {
+				$('#stats').fadeIn(100);
+			});
 		});
+	});
+
+	$('#continue').click(function () {
+		$('#stats').fadeOut(200, loadRandomProject);
 	});
 
 	$('#vote-aye').click(getVoteHandler('Y'));
