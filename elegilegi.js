@@ -71,6 +71,7 @@ function reset() {
 	$('#stats').css('display', 'none');
 	$('#voting').css('display', 'none');
 	$('#results').css('display', 'none');
+	$('html,body').animate({'scrollTop': 0}, 'slow');
 }
 
 function loadRandomProject() {
@@ -373,14 +374,16 @@ function finish() {
 		ga('set', 'dimension1', getStats('gender'));
 		ga('set', 'dimension2', getStats('age'));
 		ga('set', 'dimension3', getStats('education'));
-		ga('set', 'dimension4', getStats('party'));
+		ga('set', 'dimension4', $('#party').val());
+		ga('set', 'dimension5', $('#location').val());
 		ga('send', 'pageview', '/#result');
 	}
 	var data = $.extend({'uuid': userId || '', 'segment': [
 		getStats('gender'),
 		getStats('age'),
 		getStats('education'),
-		getStats('party')
+		$('#party').val(),
+		$('#location').val()
 	].join(',')}, votes);
 	$.ajax('http://www.coffey.com.ar/elegilegi/api', {
 		'dataType': 'jsonp',

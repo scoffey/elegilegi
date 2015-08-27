@@ -103,6 +103,10 @@ a:hover {
 #voting, #about, #intro, #results, #stats {
 	background-color: rgba(255, 255, 255, 0.8);
 	padding: 40px;
+	display: none;
+}
+#intro {
+	display: block;
 }
 #about {
 	background-color: rgba(200, 220, 255, 0.8);
