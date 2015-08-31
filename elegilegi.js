@@ -1,6 +1,7 @@
 var projectIds = null;
 var representatives = null;
 var currentProject = null;
+var projectCount = 0;
 var results = null;
 var userId = null;
 var votes = {};
@@ -8,47 +9,53 @@ var projectData = {};
 var sortingCallbacks = {};
 
 var projects = [
+
+	// 20 most important
 	'ley-26522',
 	'ley-26571',
 	'ley-26618',
 	'ley-26639',
-	'ley-26734',
 	'ley-26739',
-	'ley-26740',
 	'ley-26741',
+	'ley-26774',
+	'ley-26790',
+	'ley-26843',
+	'ley-26854',
+	'ley-26855',
+	'ley-26861',
+	'ley-26984',
+	'ley-26994',
+	'ley-27008',
+	'ley-27063',
+	'ley-27078',
+	'ley-27120',
+	'ley-27126',
+	'ley-27132',
+
+	// + 20 = 40
+	'ley-26734',
+	'ley-26740',
 	'ley-26742',
 	'ley-26743',
 	'ley-26761',
-	'ley-26774',
-	'ley-26790',
 	'ley-26831',
 	'ley-26842',
-	'ley-26843',
 	'ley-26844',
 	'ley-26853',
-	'ley-26854',
-	'ley-26855',
 	'ley-26856',
 	'ley-26857',
-	'ley-26861',
 	'ley-26862',
 	'ley-26893',
 	'ley-26896',
 	'ley-26913',
 	'ley-26944',
 	'ley-26970',
-	'ley-26984',
+	'ley-26991',
 	'ley-26993',
-	'ley-26994',
-	'ley-27008',
-	'ley-27063',
-	'ley-27078',
-	'ley-27097',
-	'ley-27120',
-	'ley-27126',
-	'ley-27132',
 	'ley-27160'
+
 ];
+projectCount = projects.length;
 
 function shuffle(array) {
 	var counter = array.length, temp, index;
@@ -64,16 +71,19 @@ function shuffle(array) {
 }
 
 function reset() {
+	if (!projectIds) {
+		$('html,body').animate({'scrollTop': 0}, 'slow');
+	}
 	currentProject = null;
 	results = {};
 	votes = {};
-	projectIds = shuffle(projects.slice(0));
+	projectIds = [];
 	$('#intro').css('display', 'block');
 	$('#about').css('display', 'none');
 	$('#stats').css('display', 'none');
+	$('#options').css('display', 'none');
 	$('#voting').css('display', 'none');
 	$('#results').css('display', 'none');
-	$('html,body').animate({'scrollTop': 0}, 'slow');
 }
 
 function loadRandomProject() {
@@ -91,7 +101,7 @@ function loadRandomProject() {
 		$('#summary').text(data.sumario);
 		$('#date').text(data.fecha);
 		$('#voting').fadeIn(100);
-		var n = projects.length;
+		var n = projectCount;
 		var i = n - projectIds.length - 1;
 		var p = Math.round(i * 100 / n);
 		$('#progress-bar span').css('width', p + '%');
@@ -438,7 +448,21 @@ $(document).ready(function () {
 	});
 
 	$('#continue').click(function () {
-		$('#stats').fadeOut(200, loadRandomProject);
+		$('#stats').fadeOut(200, function () {
+			$('#options').fadeIn(100);
+		});
+	});
+
+	$('#fast').click(function () {
+		projectCount = 20;
+		projectIds = shuffle(projects.slice(0, projectCount));
+		$('#options').fadeOut(200, loadRandomProject);
+	});
+
+	$('#full').click(function () {
+		projectCount = 40;
+		projectIds = shuffle(projects.slice(0, projectCount));
+		$('#options').fadeOut(200, loadRandomProject);
 	});
 
 	$('#vote-aye').click(getVoteHandler('Y'));

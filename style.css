@@ -100,10 +100,13 @@ a:hover {
 #intro li:nth-child(3n) {
 	background: url(media/3.png) top center no-repeat;
 }
-#voting, #about, #intro, #results, #stats {
+#voting, #about, #intro, #results, #stats, #options {
 	background-color: rgba(255, 255, 255, 0.8);
 	padding: 40px;
 	display: none;
+}
+#options .action {
+	padding: 30px 50px;
 }
 #intro {
 	display: block;
