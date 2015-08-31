@@ -41,11 +41,13 @@ var projects = [
 	'ley-26993',
 	'ley-26994',
 	'ley-27008',
+	'ley-27063',
 	'ley-27078',
 	'ley-27097',
 	'ley-27120',
-	'ley-27132'
-	//'ley-27160'
+	'ley-27126',
+	'ley-27132',
+	'ley-27160'
 ];
 
 function shuffle(array) {

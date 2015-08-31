@@ -13,7 +13,7 @@
     }, 
     "giustozzi-dario": {
         "nombre": "GIUSTOZZI, Dar\u00edo", 
-        "bloque": "Frente Renovador", 
+        "bloque": "Renovador Social Cristiano", 
         "distrito": "Buenos Aires", 
         "camara": "Diputados"
     }, 
@@ -325,7 +325,7 @@
     }, 
     "fabiani-eduardo": {
         "nombre": "FABIANI, Eduardo", 
-        "bloque": "Frente Renovador", 
+        "bloque": "Renovador Social Cristiano", 
         "distrito": "Buenos Aires", 
         "camara": "Diputados"
     }, 
@@ -339,6 +339,12 @@
         "nombre": "ROMERO, Oscar", 
         "bloque": "Frente para la Victoria - PJ", 
         "distrito": "Buenos Aires", 
+        "camara": "Diputados"
+    }, 
+    "fernandez-blanco-maria-cristina": {
+        "nombre": "FERNANDEZ BLANCO, Mar\u00eda Cristina", 
+        "bloque": "Uni\u00f3n C\u00edvica Radical", 
+        "distrito": "Jujuy", 
         "camara": "Diputados"
     }, 
     "amenta-marcelo-eduardo": {
@@ -445,7 +451,7 @@
     }, 
     "stolbizer-margarita-rosa": {
         "nombre": "STOLBIZER, Margarita Rosa", 
-        "bloque": "GEN", 
+        "bloque": "Bloque GEN", 
         "distrito": "Buenos Aires", 
         "camara": "Diputados"
     }, 
@@ -661,7 +667,7 @@
     }, 
     "riestra-antonio-sabino": {
         "nombre": "RIESTRA, Antonio Sabino", 
-        "bloque": "Unidad Popular", 
+        "bloque": "SI por la Unidad Popular", 
         "distrito": "Santa Fe", 
         "camara": "Diputados"
     }, 
@@ -883,7 +889,7 @@
     }, 
     "brown-carlos-ramon": {
         "nombre": "BROWN, Carlos Ram\u00f3n", 
-        "bloque": "Fe", 
+        "bloque": "Compromiso Federal", 
         "distrito": "Buenos Aires", 
         "camara": "Diputados"
     }, 
@@ -2519,6 +2525,12 @@
         "distrito": "Buenos Aires", 
         "camara": "Diputados"
     }, 
+    "bregman-myriam": {
+        "nombre": "BREGMAN, Myriam", 
+        "bloque": "PTS - Frente de Izquierda", 
+        "distrito": "Buenos Aires", 
+        "camara": "Diputados"
+    }, 
     "martinez-alfredo-anselmo": {
         "nombre": "MARTINEZ, Alfredo Anselmo", 
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
@@ -2707,7 +2719,7 @@
     }, 
     "guzman-sandro": {
         "nombre": "GUZMAN, Sandro", 
-        "bloque": "Frente Renovador", 
+        "bloque": "No Integra Bloque", 
         "distrito": "Buenos Aires", 
         "camara": "Diputados"
     }, 
@@ -2731,7 +2743,7 @@
     }, 
     "raimundi-carlos-alberto": {
         "nombre": "RAIMUNDI, Carlos Alberto", 
-        "bloque": "Frente Nuevo Encuentro", 
+        "bloque": "Solidario SI", 
         "distrito": "Buenos Aires", 
         "camara": "Diputados"
     }, 
@@ -2869,7 +2881,7 @@
     }, 
     "heller-carlos": {
         "nombre": "HELLER, Carlos", 
-        "bloque": "Frente Nuevo Encuentro", 
+        "bloque": "Solidario SI", 
         "distrito": "Cdad.Aut.Bs.As.", 
         "camara": "Diputados"
     }, 
@@ -2887,7 +2899,7 @@
     }, 
     "de-gennaro-victor-norberto": {
         "nombre": "DE GENNARO, Victor Norberto", 
-        "bloque": "Unidad Popular", 
+        "bloque": "SI por la Unidad Popular", 
         "distrito": "Buenos Aires", 
         "camara": "Diputados"
     }, 
@@ -3289,7 +3301,7 @@
     }, 
     "moyano-juan-facundo": {
         "nombre": "MOYANO, Juan Facundo", 
-        "bloque": "Cultura, Educaci\u00f3n y Trabajo", 
+        "bloque": "Frente Renovador", 
         "distrito": "Buenos Aires", 
         "camara": "Diputados"
     }, 
@@ -3397,7 +3409,7 @@
     }, 
     "duclos-omar-arnaldo": {
         "nombre": "DUCLOS, Omar Arnaldo", 
-        "bloque": "GEN", 
+        "bloque": "Bloque GEN", 
         "distrito": "Buenos Aires", 
         "camara": "Diputados"
     }, 
@@ -3433,7 +3445,7 @@
     }, 
     "argumedo-alcira-susana": {
         "nombre": "ARGUMEDO, Alcira Susana", 
-        "bloque": "Proyecto Sur", 
+        "bloque": "Bs. As. para Todos en Proyecto Sur", 
         "distrito": "Cdad.Aut.Bs.As.", 
         "camara": "Diputados"
     }, 
@@ -3919,7 +3931,7 @@
     }, 
     "peralta-fabian-francisco": {
         "nombre": "PERALTA, Fabi\u00e1n Francisco", 
-        "bloque": "GEN", 
+        "bloque": "Bloque GEN", 
         "distrito": "Santa Fe", 
         "camara": "Diputados"
     }, 
@@ -3943,13 +3955,13 @@
     }, 
     "junio-juan-carlos-isaac": {
         "nombre": "JUNIO, Juan Carlos Isaac", 
-        "bloque": "Frente Nuevo Encuentro", 
+        "bloque": "Solidario SI", 
         "distrito": "Cdad.Aut.Bs.As.", 
         "camara": "Diputados"
     }, 
     "plaini-francisco-omar": {
         "nombre": "PLAINI, Francisco Omar", 
-        "bloque": "Cultura, Educaci\u00f3n y Trabajo", 
+        "bloque": "Bloque Unipersonal Cultura, Educaci\u00f3n y Trabajo", 
         "distrito": "Buenos Aires", 
         "camara": "Diputados"
     }, 
@@ -3991,7 +4003,7 @@
     }, 
     "linares-maria-virginia": {
         "nombre": "LINARES, Mar\u00eda Virginia", 
-        "bloque": "GEN", 
+        "bloque": "Bloque GEN", 
         "distrito": "Buenos Aires", 
         "camara": "Diputados"
     }, 
@@ -4021,7 +4033,7 @@
     }, 
     "lozano-claudio-raul": {
         "nombre": "LOZANO, Claudio Ra\u00fal", 
-        "bloque": "Unidad Popular", 
+        "bloque": "SI por la Unidad Popular", 
         "distrito": "Cdad.Aut.Bs.As.", 
         "camara": "Diputados"
     }
