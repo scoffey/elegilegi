@@ -37,18 +37,22 @@ class Project(object):
             'sumario': self.summary,
             'url': self.url,
             'votacion': {
-                'ABSTENCION': self.votes[2],
-                'AFIRMATIVO': self.votes[0],
-                'AUSENTE': self.votes[3],
-                'NEGATIVO': self.votes[1],
+                'ABSTENCION': sorted(set(self.votes[2])),
+                'AFIRMATIVO': sorted(set(self.votes[0])),
+                'AUSENTE':    sorted(set(self.votes[3])),
+                'NEGATIVO':   sorted(set(self.votes[1])),
             }
         }
 
 class Representative(object):
     def __init__(self, house, *row):
+        _alias = {
+            u'Ciudad Aut\xf3noma de Buenos Aires': 'CABA',
+            u'Cdad.Aut.Bs.As.': 'CABA'
+        }
         self.party = None
         self.house = house
-        self.district = row[2]
+        self.district = _alias.get(row[2], row[2])
         self.name = row[1]
         self.id = slugify(self.name)
 
@@ -105,7 +109,8 @@ def main(program, filename, *args):
             r = representatives['senate'][row[1]]
             r.party = parties['senate'][row[2]]
             projects['senate'][row[0]].votes[int(row[3])].append(r.id)
-            if r.id in roster and r.house.startswith('Diputados'):
+            if r.id in roster and \
+                    roster[r.id]['camara'].startswith('Diputados'):
                 r.house = 'Diputados/Senado'
             roster[r.id] = r.to_dict()
 

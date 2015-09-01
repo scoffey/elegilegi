@@ -50,7 +50,7 @@
     "iglesias-fernando-adolfo": {
         "nombre": "IGLESIAS, Fernando Adolfo", 
         "bloque": "Coalici\u00f3n C\u00edvica", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "llera-timoteo": {
@@ -110,7 +110,7 @@
     "giudici-silvana-myriam": {
         "nombre": "GIUDICI, Silvana Myriam", 
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "rodriguez-saa-adolfo": {
@@ -206,7 +206,7 @@
     "filmus-daniel-fernando": {
         "nombre": "FILMUS, Daniel Fernando", 
         "bloque": "Justicialista-Frente para la Victoria", 
-        "distrito": "Ciudad Aut\u00f3noma de Buenos Aires", 
+        "distrito": "CABA", 
         "camara": "Senado"
     }, 
     "arguello-octavio": {
@@ -254,7 +254,7 @@
     "carrizo-ana-carla": {
         "nombre": "CARRIZO, Ana Carla", 
         "bloque": "SUMA + UNEN", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "saadi-ramon-eduardo": {
@@ -332,7 +332,7 @@
     "pinedo-federico": {
         "nombre": "PINEDO, Federico", 
         "bloque": "Uni\u00f3n PRO", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "romero-oscar": {
@@ -458,14 +458,14 @@
     "gil-lozano-claudia-fernanda": {
         "nombre": "GIL LOZANO, Claudia Fernanda", 
         "bloque": "Coalici\u00f3n C\u00edvica", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "morandini-norma-elena": {
         "nombre": "MORANDINI, Norma Elena", 
         "bloque": "Frente C\u00edvico de C\u00f3rdoba", 
         "distrito": "C\u00f3rdoba", 
-        "camara": "Senado"
+        "camara": "Diputados/Senado"
     }, 
     "martiarena-mario-humberto": {
         "nombre": "MARTIARENA, Mario Humberto", 
@@ -674,7 +674,7 @@
     "santilli-diego-cesar": {
         "nombre": "SANTILLI, Diego C\u00e9sar", 
         "bloque": "Pro y Uni\u00f3n por Entre R\u00edos ", 
-        "distrito": "Ciudad Aut\u00f3noma de Buenos Aires", 
+        "distrito": "CABA", 
         "camara": "Senado"
     }, 
     "gonzalez-veronica": {
@@ -788,7 +788,7 @@
     "brawer-mara": {
         "nombre": "BRAWER, Mara", 
         "bloque": "Frente para la Victoria - PJ", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "ruiz-aida-delia": {
@@ -854,7 +854,7 @@
     "sanchez-fernando": {
         "nombre": "SANCHEZ, Fernando", 
         "bloque": "Coalici\u00f3n C\u00edvica - ARI - UNEN", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "aguilar-eduardo-alberto": {
@@ -932,7 +932,7 @@
     "ginzburg-nora": {
         "nombre": "GINZBURG, Nora", 
         "bloque": "Frente por los Derechos Ciudadanos", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "del-campillo-hector-eduardo": {
@@ -957,7 +957,7 @@
         "nombre": "FIORE VINUALES, Maria Cristina del Valle", 
         "bloque": "Justicialista-Frente para la Victoria", 
         "distrito": "Salta", 
-        "camara": "Senado"
+        "camara": "Diputados/Senado"
     }, 
     "garcia-de-moreno-eva": {
         "nombre": "GARCIA de MORENO, Eva", 
@@ -1016,7 +1016,7 @@
     "bullrich-esteban": {
         "nombre": "BULLRICH, Esteban", 
         "bloque": "Propuesta Republicana", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "llanos-ermindo-edgardo-marcelo": {
@@ -1040,7 +1040,7 @@
     "schmidt-liermann-cornelia": {
         "nombre": "SCHMIDT-LIERMANN, Cornelia", 
         "bloque": "Uni\u00f3n PRO", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "aragon-santiago": {
@@ -1076,13 +1076,13 @@
     "morgado-claudio-marcelo": {
         "nombre": "MORGADO, Claudio Marcelo", 
         "bloque": "Partido de la Concertaci\u00f3n - FORJA", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "gil-lavedra-ricardo-rodolfo": {
         "nombre": "GIL LAVEDRA, Ricardo Rodolfo", 
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "gaillard-ana-carolina": {
@@ -1166,7 +1166,7 @@
     "mazure-liliana": {
         "nombre": "MAZURE, Liliana", 
         "bloque": "Frente para la Victoria - PJ", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "dutto-gustavo-alberto": {
@@ -1202,13 +1202,13 @@
     "cardelli-jorge-justo": {
         "nombre": "CARDELLI, Jorge Justo", 
         "bloque": "Proyecto Sur", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "parada-liliana-beatriz": {
         "nombre": "PARADA, Liliana Beatriz", 
         "bloque": "Unidad Popular", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "das-neves-mario": {
@@ -1262,7 +1262,7 @@
     "bergman-sergio": {
         "nombre": "BERGMAN, Sergio", 
         "bloque": "Uni\u00f3n PRO", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "troiano-gabriela-alejandra": {
@@ -1347,7 +1347,7 @@
         "nombre": "GODOY, Ruperto Eduardo", 
         "bloque": "Justicialista-Frente para la Victoria", 
         "distrito": "San Juan", 
-        "camara": "Senado"
+        "camara": "Diputados/Senado"
     }, 
     "martinez-carignano-ernesto-felix": {
         "nombre": "MARTINEZ CARIGNANO, Ernesto F\u00e9lix", 
@@ -1388,7 +1388,7 @@
     "majdalani-silvia-cristina": {
         "nombre": "MAJDALANI, Silvia Cristina", 
         "bloque": "Uni\u00f3n PRO", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "paroli-raul-omar": {
@@ -1400,7 +1400,7 @@
     "cabandie-juan": {
         "nombre": "CABANDIE, Juan", 
         "bloque": "Frente para la Victoria - PJ", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "lopez-osvaldo-ramon": {
@@ -1472,7 +1472,7 @@
     "cortina-roy": {
         "nombre": "CORTINA, Roy", 
         "bloque": "Partido Socialista", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "labado-maria-ester": {
@@ -1515,7 +1515,7 @@
         "nombre": "ROLDAN, Jos\u00e9 Mar\u00eda", 
         "bloque": "Frente de Todos", 
         "distrito": "Corrientes", 
-        "camara": "Senado"
+        "camara": "Diputados/Senado"
     }, 
     "corradi-de-beltran-ana-maria": {
         "nombre": "CORRADI DE BELTR\u00c0N, Ana Mar\u00eda", 
@@ -1592,7 +1592,7 @@
     "de-prat-gay-alfonso": {
         "nombre": "DE PRAT GAY, Alfonso", 
         "bloque": "Coalici\u00f3n C\u00edvica - ARI", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "de-pedro-eduardo-enrique": {
@@ -1622,20 +1622,20 @@
     "cabanchik-samuel-manuel": {
         "nombre": "CABANCHIK, Samuel Manuel", 
         "bloque": "Proyecto Buenos Aires Federal", 
-        "distrito": "Ciudad Aut\u00f3noma de Buenos Aires", 
+        "distrito": "CABA", 
         "camara": "Senado"
     }, 
     "gullo-juan-carlos-dante": {
         "nombre": "GULLO, Juan Carlos Dante", 
         "bloque": "Frente para la Victoria - PJ", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "michetti-marta-gabriela": {
         "nombre": "MICHETTI, Marta Gabriela", 
         "bloque": "Pro y Uni\u00f3n por Entre R\u00edos ", 
-        "distrito": "Ciudad Aut\u00f3noma de Buenos Aires", 
-        "camara": "Senado"
+        "distrito": "CABA", 
+        "camara": "Diputados/Senado"
     }, 
     "lopez-ernesto-segundo": {
         "nombre": "LOPEZ, Ernesto Segundo", 
@@ -1647,7 +1647,7 @@
         "nombre": "IRRAZABAL, Juan Manuel", 
         "bloque": "Justicialista-Frente para la Victoria", 
         "distrito": "Misiones", 
-        "camara": "Senado"
+        "camara": "Diputados/Senado"
     }, 
     "bermejo-rolando-adolfo": {
         "nombre": "BERMEJO, Rolando Adolfo", 
@@ -1688,7 +1688,7 @@
     "bianchi-maria-del-carmen": {
         "nombre": "BIANCHI, Mar\u00eda del Carmen", 
         "bloque": "Frente para la Victoria - PJ", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "francioni-fabian-marcelo": {
@@ -1785,7 +1785,7 @@
         "nombre": "CATALAN MAGNI, Julio Cesar", 
         "bloque": "Justicialista-Frente para la Victoria", 
         "distrito": "Tierra del Fuego", 
-        "camara": "Senado"
+        "camara": "Diputados/Senado"
     }, 
     "rioboo-sandra-adriana": {
         "nombre": "RIOBOO, Sandra Adriana", 
@@ -1832,7 +1832,7 @@
     "lorenzo-borocoto-eduardo": {
         "nombre": "LORENZO BOROCOTO, Eduardo", 
         "bloque": "Movimiento Independiente", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "mendoza-sandra-marcela": {
@@ -1958,7 +1958,7 @@
     "garrido-manuel": {
         "nombre": "GARRIDO, Manuel", 
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "montenegro-gerardo-antenor": {
@@ -2193,7 +2193,7 @@
         "nombre": "PARRILLI, Nanci Mar\u00eda Agustina", 
         "bloque": "Justicialista-Frente para la Victoria", 
         "distrito": "Neuqu\u00e9n", 
-        "camara": "Senado"
+        "camara": "Diputados/Senado"
     }, 
     "bazze-miguel-angel": {
         "nombre": "BAZZE, Miguel \u00c1ngel", 
@@ -2312,7 +2312,7 @@
     "garcia-mendez-emilio": {
         "nombre": "GARCIA MENDEZ, Emilio", 
         "bloque": "Solidaridad e Igualdad (SI)", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "bidegain-gloria-mercedes": {
@@ -2330,7 +2330,7 @@
     "ibarra-vilma-lidia": {
         "nombre": "IBARRA, Vilma Lidia", 
         "bloque": "Nuevo Encuentro Popular y Solidario", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "calza-nelio-higinio": {
@@ -2384,7 +2384,7 @@
     "solanas-fernado-ezequiel": {
         "nombre": "SOLANAS, Fernado Ezequiel", 
         "bloque": "Proyecto Sur-UNEN", 
-        "distrito": "Ciudad Aut\u00f3noma de Buenos Aires", 
+        "distrito": "CABA", 
         "camara": "Senado"
     }, 
     "asef-daniel-edgardo": {
@@ -2414,7 +2414,7 @@
     "sturzenegger-federico": {
         "nombre": "STURZENEGGER, Federico", 
         "bloque": "Uni\u00f3n PRO", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "bayonzo-liliana-amelia": {
@@ -2438,7 +2438,7 @@
     "lousteau-martin": {
         "nombre": "LOUSTEAU, Mart\u00edn", 
         "bloque": "SUMA + UNEN", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "prieto-hugo-nelson": {
@@ -2493,7 +2493,7 @@
         "nombre": "LEGUIZAM\u00d3N, Mar\u00eda Laura", 
         "bloque": "Justicialista-Frente para la Victoria", 
         "distrito": "Buenos Aires", 
-        "camara": "Senado"
+        "camara": "Diputados/Senado"
     }, 
     "herrera-griselda-noemi": {
         "nombre": "HERRERA, Griselda Noem\u00ed", 
@@ -2588,7 +2588,7 @@
     "feletti-roberto-jose": {
         "nombre": "FELETTI, Roberto Jos\u00e9", 
         "bloque": "Frente para la Victoria - PJ", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "corpacci-de-mercado-lucia-b": {
@@ -2612,7 +2612,7 @@
     "triaca-alberto-jorge": {
         "nombre": "TRIACA, Alberto Jorge", 
         "bloque": "Uni\u00f3n PRO", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "fellner-liliana-beatriz": {
@@ -2667,7 +2667,7 @@
         "nombre": "BERTONE, Rosana Andrea", 
         "bloque": "Justicialista-Frente para la Victoria", 
         "distrito": "Tierra del Fuego", 
-        "camara": "Senado"
+        "camara": "Diputados/Senado"
     }, 
     "villaverde-jorge-antonio": {
         "nombre": "VILLAVERDE, Jorge Antonio", 
@@ -2696,7 +2696,7 @@
     "lenz-maria-beatriz": {
         "nombre": "LENZ, Mar\u00eda Beatriz", 
         "bloque": "Frente para la Victoria - PJ", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "chieno-maria-elena": {
@@ -2762,7 +2762,7 @@
     "carrio-elisa-maria-avelina": {
         "nombre": "CARRIO, Elisa Mar\u00eda Avelina", 
         "bloque": "Coalici\u00f3n C\u00edvica - ARI - UNEN", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "martinez-soledad": {
@@ -2882,7 +2882,7 @@
     "heller-carlos": {
         "nombre": "HELLER, Carlos", 
         "bloque": "Solidario SI", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "augsburger-silvia": {
@@ -2907,7 +2907,7 @@
         "nombre": "MONTERO, Laura Gisela", 
         "bloque": "Uni\u00f3n C\u00edvica Radical", 
         "distrito": "Mendoza", 
-        "camara": "Senado"
+        "camara": "Diputados/Senado"
     }, 
     "korenfeld-beatriz-liliana": {
         "nombre": "KORENFELD, Beatriz Liliana", 
@@ -2960,7 +2960,7 @@
     "alonso-laura": {
         "nombre": "ALONSO, Laura", 
         "bloque": "Uni\u00f3n PRO", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "martinez-jose-carlos": {
@@ -3026,7 +3026,7 @@
     "reyes-maria-fernanda": {
         "nombre": "REYES, Mar\u00eda Fernanda", 
         "bloque": "Coalici\u00f3n C\u00edvica", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "casanas-juan-francisco": {
@@ -3176,7 +3176,7 @@
     "bullrich-patricia": {
         "nombre": "BULLRICH, Patricia", 
         "bloque": "Uni\u00f3n PRO", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "maza-ada-mercedes": {
@@ -3219,12 +3219,12 @@
         "nombre": "R\u00cdOS, Roberto Fabi\u00e1n", 
         "bloque": "Justicialista-Frente para la Victoria", 
         "distrito": "Corrientes", 
-        "camara": "Senado"
+        "camara": "Diputados/Senado"
     }, 
     "piumato-julio-juan": {
         "nombre": "PIUMATO, Julio Ju\u00e1n", 
         "bloque": "Frente para la Victoria - PJ", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "martin-maria-elena": {
@@ -3266,7 +3266,7 @@
     "estenssoro-maria-eugenia": {
         "nombre": "ESTENSSORO, Mar\u00eda Eugenia", 
         "bloque": "Coalici\u00f3n C\u00edvica", 
-        "distrito": "Ciudad Aut\u00f3noma de Buenos Aires", 
+        "distrito": "CABA", 
         "camara": "Senado"
     }, 
     "re-hilma-leonor": {
@@ -3284,7 +3284,7 @@
     "gonzalez-maria-america": {
         "nombre": "GONZALEZ, Mar\u00eda Am\u00e9rica", 
         "bloque": "Solidaridad e Igualdad (SI)", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "pasini-ariel-osvaldo": {
@@ -3326,7 +3326,7 @@
     "bisutti-delia-beatriz": {
         "nombre": "BISUTTI, Delia Beatriz", 
         "bloque": "Solidaridad e Igualdad (SI)", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "viana-luis-alberto": {
@@ -3386,7 +3386,7 @@
     "hotton-cynthia-liliana": {
         "nombre": "HOTTON, Cynthia Liliana", 
         "bloque": "Valores para mi Pa\u00eds", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "gorbacz-leonardo-ariel": {
@@ -3446,7 +3446,7 @@
     "argumedo-alcira-susana": {
         "nombre": "ARGUMEDO, Alcira Susana", 
         "bloque": "Bs. As. para Todos en Proyecto Sur", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "linares-jaime": {
@@ -3500,7 +3500,7 @@
     "solanas-fernando-ezequiel": {
         "nombre": "SOLANAS, Fernando Ezequiel", 
         "bloque": "Proyecto Sur", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "baldata-griselda-angela": {
@@ -3596,7 +3596,7 @@
     "larroque-andres": {
         "nombre": "LARROQUE, Andr\u00e9s", 
         "bloque": "Frente para la Victoria - PJ", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "romero-juan-carlos": {
@@ -3620,7 +3620,7 @@
     "obiglio-julian-martin": {
         "nombre": "OBIGLIO, Juli\u00e1n Mart\u00edn", 
         "bloque": "PRO", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "lanceta-ruben-orfel": {
@@ -3638,7 +3638,7 @@
     "bertol-paula-maria": {
         "nombre": "BERTOL, Paula Mar\u00eda", 
         "bloque": "PRO", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "gervasoni-lautaro": {
@@ -3687,7 +3687,7 @@
         "nombre": "GARRAMU\u00d1O, Jorge Alberto", 
         "bloque": "Movimiento Popular Fueguino", 
         "distrito": "Tierra del Fuego", 
-        "camara": "Senado"
+        "camara": "Diputados/Senado"
     }, 
     "diaz-bancalari-jose-maria": {
         "nombre": "DIAZ BANCALARI, Jos\u00e9 Mar\u00eda", 
@@ -3741,7 +3741,7 @@
         "nombre": "DE LA ROSA, Mar\u00eda Graciela", 
         "bloque": "Justicialista-Frente para la Victoria", 
         "distrito": "Formosa", 
-        "camara": "Senado"
+        "camara": "Diputados/Senado"
     }, 
     "burgos-maria-gabriela": {
         "nombre": "BURGOS, Mar\u00eda Gabriela", 
@@ -3836,7 +3836,7 @@
     "bonasso-miguel": {
         "nombre": "BONASSO, Miguel", 
         "bloque": "Di\u00e1logo por Buenos Aires", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "baladron-manuel-justo": {
@@ -3866,7 +3866,7 @@
     "tonelli-pablo-gabriel": {
         "nombre": "TONELLI, Pablo Gabriel", 
         "bloque": "Uni\u00f3n PRO", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "rossi-blanca-araceli": {
@@ -3896,7 +3896,7 @@
     "galvalisi-luis-alberto": {
         "nombre": "GALVALISI, Luis Alberto", 
         "bloque": "Propuesta Republicana", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "gribaudo-christian-alejandro": {
@@ -3956,7 +3956,7 @@
     "junio-juan-carlos-isaac": {
         "nombre": "JUNIO, Juan Carlos Isaac", 
         "bloque": "Solidario SI", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }, 
     "plaini-francisco-omar": {
@@ -4034,7 +4034,7 @@
     "lozano-claudio-raul": {
         "nombre": "LOZANO, Claudio Ra\u00fal", 
         "bloque": "SI por la Unidad Popular", 
-        "distrito": "Cdad.Aut.Bs.As.", 
+        "distrito": "CABA", 
         "camara": "Diputados"
     }
 }
