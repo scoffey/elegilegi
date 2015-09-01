@@ -105,8 +105,12 @@ a:hover {
 	padding: 40px;
 	display: none;
 }
-#options .action {
-	padding: 30px 50px;
+#options {
+	padding: 80px 40px;
+}
+#options a.action {
+	padding: 24px 48px;
+	margin: 8px;
 }
 #intro {
 	display: block;
@@ -312,21 +316,21 @@ select {
 	}
 	#heading {
 		position: relative;
-		padding: 2.5%;
-		width: 95%;
-		margin: 1em 0;
+		padding: 4px;
+		margin: 0;
 	}
 	#heading .tagline {
 		display: block;
+		font-size: 0.4em;
+		padding: 8px 0;
 	}
 	#heading .corner {
 		position: absolute;
 		top: 5px;
 		right: 5px;
 	}
-	.container {
-		width: 90%;
-		margin: 10px auto;
+	.container h1 {
+		padding: 0 8px;
 	}
 	#intro li {
 		width: 31%;
@@ -370,7 +374,7 @@ select {
 
 	#about,
 	.tagline {
-		font-size: 0.8em;
+		font-size: 0.3em;
 	}
 
 	#heading {
@@ -424,7 +428,7 @@ select {
 	}
 
 	.tagline {
-		font-size: 0.7em;
+		font-size: 0.3em;
 	}
 
 
