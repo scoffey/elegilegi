@@ -455,11 +455,13 @@ function finish() {
 		$('#party').val(),
 		$('#location').val()
 	].join(',')}, g.votes);
+	/*
 	$.ajax('http://www.coffey.com.ar/elegilegi/api', {
 		'dataType': 'jsonp',
 		'data': data,
 		'success': function (r) { elegilegi.userId = r.user_id; }
 	});
+	*/
 }
 
 function getStats(name) {
