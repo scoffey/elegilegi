@@ -1,61 +1,105 @@
-var projectIds = null;
-var representatives = null;
-var currentProject = null;
-var projectCount = 0;
-var results = null;
-var userId = null;
-var votes = {};
-var projectData = {};
-var sortingCallbacks = {};
+function CSVToMap(rawData) {
+	var arr = CSVToArray(rawData);
+	var map = {};
+	var isCompositeKey = false;
+	for (var i = 1; i < arr.length; i++) {
+		var row = arr[i];
+		var item = {};
+		for (var j = 0; j < row.length; j++) {
+			item[arr[0][j]] = row[j];
+		}
+		if (map[row[0]]) {
+			if (!isCompositeKey) {
+				isCompositeKey = true;
+				var swap = map[row[0]];
+				map[row[0]] = {};
+				map[row[0]][swap[arr[0][1]]] = swap;
+			}
+			map[row[0]][row[1]] = item;
+		} else {
+			if (isCompositeKey) {
+				var tmp = {};
+				tmp[row[1]] = item;
+				item = tmp;
+			}
+			map[row[0]] = item;
+		}
+	}
+	return map;
+}
 
-var projects = [
+var elegilegi = {};
+elegilegi.data = {};
+elegilegi.load = function (key) {
+	$.ajax({
+		'type': 'GET',
+		'url': 'scripts/' + key + '.csv',
+		'dataType': 'text',
+		'success': function (rawData) {
+			elegilegi.data[key] = CSVToMap(rawData);
+		}
+	});
+};
+elegilegi.projects = {};
+elegilegi.userId = null;
+elegilegi.sortingCallbacks = {};
+elegilegi.currentGame = null;
+
+function Game() {
+	this.projectCount = 0;
+	this.projectIds = [];
+	this.currentProject = null;
+	this.votes = {};
+	this.results = {};
+}
+
+elegilegi.projectIds = [
 
 	// 20 most important
-	'ley-26522',
-	'ley-26571',
-	'ley-26618',
-	'ley-26639',
-	'ley-26739',
-	'ley-26741',
-	'ley-26774',
-	'ley-26790',
-	'ley-26843',
-	'ley-26854',
-	'ley-26855',
-	'ley-26861',
-	'ley-26984',
-	'ley-26994',
-	'ley-27008',
-	'ley-27063',
-	'ley-27078',
-	'ley-27120',
-	'ley-27126',
-	'ley-27132',
+	'26522',
+	'26571',
+	'26618',
+	'26639',
+	'26739',
+	'26741',
+	'26774',
+	'26790',
+	'26843',
+	'26854',
+	'26855',
+	'26861',
+	'26984',
+	'26994',
+	'27008',
+	'27063',
+	'27078',
+	'27120',
+	'27126',
+	'27132',
 
 	// + 20 = 40
-	'ley-26734',
-	'ley-26740',
-	'ley-26742',
-	'ley-26743',
-	'ley-26761',
-	'ley-26831',
-	'ley-26842',
-	'ley-26844',
-	'ley-26853',
-	'ley-26856',
-	'ley-26857',
-	'ley-26862',
-	'ley-26893',
-	'ley-26896',
-	'ley-26913',
-	'ley-26944',
-	'ley-26970',
-	'ley-26991',
-	'ley-26993',
-	'ley-27160'
+	'26734',
+	'26740',
+	'26742',
+	'26743',
+	'26761',
+	'26831',
+	'26842',
+	'26844',
+	'26853',
+	'26856',
+	'26857',
+	'26862',
+	'26893',
+	'26896',
+	'26913',
+	'26944',
+	'26970',
+	'26991',
+	'26993',
+	'27160'
 
 ];
-projectCount = projects.length;
 
 function shuffle(array) {
 	var counter = array.length, temp, index;
@@ -71,13 +115,10 @@ function shuffle(array) {
 }
 
 function reset() {
-	if (!projectIds) {
+	if (!elegilegi.currentGame) {
 		$('html,body').animate({'scrollTop': 0}, 'slow');
 	}
-	currentProject = null;
-	results = {};
-	votes = {};
-	projectIds = [];
+	elegilegi.currentGame = new Game();
 	$('#intro').css('display', 'block');
 	$('#about').css('display', 'none');
 	$('#stats').css('display', 'none');
@@ -86,65 +127,76 @@ function reset() {
 	$('#results').css('display', 'none');
 }
 
+function startGame(n) {
+	var g = elegilegi.currentGame;
+	g.projectCount = n;
+	g.projectIds = shuffle(elegilegi.projectIds.slice(0, n));
+	$('#options').fadeOut(200, loadRandomProject);
+}
+
 function loadRandomProject() {
-	currentProject = null;
-	if (projectIds.length == 0) {
+	var g = elegilegi.currentGame;
+	if (g.projectIds.length == 0) {
 		finish();
 		return;
 	}
-	var id = projectIds.pop();
-	$.getJSON('data/' + id + '.json', function (data) {
-		currentProject = data;
-		currentProject.id = id;
-		projectData[id] = data;
-		$('#project').text(data.nombre);
-		$('#summary').text(data.sumario);
-		$('#date').text(data.fecha);
-		$('#voting').fadeIn(100);
-		var n = projectCount;
-		var i = n - projectIds.length - 1;
-		var p = Math.round(i * 100 / n);
-		$('#progress-bar span').css('width', p + '%');
-		$('#progress-status').text('Completado: ' + i + ' / ' + n);
-	});
+	var id = g.projectIds.pop();
+	var p = elegilegi.data.proyectos[id];
+	p.id = id;
+	elegilegi.projects[id] = p;
+	g.currentProject = p;
+	$('#project').text(p.nombre);
+	$('#summary').text(p.sumario);
+	$('#date').text(p.fecha);
+	$('#voting').fadeIn(100);
+	var n = g.projectCount;
+	var i = n - g.projectIds.length - 1;
+	var p = Math.round(i * 100 / n);
+	$('#progress-bar span').css('width', p + '%');
+	$('#progress-status').text('Completado: ' + i + ' / ' + n);
 }
 
 function getVoteHandler(choice) {
 	return function () {
-		var p = currentProject;
-		currentProject = null; // don't vote same project again
-		if (!p || !p.votacion) return;
-		votes[p.id] = choice;
-		voteHelper(p.votacion.AFIRMATIVO, (choice == 'Y'));
-		voteHelper(p.votacion.NEGATIVO, (choice == 'N'));
-		voteHelper(p.votacion.ABSTENCION, (choice == 'A'));
-		voteHelper(p.votacion.AUSENTE, (choice == '0'));
+		var g = elegilegi.currentGame;
+		var p = g.currentProject;
+		g.currentProject = null; // don't vote same project again
+		if (!p) return;
+		var value = ["Y", "N", "A", "0"].indexOf(choice);
+		g.votes[p.id] = choice;
+		var vs = elegilegi.data['elegilegi-votaciones-diputados'];
+		voteHelper(vs[p.asuntoD], value, 'diputados');
+		var vs = elegilegi.data['elegilegi-votaciones-senado'];
+		voteHelper(vs[p.asuntoS], value, 'senadores');
 		$('#voting').fadeOut(200, loadRandomProject);
-		if (ga) {
-			var value = ["Y", "N", "A", "0"].indexOf(choice);
-			ga('send', 'event', 'game', 'vote', p.id, value);
-		}
+		if (ga) ga('send', 'event', 'game', 'vote', p.id, value);
 	};
 }
 
-function voteHelper(keys, coinciding) {
-	if (!keys) return;
-	for (var i = 0; i < keys.length; i++) {
-		var k = keys[i];
-		if (!(results[k])) {
-			results[k] = $.extend({
-				id: k,
+function voteHelper(vs, value, house) {
+	if (!vs) return;
+	var h = house == 'senadores' ? 'Senado' : 'Diputados';
+	var s = 'bloques-' + h.toLowerCase();
+	var g = elegilegi.currentGame;
+	for (key in vs) {
+		if (!(g.results[key])) {
+			var r = elegilegi.data[house][key];
+			var b = elegilegi.data[s][vs[key].bloqueId];
+			g.results[key] = $.extend({
+				id: r.diputadoId,
+				camara: h,
+				bloque: b.bloque,
 				coincidences: 0,
 				discrepancies: 0,
 				difference: null,
 				chance: null,
 				participation: null
-			}, representatives[k]);
+			}, r);
 		}
-		if (coinciding) {
-			results[k].coincidences += 1;
+		if (parseInt(vs[key].voto) == value) {
+			g.results[key].coincidences += 1;
 		} else {
-			results[k].discrepancies += 1;
+			g.results[key].discrepancies += 1;
 		}
 	}
 }
@@ -154,11 +206,13 @@ function showTooltip(e) {
 	var c = $('<ul></ul>');
 	var d = $('<ul></ul>');
 	var li = null;
-	for (var i in projectData) {
-		var v = projectData[i].votacion;
-		var vote = votes[i];
+	var g = elegilegi.currentGame;
+	for (var i in elegilegi.projects) {
+		var p = elegilegi.projects[i];
+		var v = p.votacion;
+		var vote = g.votes[i];
 		if (!v || !vote) continue;
-		var n = projectData[i].nombre;
+		var n = p.nombre;
 		if (v.AFIRMATIVO && v.AFIRMATIVO.indexOf(id) != -1) {
 			li = $('<li></li>').text(n + ' (SI)');
 			if (vote == 'Y') c.append(li); else d.append(li);
@@ -203,6 +257,7 @@ function getTooltip() {
 	return $('#tooltip');
 }
 
+/*
 function showMiniProfile(e) {
 	var id = e.target.parentNode.getAttribute('id');
 	var r = representatives[id];
@@ -247,6 +302,7 @@ function getMiniProfile() {
 	}
 	return $('#miniprofile');
 }
+*/
 
 function printResults() {
 	var rows = $('#rows');
@@ -266,9 +322,9 @@ function printResults() {
 		var info = document.createElement('span');
 		$(info).text(r.bloque + ' (' + r.distrito + ') - ' + r.camara);
 		$(info).addClass('shady');
-		$(td).append(info)
-			.on('mouseover', showMiniProfile)
-			.on('mouseout', hideMiniProfile);
+		$(td).append(info);
+			//.on('mouseover', showMiniProfile)
+			//.on('mouseout', hideMiniProfile);
 		tr.appendChild(td);
 
 		printResultsHelper(tr, r.chance + '%');
@@ -296,17 +352,18 @@ function printResultsHelper(tr, text) {
 }
 
 function sortResults() {
+	var g = elegilegi.currentGame;
 	var tuples = new Array();
 	var totalVotes = 0;
-	for (var i in votes) {
+	for (var i in g.votes) {
 		totalVotes++;
 	}
 	var district = $('#district').val();
 	var house = $('#house').val();
 	var relevance = parseInt($('#relevance').val());
 	var order = $('#order').val();
-	for (var i in results) {
-		var r = results[i];
+	for (var i in g.results) {
+		var r = g.results[i];
 		var total = r.coincidences + r.discrepancies;
 		r.difference = r.coincidences - r.discrepancies;
 		r.chance = Math.round(r.coincidences * 100 / total);
@@ -315,8 +372,8 @@ function sortResults() {
 			tuples.push(r);
 		}
 	}
-	var callback = sortingCallbacks[order] || sortingCallback.difference; 
-	tuples.sort(callback);
+	var scbs = elegilegi.sortingCallbacks;
+	tuples.sort(scbs[order] || scbs.difference);
 	return tuples;
 }
 
@@ -327,11 +384,11 @@ function filterResult(r, district, house, relevance) {
 	return true;
 }
 
-sortingCallbacks.name = function (a, b) {
+elegilegi.sortingCallbacks.name = function (a, b) {
 	return a.nombre.localeCompare(b.nombre);
 };
 
-sortingCallbacks.chance = function (a, b) {
+elegilegi.sortingCallbacks.chance = function (a, b) {
 	var d = b.chance - a.chance; if (d) return d;
 	var d = b.participation - a.participation; if (d) return d;
 	var d = b.difference - a.difference; if (d) return d;
@@ -340,7 +397,7 @@ sortingCallbacks.chance = function (a, b) {
 	return a.nombre.localeCompare(b.nombre);
 };
 
-sortingCallbacks.difference = function (a, b) {
+elegilegi.sortingCallbacks.difference = function (a, b) {
 	var d = b.difference - a.difference; if (d) return d;
 	var d = b.chance - a.chance; if (d) return d;
 	var d = b.participation - a.participation; if (d) return d;
@@ -349,7 +406,7 @@ sortingCallbacks.difference = function (a, b) {
 	return a.nombre.localeCompare(b.nombre);
 };
 
-sortingCallbacks.coincidences = function (a, b) {
+elegilegi.sortingCallbacks.coincidences = function (a, b) {
 	var d = b.coincidences - a.coincidences; if (d) return d;
 	var d = b.chance - a.chance; if (d) return d;
 	var d = b.participation - a.participation; if (d) return d;
@@ -358,7 +415,7 @@ sortingCallbacks.coincidences = function (a, b) {
 	return a.nombre.localeCompare(b.nombre);
 };
 
-sortingCallbacks.discrepancies = function (a, b) {
+elegilegi.sortingCallbacks.discrepancies = function (a, b) {
 	var d = a.discrepancies - b.discrepancies; if (d) return d;
 	var d = b.chance - a.chance; if (d) return d;
 	var d = b.participation - a.participation; if (d) return d;
@@ -367,7 +424,7 @@ sortingCallbacks.discrepancies = function (a, b) {
 	return a.nombre.localeCompare(b.nombre);
 };
 
-sortingCallbacks.participation = function (a, b) {
+elegilegi.sortingCallbacks.participation = function (a, b) {
 	var d = b.participation - a.participation; if (d) return d;
 	var d = b.chance - a.chance; if (d) return d;
 	var d = b.difference - a.difference; if (d) return d;
@@ -390,17 +447,18 @@ function finish() {
 		ga('set', 'dimension5', $('#location').val());
 		ga('send', 'pageview', '/#result');
 	}
-	var data = $.extend({'uuid': userId || '', 'segment': [
+	var g = elegilegi.currentGame;
+	var data = $.extend({'uuid': elegilegi.userId || '', 'segment': [
 		getStats('gender'),
 		getStats('age'),
 		getStats('education'),
 		$('#party').val(),
 		$('#location').val()
-	].join(',')}, votes);
+	].join(',')}, g.votes);
 	$.ajax('http://www.coffey.com.ar/elegilegi/api', {
 		'dataType': 'jsonp',
 		'data': data,
-		'success': function (r) { userId = r.user_id; }
+		'success': function (r) { elegilegi.userId = r.user_id; }
 	});
 }
 
@@ -449,19 +507,25 @@ function isMobile() {
 }
 
 $(document).ready(function () {
+	elegilegi.load('proyectos');
+	elegilegi.load('diputados');
+	elegilegi.load('senadores');
+	elegilegi.load('bloques-diputados');
+	elegilegi.load('bloques-senado');
+	elegilegi.load('elegilegi-votaciones-diputados');
+	elegilegi.load('elegilegi-votaciones-senado');
+	// TODO: only set the following event handler when all data is loaded
+	$('#start').click(function () {
+		$('#intro').fadeOut(200, function () {
+			//$('#stats').fadeIn(100);
+			$('#options').fadeIn(100);
+		});
+	});
+
 	$(document).ajaxError(function (evnt, jqxhr, options, e) {
 		alert('Error al cargar datos de: ' + options.url
 			+ '\n\n' + JSON.stringify(jqxhr, null, 2)
 			+ '\n\nPor favor, recarg\u00e1 la p\u00e1gina.');
-	});
-
-	$.getJSON('data/legisladores.json', function (data) {
-		representatives = data;
-		$('#start').click(function () {
-			$('#intro').fadeOut(200, function () {
-				$('#stats').fadeIn(100);
-			});
-		});
 	});
 
 	$('#continue').click(function () {
@@ -470,25 +534,16 @@ $(document).ready(function () {
 		});
 	});
 
-	$('#fast').click(function () {
-		projectCount = 20;
-		projectIds = shuffle(projects.slice(0, projectCount));
-		$('#options').fadeOut(200, loadRandomProject);
-	});
-
-	$('#full').click(function () {
-		projectCount = 40;
-		projectIds = shuffle(projects.slice(0, projectCount));
-		$('#options').fadeOut(200, loadRandomProject);
-	});
+	$('#fast').click(function () { startGame(20); });
+	$('#full').click(function () { startGame(40); });
 
 	$('#vote-aye').click(getVoteHandler('Y'));
 	$('#vote-nay').click(getVoteHandler('N'));
 	$('#vote-abstention').click(getVoteHandler('A'));
 	$('#vote-absentee').click(getVoteHandler('0'));
 	$('#vote-skip').click(function () {
-		if (!currentProject) return;
-		$('#voting').fadeOut(200, loadRandomProject);
+		var p = elegilegi.currentGame.currentProject;
+		if (p) $('#voting').fadeOut(200, loadRandomProject);
 	});
 
 	$('.facebook').click(shareOnFacebook);
@@ -527,7 +582,8 @@ $(document).ready(function () {
 	});
 
 	$('#link').click(function () {
-		if (currentProject) window.open(currentProject.url, '_blank');
+		var p = elegilegi.currentGame.currentProject;
+		if (p) window.open(p.url, '_blank');
 	});
 	$('#info').click(function () { $('#about').slideToggle(500); });
 	$('#back').click(function () { $('#about').slideToggle(500); });
@@ -639,4 +695,97 @@ var div = d3.select("body").append("div")
       .style("text-anchor", "start")
       .text(function(d) { return truncate(d, 30); });
 
+}
+
+
+
+
+
+
+
+// ref: http://stackoverflow.com/a/1293163/2343
+// This will parse a delimited string into an array of
+// arrays. The default delimiter is the comma, but this
+// can be overriden in the second argument.
+function CSVToArray( strData, strDelimiter ){
+    // Check to see if the delimiter is defined. If not,
+    // then default to comma.
+    strDelimiter = (strDelimiter || ",");
+
+    // Create a regular expression to parse the CSV values.
+    var objPattern = new RegExp(
+        (
+            // Delimiters.
+            "(\\" + strDelimiter + "|\\r?\\n|\\r|^)" +
+
+            // Quoted fields.
+            "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
+
+            // Standard fields.
+            "([^\"\\" + strDelimiter + "\\r\\n]*))"
+        ),
+        "gi"
+        );
+
+
+    // Create an array to hold our data. Give the array
+    // a default empty first row.
+    var arrData = [[]];
+
+    // Create an array to hold our individual pattern
+    // matching groups.
+    var arrMatches = null;
+
+
+    // Keep looping over the regular expression matches
+    // until we can no longer find a match.
+    while (arrMatches = objPattern.exec( strData )){
+
+        // Get the delimiter that was found.
+        var strMatchedDelimiter = arrMatches[ 1 ];
+
+        // Check to see if the given delimiter has a length
+        // (is not the start of string) and if it matches
+        // field delimiter. If id does not, then we know
+        // that this delimiter is a row delimiter.
+        if (
+            strMatchedDelimiter.length &&
+            strMatchedDelimiter !== strDelimiter
+            ){
+
+            // Since we have reached a new row of data,
+            // add an empty row to our data array.
+            arrData.push( [] );
+
+        }
+
+        var strMatchedValue;
+
+        // Now that we have our delimiter out of the way,
+        // let's check to see which kind of value we
+        // captured (quoted or unquoted).
+        if (arrMatches[ 2 ]){
+
+            // We found a quoted value. When we capture
+            // this value, unescape any double quotes.
+            strMatchedValue = arrMatches[ 2 ].replace(
+                new RegExp( "\"\"", "g" ),
+                "\""
+                );
+
+        } else {
+
+            // We found a non-quoted value.
+            strMatchedValue = arrMatches[ 3 ];
+
+        }
+
+
+        // Now that we have our value string, let's add
+        // it to the data array.
+        arrData[ arrData.length - 1 ].push( strMatchedValue );
+    }
+
+    // Return the parsed data.
+    return( arrData );
 }
