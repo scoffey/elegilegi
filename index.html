@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>elegilegi: jug&aacute; a ser legislador, aprend&eacute; qui&eacute;n te representa mejor</title>
+<meta property="og:title" content="elegilegi" />
+<meta property="og:description" content="Jug&aacute; a ser legislador, aprend&eacute; qui&eacute;n te representa mejor" />
+<meta property="og:image" content="/media/congreso-800.jpg" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" type="text/css" href="style.css"></link>
+</head>
+<body>
+<div id="heading">
+	<div class="container">
+		<h1>elegilegi</h1>
+		<p class="tagline">jug&aacute; a ser legislador, aprend&eacute; qui&eacute;n te representa mejor</p>
+		<p class="corner"><a id="info" href="javascript:void(0);" title="Acerca de esta aplicaci&oacute;n">?</a></p>
+	</div>
+</div>
+<div id="about">
+	<p><em>C&oacute;mo funciona</em><p>
+	<ul>
+		<li>Cada proyecto de ley tiene 4 votos posibles (<em>afirmativo</em>, <em>negativo</em>, <em>abstenci&oacute;n</em> y <em>ausente</em>) y la opci&oacute;n de ser <em>salteado</em>.</li>
+		<li>Para cada proyecto de ley no salteado, se le asigna 1 <em>coincidencia</em> a cada legislador que haya votado lo mismo que vos y 1 <em>discrepancia</em> a cada legislador cuyo voto sea alguno de los otros 3.</li>
+		<li>Luego de votar o saltear los proyectos de ley, se muestran las coincidencias y discrepancias obtenidas con cada legislador.</li>
+		<li>La <em>chance de coincidir</em> se calcula como la cantidad de coincidencias sobre el total de votos del legislador (coincidencias y discrepancias sumadas).</li>
+		<li>La <em>diferencia</em> se calcula como la resta entre las coincidencias y las discrepancias.</li>
+		<li>La <em>participaci&oacute;n</em> se calcula como el total de votos del legislador (coincidencias y discrepancias sumadas) sobre el total de proyectos no salteados.</li>
+		<li>La tabla puede ser ordenada por distintas columnas. Se apela al esp&iacute;ritu cr&iacute;tico para interpretar estos resultados.</li>
+	</ul>
+	<p>Esta aplicaci&oacute;n es de <a href="https://github.com/scoffey/elegilegi/" target="_blank">c&oacute;digo abierto</a> y recolecta informaci&oacute;n an&oacute;nima con fines estad&iacute;sticos.</p>
+	<p>Idea original y desarrollo por <a href="https://twitter.com/scoffey" target="_blank">@scoffey</a>. Datos liberados por <a href="https://twitter.com/andy_tow" target="_blank">@andy_tow</a>. Ver <a href="https://github.com/scoffey/elegilegi#cr%C3%A9ditos" target="_blank">m&aacute;s cr&eacute;ditos</a>.</p>
+	<p>Ver ediciones anteriores de elegilegi: <a href="2013/">2013</a>, <a href="2015/">2015</a></p>
+	<p class="center"><a id="back" class="action" href="javascript:void(0);">Cerrar</a></p>
+</div>
+<div id="intro">
+	<ol>
+	<li><strong>1.</strong> Te presentamos 40 proyectos de ley que se votaron en el Congreso entre 2009 y 2015.</li>
+	<li><strong>2.</strong> Respond&eacute;s si hubieras votado a favor, en contra, abstenci&oacute;n o ausente.</li>
+	<li><strong>3.</strong> Te mostramos los legisladores que votaron como vos. &iquest;Ser&aacute;n los que pens&aacute;s?</li>
+	</ol>
+	<p class="center"><a id="start" class="action" href="javascript:void(0);">Comenzar</a></p>
+	<p class="center">&iquest;Quer&eacute;s ayudar a un amigo que no sabe qu&eacute; votar<br />&iexcl;Sos libre de compartir este link!<br /><a class="facebook" href="javascript:void(0);">Facebook</a> - <a class="twitter" href="javascript:void(0);">Twitter</a> - <a class="whatsapp" href="javascript:void(0);">Whatsapp</a></p>
+
+<div id="options">
+	<p class="center"><strong>&iquest;Cu&aacute;ntos proyectos de ley quer&eacute;s evaluar?</strong></p>
+	<p class="center">(Si ten&eacute;s menos de 5 minutos, seleccion&aacute; el modo r&aacute;pido.)</p>
+	<p class="center">
+	<a id="fast" class="action" href="javascript:void(0);">R&Aacute;PIDO<br />20 proyectos de ley</a>
+	<a id="full" class="action" href="javascript:void(0);">COMPLETO<br />40 proyectos de ley</a>
+	</p>
+</div>
+<div id="voting">
+	<p id="project">Proyecto</p>
+	<p id="summary">Sumario</p>
+	<p><a id="link" href="javascript:void(0);">Texto completo</a></p>
+	<p id="date" class="shady">Fecha</p>
+	<p id="question">&iquest;Votar&iacute;as a favor de este proyecto?</p>
+	<ul>
+	<li><a id="vote-aye" href="javascript:void(0);">S&Iacute;</a></li>
+	<li><a id="vote-nay" href="javascript:void(0);">NO</a></li>
+	<li><a id="vote-abstention" href="javascript:void(0);">ABSTENCI&Oacute;N</a></li>
+	<li><a id="vote-absentee" href="javascript:void(0);">AUSENTE</a></li>
+	<li><a id="vote-skip" href="javascript:void(0);">No s&eacute;, paso</a></li>
+	</ul>
+	<p id="progress-status" class="shady">Completado: 0 / 40</p>
+	<p id="progress-bar"><span></span></p>
+</div>
+<div id="results">
+	<p>Estos son los legisladores listados por coincidencias y discrepancias con tus votos.</p>
+	<p>
+		<select id="district">
+			<option value="" selected="selected">Todos los distritos</option>
+			<option value="Buenos Aires">Buenos Aires</option>
+			<option value="CABA">CABA</option>
+			<option value="Catamarca">Catamarca</option>
+			<option value="Chaco">Chaco</option>
+			<option value="Chubut">Chubut</option>
+			<option value="Corrientes">Corrientes</option>
+			<option value="C&oacute;rdoba">C&oacute;rdoba</option>
+			<option value="Entre R&iacute;os">Entre R&iacute;os</option>
+			<option value="Formosa">Formosa</option>
+			<option value="Jujuy">Jujuy</option>
+			<option value="La Pampa">La Pampa</option>
+			<option value="La Rioja">La Rioja</option>
+			<option value="Mendoza">Mendoza</option>
+			<option value="Misiones">Misiones</option>
+			<option value="Neuqu&eacute;n">Neuqu&eacute;n</option>
+			<option value="R&iacute;o Negro">R&iacute;o Negro</option>
+			<option value="Salta">Salta</option>
+			<option value="San Juan">San Juan</option>
+			<option value="San Luis">San Luis</option>
+			<option value="Santa Cruz">Santa Cruz</option>
+			<option value="Santa Fe">Santa Fe</option>
+			<option value="Santiago del Estero">Santiago del Estero</option>
+			<option value="Tierra del Fuego">Tierra del Fuego, Ant...</option>
+			<option value="Tucum&aacute;n">Tucum&aacute;n</option>
+		</select>
+		<select id="house">
+			<option value="" selected="selected">Ambas c&aacute;maras</option>
+			<option value="Diputados">S&oacute;lo diputados</option>
+			<option value="Senado">S&oacute;lo senadores</option>
+		</select>
+		<select id="relevance">
+			<option value="0" selected="selected">Cualquier participaci&oacute;n</option>
+			<option value="25">M&aacute;s del 25%</option>
+			<option value="50">M&aacute;s del 50%</option>
+		</select>
+		<select id="order">
+			<option value="name">Ordenar por nombre</td>
+			<option value="chance">Ordenar por chance de coincidir</td>
+			<option value="participation">Ordenar por participaci&oacute;n</td>
+			<option value="coincidences">Ordenar por coincidencias</td>
+			<option value="discrepancies">Ordenar por discrepancias</td>
+			<option value="difference" selected="selected">Ordenar por diferencia</td>
+		</select>
+	</p>
+	<table>
+		<thead>
+			<tr>
+				<td id="name">Legislador</td>
+				<td class="center" id="chance">Chance de coincidir</td>
+				<td class="center" id="participation">Participaci&oacute;n</td>
+				<td class="center" id="coincidences">Coincidencias</td>
+				<td class="center" id="discrepancies">Discrepancias</td>
+				<td class="center" id="difference">Diferencia</td>
+			</tr>
+		</thead>
+		<tbody id="rows">
+		</tbody>
+	</table>
+	<div id="chart"></div>
+	<p class="center"><a id="reset" class="action" href="javascript:void(0);">Volver a empezar</a></p>
+	<p class="center">&iquest;Quer&eacute;s ayudar a un amigo que no sabe qu&eacute; votar<br />&iexcl;Sos libre de compartir este link!<br /><a class="facebook" href="javascript:void(0);">Facebook</a> - <a class="twitter" href="javascript:void(0);">Twitter</a> - <a class="whatsapp" href="javascript:void(0);">Whatsapp</a></p>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+<script src="elegilegi.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42712446-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
