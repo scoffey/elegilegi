@@ -379,7 +379,12 @@ function sortResults() {
 }
 
 function filterResult(r, district, house, relevance) {
-	if (district && r.distrito != district) return false;
+	var d = r.distrito;
+	if (d == 'Ciudad Aut\xf3noma de Buenos Aires'
+		|| d == 'Cdad.Aut.Bs.As.') { // TODO
+		d = 'CABA';
+	}
+	if (district && d != district) return false;
 	if (house && r.camara.indexOf(house) == -1) return false;
 	if (relevance && r.participation < relevance) return false;
 	return true;
