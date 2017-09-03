@@ -122,7 +122,6 @@ function reset() {
 	elegilegi.currentGame = new Game();
 	$('#intro').css('display', 'block');
 	$('#about').css('display', 'none');
-	$('#stats').css('display', 'none');
 	$('#options').css('display', 'none');
 	$('#voting').css('display', 'none');
 	$('#results').css('display', 'none');
@@ -442,32 +441,8 @@ function finish() {
 		$('#results').fadeIn(100);
 	});
 	if (ga) {
-		ga('set', 'dimension1', getStats('gender'));
-		ga('set', 'dimension2', getStats('age'));
-		ga('set', 'dimension3', getStats('education'));
-		ga('set', 'dimension4', $('#party').val());
-		ga('set', 'dimension5', $('#location').val());
 		ga('send', 'pageview', '/#result');
 	}
-	var g = elegilegi.currentGame;
-	var data = $.extend({'uuid': elegilegi.userId || '', 'segment': [
-		getStats('gender'),
-		getStats('age'),
-		getStats('education'),
-		$('#party').val(),
-		$('#location').val()
-	].join(',')}, g.votes);
-	/*
-	$.ajax('http://www.coffey.com.ar/elegilegi/api', {
-		'dataType': 'jsonp',
-		'data': data,
-		'success': function (r) { elegilegi.userId = r.user_id; }
-	});
-	*/
-}
-
-function getStats(name) {
-	return $('input[name="' + name + '"]:checked').val() || '';
 }
 
 function shareOnFacebook() {
@@ -485,12 +460,6 @@ function shareOnTwitter() {
 		+ encodeURIComponent(location.href)
 		+ '&hashtags=elegilegi,Elecciones2015',
 		'twitter-share-dialog', 'width=550,height=420');
-}
-
-function shareOnGooglePlus() {
-	window.open('https://plus.google.com/share?url='
-		+ encodeURIComponent(location.href),
-		'google-share-dialog', 'width=600,height=600');
 }
 
 function shareOnWhatsApp() {
@@ -521,7 +490,6 @@ $(document).ready(function () {
 	// TODO: only set the following event handler when all data is loaded
 	$('#start').click(function () {
 		$('#intro').fadeOut(200, function () {
-			//$('#stats').fadeIn(100);
 			$('#options').fadeIn(100);
 		});
 	});
@@ -530,12 +498,6 @@ $(document).ready(function () {
 		alert('Error al cargar datos de: ' + options.url
 			+ '\n\n' + JSON.stringify(jqxhr, null, 2)
 			+ '\n\nPor favor, recarg\u00e1 la p\u00e1gina.');
-	});
-
-	$('#continue').click(function () {
-		$('#stats').fadeOut(200, function () {
-			$('#options').fadeIn(100);
-		});
 	});
 
 	$('#fast').click(function () { startGame(20); });
@@ -552,7 +514,6 @@ $(document).ready(function () {
 
 	$('.facebook').click(shareOnFacebook);
 	$('.twitter').click(shareOnTwitter);
-	$('.googleplus').click(shareOnGooglePlus);
 	$('.whatsapp').click(shareOnWhatsApp);
 
 	$('#district').change(printResults);
