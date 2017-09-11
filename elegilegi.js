@@ -1,34 +1,3 @@
-function CSVToMap(rawData) {
-	var arr = CSVToArray(rawData);
-	var map = {};
-	var isCompositeKey = false;
-	for (var i = 1; i < arr.length; i++) {
-		var row = arr[i];
-		if (!row || (row.length == 1 && row[0] == '')) continue;
-		var item = {};
-		for (var j = 0; j < row.length; j++) {
-			item[arr[0][j]] = row[j];
-		}
-		if (map[row[0]]) {
-			if (!isCompositeKey) {
-				isCompositeKey = true;
-				var swap = map[row[0]];
-				map[row[0]] = {};
-				map[row[0]][swap[arr[0][1]]] = swap;
-			}
-			map[row[0]][row[1]] = item;
-		} else {
-			if (isCompositeKey) {
-				var tmp = {};
-				tmp[row[1]] = item;
-				item = tmp;
-			}
-			map[row[0]] = item;
-		}
-	}
-	return map;
-}
-
 var elegilegi = {};
 elegilegi.data = {};
 elegilegi.load = function (key) {
@@ -57,28 +26,6 @@ function Game() {
 elegilegi.projectIds = [
 
 	// 20 most important
-        '26860',
-        'proyecto-6943-D-2013',
-        '26984',
-        '26991',
-        '26994',
-        '26995',
-        '27007',
-        '27095',
-        '27094',
-        '27120',
-        '27126',
-        '27132',
-        '27156',
-        '27200',
-        '27270',
-        '27284',
-        'proyecto-0013-PE-2016',
-        '27348',
-        '27350',
-        '27362',
-
-	// + 20 = 40
         '26843',
         '26861',
         '26894',
@@ -98,7 +45,29 @@ elegilegi.projectIds = [
         '27352',
         'proyecto-0031-PE-2016',
         '27375',
-        'proyecto-3933-D-2017'
+        'proyecto-3933-D-2017',
+
+	// + 20 = 40
+        '26860',
+        'proyecto-6943-D-2013',
+        '26984',
+        '26991',
+        '26994',
+        '26995',
+        '27007',
+        '27095',
+        '27094',
+        '27120',
+        '27126',
+        '27132',
+        '27156',
+        '27200',
+        '27270',
+        '27284',
+        'proyecto-0013-PE-2016',
+        '27348',
+        '27350',
+        '27362'
 
 ];
 
@@ -180,10 +149,11 @@ function voteHelper(vs, value, house) {
 	var g = elegilegi.currentGame;
 	for (key in vs) {
 		if (!elegilegi.data[house][key]) continue; // TODO
-		if (!(g.results[key])) {
+		var k = house + '-' + key;
+		if (!g.results[k]) {
 			var r = elegilegi.data[house][key];
 			var b = elegilegi.data[s][vs[key].bloqueId];
-			g.results[key] = $.extend({
+			g.results[k] = $.extend({
 				id: r.diputadoId,
 				camara: h,
 				bloque: b.bloque,
@@ -195,40 +165,29 @@ function voteHelper(vs, value, house) {
 			}, r);
 		}
 		if (parseInt(vs[key].voto) == value) {
-			g.results[key].coincidences += 1;
+			g.results[k].coincidences += 1;
 		} else {
-			g.results[key].discrepancies += 1;
+			g.results[k].discrepancies += 1;
 		}
 	}
 }
 
 function showTooltip(e) {
+	var choices = {'Y': 'SI', 'N': 'NO', 'A': 'ABSTENCION', '0': 'AUSENTE'};
 	var id = e.target.parentNode.getAttribute('id');
+	var h = $(e.target.parentNode).hasClass('senado')
+			? 'Senado' : 'Diputados';
 	var c = $('<ul></ul>');
 	var d = $('<ul></ul>');
-	var li = null;
 	var g = elegilegi.currentGame;
 	for (var i in elegilegi.projects) {
-		var p = elegilegi.projects[i];
-		var v = p.votacion;
 		var vote = g.votes[i];
-		if (!v || !vote) continue;
-		var n = p.nombre;
-		if (v.AFIRMATIVO && v.AFIRMATIVO.indexOf(id) != -1) {
-			li = $('<li></li>').text(n + ' (SI)');
-			if (vote == 'Y') c.append(li); else d.append(li);
-		}
-		if (v.NEGATIVO && v.NEGATIVO.indexOf(id) != -1) {
-			li = $('<li></li>').text(n + ' (NO)');
-			if (vote == 'N') c.append(li); else d.append(li);
-		}
-		if (v.ABSTENCION && v.ABSTENCION.indexOf(id) != -1) {
-			li = $('<li></li>').text(n + ' (ABSTENCION)');
-			if (vote == 'A') c.append(li); else d.append(li);
-		}
-		if (v.AUSENTE && v.AUSENTE.indexOf(id) != -1) {
-			li = $('<li></li>').text(n + ' (AUSENTE)');
-			if (vote == '0') c.append(li); else d.append(li);
+		var p = elegilegi.projects[i];
+		var v = getRepresentativeVote(p, h, id);
+		if (v && vote) {
+			var t = p.nombre + ' (' +  choices[v] + ')';
+			var li = $('<li></li>').text(t);
+			if (vote == v) c.append(li); else d.append(li);
 		}
 	}
 	var tooltip = getTooltip().finish().empty();
@@ -246,6 +205,19 @@ function showTooltip(e) {
 
 function hideTooltip() {
 	getTooltip().finish().fadeOut(500);
+}
+
+function getRepresentativeVote(p, h, id) {
+	var choices = ["Y", "N", "A", "0"];
+	var vh = elegilegi.data["elegilegi-votaciones-diputados"];
+	var vs = elegilegi.data["elegilegi-votaciones-senado"];
+	var votes = h != 'Senado' ? vh[p.asuntoD] : vs[p.asuntoS];
+	for (i in votes) {
+		if (votes[i].diputadoId == id) {
+			return choices[parseInt(votes[i].voto)];
+		}
+	}
+	return null;
 }
 
 function getTooltip() {
@@ -312,7 +284,7 @@ function printResults() {
 	for (var i = 0; i < tuples.length; i++) {
 		var r = tuples[i];
 		var tr = document.createElement('tr');
-		$(tr).attr('id', r.id);
+		$(tr).attr('id', r.id).addClass(r.camara.toLowerCase());
 
 		var td = document.createElement('td');
 		var anchor = document.createElement(r.url ? 'a' : 'span');
@@ -379,12 +351,7 @@ function sortResults() {
 }
 
 function filterResult(r, district, house, relevance) {
-	var d = r.distrito;
-	if (d == 'Ciudad Aut\xf3noma de Buenos Aires'
-		|| d == 'Cdad.Aut.Bs.As.') { // TODO
-		d = 'CABA';
-	}
-	if (district && d != district) return false;
+	if (district && r.distrito != district) return false;
 	if (house && r.camara.indexOf(house) == -1) return false;
 	if (relevance && r.participation < relevance) return false;
 	return true;
@@ -565,6 +532,9 @@ function truncate(s, maxlen) {
 	return (s.length > maxlen ? s.substr(0, maxlen - 3) + '...' : s);
 }
 
+
+// D3.js chart
+
 function render(data) {
 if (window.innerWidth < 850) return;
 
@@ -668,10 +638,38 @@ var div = d3.select("body").append("div")
 }
 
 
+// CSV loading functions
 
-
-
-
+function CSVToMap(rawData) {
+	var arr = CSVToArray(rawData);
+	var map = {};
+	var isCompositeKey = false;
+	for (var i = 1; i < arr.length; i++) {
+		var row = arr[i];
+		if (!row || (row.length == 1 && row[0] == '')) continue;
+		var item = {};
+		for (var j = 0; j < row.length; j++) {
+			item[arr[0][j]] = row[j];
+		}
+		if (map[row[0]]) {
+			if (!isCompositeKey) {
+				isCompositeKey = true;
+				var swap = map[row[0]];
+				map[row[0]] = {};
+				map[row[0]][swap[arr[0][1]]] = swap;
+			}
+			map[row[0]][row[1]] = item;
+		} else {
+			if (isCompositeKey) {
+				var tmp = {};
+				tmp[row[1]] = item;
+				item = tmp;
+			}
+			map[row[0]] = item;
+		}
+	}
+	return map;
+}
 
 // ref: http://stackoverflow.com/a/1293163/2343
 // This will parse a delimited string into an array of
